@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laxmi Chit Fund S5 — Live Standings</title>
+<style>
+:root{
+ --navy:#1F3864; --gold:#B7912B;
+ --bg:#eef1f7; --surface:#ffffff; --surface2:#f6f8fc; --text:#1b2333; --muted:#6b7488;
+ --border:#e2e7f1; --shadow:0 1px 3px rgba(20,30,60,.08),0 6px 20px rgba(20,30,60,.04);
+ --brand:#1F3864; --brandText:#ffffff; --accent:#B7912B; --up:#1a8f57; --down:#d0473f;
+ --rowAlt:#f4f7fc; --chip:#e9eefb; --shade:#fbf6e6;
+}
+[data-theme="dark"]{
+ --bg:#0e1320; --surface:#161d2d; --surface2:#1c2536; --text:#e8ecf5; --muted:#9aa5bd;
+ --border:#28324a; --shadow:0 1px 3px rgba(0,0,0,.4),0 8px 26px rgba(0,0,0,.35);
+ --brand:#24325a; --brandText:#eaf0ff; --accent:#d8b24e; --up:#3fce88; --down:#ff6a5f;
+ --rowAlt:#1b2436; --chip:#222d44; --shade:#2a2a1c;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);
+ transition:background .25s,color .25s;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.bar{position:sticky;top:0;z-index:20;background:linear-gradient(120deg,var(--brand),color-mix(in srgb,var(--brand) 78%, #000 8%));
+ color:var(--brandText);box-shadow:var(--shadow)}
+.bar .in{max-width:1100px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:9px;font-weight:800;letter-spacing:.3px;font-size:17px}
+.brand .dot{color:var(--accent)}
+.meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-left:auto;font-size:12.5px}
+.pill{background:rgba(255,255,255,.14);padding:4px 10px;border-radius:20px;white-space:nowrap}
+.pill.gold{background:var(--accent);color:#1a1300;font-weight:800}
+.btn{border:0;cursor:pointer;font:inherit;font-size:12.5px;font-weight:700;border-radius:20px;padding:6px 12px;
+ background:rgba(255,255,255,.16);color:var(--brandText);display:inline-flex;align-items:center;gap:6px}
+.btn:hover{background:rgba(255,255,255,.26)}
+.btn.solid{background:var(--accent);color:#1a1300}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px 70px}
+.tabs{display:flex;gap:7px;overflow-x:auto;padding:14px 0 12px;position:sticky;top:52px;background:var(--bg);z-index:10;
+ scrollbar-width:none} .tabs::-webkit-scrollbar{display:none}
+.tab{white-space:nowrap;padding:8px 14px;border:1px solid var(--border);border-radius:22px;background:var(--surface);
+ color:var(--text);cursor:pointer;font-size:13px;font-weight:600;transition:.15s}
+.tab:hover{border-color:var(--accent)}
+.tab.active{background:var(--brand);color:var(--brandText);border-color:var(--brand)}
+.panel{display:none;animation:f .22s ease} .panel.active{display:block} @keyframes f{from{opacity:0;transform:translateY(4px)}to{opacity:1}}
+h2{font-size:18px;margin:6px 0 2px;color:var(--text)} h2 .sm{color:var(--accent);font-weight:700;font-size:14px}
+.note{color:var(--muted);font-size:12.5px;margin:2px 0 14px;max-width:760px;line-height:1.5}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;box-shadow:var(--shadow)}
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);font-size:13.5px}
+th{background:var(--surface2);color:var(--muted);text-align:left;padding:10px 12px;font-weight:700;font-size:11.5px;text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--border)}
+td{padding:10px 12px;border-top:1px solid var(--border)} tbody tr:nth-child(even) td{background:var(--rowAlt)}
+.r{text-align:right} .c{text-align:center}
+.mut{color:var(--muted);font-size:12px}
+.rk{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;border-radius:7px;background:var(--chip);font-weight:800;font-size:12px}
+.rk.gold{background:var(--accent);color:#1a1300} .up{color:var(--up);font-weight:800} .down{color:var(--down);font-weight:800} .flat{color:var(--muted)}
+.top5 td{background:var(--shade)!important}
+.tag{font-size:10.5px;background:var(--chip);color:var(--muted);border-radius:9px;padding:1px 7px;margin-left:6px;font-weight:700}
+.excl td{opacity:.5}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:13px;margin-bottom:14px}
+.kpi{padding:15px 16px;border-left:5px solid var(--accent)}
+.kpi .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;font-weight:700}
+.kpi .v{font-size:26px;font-weight:800;margin-top:4px;color:var(--text)} .kpi .s{font-size:12.5px;color:var(--muted);margin-top:3px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:13px}
+.subtabs{display:inline-flex;background:var(--surface2);border:1px solid var(--border);border-radius:11px;padding:3px;margin:6px 0 12px;gap:3px}
+.subtab{padding:6px 14px;border-radius:8px;font-size:12.5px;font-weight:700;cursor:pointer;color:var(--muted)}
+.subtab.active{background:var(--brand);color:var(--brandText)}
+.gtitle{font-weight:800;color:var(--text);margin:2px 0 6px;font-size:13px;display:flex;align-items:center;gap:7px}
+.gtitle .b{background:var(--chip);color:var(--muted);border-radius:6px;font-size:10.5px;padding:1px 7px}
+/* bracket */
+.bracket{display:flex;gap:26px;overflow-x:auto;padding:6px 2px 12px}
+.round{display:flex;flex-direction:column;justify-content:space-around;gap:16px;min-width:210px}
+.round .rname{font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);font-weight:800;margin-bottom:2px}
+.tie{background:var(--surface);border:1px solid var(--border);border-radius:11px;box-shadow:var(--shadow);overflow:hidden}
+.tie .side{display:flex;justify-content:space-between;padding:8px 11px;font-size:12.5px;border-top:1px solid var(--border)}
+.tie .side:first-of-type{border-top:0} .tie .win{font-weight:800;color:var(--text)} .tie .lose{color:var(--muted)}
+.tie .sc{font-weight:800} .tie .win .sc{color:var(--accent)}
+/* profiles */
+.pcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:13px}
+.pcard{padding:15px;border-top:4px solid var(--accent)}
+.pcard .nm{font-weight:800;font-size:15px} .pcard .tm{color:var(--muted);font-size:12.5px;margin-bottom:10px}
+.pstat{display:flex;justify-content:space-between;padding:5px 0;border-top:1px dashed var(--border);font-size:12.5px}
+.pstat .l{color:var(--muted)} .pstat .v{font-weight:800}
+footer{color:var(--muted);font-size:11.5px;text-align:center;padding:26px}
+@media(max-width:560px){.brand{font-size:15px}.meta{font-size:11.5px}}
+</style></head>
+<body>
+<div class="bar"><div class="in">
+ <div class="brand">🏆 Laxmi Chit Fund <span class="dot">•</span> S5</div>
+ <div class="meta" id="meta"></div>
+ <button class="btn solid" id="dl">⬇ Excel</button>
+ <button class="btn" id="theme">🌙 Dark</button>
+</div></div>
+<div class="wrap">
+ <div class="tabs" id="tabs"></div>
+ <div id="panels"></div>
+ <footer id="foot"></footer>
+</div>
+<script>
+const D = __DATA__;
+const $=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e};
+const arrow=a=>a==='▲'?'<span class="up">▲</span>':a==='▼'?'<span class="down">▼</span>':'<span class="flat">•</span>';
+function table(cols,rows){let h='<table><thead><tr>'+cols.map(c=>`<th class="${c.cls||''}">${c.t}</th>`).join('')+'</tr></thead><tbody>';
+ rows.forEach(r=>{h+='<tr'+(r._cls?` class="${r._cls}"`:'')+'>'+r.cells.map((c,i)=>`<td class="${cols[i].cls||''}">${c}</td>`).join('')+'</tr>'});return h+'</tbody></table>'}
+const TABS=[]; const addTab=(id,label,render)=>TABS.push({id,label,render});
+
+/* ---- Overall ---- */
+addTab('overall','Overall',()=>{
+ const rows=D.overall.map(r=>({_cls:r.rank<=5?'top5':'',cells:[
+   `<span class="rk ${r.rank<=5?'gold':''}">${r.rank}</span> ${arrow(r.arrow)}`,
+   `<b>${r.manager}</b>`,`<span class="mut">${r.team_name}</span>`,r.gw_points,`<b>${r.total}</b>`]}));
+ return `<h2>Overall Table <span class="sm">₹75,000 · top 5</span></h2>
+  <p class="note">Cumulative net points, GW1–GW38. The shaded top 5 share the main pool. Arrows show movement since the last gameweek.</p>`+
+  table([{t:'#'},{t:'Manager'},{t:'Team'},{t:'GW',cls:'r'},{t:'Total',cls:'r'}],rows);
+});
+
+/* ---- Manager Profiles ---- */
+addTab('profiles','Profiles',()=>{
+ if(!D.profiles||!D.profiles.length) return '<h2>Manager Profiles</h2><p class="note">Career profiles populate from each manager’s FPL history once the season is live.</p>';
+ let h='<h2>Manager Profiles</h2><p class="note">Career snapshot pulled from each manager’s FPL history — seasons played, best overall rank, and last season’s finish.</p><div class="pcards">';
+ D.profiles.forEach(p=>{h+=`<div class="card pcard">
+   <div class="nm">${p.manager}</div><div class="tm">${p.team_name}</div>
+   <div class="pstat"><span class="l">This season (league)</span><span class="v">#${p.league_rank}</span></div>
+   <div class="pstat"><span class="l">Seasons played</span><span class="v">${p.seasons}</span></div>
+   <div class="pstat"><span class="l">Best overall rank</span><span class="v">${p.best_rank?p.best_rank.toLocaleString():'—'}${p.best_season?` <span class="mut">(${p.best_season})</span>`:''}</span></div>
+   <div class="pstat"><span class="l">Last season rank</span><span class="v">${p.last_rank?p.last_rank.toLocaleString():'—'}</span></div>
+ </div>`});
+ return h+'</div>';
+});
+
+/* ---- Mini Tournaments (Group phase | Knockouts) ---- */
+addTab('mini','Mini Tournaments',()=>{
+ if(!D.mini||!D.mini.length) return '<h2>Mini Tournaments</h2><p class="note">MT1 begins at GW3. Group tables and the knockout bracket appear here once the draw is made after GW2.</p>';
+ const mt=D.mini[0];
+ let h=`<h2>${mt.name} <span class="sm">₹3,000</span></h2>
+  <p class="note">Top 24 · 6 groups of 4 · group stage GW ${mt.group_gws.join(', ')} → knockouts GW ${mt.ko_gws.join(', ')}.</p>
+  <div class="subtabs"><div class="subtab active" data-s="grp">Group Phase</div><div class="subtab" data-s="ko">Knockouts</div></div>
+  <div id="mt_grp"></div><div id="mt_ko" style="display:none"></div>`;
+ setTimeout(()=>{
+   const g=document.getElementById('mt_grp'), k=document.getElementById('mt_ko');
+   if(!mt.has_draw){g.innerHTML='<p class="note">Awaiting the random group draw.</p>';}
+   else{let gh='<div class="grid">';
+     Object.entries(mt.groups).forEach(([gn,tbl])=>{
+       const rows=tbl.map((r,i)=>({_cls:i<2?'top5':'',cells:[r[0],r[1].P,r[1].W,r[1].D,r[1].L,`<b>${r[1].pts}</b>`,r[1].fpl]}));
+       gh+=`<div><div class="gtitle">Group ${gn} <span class="b">top 2 advance</span></div>`+
+         table([{t:'Team'},{t:'P',cls:'c'},{t:'W',cls:'c'},{t:'D',cls:'c'},{t:'L',cls:'c'},{t:'Pts',cls:'c'},{t:'FPL',cls:'r'}],rows)+'</div>';});
+     g.innerHTML=gh+'</div>';}
+   k.innerHTML=renderBracket(mt.knockout);
+   document.querySelectorAll('.subtab').forEach(s=>s.onclick=()=>{
+     document.querySelectorAll('.subtab').forEach(x=>x.classList.remove('active'));s.classList.add('active');
+     const ko=s.dataset.s==='ko'; g.style.display=ko?'none':''; k.style.display=ko?'':'none';});
+ });
+ return h;
+});
+function renderBracket(ko){
+ if(!ko||!ko.rounds||!ko.rounds.length) return '<p class="note">The 8-team knockout (QF → SF → Final) appears here once the group stage finishes.</p>';
+ let h='<div class="bracket">';
+ ko.rounds.forEach(rd=>{h+=`<div class="round"><div class="rname">${rd.name}</div>`;
+   rd.ties.forEach(t=>{const aw=t.winner==='a',bw=t.winner==='b';
+     h+=`<div class="tie">
+       <div class="side"><span class="${aw?'win':'lose'}">${t.a||'—'}</span><span class="sc">${t.sa!=null?t.sa:''}</span></div>
+       <div class="side"><span class="${bw?'win':'lose'}">${t.b||'—'}</span><span class="sc">${t.sb!=null?t.sb:''}</span></div></div>`;});
+   h+='</div>';});
+ return h+'</div>';
+}
+
+/* ---- Chip Kings ---- */
+addTab('chip','Chip Kings',()=>{
+ let h='<h2>Chip Kings <span class="sm">₹3,000 each</span></h2><p class="note">Best single-GW return with each chip, across either half of the season.</p><div class="cards">';
+ D.chip_kings.forEach(c=>{h+=`<div class="card kpi"><div class="k">${c.chip}</div><div class="v">${c.score!=null?c.score:'—'}</div><div class="s">${c.manager?c.manager+' · GW'+c.gw:'not played yet'}</div></div>`});
+ return h+'</div>';
+});
+
+/* ---- Captaincy / Green ---- */
+addTab('captain','Captaincy',()=>{
+ const rows=D.captaincy.map((r,i)=>({_cls:r.excluded?'excl':'',cells:[`<span class="rk">${i+1}</span>`,`<b>${r.manager}</b>`+(r.excluded?' <span class="tag">top-5 excl</span>':''),`<b>${r.points}</b>`]}));
+ return '<h2>Captaincy King <span class="sm">₹3,000</span></h2><p class="note">Total captain points after multipliers. Top-5 overall are excluded at settlement.</p>'+
+   table([{t:'#'},{t:'Manager'},{t:'Captain Pts',cls:'r'}],rows);
+});
+addTab('green','Green Arrows',()=>{
+ const rows=D.green.map((r,i)=>({_cls:r.excluded?'excl':'',cells:[`<span class="rk">${i+1}</span>`,`<b>${r.manager}</b>`+(r.excluded?' <span class="tag">top-5 excl</span>':''),`<b>${r.arrows}</b>`]}));
+ return '<h2>Green Arrow King <span class="sm">₹3,000</span></h2><p class="note">Gameweeks where overall (global) rank improved. Top-5 overall excluded at settlement.</p>'+
+   table([{t:'#'},{t:'Manager'},{t:'Green Arrows',cls:'r'}],rows);
+});
+
+/* ---- Comeback ---- */
+addTab('comeback','Comeback',()=>{
+ if(!D.comeback.active) return '<h2>The Comeback <span class="sm">₹4,000</span></h2><p class="note">Activates after GW19 — the bottom 21 then race for most points across GW20–GW38.</p>';
+ const rows=D.comeback.board.map((r,i)=>({_cls:i==0?'top5':'',cells:[`<span class="rk ${i==0?'gold':''}">${i+1}</span>`,`<b>${r.manager}</b>`,`<b>${r.points}</b>`]}));
+ return '<h2>The Comeback <span class="sm">₹4,000</span></h2><p class="note">Bottom 21 after GW19 · most points GW20–38 wins.</p>'+table([{t:'#'},{t:'Manager'},{t:'Pts since GW20',cls:'r'}],rows);
+});
+
+/* ---- Differential ---- */
+addTab('diff','Differential',()=>{
+ if(!D.differential.has_snapshots) return '<h2>Differential Diamond <span class="sm">₹3,000</span></h2><p class="note">Ownership snapshots begin at GW1. The best sub-7.5%-owned starter haul appears here.</p>';
+ let h='<h2>Differential Diamond <span class="sm">₹3,000</span></h2><p class="note">Biggest single-GW haul from a starter owned under 7.5% (ownership taken at the deadline).</p>';
+ if(D.differential.best){const b=D.differential.best;h+=`<div class="cards"><div class="card kpi"><div class="k">Current leader</div><div class="v">${b.points} pts</div><div class="s">${b.manager} · ${b.player} · GW${b.gw} · ${b.own}% owned</div></div></div>`}
+ const rows=D.differential.board.map((r,i)=>({cells:[`<span class="rk">${i+1}</span>`,r.manager,`<b>${r.player}</b>`,'GW'+r.gw,`<b>${r.points}</b>`,r.own+'%']}));
+ return h+table([{t:'#'},{t:'Manager'},{t:'Player'},{t:'GW',cls:'c'},{t:'Pts',cls:'r'},{t:'Own',cls:'r'}],rows);
+});
+
+/* ---- Pity ---- */
+addTab('pity','Pity',()=>{
+ const rows=D.pity.map((r,i)=>({cells:[`<span class="rk">${i+1}</span>`,`<b>${r.manager}</b>`,'GW'+r.gw,`<b>${r.score}</b>`,r.hit?('−'+r.hit):'0',r.ruled_out==null?'n/a':r.ruled_out,r.valid?'<span class="up">✓</span>':'<span class="down">review</span>']}));
+ return '<h2>Pity the Living Dead <span class="sm">₹2,000</span></h2><p class="note">Lowest valid GW score (to GW30). Auto-checks hits ≤ 8 and ruled-out starters ≤ 2; admins confirm edge cases.</p>'+
+   table([{t:'#'},{t:'Manager'},{t:'GW',cls:'c'},{t:'Score',cls:'r'},{t:'Hit',cls:'c'},{t:'Ruled-out',cls:'c'},{t:'Valid',cls:'c'}],rows);
+});
+
+/* ---- build UI ---- */
+const tabsEl=document.getElementById('tabs'), panelsEl=document.getElementById('panels');
+TABS.forEach((t,i)=>{
+ const b=$('div','tab'+(i==0?' active':''),t.label);
+ b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+   document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+   b.classList.add('active');document.getElementById('p_'+t.id).classList.add('active');window.scrollTo({top:0,behavior:'smooth'})};
+ tabsEl.appendChild(b);
+ const p=$('div','panel'+(i==0?' active':''),t.render());p.id='p_'+t.id;panelsEl.appendChild(p);
+});
+const m=D.meta;
+document.getElementById('meta').innerHTML=
+ `<span class="pill">${m.n_members} managers</span><span class="pill gold">₹1,24,000</span>`+
+ `<span class="pill">${m.current_gw?('through GW'+m.current_gw):'pre-season'}</span>`+
+ `<span class="pill">updated ${m.generated_utc}</span>`+(m.demo?'<span class="pill">DEMO</span>':'');
+document.getElementById('foot').innerHTML=`Auto-generated from the official FPL API · League ${m.league_id} · ${m.generated_utc}`+(m.demo?' · simulated numbers for design preview':'');
+document.getElementById('dl').onclick=()=>location.href=(m.xlsx||'Laxmi_Chit_Fund_S5_audit.xlsx');
+
+/* ---- theme toggle ---- */
+const root=document.documentElement, tbtn=document.getElementById('theme');
+function setTheme(t){root.setAttribute('data-theme',t);tbtn.innerHTML=t==='dark'?'☀️ Light':'🌙 Dark';try{localStorage.setItem('lcf-theme',t)}catch(e){}}
+let _saved=null; try{_saved=localStorage.getItem('lcf-theme')}catch(e){}
+setTheme(_saved || (matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'));
+tbtn.onclick=()=>setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');
+</script></body></html>

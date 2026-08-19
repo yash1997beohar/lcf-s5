@@ -183,16 +183,20 @@ def compute(raw, snap_dir, mt_config):
                 chip_best[name] = {"score": score, "manager": M[eid]["manager"], "gw": gw}
     chip_kings = [{"chip": chip_key[k], "code": k, **chip_best[k]} for k in chip_key]
 
-    # -------- Captaincy King  &  Green Arrow King
-    cap_tot = {eid: 0 for eid in M}
+    # -------- per-GW captain & bench points (used by Captaincy King + MT knockout tiebreaks)
+    cap_gw = {eid: {} for eid in M}
+    bench_gw = {eid: {} for eid in M}
     for eid in M:
+        for r in hist.get(eid, {}).get("current", []):
+            bench_gw[eid][r["event"]] = r.get("points_on_bench", 0)
         for gw in finished:
             p = picks.get(eid, {}).get(gw)
             if not p:
                 continue
             for pk in p["picks"]:
                 if pk["is_captain"]:
-                    cap_tot[eid] += live.get(gw, {}).get(pk["element"], 0) * pk["multiplier"]
+                    cap_gw[eid][gw] = live.get(gw, {}).get(pk["element"], 0) * pk["multiplier"]
+    cap_tot = {eid: sum(cap_gw[eid].values()) for eid in M}
     captaincy = sorted(
         [{"manager": M[eid]["manager"], "entry": eid, "points": cap_tot[eid],
           "excluded": eid in top5_ids} for eid in M],
@@ -263,27 +267,38 @@ def compute(raw, snap_dir, mt_config):
     pity.sort(key=lambda x: x["score"])
     pity = pity[:12]
 
+    # -------- Manager Profiles (from FPL past-season history)
+    league_rank = {row["entry"]: row["rank"] for row in overall_tbl}
+    profiles = []
+    for eid, m in M.items():
+        past = hist.get(eid, {}).get("past", []) or []
+        best = min((p["rank"] for p in past), default=None)
+        bseason = min(past, key=lambda p: p["rank"])["season_name"] if past else None
+        profiles.append({"manager": m["manager"], "team_name": m["team_name"],
+                         "league_rank": league_rank.get(eid, 0), "seasons": len(past) + 1,
+                         "best_rank": best, "best_season": bseason,
+                         "last_rank": past[-1]["rank"] if past else None})
+    profiles.sort(key=lambda x: x["league_rank"] or 1e9)
+
     # -------- Mini Tournaments (draws come from config)
-    mini = compute_mts(mt_config, M, net, finished)
+    mini = compute_mts(mt_config, M, net, finished, cap_gw, bench_gw)
 
     return {"meta": {"league_name": raw["league_name"], "league_id": LEAGUE_ID,
                      "generated_utc": dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
                      "current_gw": raw["current"], "finished": finished,
-                     "n_members": len(M)},
+                     "n_members": len(M), "xlsx": "Laxmi_Chit_Fund_S5_audit.xlsx"},
             "overall": overall_tbl, "matrix": matrix, "chip_kings": chip_kings,
             "captaincy": captaincy, "green": green, "comeback": comeback,
-            "differential": differential, "pity": pity, "mini": mini}
+            "differential": differential, "pity": pity, "profiles": profiles, "mini": mini}
 
-def compute_mts(mt_config, M, net, finished):
-    """mt_config: list of {name, gws:[group_gws], ko_gws, groups:{A:[eids]...}}. Optional."""
+def compute_mts(mt_config, M, net, finished, cap_gw, bench_gw):
+    """mt_config: list of {name, group_gws, ko_gws, groups:{A:[eids]...}}. Optional."""
     out = []
     id2name = {eid: M[eid]["manager"] for eid in M}
     for mt in mt_config or []:
         groups = mt.get("groups") or {}
-        played = [g for g in mt["group_gws"] if g in finished]
-        gtables = {}
+        gtables, standings = {}, {}
         for gname, eids in groups.items():
-            # round-robin schedule for 4: rounds by gw index
             recs = {e: {"P": 0, "W": 0, "D": 0, "L": 0, "pts": 0, "fpl": 0} for e in eids}
             sched = _rr4(eids)
             for idx, gw in enumerate(mt["group_gws"]):
@@ -298,12 +313,58 @@ def compute_mts(mt_config, M, net, finished):
                     if sa > sb: recs[a]["W"] += 1; recs[a]["pts"] += 3; recs[b]["L"] += 1
                     elif sb > sa: recs[b]["W"] += 1; recs[b]["pts"] += 3; recs[a]["L"] += 1
                     else: recs[a]["D"] += 1; recs[b]["D"] += 1; recs[a]["pts"] += 1; recs[b]["pts"] += 1
-            table = sorted(([id2name[e], recs[e]] for e in eids),
-                           key=lambda r: (-r[1]["pts"], -r[1]["fpl"]))
-            gtables[gname] = table
+            order = sorted(eids, key=lambda e: (-recs[e]["pts"], -recs[e]["fpl"]))
+            standings[gname] = [(e, recs[e]) for e in order]
+            gtables[gname] = [[id2name[e], recs[e]] for e in order]
+
+        knockout = None
+        if groups and all(g in finished for g in mt["group_gws"]):
+            knockout = _build_knockout(standings, mt["ko_gws"], finished, net, cap_gw, bench_gw, id2name)
+
         out.append({"name": mt["name"], "group_gws": mt["group_gws"], "ko_gws": mt["ko_gws"],
-                    "groups": gtables, "has_draw": bool(groups), "played": played})
+                    "groups": gtables, "has_draw": bool(groups),
+                    "played": [g for g in mt["group_gws"] if g in finished], "knockout": knockout})
     return out
+
+def _ko_winner(a, b, gw, finished, net, cap_gw, bench_gw, seed):
+    """Rulebook tiebreak: net score -> captain pts -> bench pts -> better seed."""
+    sa, sb = net.get(a, {}).get(gw), net.get(b, {}).get(gw)
+    if a is None or b is None or gw not in finished or sa is None or sb is None:
+        return None, sa, sb
+    if sa != sb:
+        return ("a" if sa > sb else "b"), sa, sb
+    for tb in (cap_gw, bench_gw):
+        va, vb = tb.get(a, {}).get(gw, 0), tb.get(b, {}).get(gw, 0)
+        if va != vb:
+            return ("a" if va > vb else "b"), sa, sb
+    return ("a" if seed.get(a, 99) < seed.get(b, 99) else "b"), sa, sb
+
+def _build_knockout(standings, ko_gws, finished, net, cap_gw, bench_gw, id2name):
+    winners = sorted([standings[g][0] for g in standings], key=lambda x: (-x[1]["pts"], -x[1]["fpl"]))
+    runners = sorted([standings[g][1] for g in standings if len(standings[g]) > 1],
+                     key=lambda x: (-x[1]["pts"], -x[1]["fpl"]))
+    seeds = [w[0] for w in winners[:6]] + [r[0] for r in runners[:2]]
+    if len(seeds) < 8:
+        return None
+    seed = {e: i + 1 for i, e in enumerate(seeds)}
+    s = seeds
+    gw_qf, gw_sf, gw_f = (list(ko_gws) + [None, None, None])[:3]
+    nm = lambda e: id2name.get(e, "—") if e else "—"
+
+    def round_of(pairs, gw, label):
+        res, ties = [], []
+        for a, b in pairs:
+            w, sa, sb = _ko_winner(a, b, gw, finished, net, cap_gw, bench_gw, seed)
+            res.append(a if w == "a" else (b if w == "b" else None))
+            ties.append({"a": nm(a), "b": nm(b), "sa": sa, "sb": sb, "winner": w})
+        return res, {"name": label, "ties": ties}
+
+    qf_res, qf = round_of([(s[0], s[7]), (s[3], s[4]), (s[2], s[5]), (s[1], s[6])], gw_qf, "Quarterfinals")
+    sf_res, sf = round_of([(qf_res[0], qf_res[1]), (qf_res[2], qf_res[3])], gw_sf, "Semifinals")
+    f_res, fin = round_of([(sf_res[0], sf_res[1])], gw_f, "Final")
+    return {"rounds": [qf, sf, fin],
+            "seeds": [{"seed": i + 1, "manager": nm(e)} for i, e in enumerate(seeds)],
+            "champion": nm(f_res[0]) if f_res[0] else None}
 
 def _rr4(t):
     """3-round round-robin schedule for a group of 4 (indices into t)."""
@@ -315,9 +376,12 @@ def _rr4(t):
 # --------------------------------------------------------------------- render
 def render_html(data):
     j = json.dumps(data).replace("</", "<\\/")
-    tpl = HTML_TEMPLATE.replace("__NAVY__", NAVY).replace("__GOLD__", GOLD)\
-        .replace("__GREY__", GREY).replace("__LIGHT__", LIGHT).replace("__DATA__", j)
-    return tpl
+    here = os.path.dirname(os.path.abspath(__file__))
+    tpath = os.path.join(here, "template.html")
+    if os.path.exists(tpath):                       # external template (preferred)
+        return open(tpath, encoding="utf-8").read().replace("__DATA__", j)
+    return HTML_TEMPLATE.replace("__NAVY__", NAVY).replace("__GOLD__", GOLD)\
+        .replace("__GREY__", GREY).replace("__LIGHT__", LIGHT).replace("__DATA__", j)  # legacy fallback
 
 # --------------------------------------------------------------------- excel
 def write_excel(data, path):
@@ -370,6 +434,12 @@ def write_excel(data, path):
     for r in data["differential"]["board"]:
         ws.append([r["manager"], r["player"], r["gw"], r["points"], r["own"]])
     style(ws, 5)
+    ws = wb.create_sheet("Profiles")
+    ws.append(["League #", "Manager", "Team", "Seasons", "Best Rank", "Best Season", "Last Season Rank"])
+    for r in data.get("profiles", []):
+        ws.append([r["league_rank"], r["manager"], r["team_name"], r["seasons"],
+                   r["best_rank"], r["best_season"], r["last_rank"]])
+    style(ws, 7)
     ws = wb.create_sheet("Pity")
     ws.append(["Manager", "GW", "Score", "Hit", "Ruled-out starters", "Valid?"])
     for r in data["pity"]:
@@ -434,16 +504,39 @@ def demo_data():
                     "score": rng.randint(12, 34), "hit": rng.choice([0,0,0,4,8]),
                     "ruled_out": rng.choice([0,0,1,2]), "valid": True} for _ in range(12)],
                   key=lambda x: x["score"])[:12]
+    gtables = _demo_groups(order, members, net, rng)
     mini = [{"name": "MT1 (GW3–GW8)", "group_gws": [3,4,5], "ko_gws": [6,7,8], "has_draw": True,
-             "played": [3,4,5], "groups": _demo_groups(order, members, net, rng)}]
+             "played": [3,4,5], "groups": gtables, "knockout": _demo_knockout(gtables, rng)}]
+    seasons_pool = ["2019/20","2020/21","2021/22","2022/23","2023/24","2024/25","2025/26"]
+    profiles = [{"manager": o["manager"], "team_name": o["team_name"], "league_rank": o["rank"],
+                 "seasons": rng.randint(2, 8), "best_rank": rng.randint(4000, 480000),
+                 "best_season": rng.choice(seasons_pool), "last_rank": rng.randint(20000, 1200000)}
+                for o in overall]
     return {"meta": {"league_name": "Laxmi Chit Fund - Season 5 (DEMO)", "league_id": LEAGUE_ID,
                      "generated_utc": dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
-                     "current_gw": 7, "finished": GWS, "n_members": len(roster), "demo": True},
+                     "current_gw": 7, "finished": GWS, "n_members": len(roster), "demo": True,
+                     "xlsx": "S5-Dashboard-audit-DEMO.xlsx"},
             "overall": overall, "matrix": {"gws": GWS, "rows": matrix_rows},
             "chip_kings": chip_kings, "captaincy": captaincy, "green": green,
             "comeback": {"active": False, "board": [], "eligible_n": COMEBACK_BOTTOM_N},
             "differential": {"best": diff[0], "board": diff[:15], "has_snapshots": True},
-            "pity": pity, "mini": mini}
+            "pity": pity, "profiles": profiles, "mini": mini}
+
+def _demo_knockout(gtables, rng):
+    q = [tbl[0][0] for tbl in gtables.values()] + [tbl[1][0] for tbl in gtables.values()][:2]
+    q = q[:8]; rng.shuffle(q)
+    def tie(a, b):
+        sa, sb = rng.randint(38, 88), rng.randint(38, 88)
+        if sa == sb: sb += 1
+        return {"a": a, "b": b, "sa": sa, "sb": sb, "winner": "a" if sa > sb else "b"}
+    qf = [tie(q[0], q[1]), tie(q[2], q[3]), tie(q[4], q[5]), tie(q[6], q[7])]
+    sfn = [t["a"] if t["winner"] == "a" else t["b"] for t in qf]
+    sf = [tie(sfn[0], sfn[1]), tie(sfn[2], sfn[3])]
+    ffn = [t["a"] if t["winner"] == "a" else t["b"] for t in sf]
+    fin = [tie(ffn[0], ffn[1])]
+    champ = fin[0]["a"] if fin[0]["winner"] == "a" else fin[0]["b"]
+    return {"rounds": [{"name": "Quarterfinals", "ties": qf}, {"name": "Semifinals", "ties": sf},
+                       {"name": "Final", "ties": fin}], "champion": champ}
 
 def _demo_groups(order, members, net, rng):
     q = order[:24]; groups = {}
@@ -463,7 +556,7 @@ def main():
     ap.add_argument("--demo", action="store_true", help="render with simulated data")
     ap.add_argument("--out", default="docs")
     ap.add_argument("--snap", default="snapshots")
-    ap.add_argument("--xlsx", default="output/Laxmi_Chit_Fund_S5_audit.xlsx")
+    ap.add_argument("--xlsx", default="docs/Laxmi_Chit_Fund_S5_audit.xlsx")
     ap.add_argument("--config", default="config.json")
     a = ap.parse_args()
 
