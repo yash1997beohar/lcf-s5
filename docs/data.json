@@ -2,10 +2,11 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-19 17:09 UTC",
+  "generated_utc": "2026-08-19 17:53 UTC",
   "current_gw": 0,
   "finished": [],
-  "n_members": 29
+  "n_members": 29,
+  "xlsx": "Laxmi_Chit_Fund_S5_audit.xlsx"
  },
  "overall": [
   {
@@ -813,5 +814,268 @@
   "has_snapshots": false
  },
  "pity": [],
+ "profiles": [
+  {
+   "manager": "Deepankar Sachdeva",
+   "team_name": "Cment_mixers",
+   "league_rank": 1,
+   "seasons": 3,
+   "best_rank": 1128645,
+   "best_season": "2025/26",
+   "last_rank": 1128645
+  },
+  {
+   "manager": "Ajith Thomas Kuthukatt George",
+   "team_name": "Onside Offside",
+   "league_rank": 2,
+   "seasons": 3,
+   "best_rank": 545267,
+   "best_season": "2025/26",
+   "last_rank": 545267
+  },
+  {
+   "manager": "prateek gupta",
+   "team_name": "sakalaka",
+   "league_rank": 3,
+   "seasons": 5,
+   "best_rank": 117338,
+   "best_season": "2025/26",
+   "last_rank": 117338
+  },
+  {
+   "manager": "Karan Chopra",
+   "team_name": "fpl_26_27",
+   "league_rank": 4,
+   "seasons": 12,
+   "best_rank": 81907,
+   "best_season": "2020/21",
+   "last_rank": 11118394
+  },
+  {
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "league_rank": 5,
+   "seasons": 14,
+   "best_rank": 71857,
+   "best_season": "2020/21",
+   "last_rank": 297407
+  },
+  {
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "league_rank": 6,
+   "seasons": 14,
+   "best_rank": 14603,
+   "best_season": "2016/17",
+   "last_rank": 515830
+  },
+  {
+   "manager": "Arshaq Razack",
+   "team_name": "ShakeNBake",
+   "league_rank": 7,
+   "seasons": 16,
+   "best_rank": 6474,
+   "best_season": "2025/26",
+   "last_rank": 6474
+  },
+  {
+   "manager": "Rohan Agrawal",
+   "team_name": "Southall United",
+   "league_rank": 8,
+   "seasons": 6,
+   "best_rank": 1320699,
+   "best_season": "2020/21",
+   "last_rank": 1861933
+  },
+  {
+   "manager": "Dean Jenkins",
+   "team_name": "Slumber FC",
+   "league_rank": 9,
+   "seasons": 5,
+   "best_rank": 676529,
+   "best_season": "2025/26",
+   "last_rank": 676529
+  },
+  {
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "league_rank": 10,
+   "seasons": 11,
+   "best_rank": 95791,
+   "best_season": "2018/19",
+   "last_rank": 5124417
+  },
+  {
+   "manager": "Shivanshu Madan",
+   "team_name": "Cold Palmer",
+   "league_rank": 11,
+   "seasons": 7,
+   "best_rank": 31543,
+   "best_season": "2022/23",
+   "last_rank": 1637750
+  },
+  {
+   "manager": "Sid Shaurya",
+   "team_name": "Old Reijnders Nagar",
+   "league_rank": 12,
+   "seasons": 8,
+   "best_rank": 189374,
+   "best_season": "2024/25",
+   "last_rank": 250879
+  },
+  {
+   "manager": "Karan Khanna",
+   "team_name": "Amad Aura",
+   "league_rank": 13,
+   "seasons": 8,
+   "best_rank": 453230,
+   "best_season": "2019/20",
+   "last_rank": 8188106
+  },
+  {
+   "manager": "Abhinav Premsekhar",
+   "team_name": "Totally Szobo",
+   "league_rank": 14,
+   "seasons": 12,
+   "best_rank": 27153,
+   "best_season": "2022/23",
+   "last_rank": 240451
+  },
+  {
+   "manager": "Danish Javed",
+   "team_name": "ItDzntMata",
+   "league_rank": 15,
+   "seasons": 6,
+   "best_rank": 273503,
+   "best_season": "2024/25",
+   "last_rank": 1917309
+  },
+  {
+   "manager": "Nilay jain",
+   "team_name": "Redsbay",
+   "league_rank": 16,
+   "seasons": 2,
+   "best_rank": 4884220,
+   "best_season": "2025/26",
+   "last_rank": 4884220
+  },
+  {
+   "manager": "Anish Joshi",
+   "team_name": "Fiery Raiders",
+   "league_rank": 17,
+   "seasons": 15,
+   "best_rank": 281617,
+   "best_season": "2019/20",
+   "last_rank": 1076546
+  },
+  {
+   "manager": "Abhay Rawat",
+   "team_name": "115 FC",
+   "league_rank": 18,
+   "seasons": 11,
+   "best_rank": 38561,
+   "best_season": "2018/19",
+   "last_rank": 726260
+  },
+  {
+   "manager": "Raveesh Kalra",
+   "team_name": "MaSalah",
+   "league_rank": 19,
+   "seasons": 7,
+   "best_rank": 8917,
+   "best_season": "2021/22",
+   "last_rank": 9146930
+  },
+  {
+   "manager": "Abhiraj Singh",
+   "team_name": "KingOfKings Fc",
+   "league_rank": 20,
+   "seasons": 11,
+   "best_rank": 28582,
+   "best_season": "2021/22",
+   "last_rank": 239490
+  },
+  {
+   "manager": "Varun Khurana",
+   "team_name": "Goal Diggers FC",
+   "league_rank": 21,
+   "seasons": 15,
+   "best_rank": 410102,
+   "best_season": "2009/10",
+   "last_rank": 5360778
+  },
+  {
+   "manager": "Rajit Das",
+   "team_name": "FC Teetotallers",
+   "league_rank": 22,
+   "seasons": 7,
+   "best_rank": 1615102,
+   "best_season": "2024/25",
+   "last_rank": 6092784
+  },
+  {
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's Thirteen",
+   "league_rank": 23,
+   "seasons": 9,
+   "best_rank": 334016,
+   "best_season": "2020/21",
+   "last_rank": 2691725
+  },
+  {
+   "manager": "Aayush Khanna",
+   "team_name": "Loading...",
+   "league_rank": 24,
+   "seasons": 10,
+   "best_rank": 486041,
+   "best_season": "2024/25",
+   "last_rank": 1206623
+  },
+  {
+   "manager": "Abhishek Gupte",
+   "team_name": "Enzotic",
+   "league_rank": 25,
+   "seasons": 16,
+   "best_rank": 37120,
+   "best_season": "2014/15",
+   "last_rank": 3349378
+  },
+  {
+   "manager": "Naman Agrawal",
+   "team_name": "Captn Magnifico",
+   "league_rank": 26,
+   "seasons": 11,
+   "best_rank": 15136,
+   "best_season": "2021/22",
+   "last_rank": 45077
+  },
+  {
+   "manager": "Pranshul Jain",
+   "team_name": "Carrick Janta Party",
+   "league_rank": 27,
+   "seasons": 9,
+   "best_rank": 182900,
+   "best_season": "2025/26",
+   "last_rank": 182900
+  },
+  {
+   "manager": "Aditya Vaidya",
+   "team_name": "His Name is Diogo",
+   "league_rank": 28,
+   "seasons": 12,
+   "best_rank": 15288,
+   "best_season": "2020/21",
+   "last_rank": 538046
+  },
+  {
+   "manager": "Yash Beohar",
+   "team_name": "Fluente in Football",
+   "league_rank": 29,
+   "seasons": 10,
+   "best_rank": 30971,
+   "best_season": "2018/19",
+   "last_rank": 58227
+  }
+ ],
  "mini": []
 }
