@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laxmi Chit Fund S5 — Live Standings</title>
+<style>
+ :root{--navy:#1F3864;--gold:#B7912B;--grey:#595959;--light:#EDF0F7}
+ *{box-sizing:border-box} body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#222;background:#f6f7fb}
+ header{background:var(--navy);color:#fff;padding:18px 20px}
+ header h1{margin:0;font-size:20px;letter-spacing:.5px} header .sub{color:#cdd6ea;font-size:13px;margin-top:3px}
+ header .gold{color:var(--gold);font-weight:700}
+ .wrap{max-width:1040px;margin:0 auto;padding:0 14px 60px}
+ .tabs{display:flex;flex-wrap:wrap;gap:6px;position:sticky;top:0;background:#f6f7fb;padding:12px 0;z-index:5;border-bottom:1px solid #e3e7f0}
+ .tab{padding:8px 13px;border:1px solid #d6dcea;border-radius:20px;background:#fff;cursor:pointer;font-size:13px;font-weight:600;color:var(--navy)}
+ .tab.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+ .panel{display:none;margin-top:16px;animation:f .2s ease} .panel.active{display:block} @keyframes f{from{opacity:0}to{opacity:1}}
+ h2{color:var(--navy);font-size:17px;margin:6px 0 4px} .note{color:var(--grey);font-size:12.5px;margin:0 0 12px}
+ table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 1px 3px rgba(20,30,60,.07);font-size:13.5px}
+ th{background:var(--navy);color:#fff;text-align:left;padding:9px 11px;font-weight:600} td{padding:8px 11px;border-top:1px solid #eef1f7}
+ tr:nth-child(even) td{background:var(--light)} .r{text-align:right} .c{text-align:center}
+ .up{color:#2e8b57;font-weight:700} .down{color:#c0392b;font-weight:700} .flat{color:#9aa0ad}
+ .badge{display:inline-block;background:var(--gold);color:#fff;border-radius:6px;padding:1px 7px;font-size:11px;font-weight:700}
+ .cardrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin-bottom:14px}
+ .card{background:#fff;border-radius:10px;padding:13px 15px;box-shadow:0 1px 3px rgba(20,30,60,.07);border-left:5px solid var(--gold)}
+ .card .k{font-size:12px;color:var(--grey);text-transform:uppercase;letter-spacing:.4px} .card .v{font-size:22px;font-weight:800;color:var(--navy);margin-top:3px}
+ .card .s{font-size:12.5px;color:#333;margin-top:2px}
+ .excl{opacity:.5} .top5 td{background:#fbf6e7 !important}
+ .grp{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+ .mut{color:var(--grey);font-size:12px} .pill{font-size:11px;background:#e8edf7;color:var(--navy);border-radius:10px;padding:1px 8px;margin-left:6px}
+ footer{color:var(--grey);font-size:11.5px;text-align:center;padding:22px}
+</style></head><body>
+<header><div class="wrap" style="padding:0">
+ <h1>🏆 Laxmi Chit Fund — Season 5</h1>
+ <div class="sub"><span id="hsub"></span></div></div></header>
+<div class="wrap">
+ <div class="tabs" id="tabs"></div>
+ <div id="panels"></div>
+ <footer id="foot"></footer>
+</div>
+<script>
+const D = {"meta": {"league_name": "Laxmi Chit Fund - Season 5", "league_id": 1035071, "generated_utc": "2026-08-19 17:09 UTC", "current_gw": 0, "finished": [], "n_members": 29}, "overall": [{"rank": 1, "arrow": "\u2022", "manager": "Deepankar Sachdeva", "team_name": "Cment_mixers", "entry": 1301167, "gw_points": 0, "total": 0}, {"rank": 2, "arrow": "\u2022", "manager": "Ajith Thomas Kuthukatt George", "team_name": "Onside Offside", "entry": 5419891, "gw_points": 0, "total": 0}, {"rank": 3, "arrow": "\u2022", "manager": "prateek gupta", "team_name": "sakalaka", "entry": 6023506, "gw_points": 0, "total": 0}, {"rank": 4, "arrow": "\u2022", "manager": "Karan Chopra", "team_name": "fpl_26_27", "entry": 5970777, "gw_points": 0, "total": 0}, {"rank": 5, "arrow": "\u2022", "manager": "Aquib Razack", "team_name": "BattleBorn", "entry": 5926399, "gw_points": 0, "total": 0}, {"rank": 6, "arrow": "\u2022", "manager": "Satweek Nayak", "team_name": "Xa bing chilling", "entry": 46711, "gw_points": 0, "total": 0}, {"rank": 7, "arrow": "\u2022", "manager": "Arshaq Razack", "team_name": "ShakeNBake", "entry": 1086057, "gw_points": 0, "total": 0}, {"rank": 8, "arrow": "\u2022", "manager": "Rohan Agrawal", "team_name": "Southall United", "entry": 5582398, "gw_points": 0, "total": 0}, {"rank": 9, "arrow": "\u2022", "manager": "Dean Jenkins", "team_name": "Slumber FC", "entry": 5565611, "gw_points": 0, "total": 0}, {"rank": 10, "arrow": "\u2022", "manager": "Ashwin Jose", "team_name": "Pole Calmer \ufffd", "entry": 5008941, "gw_points": 0, "total": 0}, {"rank": 11, "arrow": "\u2022", "manager": "Shivanshu Madan", "team_name": "Cold Palmer", "entry": 2424090, "gw_points": 0, "total": 0}, {"rank": 12, "arrow": "\u2022", "manager": "Sid Shaurya", "team_name": "Old Reijnders Nagar", "entry": 5340498, "gw_points": 0, "total": 0}, {"rank": 13, "arrow": "\u2022", "manager": "Karan Khanna", "team_name": "Amad Aura", "entry": 3330149, "gw_points": 0, "total": 0}, {"rank": 14, "arrow": "\u2022", "manager": "Abhinav Premsekhar", "team_name": "Totally Szobo", "entry": 79306, "gw_points": 0, "total": 0}, {"rank": 15, "arrow": "\u2022", "manager": "Danish Javed", "team_name": "ItDzntMata", "entry": 3323226, "gw_points": 0, "total": 0}, {"rank": 16, "arrow": "\u2022", "manager": "Nilay jain", "team_name": "Redsbay", "entry": 4993853, "gw_points": 0, "total": 0}, {"rank": 17, "arrow": "\u2022", "manager": "Anish Joshi", "team_name": "Fiery Raiders", "entry": 256447, "gw_points": 0, "total": 0}, {"rank": 18, "arrow": "\u2022", "manager": "Abhay Rawat", "team_name": "115 FC", "entry": 3942416, "gw_points": 0, "total": 0}, {"rank": 19, "arrow": "\u2022", "manager": "Raveesh Kalra", "team_name": "MaSalah", "entry": 2354537, "gw_points": 0, "total": 0}, {"rank": 20, "arrow": "\u2022", "manager": "Abhiraj Singh", "team_name": "KingOfKings Fc", "entry": 427154, "gw_points": 0, "total": 0}, {"rank": 21, "arrow": "\u2022", "manager": "Varun Khurana", "team_name": "Goal Diggers FC", "entry": 3909562, "gw_points": 0, "total": 0}, {"rank": 22, "arrow": "\u2022", "manager": "Rajit Das", "team_name": "FC Teetotallers", "entry": 4837220, "gw_points": 0, "total": 0}, {"rank": 23, "arrow": "\u2022", "manager": "Aparnesh Mishra", "team_name": "Mishra's Thirteen", "entry": 3181909, "gw_points": 0, "total": 0}, {"rank": 24, "arrow": "\u2022", "manager": "Aayush Khanna", "team_name": "Loading...", "entry": 2003955, "gw_points": 0, "total": 0}, {"rank": 25, "arrow": "\u2022", "manager": "Abhishek Gupte", "team_name": "Enzotic", "entry": 4688717, "gw_points": 0, "total": 0}, {"rank": 26, "arrow": "\u2022", "manager": "Naman Agrawal", "team_name": "Captn Magnifico", "entry": 20569, "gw_points": 0, "total": 0}, {"rank": 27, "arrow": "\u2022", "manager": "Pranshul Jain", "team_name": "Carrick Janta Party", "entry": 1362641, "gw_points": 0, "total": 0}, {"rank": 28, "arrow": "\u2022", "manager": "Aditya Vaidya", "team_name": "His Name is Diogo", "entry": 9695, "gw_points": 0, "total": 0}, {"rank": 29, "arrow": "\u2022", "manager": "Yash Beohar", "team_name": "Fluente in Football", "entry": 374875, "gw_points": 0, "total": 0}], "matrix": {"gws": [], "rows": [{"manager": "Deepankar Sachdeva", "entry": 1301167, "scores": []}, {"manager": "Ajith Thomas Kuthukatt George", "entry": 5419891, "scores": []}, {"manager": "prateek gupta", "entry": 6023506, "scores": []}, {"manager": "Karan Chopra", "entry": 5970777, "scores": []}, {"manager": "Aquib Razack", "entry": 5926399, "scores": []}, {"manager": "Satweek Nayak", "entry": 46711, "scores": []}, {"manager": "Arshaq Razack", "entry": 1086057, "scores": []}, {"manager": "Rohan Agrawal", "entry": 5582398, "scores": []}, {"manager": "Dean Jenkins", "entry": 5565611, "scores": []}, {"manager": "Ashwin Jose", "entry": 5008941, "scores": []}, {"manager": "Shivanshu Madan", "entry": 2424090, "scores": []}, {"manager": "Sid Shaurya", "entry": 5340498, "scores": []}, {"manager": "Karan Khanna", "entry": 3330149, "scores": []}, {"manager": "Abhinav Premsekhar", "entry": 79306, "scores": []}, {"manager": "Danish Javed", "entry": 3323226, "scores": []}, {"manager": "Nilay jain", "entry": 4993853, "scores": []}, {"manager": "Anish Joshi", "entry": 256447, "scores": []}, {"manager": "Abhay Rawat", "entry": 3942416, "scores": []}, {"manager": "Raveesh Kalra", "entry": 2354537, "scores": []}, {"manager": "Abhiraj Singh", "entry": 427154, "scores": []}, {"manager": "Varun Khurana", "entry": 3909562, "scores": []}, {"manager": "Rajit Das", "entry": 4837220, "scores": []}, {"manager": "Aparnesh Mishra", "entry": 3181909, "scores": []}, {"manager": "Aayush Khanna", "entry": 2003955, "scores": []}, {"manager": "Abhishek Gupte", "entry": 4688717, "scores": []}, {"manager": "Naman Agrawal", "entry": 20569, "scores": []}, {"manager": "Pranshul Jain", "entry": 1362641, "scores": []}, {"manager": "Aditya Vaidya", "entry": 9695, "scores": []}, {"manager": "Yash Beohar", "entry": 374875, "scores": []}]}, "chip_kings": [{"chip": "Triple Captain", "code": "3xc", "score": null, "manager": null, "gw": null}, {"chip": "Bench Boost", "code": "bboost", "score": null, "manager": null, "gw": null}, {"chip": "Wildcard", "code": "wildcard", "score": null, "manager": null, "gw": null}, {"chip": "Free Hit", "code": "freehit", "score": null, "manager": null, "gw": null}], "captaincy": [{"manager": "Deepankar Sachdeva", "entry": 1301167, "points": 0, "excluded": true}, {"manager": "Ajith Thomas Kuthukatt George", "entry": 5419891, "points": 0, "excluded": true}, {"manager": "prateek gupta", "entry": 6023506, "points": 0, "excluded": true}, {"manager": "Karan Chopra", "entry": 5970777, "points": 0, "excluded": true}, {"manager": "Aquib Razack", "entry": 5926399, "points": 0, "excluded": true}, {"manager": "Satweek Nayak", "entry": 46711, "points": 0, "excluded": false}, {"manager": "Arshaq Razack", "entry": 1086057, "points": 0, "excluded": false}, {"manager": "Rohan Agrawal", "entry": 5582398, "points": 0, "excluded": false}, {"manager": "Dean Jenkins", "entry": 5565611, "points": 0, "excluded": false}, {"manager": "Ashwin Jose", "entry": 5008941, "points": 0, "excluded": false}, {"manager": "Shivanshu Madan", "entry": 2424090, "points": 0, "excluded": false}, {"manager": "Sid Shaurya", "entry": 5340498, "points": 0, "excluded": false}, {"manager": "Karan Khanna", "entry": 3330149, "points": 0, "excluded": false}, {"manager": "Abhinav Premsekhar", "entry": 79306, "points": 0, "excluded": false}, {"manager": "Danish Javed", "entry": 3323226, "points": 0, "excluded": false}, {"manager": "Nilay jain", "entry": 4993853, "points": 0, "excluded": false}, {"manager": "Anish Joshi", "entry": 256447, "points": 0, "excluded": false}, {"manager": "Abhay Rawat", "entry": 3942416, "points": 0, "excluded": false}, {"manager": "Raveesh Kalra", "entry": 2354537, "points": 0, "excluded": false}, {"manager": "Abhiraj Singh", "entry": 427154, "points": 0, "excluded": false}, {"manager": "Varun Khurana", "entry": 3909562, "points": 0, "excluded": false}, {"manager": "Rajit Das", "entry": 4837220, "points": 0, "excluded": false}, {"manager": "Aparnesh Mishra", "entry": 3181909, "points": 0, "excluded": false}, {"manager": "Aayush Khanna", "entry": 2003955, "points": 0, "excluded": false}, {"manager": "Abhishek Gupte", "entry": 4688717, "points": 0, "excluded": false}, {"manager": "Naman Agrawal", "entry": 20569, "points": 0, "excluded": false}, {"manager": "Pranshul Jain", "entry": 1362641, "points": 0, "excluded": false}, {"manager": "Aditya Vaidya", "entry": 9695, "points": 0, "excluded": false}, {"manager": "Yash Beohar", "entry": 374875, "points": 0, "excluded": false}], "green": [{"manager": "Deepankar Sachdeva", "entry": 1301167, "arrows": 0, "excluded": true}, {"manager": "Ajith Thomas Kuthukatt George", "entry": 5419891, "arrows": 0, "excluded": true}, {"manager": "prateek gupta", "entry": 6023506, "arrows": 0, "excluded": true}, {"manager": "Karan Chopra", "entry": 5970777, "arrows": 0, "excluded": true}, {"manager": "Aquib Razack", "entry": 5926399, "arrows": 0, "excluded": true}, {"manager": "Satweek Nayak", "entry": 46711, "arrows": 0, "excluded": false}, {"manager": "Arshaq Razack", "entry": 1086057, "arrows": 0, "excluded": false}, {"manager": "Rohan Agrawal", "entry": 5582398, "arrows": 0, "excluded": false}, {"manager": "Dean Jenkins", "entry": 5565611, "arrows": 0, "excluded": false}, {"manager": "Ashwin Jose", "entry": 5008941, "arrows": 0, "excluded": false}, {"manager": "Shivanshu Madan", "entry": 2424090, "arrows": 0, "excluded": false}, {"manager": "Sid Shaurya", "entry": 5340498, "arrows": 0, "excluded": false}, {"manager": "Karan Khanna", "entry": 3330149, "arrows": 0, "excluded": false}, {"manager": "Abhinav Premsekhar", "entry": 79306, "arrows": 0, "excluded": false}, {"manager": "Danish Javed", "entry": 3323226, "arrows": 0, "excluded": false}, {"manager": "Nilay jain", "entry": 4993853, "arrows": 0, "excluded": false}, {"manager": "Anish Joshi", "entry": 256447, "arrows": 0, "excluded": false}, {"manager": "Abhay Rawat", "entry": 3942416, "arrows": 0, "excluded": false}, {"manager": "Raveesh Kalra", "entry": 2354537, "arrows": 0, "excluded": false}, {"manager": "Abhiraj Singh", "entry": 427154, "arrows": 0, "excluded": false}, {"manager": "Varun Khurana", "entry": 3909562, "arrows": 0, "excluded": false}, {"manager": "Rajit Das", "entry": 4837220, "arrows": 0, "excluded": false}, {"manager": "Aparnesh Mishra", "entry": 3181909, "arrows": 0, "excluded": false}, {"manager": "Aayush Khanna", "entry": 2003955, "arrows": 0, "excluded": false}, {"manager": "Abhishek Gupte", "entry": 4688717, "arrows": 0, "excluded": false}, {"manager": "Naman Agrawal", "entry": 20569, "arrows": 0, "excluded": false}, {"manager": "Pranshul Jain", "entry": 1362641, "arrows": 0, "excluded": false}, {"manager": "Aditya Vaidya", "entry": 9695, "arrows": 0, "excluded": false}, {"manager": "Yash Beohar", "entry": 374875, "arrows": 0, "excluded": false}], "comeback": {"active": false, "board": [], "eligible_n": 21}, "differential": {"best": null, "board": [], "has_snapshots": false}, "pity": [], "mini": []};
+const el=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e};
+function arrow(a){return a==='▲'?'<span class="up">▲</span>':a==='▼'?'<span class="down">▼</span>':'<span class="flat">•</span>'}
+function table(cols,rows){let h='<table><thead><tr>'+cols.map(c=>`<th class="${c.cls||''}">${c.t}</th>`).join('')+'</tr></thead><tbody>';
+ rows.forEach(r=>{h+='<tr'+(r._cls?` class="${r._cls}"`:'')+'>'+r.cells.map((c,i)=>`<td class="${cols[i].cls||''}">${c}</td>`).join('')+'</tr>'});return h+'</tbody></table>'}
+
+const TABS=[];
+function addTab(id,label,render){TABS.push({id,label,render})}
+
+addTab('overall','Overall',()=>{
+ const rows=D.overall.map(r=>({_cls:r.rank<=5?'top5':'',cells:[`${r.rank} ${arrow(r.arrow)}`,r.manager,`<span class="mut">${r.team_name}</span>`,r.gw_points,`<b>${r.total}</b>`]}));
+ let h='<h2>Overall Table</h2><p class="note">Top 5 (shaded) share ₹75,000 at GW38. Arrows show movement since last GW.</p>';
+ return h+table([{t:'#'},{t:'Manager'},{t:'Team'},{t:'GW',cls:'r'},{t:'Total',cls:'r'}],rows);
+});
+
+addTab('mini','Mini Tournaments',()=>{
+ if(!D.mini||!D.mini.length) return '<h2>Mini Tournaments</h2><p class="note">The first mini-tournament (MT1) begins at GW3. Standings will appear here once the draw is made after GW2.</p>';
+ let h='';
+ D.mini.forEach(mt=>{
+   h+=`<h2>${mt.name}</h2>`;
+   if(!mt.has_draw){h+='<p class="note">Awaiting the random group draw (made after the qualification cut).</p>';return}
+   h+=`<p class="note">Group stage GW ${mt.group_gws.join(', ')} · Knockouts GW ${mt.ko_gws.join(', ')} · played: ${mt.played.join(', ')||'—'}</p><div class="grp">`;
+   Object.entries(mt.groups).forEach(([g,tbl])=>{
+     const rows=tbl.map((r,i)=>({_cls:i<2?'top5':'',cells:[r[0],r[1].P,r[1].W,r[1].D,r[1].L,`<b>${r[1].pts}</b>`,r[1].fpl]}));
+     h+='<div>'+`<div class="mut" style="font-weight:700;color:var(--navy);margin:4px 0">Group ${g}</div>`+
+        table([{t:'Team'},{t:'P',cls:'c'},{t:'W',cls:'c'},{t:'D',cls:'c'},{t:'L',cls:'c'},{t:'Pts',cls:'c'},{t:'FPL',cls:'r'}],rows)+'</div>';
+   });
+   h+='</div><p class="note" style="margin-top:8px">Top 2 of each group (shaded) + 2 best runners-up advance to the 8-team knockout.</p>';
+ });
+ return h;
+});
+
+addTab('chip','Chip Kings',()=>{
+ let h='<h2>Chip Kings — ₹3,000 each</h2><p class="note">Best single-GW return with each chip (best of both halves).</p><div class="cardrow">';
+ D.chip_kings.forEach(c=>{h+=`<div class="card"><div class="k">${c.chip}</div><div class="v">${c.score!=null?c.score:'—'}</div><div class="s">${c.manager?c.manager+' · GW'+c.gw:'not played yet'}</div></div>`});
+ return h+'</div>';
+});
+
+addTab('captain','Captaincy King',()=>{
+ const rows=D.captaincy.map((r,i)=>({_cls:r.excluded?'excl':'',cells:[i+1,r.manager+(r.excluded?' <span class="pill">top-5 excl.</span>':''),`<b>${r.points}</b>`]}));
+ return '<h2>Captaincy King — ₹3,000</h2><p class="note">Total captain points (after multipliers). Top-5 overall are excluded at settlement.</p>'+
+   table([{t:'#'},{t:'Manager'},{t:'Captain Pts',cls:'r'}],rows);
+});
+
+addTab('green','Green Arrow King',()=>{
+ const rows=D.green.map((r,i)=>({_cls:r.excluded?'excl':'',cells:[i+1,r.manager+(r.excluded?' <span class="pill">top-5 excl.</span>':''),`<b>${r.arrows}</b>`]}));
+ return '<h2>Green Arrow King — ₹3,000</h2><p class="note">Gameweeks where overall (global) rank improved. Top-5 overall excluded at settlement.</p>'+
+   table([{t:'#'},{t:'Manager'},{t:'Green Arrows',cls:'r'}],rows);
+});
+
+addTab('comeback','Comeback',()=>{
+ if(!D.comeback.active) return '<h2>The Comeback — ₹4,000</h2><p class="note">Activates after GW19. The bottom 21 at that point compete for most points across GW20–GW38.</p>';
+ const rows=D.comeback.board.map((r,i)=>({_cls:i==0?'top5':'',cells:[i+1,r.manager,`<b>${r.points}</b>`]}));
+ return '<h2>The Comeback — ₹4,000</h2><p class="note">Bottom 21 after GW19 · most points GW20–38 wins.</p>'+
+   table([{t:'#'},{t:'Manager'},{t:'Pts since GW20',cls:'r'}],rows);
+});
+
+addTab('diff','Differential Diamond',()=>{
+ if(!D.differential.has_snapshots) return '<h2>Differential Diamond — ₹3,000</h2><p class="note">Ownership snapshots begin at GW1. The best sub-7.5%-owned starter haul will appear here.</p>';
+ let h='<h2>Differential Diamond — ₹3,000</h2><p class="note">Biggest single-GW haul from a starter owned &lt;7.5% (ownership at deadline).</p>';
+ if(D.differential.best){const b=D.differential.best;h+=`<div class="cardrow"><div class="card"><div class="k">Leader</div><div class="v">${b.points} pts</div><div class="s">${b.manager} · ${b.player} · GW${b.gw} · ${b.own}% owned</div></div></div>`}
+ const rows=D.differential.board.map((r,i)=>({cells:[i+1,r.manager,r.player,'GW'+r.gw,`<b>${r.points}</b>`,r.own+'%']}));
+ return h+table([{t:'#'},{t:'Manager'},{t:'Player'},{t:'GW',cls:'c'},{t:'Pts',cls:'r'},{t:'Own',cls:'r'}],rows);
+});
+
+addTab('pity','Pity',()=>{
+ const rows=D.pity.map((r,i)=>({cells:[i+1,r.manager,'GW'+r.gw,`<b>${r.score}</b>`,r.hit?('-'+r.hit):'0',r.ruled_out==null?'n/a':r.ruled_out,r.valid?'<span class="up">✓</span>':'<span class="down">review</span>']}));
+ return '<h2>Pity the Living Dead — ₹2,000</h2><p class="note">Lowest valid GW score (to GW30). "Valid" auto-checks hits ≤ 8 and ruled-out starters ≤ 2; admins confirm edge cases.</p>'+
+   table([{t:'#'},{t:'Manager'},{t:'GW',cls:'c'},{t:'Score',cls:'r'},{t:'Hit',cls:'c'},{t:'Ruled-out',cls:'c'},{t:'Valid',cls:'c'}],rows);
+});
+
+// build UI
+const tabsEl=document.getElementById('tabs'), panelsEl=document.getElementById('panels');
+TABS.forEach((t,i)=>{
+ const b=el('div','tab'+(i==0?' active':''),t.label); b.onclick=()=>{
+   document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+   document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+   b.classList.add('active'); document.getElementById('p_'+t.id).classList.add('active');
+ }; tabsEl.appendChild(b);
+ const p=el('div','panel'+(i==0?' active':''),t.render()); p.id='p_'+t.id; panelsEl.appendChild(p);
+});
+const m=D.meta;
+document.getElementById('hsub').innerHTML=`${m.n_members} managers · <span class="gold">₹1,24,000</span> pool · `+
+ (m.current_gw?`through GW${m.current_gw}`:'season not started')+` · updated ${m.generated_utc}`+(m.demo?' · <b>DEMO DATA</b>':'');
+document.getElementById('foot').innerHTML=`Auto-generated from the official FPL API · League ${m.league_id} · ${m.generated_utc}`+
+ (m.demo?' · showing simulated numbers for design preview':'');
+</script></body></html>
