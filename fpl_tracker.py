@@ -296,10 +296,13 @@ def compute(raw, snap_dir, mt_config):
         past = hist.get(eid, {}).get("past", []) or []
         best = min((p["rank"] for p in past), default=None)
         bseason = min(past, key=lambda p: p["rank"])["season_name"] if past else None
+        avg_rank = round(sum(p["rank"] for p in past) / len(past)) if past else None
         profiles.append({"manager": m["manager"], "team_name": m["team_name"],
                          "league_rank": league_rank.get(eid, 0), "seasons": len(past) + 1,
-                         "best_rank": best, "best_season": bseason,
-                         "last_rank": past[-1]["rank"] if past else None})
+                         "past_seasons": len(past), "best_rank": best, "best_season": bseason,
+                         "avg_rank": avg_rank,
+                         "last_rank": past[-1]["rank"] if past else None,
+                         "last_season": past[-1]["season_name"] if past else None})
     profiles.sort(key=lambda x: x["league_rank"] or 1e9)
 
     # -------- Season Stats (per manager)
@@ -506,11 +509,12 @@ def write_excel(data, path):
         ws.append([r["manager"], r["player"], r["gw"], r["points"], r["own"]])
     style(ws, 5)
     ws = wb.create_sheet("Profiles")
-    ws.append(["League #", "Manager", "Team", "Seasons", "Best Rank", "Best Season", "Last Season Rank"])
+    ws.append(["League #", "Manager", "Team", "Seasons", "Best Rank", "Best Season",
+               "Avg Rank", "Last Season Rank", "Last Season"])
     for r in data.get("profiles", []):
         ws.append([r["league_rank"], r["manager"], r["team_name"], r["seasons"],
-                   r["best_rank"], r["best_season"], r["last_rank"]])
-    style(ws, 7)
+                   r["best_rank"], r["best_season"], r.get("avg_rank"), r["last_rank"], r.get("last_season")])
+    style(ws, 9)
     ws = wb.create_sheet("Season Stats")
     ws.append(["Manager", "Team", "Total", "Avg GW", "Above Avg", "Cap Return", "High", "High GW",
                "Low", "Low GW", "Transfers", "Hits (n)", "Hits (pts)", "Bench", "Squad £m",
@@ -590,10 +594,13 @@ def demo_data():
     mini = [{"name": "MT1 (GW3–GW8)", "group_gws": [3,4,5], "ko_gws": [6,7,8], "has_draw": True,
              "played": [3,4,5], "groups": gtables, "knockout": _demo_knockout(gtables, rng)}]
     seasons_pool = ["2019/20","2020/21","2021/22","2022/23","2023/24","2024/25","2025/26"]
-    profiles = [{"manager": o["manager"], "team_name": o["team_name"], "league_rank": o["rank"],
-                 "seasons": rng.randint(2, 8), "best_rank": rng.randint(4000, 480000),
-                 "best_season": rng.choice(seasons_pool), "last_rank": rng.randint(20000, 1200000)}
-                for o in overall]
+    profiles = []
+    for o in overall:
+        ns = rng.randint(2, 8)
+        profiles.append({"manager": o["manager"], "team_name": o["team_name"], "league_rank": o["rank"],
+                         "seasons": ns, "past_seasons": ns - 1, "best_rank": rng.randint(4000, 480000),
+                         "best_season": rng.choice(seasons_pool), "avg_rank": rng.randint(90000, 1500000),
+                         "last_rank": rng.randint(20000, 1200000), "last_season": "2025/26"})
     chips_pool = [["3xc"], ["bboost"], ["wildcard"], [], ["freehit"], ["wildcard", "3xc"]]
     stats = []
     for o in overall:
