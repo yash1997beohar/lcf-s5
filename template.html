@@ -1,291 +1,397 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Laxmi Chit Fund S5 — Live Standings</title>
+<!doctype html>
+<html lang="en" data-theme="dark"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Laxmi Chit Fund · Season 5</title>
 <style>
 :root{
- --navy:#1F3864; --gold:#B7912B;
- --bg:#eef1f7; --surface:#ffffff; --surface2:#f6f8fc; --text:#1b2333; --muted:#6b7488;
- --border:#e2e7f1; --shadow:0 1px 3px rgba(20,30,60,.08),0 6px 20px rgba(20,30,60,.04);
- --brand:#1F3864; --brandText:#ffffff; --accent:#B7912B; --up:#1a8f57; --down:#d0473f;
- --rowAlt:#f4f7fc; --chip:#e9eefb; --shade:#fbf6e6;
+ --pg:#0a0c12; --s1:#12151f; --s2:#171b28; --s3:#212636; --line:#242a3a; --hair:rgba(255,255,255,.06);
+ --tp:#f3f5fb; --ts:#aeb6cc; --mut:#7b839b;
+ --gold:#e8b53d; --gold2:#c8901c; --goldsoft:#ffe6a1;
+ --teal:#2dd4bf; --blue:#4b8ef0; --violet:#9b8cf0; --good:#34d17d; --bad:#ff6b66;
+ --shadow:0 10px 34px rgba(0,0,0,.44); --radius:16px;
+ --c1:#e8b53d;--c2:#4b8ef0;--c3:#2dd4bf;--c4:#9b8cf0;--c5:#ff8f6b;--c6:#34d17d;
 }
-[data-theme="dark"]{
- --bg:#0e1320; --surface:#161d2d; --surface2:#1c2536; --text:#e8ecf5; --muted:#9aa5bd;
- --border:#28324a; --shadow:0 1px 3px rgba(0,0,0,.4),0 8px 26px rgba(0,0,0,.35);
- --brand:#24325a; --brandText:#eaf0ff; --accent:#d8b24e; --up:#3fce88; --down:#ff6a5f;
- --rowAlt:#1b2436; --chip:#222d44; --shade:#2a2a1c;
+[data-theme="light"]{
+ --pg:#eef1f7; --s1:#ffffff; --s2:#f6f8fc; --s3:#eaeef6; --line:#e0e5f0; --hair:rgba(0,0,0,.05);
+ --tp:#161b28; --ts:#4a5268; --mut:#7b839b;
+ --gold:#b6851a; --gold2:#96690c; --goldsoft:#e8c876;
+ --shadow:0 10px 30px rgba(20,30,60,.10);
 }
-*{box-sizing:border-box}
-html,body{margin:0}
-body{font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);
- transition:background .25s,color .25s;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:var(--pg);color:var(--tp);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+ font-size:14px;line-height:1.45;-webkit-font-smoothing:antialiased;
+ background-image:radial-gradient(1100px 480px at 82% -160px,rgba(232,181,61,.13),transparent 60%),
+  radial-gradient(900px 420px at 2% -100px,rgba(75,142,240,.10),transparent 60%);background-attachment:fixed}
+.tnum{font-variant-numeric:tabular-nums}
 a{color:inherit}
-.bar{position:sticky;top:0;z-index:20;background:linear-gradient(120deg,var(--brand),color-mix(in srgb,var(--brand) 78%, #000 8%));
- color:var(--brandText);box-shadow:var(--shadow)}
-.bar .in{max-width:1100px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:9px;font-weight:800;letter-spacing:.3px;font-size:17px}
-.brand .dot{color:var(--accent)}
-.meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-left:auto;font-size:12.5px}
-.pill{background:rgba(255,255,255,.14);padding:4px 10px;border-radius:20px;white-space:nowrap}
-.pill.gold{background:var(--accent);color:#1a1300;font-weight:800}
-.btn{border:0;cursor:pointer;font:inherit;font-size:12.5px;font-weight:700;border-radius:20px;padding:6px 12px;
- background:rgba(255,255,255,.16);color:var(--brandText);display:inline-flex;align-items:center;gap:6px}
-.btn:hover{background:rgba(255,255,255,.26)}
-.btn.solid{background:var(--accent);color:#1a1300}
-.wrap{max-width:1100px;margin:0 auto;padding:0 16px 70px}
-.tabs{display:flex;gap:7px;overflow-x:auto;padding:14px 0 12px;position:sticky;top:52px;background:var(--bg);z-index:10;
- scrollbar-width:none} .tabs::-webkit-scrollbar{display:none}
-.tab{white-space:nowrap;padding:8px 14px;border:1px solid var(--border);border-radius:22px;background:var(--surface);
- color:var(--text);cursor:pointer;font-size:13px;font-weight:600;transition:.15s}
-.tab:hover{border-color:var(--accent)}
-.tab.active{background:var(--brand);color:var(--brandText);border-color:var(--brand)}
-.panel{display:none;animation:f .22s ease} .panel.active{display:block} @keyframes f{from{opacity:0;transform:translateY(4px)}to{opacity:1}}
-h2{font-size:18px;margin:6px 0 2px;color:var(--text)} h2 .sm{color:var(--accent);font-weight:700;font-size:14px}
-.note{color:var(--muted);font-size:12.5px;margin:2px 0 14px;max-width:760px;line-height:1.5}
-.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;box-shadow:var(--shadow)}
-table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);font-size:13.5px}
-th{background:var(--surface2);color:var(--muted);text-align:left;padding:10px 12px;font-weight:700;font-size:11.5px;text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--border)}
-td{padding:10px 12px;border-top:1px solid var(--border)} tbody tr:nth-child(even) td{background:var(--rowAlt)}
-.r{text-align:right} .c{text-align:center}
-.mut{color:var(--muted);font-size:12px}
-.rk{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;border-radius:7px;background:var(--chip);font-weight:800;font-size:12px}
-.rk.gold{background:var(--accent);color:#1a1300} .up{color:var(--up);font-weight:800} .down{color:var(--down);font-weight:800} .flat{color:var(--muted)}
-.top5 td{background:var(--shade)!important}
-.tag{font-size:10.5px;background:var(--chip);color:var(--muted);border-radius:9px;padding:1px 7px;margin-left:6px;font-weight:700}
-.excl td{opacity:.5}
-.info{cursor:pointer;display:inline-flex;align-items:center;justify-content:center;width:14px;height:14px;margin-left:5px;border:1px solid var(--border);border-radius:50%;font-size:9px;font-weight:800;font-style:normal;color:var(--muted);text-transform:none;position:relative;vertical-align:middle}
-.info:hover,.info.open{background:var(--brand);color:var(--brandText);border-color:var(--brand)}
-.info .tip{visibility:hidden;opacity:0;position:absolute;z-index:40;top:150%;left:50%;transform:translateX(-50%);width:200px;background:var(--surface);color:var(--text);border:1px solid var(--border);box-shadow:var(--shadow);border-radius:9px;padding:9px 11px;font-size:11.5px;font-weight:400;text-transform:none;letter-spacing:0;line-height:1.45;text-align:left;white-space:normal;transition:.14s}
-.info .tip::before{content:"";position:absolute;bottom:100%;left:50%;transform:translateX(-50%);border:6px solid transparent;border-bottom-color:var(--border)}
+/* header */
+header{position:sticky;top:0;z-index:40;backdrop-filter:blur(14px);
+ background:color-mix(in srgb,var(--pg) 80%,transparent);border-bottom:1px solid var(--line)}
+.hin{max-width:1140px;margin:0 auto;padding:12px 18px;display:flex;align-items:center;gap:13px;flex-wrap:wrap}
+.crest{width:40px;height:40px;border-radius:12px;flex:0 0 auto;display:grid;place-items:center;font-weight:900;font-size:15px;color:#4a3400;
+ background:radial-gradient(120% 120% at 30% 20%,var(--goldsoft),var(--gold) 45%,var(--gold2));
+ box-shadow:0 6px 16px rgba(200,144,28,.4),inset 0 1px 0 rgba(255,255,255,.6),inset 0 -2px 5px rgba(150,90,0,.35);
+ border:1px solid rgba(255,220,130,.5)}
+.bt .t{font-weight:850;font-size:16px;letter-spacing:-.2px}
+.bt .t b{color:var(--gold)}
+.bt .s{color:var(--mut);font-size:11px;margin-top:1px}
+.hpills{margin-left:auto;display:flex;gap:7px;align-items:center;flex-wrap:wrap}
+.pill{background:var(--s2);border:1px solid var(--line);border-radius:9px;padding:5px 10px;font-size:11.5px;color:var(--ts);white-space:nowrap}
+.pill b{color:var(--tp)} .pill.gold{background:linear-gradient(135deg,var(--goldsoft),var(--gold));color:#3a2600;border:0;font-weight:800}
+.live{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:800;color:var(--good);
+ background:rgba(52,209,125,.12);border:1px solid rgba(52,209,125,.3);padding:4px 9px;border-radius:20px;text-transform:uppercase;letter-spacing:.4px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--good);animation:pulse 1.6s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(52,209,125,.5)}70%{box-shadow:0 0 0 7px rgba(52,209,125,0)}100%{box-shadow:0 0 0 0 rgba(52,209,125,0)}}
+.ibtn{background:var(--s2);border:1px solid var(--line);border-radius:9px;height:32px;padding:0 11px;cursor:pointer;color:var(--ts);
+ font:inherit;font-size:12px;font-weight:700;display:inline-flex;align-items:center;gap:6px}
+.ibtn:hover{color:var(--tp);border-color:var(--mut)}
+.ibtn.gold{background:linear-gradient(135deg,var(--goldsoft),var(--gold));color:#3a2600;border:0}
+/* nav */
+nav{position:sticky;top:57px;z-index:30;background:color-mix(in srgb,var(--pg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.navin{max-width:1140px;margin:0 auto;padding:9px 12px;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+.navin::-webkit-scrollbar{display:none}
+.navin>button{background:var(--s2);border:1px solid var(--line);color:var(--ts);font:inherit;font-size:12px;font-weight:650;
+ padding:6px 11px;cursor:pointer;white-space:nowrap;border-radius:999px;display:inline-flex;align-items:center;gap:6px;transition:.14s}
+.navin>button:hover{background:var(--s3);color:var(--tp);border-color:var(--mut)}
+.navin>button.on{background:linear-gradient(135deg,var(--goldsoft),var(--gold));color:#3a2600;border-color:transparent;
+ box-shadow:0 3px 12px rgba(200,144,28,.35);font-weight:750}
+main{max-width:1140px;margin:0 auto;padding:20px 16px 72px}
+section{display:none;animation:fade .24s ease} section.on{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(5px)}to{opacity:1}}
+/* headings + cards */
+.ah{display:flex;align-items:baseline;gap:11px;flex-wrap:wrap;margin:2px 0 3px}
+.ah h1{font-size:22px;margin:0;font-weight:850;letter-spacing:.2px}
+.tag{font-size:12px;font-weight:800;color:#2a1c00;background:linear-gradient(135deg,var(--gold),var(--gold2));padding:3px 10px;border-radius:20px}
+.desc{color:var(--ts);font-size:12.5px;margin:0 0 16px;max-width:74ch;line-height:1.5}
+.card{background:var(--s1);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:11px;margin-bottom:6px}
+.tile{background:linear-gradient(155deg,var(--s2),var(--s1));border:1px solid var(--line);border-radius:13px;padding:12px 15px;position:relative;overflow:hidden}
+.tile::before{content:"";position:absolute;left:0;top:0;height:3px;width:100%;background:linear-gradient(90deg,var(--gold),transparent)}
+.tile .k{color:var(--mut);font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;font-weight:700}
+.tile .v{font-size:22px;font-weight:850;margin-top:3px;letter-spacing:-.5px}
+.tile .d{color:var(--ts);font-size:11.5px;margin-top:1px}
+/* tables */
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+.tw{background:var(--s1);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);overflow-x:auto;overflow-y:hidden}
+th{background:var(--s2);color:var(--mut);text-align:left;padding:10px 12px;font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:9px 12px;border-top:1px solid var(--hair)} tbody tr:hover td{background:color-mix(in srgb,var(--s2) 60%,transparent)}
+.clik tbody tr{cursor:pointer}
+.r{text-align:right} .c{text-align:center} .mut{color:var(--mut);font-size:12px} .up{color:var(--good);font-weight:800} .dn{color:var(--bad);font-weight:800} .flat{color:var(--mut)}
+.rk{display:inline-grid;place-items:center;min-width:22px;height:22px;border-radius:6px;background:var(--s3);font-weight:800;font-size:12px}
+.medal{width:24px;height:24px;border-radius:50%;display:inline-grid;place-items:center;font-weight:900;font-size:12px;color:#1a1400}
+.m1{background:linear-gradient(135deg,#ffe487,var(--gold));box-shadow:0 0 11px rgba(232,181,61,.5)}
+.m2{background:linear-gradient(135deg,#ececf2,#b4b7c4);color:#2a2a30}.m3{background:linear-gradient(135deg,#eaa96a,#c17e3f);color:#2a1500}
+.top5 td{background:color-mix(in srgb,var(--gold) 8%,transparent)}
+.chip{font-size:10.5px;background:var(--s3);color:var(--ts);border-radius:8px;padding:1px 7px;font-weight:700;margin-right:3px}
+.pz{color:var(--gold);font-weight:800}
+.info{cursor:pointer;display:inline-flex;align-items:center;justify-content:center;width:14px;height:14px;margin-left:5px;border:1px solid var(--line);border-radius:50%;font-size:9px;font-weight:800;font-style:normal;color:var(--mut);text-transform:none;position:relative;vertical-align:middle}
+.info:hover,.info.open{background:var(--gold);color:#2a1c00;border-color:var(--gold)}
+.info .tip{visibility:hidden;opacity:0;position:absolute;z-index:50;top:150%;left:50%;transform:translateX(-50%);width:205px;background:var(--s1);color:var(--tp);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:9px;padding:9px 11px;font-size:11.5px;font-weight:400;text-transform:none;letter-spacing:0;line-height:1.45;text-align:left;white-space:normal;transition:.14s}
 .info:hover .tip,.info.open .tip{visibility:visible;opacity:1}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:13px;margin-bottom:14px}
-.kpi{padding:15px 16px;border-left:5px solid var(--accent)}
-.kpi .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;font-weight:700}
-.kpi .v{font-size:26px;font-weight:800;margin-top:4px;color:var(--text)} .kpi .s{font-size:12.5px;color:var(--muted);margin-top:3px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:13px}
-.subtabs{display:inline-flex;background:var(--surface2);border:1px solid var(--border);border-radius:11px;padding:3px;margin:6px 0 12px;gap:3px}
-.subtab{padding:6px 14px;border-radius:8px;font-size:12.5px;font-weight:700;cursor:pointer;color:var(--muted)}
-.subtab.active{background:var(--brand);color:var(--brandText)}
-.gtitle{font-weight:800;color:var(--text);margin:2px 0 6px;font-size:13px;display:flex;align-items:center;gap:7px}
-.gtitle .b{background:var(--chip);color:var(--muted);border-radius:6px;font-size:10.5px;padding:1px 7px}
+/* prize board */
+.pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.pcat{background:var(--s1);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
+.pcat h3{margin:0;padding:11px 14px;font-size:12px;text-transform:uppercase;letter-spacing:.6px;color:var(--ts);background:var(--s2);border-bottom:1px solid var(--line);display:flex;justify-content:space-between}
+.pcat h3 span{color:var(--gold);font-weight:800}
+.prow{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:11px 15px;border-top:1px solid var(--hair)}
+.prow:first-of-type{border-top:0}
+.prow .cat{font-weight:600;line-height:1.25;min-width:0}
+.prow .cat .amt{display:block;color:var(--gold);font-weight:800;font-size:11.5px;font-variant-numeric:tabular-nums;margin-top:2px}
+.prow .who{color:var(--ts);font-size:12.5px;text-align:right;justify-self:end;max-width:160px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.prow .who.tbd{color:var(--mut)}
+/* segmented control */
+.seg{display:inline-flex;background:var(--s2);border:1px solid var(--line);border-radius:11px;padding:4px;margin-bottom:16px;gap:4px}
+.seg button{border:0;background:transparent;color:var(--ts);font:inherit;font-size:12.5px;font-weight:700;padding:7px 16px;border-radius:8px;cursor:pointer;transition:.14s}
+.seg button:hover{color:var(--tp)}
+.seg button.on{background:linear-gradient(135deg,var(--goldsoft),var(--gold));color:#3a2600;box-shadow:0 2px 8px rgba(200,144,28,.3)}
 /* bracket */
-.bracket{display:flex;gap:26px;overflow-x:auto;padding:6px 2px 12px}
-.round{display:flex;flex-direction:column;justify-content:space-around;gap:16px;min-width:210px}
-.round .rname{font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);font-weight:800;margin-bottom:2px}
-.tie{background:var(--surface);border:1px solid var(--border);border-radius:11px;box-shadow:var(--shadow);overflow:hidden}
-.tie .side{display:flex;justify-content:space-between;padding:8px 11px;font-size:12.5px;border-top:1px solid var(--border)}
-.tie .side:first-of-type{border-top:0} .tie .win{font-weight:800;color:var(--text)} .tie .lose{color:var(--muted)}
-.tie .sc{font-weight:800} .tie .win .sc{color:var(--accent)}
-/* profiles */
-.pcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:13px}
-.pcard{padding:15px;border-top:4px solid var(--accent)}
-.pcard .nm{font-weight:800;font-size:15px} .pcard .tm{color:var(--muted);font-size:12.5px;margin-bottom:10px}
-.pstat{display:flex;justify-content:space-between;padding:5px 0;border-top:1px dashed var(--border);font-size:12.5px}
-.pstat .l{color:var(--muted)} .pstat .v{font-weight:800}
-footer{color:var(--muted);font-size:11.5px;text-align:center;padding:26px}
-@media(max-width:560px){.brand{font-size:15px}.meta{font-size:11.5px}}
+.brk{display:flex;gap:22px;overflow-x:auto;padding-bottom:8px;align-items:stretch;min-height:320px}
+.brd{flex:0 0 210px;display:flex;flex-direction:column}
+.brd .rn{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--mut);font-weight:700;margin-bottom:8px;text-align:center}
+.brd .ties{flex:1;display:flex;flex-direction:column;justify-content:space-around;gap:10px}
+.tie{background:linear-gradient(155deg,var(--s2),var(--s1));border:1px solid var(--line);border-radius:11px;box-shadow:var(--shadow);overflow:hidden}
+.tie .side{display:flex;justify-content:space-between;gap:8px;padding:9px 12px}
+.tie .side+.side{border-top:1px solid var(--hair)}
+/* h2h picker */
+.h2pick{display:flex;align-items:flex-end;gap:14px;background:linear-gradient(155deg,var(--s2),var(--s1));border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:16px;margin-bottom:18px;flex-wrap:wrap}
+.h2side{flex:1;min-width:190px;display:flex;flex-direction:column;gap:6px}
+.h2side label{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--mut);font-weight:700}
+.h2pick select.sel{max-width:100%;width:100%;font-size:14px;padding:11px 12px}
+.h2pick .vs{font-size:18px;font-weight:900;color:var(--gold);padding-bottom:10px}
+/* centered stats + wide-scroll */
+.statctr{min-width:1120px}
+.statctr th,.statctr td{text-align:center}
+@media(max-width:560px){.h2pick .vs{display:none}}
+.claimed{width:7px;height:7px;border-radius:50%;background:var(--good);display:inline-block;margin-right:6px;vertical-align:middle}
+/* h2h */
+.h2sel{display:flex;gap:10px;align-items:center;margin-bottom:16px;flex-wrap:wrap}
+select.sel{background:var(--s2);color:var(--tp);border:1px solid var(--line);border-radius:10px;padding:9px 11px;font:inherit;font-size:13px;max-width:44%}
+.vs{font-weight:900;color:var(--gold)}
+.h2wrap{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center}
+.h2col{background:linear-gradient(155deg,var(--s2),var(--s1));border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center}
+.h2col.a{border-top:3px solid var(--blue)} .h2col.b{border-top:3px solid var(--gold)}
+.h2col .nm{font-weight:820;font-size:15px;margin-top:6px} .h2col .big{font-size:30px;font-weight:850;margin:8px 0 0;letter-spacing:-1px}
+.h2col .ss{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:9px;color:var(--ts);font-size:12px}
+.h2mid{text-align:center} .h2rec{font-size:24px;font-weight:850;letter-spacing:1px} .h2rec span{color:var(--mut);margin:0 2px}
+.h2gap{margin-top:6px;font-size:12px;color:var(--gold);font-weight:800}
+.h2strip{display:flex;gap:3px;flex-wrap:wrap;justify-content:center;margin-top:16px}
+.h2b{width:15px;height:15px;border-radius:4px;font-size:0} .h2b.a{background:var(--blue)}.h2b.b{background:var(--gold)}.h2b.d{background:var(--s3)}
+.av{width:30px;height:30px;border-radius:9px;display:inline-grid;place-items:center;font-weight:850;color:#fff;font-size:12px}
+/* modal */
+.ov{position:fixed;inset:0;background:rgba(4,6,12,.68);backdrop-filter:blur(3px);z-index:60;display:none;align-items:center;justify-content:center;padding:16px}
+.ov.on{display:flex} .modal{background:var(--s1);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);width:min(560px,100%);max-height:88vh;overflow:auto}
+.mh{display:flex;align-items:center;gap:12px;padding:16px 18px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--s1)}
+.mh .nm{font-weight:850;font-size:17px} .mh .tm{color:var(--mut);font-size:12.5px}
+.mx{margin-left:auto;background:var(--s2);border:1px solid var(--line);border-radius:8px;width:30px;height:30px;cursor:pointer;color:var(--ts);font-size:15px}
+.mbody{padding:16px 18px} .mgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:9px;margin-bottom:14px}
+.ms{background:var(--s2);border:1px solid var(--line);border-radius:11px;padding:9px 11px} .ms .k{color:var(--mut);font-size:10px;text-transform:uppercase;letter-spacing:.4px;font-weight:700} .ms .v{font-size:17px;font-weight:820;margin-top:2px}
+.charttitle{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.5px;font-weight:700;margin:6px 0 6px}
+.foot{color:var(--mut);font-size:11.5px;text-align:center;padding:24px}
+.foot .warn{color:var(--bad);font-weight:700}
+@media(max-width:640px){.h2wrap{grid-template-columns:1fr}.h2mid{order:-1}select.sel{max-width:100%}}
 </style></head>
 <body>
-<div class="bar"><div class="in">
- <div class="brand">🏆 Laxmi Chit Fund <span class="dot">•</span> S5</div>
- <div class="meta" id="meta"></div>
- <button class="btn solid" id="dl">⬇ Excel</button>
- <button class="btn" id="theme">🌙 Dark</button>
-</div></div>
-<div class="wrap">
- <div class="tabs" id="tabs"></div>
- <div id="panels"></div>
- <footer id="foot"></footer>
-</div>
+<header><div class="hin">
+ <div class="crest">LCF</div>
+ <div class="bt"><div class="t"><b>Laxmi Chit Fund</b> · S5</div><div class="s">FPL 2026/27</div></div>
+ <div class="hpills" id="hpills"></div>
+ <button class="ibtn gold" id="dl">⬇ Excel</button>
+ <button class="ibtn" id="theme">🌙</button>
+</div></header>
+<nav><div class="navin" id="nav"></div></nav>
+<main id="main"></main>
+<div class="foot" id="foot"></div>
+<div class="ov" id="ov"><div class="modal" id="modal"></div></div>
 <script>
-const D = __DATA__;
-const $=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e};
-const arrow=a=>a==='▲'?'<span class="up">▲</span>':a==='▼'?'<span class="down">▼</span>':'<span class="flat">•</span>';
-function table(cols,rows){let h='<table><thead><tr>'+cols.map(c=>`<th class="${c.cls||''}">${c.t}${c.tip?` <span class="info" tabindex="0" aria-label="${c.tip.replace(/"/g,'&quot;')}">i<span class="tip">${c.tip}</span></span>`:''}</th>`).join('')+'</tr></thead><tbody>';
- rows.forEach(r=>{h+='<tr'+(r._cls?` class="${r._cls}"`:'')+'>'+r.cells.map((c,i)=>`<td class="${cols[i].cls||''}">${c}</td>`).join('')+'</tr>'});return h+'</tbody></table>'}
-const TABS=[]; const addTab=(id,label,render)=>TABS.push({id,label,render});
+const D=__DATA__;
+const PRIZE={1:30000,2:20000,3:12500,4:7500,5:5000};
+const BYID={}; (D.overall||[]).forEach(o=>BYID[o.entry]=o);
+const $=s=>document.querySelector(s);
+const esc=s=>(''+s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fk=n=>n==null?'—':(Math.abs(n)>=1e6?(n/1e6).toFixed(1)+'M':Math.abs(n)>=1e3?Math.round(n/1e3)+'k':(''+n));
+const inr=n=>'₹'+n.toLocaleString('en-IN');
+const arrow=a=>a==='▲'?'<span class="up">▲</span>':a==='▼'?'<span class="dn">▼</span>':'<span class="flat">•</span>';
+const medal=r=>r<=3?`<span class="medal m${r}">${r}</span>`:`<span class="rk">${r}</span>`;
+const colorFor=id=>['--c1','--c2','--c3','--c4','--c5','--c6'][id%6];
+const mono=(t,id)=>`<span class="av" style="background:var(${colorFor(id)})">${esc((t||'?').slice(0,2)).toUpperCase()}</span>`;
+function tbl(cols,rows,cls){let h=`<div class="tw"><table class="${cls||''}"><thead><tr>`+cols.map(c=>`<th class="${c.cls||''}">${c.t}${c.tip?` <span class="info" tabindex="0">i<span class="tip">${c.tip}</span></span>`:''}</th>`).join('')+'</tr></thead><tbody>';
+ rows.forEach(r=>{h+=`<tr${r._id?` data-id="${r._id}"`:''}${r._cls?` class="${r._cls}"`:''}>`+r.cells.map((c,i)=>`<td class="${cols[i].cls||''}">${c}</td>`).join('')+'</tr>'});return h+'</tbody></table></div>'}
 
-/* ---- Overall ---- */
-addTab('overall','Overall',()=>{
- const gwlab = D.meta.current_gw ? ('GW'+D.meta.current_gw) : 'GW';
- const rows=D.overall.map(r=>({_cls:r.rank<=5?'top5':'',cells:[
-   `<span class="rk ${r.rank<=5?'gold':''}">${r.rank}</span> ${arrow(r.arrow)}`,
-   `<b>${r.manager}</b>`,`<span class="mut">${r.team_name}</span>`,r.gw_points,`<b>${r.total}</b>`]}));
- return `<h2>Overall Table <span class="sm">₹75,000 · top 5</span></h2>
-  <p class="note">Ranked by total points (net of transfer hits), highest to lowest. "${gwlab}" is each manager's score in the latest gameweek; "Total" is the season score. Shaded top 5 share the main pool; arrows show movement since the previous gameweek. Fuller per-manager numbers live on the Stats tab.</p>`+
-  table([{t:'#'},{t:'Manager'},{t:'Team'},{t:gwlab,cls:'r'},{t:'Total',cls:'r'}],rows);
+const TABS=[];const add=(id,ic,label,render)=>TABS.push({id,ic,label,render});
+
+/* Overall */
+add('overall','🏆','League Table',()=>{
+ const gl=D.meta.current_gw?('GW'+D.meta.current_gw):'GW';
+ const rows=D.overall.map(r=>({_id:r.entry,_cls:r.rank<=5?'top5':'',cells:[
+   `${medal(r.rank)} ${arrow(r.arrow)}`,`<b>${esc(r.manager)}</b>`,`<span class="mut">${esc(r.team_name)}</span>`,r.gw_points,`<b>${r.total}</b>`]}));
+ return `<div class="ah"><h1>League Table</h1><span class="tag">₹75,000 · top 5</span></div>
+  <p class="desc">Ranked by total points, net of transfer hits, highest to lowest. "${gl}" is the latest-gameweek score. Top 5 (highlighted) share the main pool. Tap any manager for their full profile.</p>`+
+  tbl([{t:'#'},{t:'Manager'},{t:'Team'},{t:gl,cls:'r'},{t:'Total',cls:'r'}],rows,'clik');
 });
 
-/* ---- Season Stats ---- */
-addTab('stats','Stats',()=>{
- if(!D.stats||!D.stats.length) return '<h2>Season Stats</h2><p class="note">Per-manager season stats populate once the season is live.</p>';
+/* Prize Board */
+add('prizes','💰','Prizes',()=>{
+ const o=D.overall,st=D.meta.started;
+ const lead=arr=>arr&&arr.length?arr[0]:null;
+ const who=t=>t?`<span class="who"><span class="claimed"></span>${esc(t)}</span>`:`<span class="who tbd">—</span>`;
+ const stat=txt=>`<span class="who tbd">${txt}</span>`;
+ const sec=(title,total,rows)=>`<div class="pcat"><h3>${title}<span>${inr(total)}</span></h3>`+
+   rows.map(x=>`<div class="prow"><span class="cat">${x[0]}<span class="amt">${inr(x[1])}</span></span>${x[2]}</div>`).join('')+`</div>`;
+ const overallRows=[1,2,3,4,5].map(r=>{const m=o.find(x=>x.rank===r);return [`Overall — ${r===1?'1st':r===2?'2nd':r===3?'3rd':r+'th'}`,PRIZE[r],who(m&&st?m.team_name:null)]});
+ const champByNum={},drawByNum={};
+ (D.mini||[]).forEach(mt=>{const mm=(mt.name||'').match(/MT\s*(\d+)/i);if(mm){const n=+mm[1];champByNum[n]=(mt.knockout&&mt.knockout.champion)||null;drawByNum[n]=!!mt.has_draw;}});
+ const mtRows=[];for(let n=1;n<=6;n++){mtRows.push([`MT${n} Champion`,3000,champByNum[n]?who(champByNum[n]):stat(drawByNum[n]?'in progress':'not started')]);}
+ const chipRows=(D.chip_kings||[]).map(c=>[`Chip King — ${c.chip}`,3000,who(c.manager)]);
+ const cb=(D.comeback&&D.comeback.board&&D.comeback.board[0])?D.comeback.board[0].manager:null;
+ const otherRows=[
+   ['League Cup',4000,stat('from ~GW17')],
+   ['The Comeback',4000,(D.comeback&&D.comeback.active)?who(cb):stat('from GW20')],
+   ['Captaincy King',3000,who(lead(D.captaincy)&&st?lead(D.captaincy).manager:null)],
+   ['Green Arrow King',3000,who(lead(D.green)&&st?lead(D.green).manager:null)],
+   ['Differential Diamond',3000,who(D.differential&&D.differential.best?D.differential.best.manager:null)],
+   ['Pity the Living Dead',2000,who(lead(D.pity)?lead(D.pity).manager:null)]];
+ return `<div class="ah"><h1>Prize Board</h1><span class="tag">Total Prize Fund · ₹1,24,000</span></div>
+  <p class="desc">All 21 payouts and who's currently in line for each. A green dot marks a live leader; final settlement is after GW38.</p>
+  <div class="pgrid">
+   ${sec('Overall Champions',75000,overallRows)}
+   ${sec('Mini Tournament Champions',18000,mtRows)}
+   ${sec('Chip Kings',12000,chipRows)}
+   ${sec('Other Rewards',19000,otherRows)}
+  </div>`;
+});
+
+/* Stats */
+add('stats','📊','Stats',()=>{
+ if(!D.stats||!D.stats.length)return '<div class="ah"><h1>Season Stats</h1></div><p class="desc">Populates once the season is live.</p>';
  const cm={wildcard:'WC',freehit:'FH',bboost:'BB','3xc':'TC'};
- const fk=n=>n==null?'—':(n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e3?Math.round(n/1e3)+'k':(''+n));
- const rows=D.stats.map((r,i)=>{
-   const vd=r.value_delta;
-   const vds=vd==null?'—':(vd>0?`<span class="up">+£${vd}m</span>`:vd<0?`<span class="down">−£${Math.abs(vd)}m</span>`:'£0.0m');
-   const bj=r.best_jump!=null?`<span class="up">▲${fk(r.best_jump)}</span> <span class="mut">GW${r.best_jump_gw}</span>`:'—';
-   return {cells:[
-     `<span class="rk">${i+1}</span>`,
-     `<b>${r.manager}</b><br><span class="mut">${r.team_name}</span>`,
-     `<b>${r.total}</b>`,
-     r.avg!=null?r.avg:'—',
-     `${r.above_avg}<span class="mut">/${r.played}</span>`,
-     `<b>${r.cap_return}</b>`,
-     r.high!=null?`${r.high} <span class="mut">GW${r.high_gw}</span>`:'—',
-     r.low!=null?`${r.low} <span class="mut">GW${r.low_gw}</span>`:'—',
-     r.transfers,
-     `${r.hits_n} <span class="mut">(−${r.hits_pts})</span>`,
-     r.bench,
-     r.value!=null?('£'+r.value+'m'):'—',
-     vds,
-     r.grank!=null?fk(r.grank):'—',
-     bj,
-     (r.chips&&r.chips.length)?r.chips.map(c=>`<span class="tag">${cm[c]||c}</span>`).join(' '):'<span class="mut">—</span>'
-   ]};
- });
- return '<h2>Season Stats</h2><p class="note">Everything beyond the league table. "Above Avg" = weeks scored over the league\'s weekly average (consistency). "Cap Return" = total captain points. "Value Δ" = squad value change since GW1. "Best Jump" = biggest one-week climb in global rank. Scroll sideways for more.</p>'+
-   '<div style="overflow-x:auto">'+
-   table([{t:'#'},{t:'Manager'},
-          {t:'Total',cls:'r',tip:'Cumulative season points, net of any transfer-hit deductions.'},
-          {t:'Avg',cls:'r',tip:'Average points per gameweek played so far.'},
-          {t:'Above Avg',cls:'c',tip:"Gameweeks scored above the league's average for that week — a consistency measure. Shown as (weeks above / weeks played)."},
-          {t:'Cap Ret',cls:'r',tip:'Total points earned from the captain, after the ×2 (or ×3 Triple Captain) multiplier, across the season.'},
-          {t:'High',cls:'r',tip:'Best single-gameweek score, and the gameweek it happened.'},
-          {t:'Low',cls:'r',tip:'Worst single-gameweek score, and the gameweek it happened.'},
-          {t:'Transfers',cls:'c',tip:'Total transfers made this season — free and paid combined.'},
-          {t:'Hits',cls:'c',tip:'Points hits taken for extra transfers. Shown as number of hits and total points lost, e.g. 2 (−8).'},
-          {t:'Bench',cls:'c',tip:"Total points scored by players left on the bench — points that didn't count (excluding Bench Boost weeks)."},
-          {t:'Squad',cls:'r',tip:'Current squad value in £m — the sale value of the 15-man team.'},
-          {t:'Value Δ',cls:'r',tip:'Change in squad value since GW1 — value gained or lost through player price rises and falls.'},
-          {t:'Global Rank',cls:'r',tip:'Current overall rank across all FPL managers worldwide.'},
-          {t:'Best Jump',cls:'r',tip:'Biggest one-gameweek climb in overall (global) rank, and the gameweek it happened.'},
-          {t:'Chips',tip:'Chips used so far: WC = Wildcard, FH = Free Hit, BB = Bench Boost, TC = Triple Captain.'}],rows)+
-   '</div>';
+ const rows=D.stats.map((r,i)=>{const vd=r.value_delta;const vds=vd==null?'—':(vd>0?`<span class="up">+£${vd}m</span>`:vd<0?`<span class="dn">−£${Math.abs(vd)}m</span>`:'£0.0m');
+   return {_id:r.entry,cells:[`<span class="rk">${i+1}</span>`,`<b>${esc(r.manager)}</b>`,`<b>${r.total}</b>`,r.avg??'—',
+     `${r.above_avg}<span class="mut">/${r.played}</span>`,`<b>${r.cap_return}</b>`,r.high!=null?`${r.high} <span class="mut">GW${r.high_gw}</span>`:'—',
+     r.low!=null?`${r.low} <span class="mut">GW${r.low_gw}</span>`:'—',r.transfers,`${r.hits_n} <span class="mut">(−${r.hits_pts})</span>`,r.bench,
+     r.value!=null?('£'+r.value+'m'):'—',vds,r.grank!=null?fk(r.grank):'—',
+     r.best_jump!=null?`<span class="up">▲${fk(r.best_jump)}</span> <span class="mut">GW${r.best_jump_gw}</span>`:'—',
+     (r.chips&&r.chips.length)?r.chips.map(c=>`<span class="chip">${cm[c]||c}</span>`).join(''):'<span class="mut">—</span>']}});
+ return `<div class="ah"><h1>Season Stats</h1></div><p class="desc">Everything beyond the table. Hover/tap the ⓘ on any column for what it means. Tap a manager for their profile.</p>
+  <div style="overflow-x:auto">`+tbl([{t:'#'},{t:'Manager'},{t:'Total',cls:'r',tip:'Cumulative season points, net of transfer hits.'},
+   {t:'Avg',cls:'r',tip:'Average points per gameweek played.'},{t:'Above Avg',cls:'c',tip:"Weeks scored above the league's weekly average — consistency. (weeks above / played)."},
+   {t:'Cap Ret',cls:'r',tip:'Total captain points after the ×2 / ×3 multiplier.'},{t:'High',cls:'r',tip:'Best single-GW score and the GW.'},
+   {t:'Low',cls:'r',tip:'Worst single-GW score and the GW.'},{t:'Transfers',cls:'c',tip:'Total transfers made (free + paid).'},
+   {t:'Hits',cls:'c',tip:'Hits for extra transfers: count and points lost, e.g. 2 (−8).'},{t:'Bench',cls:'c',tip:"Points left on the bench that didn't count."},
+   {t:'Squad',cls:'r',tip:'Current team value in £m.'},{t:'Value Δ',cls:'r',tip:'Squad value change since GW1.'},
+   {t:'Rank',cls:'r',tip:'Current overall global rank.'},{t:'Best Jump',cls:'r',tip:'Biggest one-GW climb in global rank, and the GW.'},{t:'Chips',cls:'c'}],rows,'clik statctr')+'</div>';
 });
 
-/* ---- Manager Profiles ---- */
-addTab('profiles','Profiles',()=>{
- if(!D.profiles||!D.profiles.length) return '<h2>Manager Profiles</h2><p class="note">Career profiles populate from each manager’s FPL history once the season is live.</p>';
- let h='<h2>Manager Profiles</h2><p class="note">Career snapshot pulled from each manager’s FPL history — seasons played, best overall rank, and last season’s finish.</p><div class="pcards">';
- D.profiles.forEach(p=>{h+=`<div class="card pcard">
-   <div class="nm">${p.manager}</div><div class="tm">${p.team_name}</div>
-   <div class="pstat"><span class="l">This season (league)</span><span class="v">#${p.league_rank}</span></div>
-   <div class="pstat"><span class="l">Seasons played</span><span class="v">${p.seasons}</span></div>
-   <div class="pstat"><span class="l">Best overall rank</span><span class="v">${p.best_rank?p.best_rank.toLocaleString():'—'}${p.best_season?` <span class="mut">(${p.best_season})</span>`:''}</span></div>
-   <div class="pstat"><span class="l">Last season rank</span><span class="v">${p.last_rank?p.last_rank.toLocaleString():'—'}</span></div>
- </div>`});
- return h+'</div>';
-});
-
-/* ---- Mini Tournaments (Group phase | Knockouts) ---- */
-addTab('mini','Mini Tournaments',()=>{
- if(!D.mini||!D.mini.length) return '<h2>Mini Tournaments</h2><p class="note">MT1 begins at GW3. Group tables and the knockout bracket appear here once the draw is made after GW2.</p>';
+/* Mini Tournaments */
+add('mt','⚔️','Tournaments',()=>{
+ if(!D.mini||!D.mini.length)return '<div class="ah"><h1>Mini Tournaments</h1></div><p class="desc">MT1 begins at GW3. Groups and the knockout bracket appear once the draw is made after GW2.</p>';
  const mt=D.mini[0];
- let h=`<h2>${mt.name} <span class="sm">₹3,000</span></h2>
-  <p class="note">Top 24 · 6 groups of 4 · group stage GW ${mt.group_gws.join(', ')} → knockouts GW ${mt.ko_gws.join(', ')}.</p>
-  <div class="subtabs"><div class="subtab active" data-s="grp">Group Phase</div><div class="subtab" data-s="ko">Knockouts</div></div>
-  <div id="mt_grp"></div><div id="mt_ko" style="display:none"></div>`;
+ let h=`<div class="ah"><h1>${esc(mt.name)}</h1><span class="tag">₹3,000</span></div>
+  <p class="desc">Top 24 · 6 groups of 4 · group stage GW ${mt.group_gws.join(', ')} → knockouts GW ${mt.ko_gws.join(', ')}.</p>
+  <div class="seg"><button id="tg" class="on">Group Phase</button><button id="tk">Knockouts</button></div>
+  <div id="mgrp"></div><div id="mko" style="display:none"></div>`;
  setTimeout(()=>{
-   const g=document.getElementById('mt_grp'), k=document.getElementById('mt_ko');
-   if(!mt.has_draw){g.innerHTML='<p class="note">Awaiting the random group draw.</p>';}
-   else{let gh='<div class="grid">';
-     Object.entries(mt.groups).forEach(([gn,tbl])=>{
-       const rows=tbl.map((r,i)=>({_cls:i<2?'top5':'',cells:[r[0],r[1].P,r[1].W,r[1].D,r[1].L,`<b>${r[1].pts}</b>`,r[1].fpl]}));
-       gh+=`<div><div class="gtitle">Group ${gn} <span class="b">top 2 advance</span></div>`+
-         table([{t:'Team'},{t:'P',cls:'c'},{t:'W',cls:'c'},{t:'D',cls:'c'},{t:'L',cls:'c'},{t:'Pts',cls:'c'},{t:'FPL',cls:'r'}],rows)+'</div>';});
-     g.innerHTML=gh+'</div>';}
-   k.innerHTML=renderBracket(mt.knockout);
-   document.querySelectorAll('.subtab').forEach(s=>s.onclick=()=>{
-     document.querySelectorAll('.subtab').forEach(x=>x.classList.remove('active'));s.classList.add('active');
-     const ko=s.dataset.s==='ko'; g.style.display=ko?'none':''; k.style.display=ko?'':'none';});
+  const g=$('#mgrp'),k=$('#mko');
+  if(!mt.has_draw)g.innerHTML='<p class="desc">Awaiting the random group draw.</p>';
+  else{let gh='<div class="pgrid">';Object.entries(mt.groups).forEach(([gn,t])=>{
+    const rows=t.map((r,i)=>({_cls:i<2?'top5':'',cells:[r[0],r[1].P,r[1].W,r[1].D,r[1].L,`<b>${r[1].pts}</b>`,r[1].fpl]}));
+    gh+=`<div><div class="charttitle">Group ${gn} · top 2 advance</div>`+tbl([{t:'Team'},{t:'P',cls:'c'},{t:'W',cls:'c'},{t:'D',cls:'c'},{t:'L',cls:'c'},{t:'Pts',cls:'c'},{t:'FPL',cls:'r'}],rows)+'</div>';});
+   g.innerHTML=gh+'</div>';}
+  k.innerHTML=bracket(mt.knockout);
+  $('#tg').onclick=()=>{$('#tg').classList.add('on');$('#tk').classList.remove('on');g.style.display='';k.style.display='none'};
+  $('#tk').onclick=()=>{$('#tk').classList.add('on');$('#tg').classList.remove('on');k.style.display='';g.style.display='none'};
  });
  return h;
 });
-function renderBracket(ko){
- if(!ko||!ko.rounds||!ko.rounds.length) return '<p class="note">The 8-team knockout (QF → SF → Final) appears here once the group stage finishes.</p>';
- let h='<div class="bracket">';
- ko.rounds.forEach(rd=>{h+=`<div class="round"><div class="rname">${rd.name}</div>`;
-   rd.ties.forEach(t=>{const aw=t.winner==='a',bw=t.winner==='b';
-     h+=`<div class="tie">
-       <div class="side"><span class="${aw?'win':'lose'}">${t.a||'—'}</span><span class="sc">${t.sa!=null?t.sa:''}</span></div>
-       <div class="side"><span class="${bw?'win':'lose'}">${t.b||'—'}</span><span class="sc">${t.sb!=null?t.sb:''}</span></div></div>`;});
-   h+='</div>';});
- return h+'</div>';
+function bracket(ko){if(!ko||!ko.rounds)return '<p class="desc">The 8-team knockout (QF → SF → Final) appears once the group stage finishes.</p>';
+ let h='<div class="brk">';
+ ko.rounds.forEach(rd=>{h+=`<div class="brd"><div class="rn">${rd.name}</div><div class="ties">`;
+  rd.ties.forEach(t=>{const aw=t.winner==='a',bw=t.winner==='b';
+   h+=`<div class="tie"><div class="side"><span class="${aw?'':'mut'}"><b>${esc(t.a||'—')}</b></span><b class="${aw?'pz':'mut'}">${t.sa??''}</b></div>`+
+      `<div class="side"><span class="${bw?'':'mut'}"><b>${esc(t.b||'—')}</b></span><b class="${bw?'pz':'mut'}">${t.sb??''}</b></div></div>`});
+  h+='</div></div>'});
+ return h+'</div>'+(ko.champion?`<div class="charttitle" style="margin-top:14px">🏆 Champion: <span class="pz">${esc(ko.champion)}</span></div>`:'');}
+
+/* simple prize-leaderboard tabs */
+function board(title,tag,desc,cols,rows){return `<div class="ah"><h1>${title}</h1><span class="tag">${tag}</span></div><p class="desc">${desc}</p>`+tbl(cols,rows,'clik');}
+add('chips','🃏','Chips',()=>{let h='<div class="ah"><h1>Chip Kings</h1><span class="tag">₹3,000 each</span></div><p class="desc">Best single-GW return with each chip, across either half of the season.</p><div class="tiles">';
+ D.chip_kings.forEach(c=>{h+=`<div class="tile"><div class="k">${c.chip}</div><div class="v">${c.score!=null?c.score:'—'}</div><div class="d">${c.manager?esc(c.manager)+' · GW'+c.gw:'not played yet'}</div></div>`});return h+'</div>';});
+add('cap','🧢','Captaincy',()=>board('Captaincy King','₹3,000','Total captain points after multipliers. Top-5 overall excluded at settlement.',
+ [{t:'#'},{t:'Manager'},{t:'Captain Pts',cls:'r'}],D.captaincy.map((r,i)=>({_id:r.entry,cells:[`<span class="rk">${i+1}</span>`,`<b>${esc(r.manager)}</b>`+(r.excluded?' <span class="chip">top-5 excl</span>':''),`<b>${r.points}</b>`]}))));
+add('arrows','📈','Green Arrows',()=>board('Green Arrow King','₹3,000','Gameweeks where overall (global) rank improved. Top-5 overall excluded.',
+ [{t:'#'},{t:'Manager'},{t:'Arrows',cls:'r'}],D.green.map((r,i)=>({_id:r.entry,cells:[`<span class="rk">${i+1}</span>`,`<b>${esc(r.manager)}</b>`+(r.excluded?' <span class="chip">top-5 excl</span>':''),`<b>${r.arrows}</b>`]}))));
+add('diamond','💎','Differential',()=>{if(!D.differential.has_snapshots)return '<div class="ah"><h1>Differential Diamond</h1><span class="tag">₹3,000</span></div><p class="desc">Ownership snapshots begin at GW1.</p>';
+ let h='<div class="ah"><h1>Differential Diamond</h1><span class="tag">₹3,000</span></div><p class="desc">Biggest single-GW haul from a starter owned under 7.5% (ownership at the deadline).</p>';
+ if(D.differential.best){const b=D.differential.best;h+=`<div class="tiles"><div class="tile"><div class="k">Current leader</div><div class="v">${b.points} pts</div><div class="d">${esc(b.manager)} · ${esc(b.player)} · GW${b.gw} · ${b.own}%</div></div></div>`}
+ return h+tbl([{t:'#'},{t:'Manager'},{t:'Player'},{t:'GW',cls:'c'},{t:'Pts',cls:'r'},{t:'Own',cls:'r'}],D.differential.board.map((r,i)=>({cells:[`<span class="rk">${i+1}</span>`,esc(r.manager),`<b>${esc(r.player)}</b>`,'GW'+r.gw,`<b>${r.points}</b>`,r.own+'%']})));});
+add('comeback','🔥','Comeback',()=>{if(!D.comeback.active)return '<div class="ah"><h1>The Comeback</h1><span class="tag">₹4,000</span></div><p class="desc">Activates after GW19 — the bottom 21 race for most points across GW20–GW38.</p>';
+ return board('The Comeback','₹4,000','Bottom 21 after GW19 · most points GW20–38 wins.',[{t:'#'},{t:'Manager'},{t:'Pts since GW20',cls:'r'}],
+  D.comeback.board.map((r,i)=>({_id:r.entry,_cls:i==0?'top5':'',cells:[medal(i+1),`<b>${esc(r.manager)}</b>`,`<b>${r.points}</b>`]})));});
+add('pity','💀','Pity',()=>board('Pity the Living Dead','₹2,000','Lowest valid GW score (to GW30). Auto-checks hits ≤ 8 and ruled-out starters ≤ 2; admins confirm edge cases.',
+ [{t:'#'},{t:'Manager'},{t:'GW',cls:'c'},{t:'Score',cls:'r'},{t:'Hit',cls:'c'},{t:'Ruled-out',cls:'c'},{t:'Valid',cls:'c'}],
+ D.pity.map((r,i)=>({cells:[`<span class="rk">${i+1}</span>`,`<b>${esc(r.manager)}</b>`,'GW'+r.gw,`<b>${r.score}</b>`,r.hit?('−'+r.hit):'0',r.ruled_out==null?'n/a':r.ruled_out,r.valid?'<span class="up">✓</span>':'<span class="dn">review</span>']}))));
+
+function findId(name){const o=D.overall.find(x=>x.manager===name);return o?o.entry:0}
+
+/* H2H */
+add('h2h','🆚','H2H',()=>{
+ const opts=D.overall.map(o=>`<option value="${o.entry}">${esc(o.team_name)} — ${esc(o.manager)}</option>`).join('');
+ return `<div class="ah"><h1>Head-to-Head</h1></div><p class="desc">Compare any two managers gameweek by gameweek — who won more weeks, best weeks, and the season gap.</p>
+  <div class="h2pick">
+   <div class="h2side"><label>Manager A</label><select class="sel" id="ha">${opts}</select></div>
+   <span class="vs">VS</span>
+   <div class="h2side"><label>Manager B</label><select class="sel" id="hb">${opts}</select></div>
+  </div><div id="hout"></div>`;
+});
+function wireH2H(){const a=$('#ha'),b=$('#hb');if(!a||!b)return;if(D.overall[1])b.value=D.overall[1].entry;
+ const upd=()=>{$('#hout').innerHTML=h2r(+a.value,+b.value)};a.onchange=upd;b.onchange=upd;upd();}
+function ser(id){return (D.series&&D.series[id])||[]}
+function h2r(ida,idb){const A=BYID[ida],B=BYID[idb];if(!A||!B)return'';if(ida===idb)return '<p class="desc">Pick two different managers.</p>';
+ const sa=ser(ida),sb=ser(idb);const gws=sa.map(x=>x.gw).filter(g=>sb.some(y=>y.gw===g));
+ let wa=0,wb=0,dr=0;const strip=gws.map(g=>{const na=sa.find(x=>x.gw===g).net,nb=sb.find(y=>y.gw===g).net;
+  if(na>nb){wa++;return '<span class="h2b a" title="GW'+g+'">a</span>'}if(nb>na){wb++;return '<span class="h2b b" title="GW'+g+'">b</span>'}dr++;return '<span class="h2b d">d</span>'}).join('');
+ const bestA=sa.length?Math.max(...sa.map(x=>x.net)):'—',bestB=sb.length?Math.max(...sb.map(x=>x.net)):'—';
+ const gap=Math.abs((A.total||0)-(B.total||0));
+ const col=(m,w,best,side)=>`<div class="h2col ${side}">${mono(m.team_name,m.entry)}<div class="nm">${esc(m.manager)}</div><div class="mut">${esc(m.team_name)}</div>
+  <div class="big">${m.total??'—'}</div><div class="mut">total pts</div><div class="ss"><span>#${m.rank} rank</span><span>${best} best GW</span><span>${w} GW wins</span></div></div>`;
+ return `<div class="h2wrap">${col(A,wa,bestA,'a')}<div class="h2mid"><div class="h2rec">${wa}<span>–</span>${dr}<span>–</span>${wb}</div><div class="mut">W–D–L by GW</div><div class="h2gap">${gap} pt gap</div></div>${col(B,wb,bestB,'b')}</div>
+  <div class="h2strip">${strip}</div><div class="charttitle" style="text-align:center;margin-top:10px">${gws.length} gameweeks compared · net-of-hits · <span style="color:var(--blue)">■</span> ${esc(A.manager)} &nbsp; <span style="color:var(--gold)">■</span> ${esc(B.manager)}</div>`;}
+
+/* ---- profile modal + rank chart ---- */
+function sparkline(pts,{h=140,color='var(--blue)',invert=false,yfmt=(v=>v)}={}){
+ if(!pts.length)return '<div class="mut" style="padding:10px 0">No gameweeks yet.</div>';
+ const w=520,ml=48,mr=12,mt=12,mb=20;
+ const xs=pts.map(p=>p.x),ys=pts.map(p=>p.y);const x0=Math.min(...xs),x1=Math.max(...xs)||x0+1;
+ let y0=Math.min(...ys),y1=Math.max(...ys);if(y0===y1){y0-=1;y1+=1}
+ const px=x=>x1===x0?(ml+(w-ml-mr)/2):ml+(x-x0)/(x1-x0)*(w-ml-mr);
+ const py=y=>{const t=(y-y0)/(y1-y0);return mt+(invert?t:(1-t))*(h-mt-mb)};
+ const d=pts.map((p,i)=>(i?'L':'M')+px(p.x).toFixed(1)+' '+py(p.y).toFixed(1)).join(' ');
+ const dots=pts.map(p=>`<circle cx="${px(p.x).toFixed(1)}" cy="${py(p.y).toFixed(1)}" r="2.6" fill="${color}"><title>GW${p.x}: ${yfmt(p.y)}</title></circle>`).join('');
+ const gl=[mt,(mt+h-mb)/2,h-mb].map(yy=>`<line x1="${ml}" y1="${yy.toFixed(1)}" x2="${w-mr}" y2="${yy.toFixed(1)}" stroke="var(--hair)"/>`).join('');
+ const top=invert?y0:y1,bot=invert?y1:y0;
+ return `<svg viewBox="0 0 ${w} ${h}" style="width:100%;height:${h}px">${gl}
+  <text x="${ml-6}" y="${mt+4}" font-size="9" fill="var(--mut)" text-anchor="end">${yfmt(top)}</text>
+  <text x="${ml-6}" y="${h-mb+3}" font-size="9" fill="var(--mut)" text-anchor="end">${yfmt(bot)}</text>
+  <text x="${ml}" y="${h-4}" font-size="9" fill="var(--mut)" text-anchor="start">GW${x0}</text>
+  <text x="${w-mr}" y="${h-4}" font-size="9" fill="var(--mut)" text-anchor="end">GW${x1}</text>
+  <path d="${d}" fill="none" stroke="${color}" stroke-width="2.4" stroke-linejoin="round"/>${dots}</svg>`;}
+function bars(pts,{h=132,color='var(--gold)'}={}){if(!pts.length)return '';
+ const w=520,ml=32,mr=10,mt=10,mb=18,max=Math.max(...pts.map(p=>p.y))||1,iw=w-ml-mr,bw=iw/pts.length,step=Math.max(1,Math.ceil(pts.length/9));
+ let bar='',lab='';
+ pts.forEach((p,i)=>{const bh=(p.y/max)*(h-mt-mb),x=ml+i*bw;
+  bar+=`<rect x="${(x+bw*0.16).toFixed(1)}" y="${(h-mb-bh).toFixed(1)}" width="${(bw*0.68).toFixed(1)}" height="${bh.toFixed(1)}" rx="2" fill="${color}"><title>GW${p.x}: ${p.y}</title></rect>`;
+  if(i%step===0||i===pts.length-1)lab+=`<text x="${(x+bw/2).toFixed(1)}" y="${h-4}" font-size="8.5" fill="var(--mut)" text-anchor="middle">${p.x}</text>`;});
+ return `<svg viewBox="0 0 ${w} ${h}" style="width:100%;height:${h}px">
+  <text x="${ml-5}" y="${mt+6}" font-size="9" fill="var(--mut)" text-anchor="end">${max}</text>
+  <line x1="${ml}" y1="${h-mb}" x2="${w-mr}" y2="${h-mb}" stroke="var(--hair)"/>${bar}${lab}</svg>`;}
+function openProfile(id){
+ const m=BYID[id];const prof=(D.profiles||[]).find(p=>(p.entry||findId(p.manager))===id);const st=(D.stats||[]).find(x=>x.entry===id);const s=ser(id);
+ if(!m&&!prof)return;const name=m?m.manager:prof.manager,team=m?m.team_name:prof.team_name;
+ const nets=s.map(p=>p.net),caps=s.reduce((a,p)=>a+(p.cap||0),0);
+ const best=nets.length?Math.max(...nets):'—',worst=nets.length?Math.min(...nets):'—',avg=nets.length?Math.round(nets.reduce((a,b)=>a+b,0)/nets.length):'—';
+ const rankPts=s.filter(p=>p.orank!=null).map(p=>({x:p.gw,y:p.orank}));
+ const netPts=s.map(p=>({x:p.gw,y:p.net}));
+ const stat=(k,v)=>`<div class="ms"><div class="k">${k}</div><div class="v">${v}</div></div>`;
+ $('#modal').innerHTML=`<div class="mh">${mono(team,id)}<div><div class="nm">${esc(name)}</div><div class="tm">${esc(team)}${m?' · #'+m.rank+' in league':''}</div></div><button class="mx" onclick="closeM()">✕</button></div>
+  <div class="mbody"><div class="mgrid">
+   ${stat('Total',m?m.total:'—')}${stat('Avg GW',avg)}${stat('Best GW',best)}${stat('Worst GW',worst)}${stat('Captain pts',caps||(st?st.cap_return:'—'))}
+   ${prof?stat('Seasons',prof.seasons):''}${prof&&prof.best_rank?stat('Best rank',fk(prof.best_rank)):''}${prof&&prof.last_rank?stat('Last season',fk(prof.last_rank)):''}</div>
+   <div class="charttitle">Overall rank over the season (higher = better)</div>${sparkline(rankPts,{color:'var(--blue)',invert:true,yfmt:fk})}
+   <div class="charttitle" style="margin-top:12px">Gameweek scores</div>${bars(netPts)}</div>`;
+ $('#ov').classList.add('on');
 }
+window.closeM=()=>$('#ov').classList.remove('on');
 
-/* ---- Chip Kings ---- */
-addTab('chip','Chip Kings',()=>{
- let h='<h2>Chip Kings <span class="sm">₹3,000 each</span></h2><p class="note">Best single-GW return with each chip, across either half of the season.</p><div class="cards">';
- D.chip_kings.forEach(c=>{h+=`<div class="card kpi"><div class="k">${c.chip}</div><div class="v">${c.score!=null?c.score:'—'}</div><div class="s">${c.manager?c.manager+' · GW'+c.gw:'not played yet'}</div></div>`});
- return h+'</div>';
-});
-
-/* ---- Captaincy / Green ---- */
-addTab('captain','Captaincy',()=>{
- const rows=D.captaincy.map((r,i)=>({_cls:r.excluded?'excl':'',cells:[`<span class="rk">${i+1}</span>`,`<b>${r.manager}</b>`+(r.excluded?' <span class="tag">top-5 excl</span>':''),`<b>${r.points}</b>`]}));
- return '<h2>Captaincy King <span class="sm">₹3,000</span></h2><p class="note">Total captain points after multipliers. Top-5 overall are excluded at settlement.</p>'+
-   table([{t:'#'},{t:'Manager'},{t:'Captain Pts',cls:'r'}],rows);
-});
-addTab('green','Green Arrows',()=>{
- const rows=D.green.map((r,i)=>({_cls:r.excluded?'excl':'',cells:[`<span class="rk">${i+1}</span>`,`<b>${r.manager}</b>`+(r.excluded?' <span class="tag">top-5 excl</span>':''),`<b>${r.arrows}</b>`]}));
- return '<h2>Green Arrow King <span class="sm">₹3,000</span></h2><p class="note">Gameweeks where overall (global) rank improved. Top-5 overall excluded at settlement.</p>'+
-   table([{t:'#'},{t:'Manager'},{t:'Green Arrows',cls:'r'}],rows);
-});
-
-/* ---- Comeback ---- */
-addTab('comeback','Comeback',()=>{
- if(!D.comeback.active) return '<h2>The Comeback <span class="sm">₹4,000</span></h2><p class="note">Activates after GW19 — the bottom 21 then race for most points across GW20–GW38.</p>';
- const rows=D.comeback.board.map((r,i)=>({_cls:i==0?'top5':'',cells:[`<span class="rk ${i==0?'gold':''}">${i+1}</span>`,`<b>${r.manager}</b>`,`<b>${r.points}</b>`]}));
- return '<h2>The Comeback <span class="sm">₹4,000</span></h2><p class="note">Bottom 21 after GW19 · most points GW20–38 wins.</p>'+table([{t:'#'},{t:'Manager'},{t:'Pts since GW20',cls:'r'}],rows);
-});
-
-/* ---- Differential ---- */
-addTab('diff','Differential',()=>{
- if(!D.differential.has_snapshots) return '<h2>Differential Diamond <span class="sm">₹3,000</span></h2><p class="note">Ownership snapshots begin at GW1. The best sub-7.5%-owned starter haul appears here.</p>';
- let h='<h2>Differential Diamond <span class="sm">₹3,000</span></h2><p class="note">Biggest single-GW haul from a starter owned under 7.5% (ownership taken at the deadline).</p>';
- if(D.differential.best){const b=D.differential.best;h+=`<div class="cards"><div class="card kpi"><div class="k">Current leader</div><div class="v">${b.points} pts</div><div class="s">${b.manager} · ${b.player} · GW${b.gw} · ${b.own}% owned</div></div></div>`}
- const rows=D.differential.board.map((r,i)=>({cells:[`<span class="rk">${i+1}</span>`,r.manager,`<b>${r.player}</b>`,'GW'+r.gw,`<b>${r.points}</b>`,r.own+'%']}));
- return h+table([{t:'#'},{t:'Manager'},{t:'Player'},{t:'GW',cls:'c'},{t:'Pts',cls:'r'},{t:'Own',cls:'r'}],rows);
-});
-
-/* ---- Pity ---- */
-addTab('pity','Pity',()=>{
- const rows=D.pity.map((r,i)=>({cells:[`<span class="rk">${i+1}</span>`,`<b>${r.manager}</b>`,'GW'+r.gw,`<b>${r.score}</b>`,r.hit?('−'+r.hit):'0',r.ruled_out==null?'n/a':r.ruled_out,r.valid?'<span class="up">✓</span>':'<span class="down">review</span>']}));
- return '<h2>Pity the Living Dead <span class="sm">₹2,000</span></h2><p class="note">Lowest valid GW score (to GW30). Auto-checks hits ≤ 8 and ruled-out starters ≤ 2; admins confirm edge cases.</p>'+
-   table([{t:'#'},{t:'Manager'},{t:'GW',cls:'c'},{t:'Score',cls:'r'},{t:'Hit',cls:'c'},{t:'Ruled-out',cls:'c'},{t:'Valid',cls:'c'}],rows);
-});
-
-/* ---- build UI ---- */
-const tabsEl=document.getElementById('tabs'), panelsEl=document.getElementById('panels');
-TABS.forEach((t,i)=>{
- const b=$('div','tab'+(i==0?' active':''),t.label);
- b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
-   document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
-   b.classList.add('active');document.getElementById('p_'+t.id).classList.add('active');window.scrollTo({top:0,behavior:'smooth'})};
- tabsEl.appendChild(b);
- const p=$('div','panel'+(i==0?' active':''),t.render());p.id='p_'+t.id;panelsEl.appendChild(p);
-});
-const m=D.meta;
-document.getElementById('meta').innerHTML=
- `<span class="pill">${m.n_members} managers</span><span class="pill gold">₹1,24,000</span>`+
- `<span class="pill">${m.current_gw?('through GW'+m.current_gw):'pre-season'}</span>`+
- (m.bonus_pending?'<span class="pill">⏳ bonus confirming</span>':'')+
- `<span class="pill">updated ${m.generated_utc}</span>`+(m.demo?'<span class="pill">DEMO</span>':'');
-document.getElementById('foot').innerHTML=`Auto-generated from the official FPL API · League ${m.league_id} · ${m.generated_utc}`+(m.demo?' · simulated numbers for design preview':'');
-document.getElementById('dl').onclick=()=>location.href=(m.xlsx||'Laxmi_Chit_Fund_S5_audit.xlsx');
-
-/* ---- theme toggle ---- */
-const root=document.documentElement, tbtn=document.getElementById('theme');
-function setTheme(t){root.setAttribute('data-theme',t);tbtn.innerHTML=t==='dark'?'☀️ Light':'🌙 Dark';try{localStorage.setItem('lcf-theme',t)}catch(e){}}
-let _saved=null; try{_saved=localStorage.getItem('lcf-theme')}catch(e){}
-setTheme(_saved || (matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'));
-tbtn.onclick=()=>setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');
-
-/* info tooltips: tap to toggle (mobile), tap elsewhere to close */
+/* ---- build ---- */
+const nav=$('#nav'),main=$('#main');
+TABS.forEach((t,i)=>{const b=document.createElement('button');b.innerHTML=`<span>${t.ic}</span>${t.label}`;if(i===0)b.className='on';
+ b.onclick=()=>{document.querySelectorAll('#nav button').forEach(x=>x.classList.remove('on'));document.querySelectorAll('main section').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');document.getElementById('sec_'+t.id).classList.add('on');window.scrollTo({top:0,behavior:'smooth'});
+  if(t.id==='h2h')wireH2H();};
+ nav.appendChild(b);
+ const sec=document.createElement('section');if(i===0)sec.className='on';sec.id='sec_'+t.id;sec.innerHTML=t.render();main.appendChild(sec);});
+// row clicks -> profile
 document.addEventListener('click',e=>{
- const el=e.target.closest('.info');
- document.querySelectorAll('.info.open').forEach(x=>{if(x!==el)x.classList.remove('open')});
- if(el){e.stopPropagation();e.preventDefault();el.classList.toggle('open')}
+ const info=e.target.closest('.info');
+ document.querySelectorAll('.info.open').forEach(x=>{if(x!==info)x.classList.remove('open')});
+ if(info){e.stopPropagation();e.preventDefault();info.classList.toggle('open');return;}
+ const tr=e.target.closest('tr[data-id]');if(tr){openProfile(+tr.dataset.id);return;}
+ if(e.target.id==='ov')closeM();
 });
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeM()});
+// header pills + freshness
+const m=D.meta;
+$('#hpills').innerHTML=`<span class="pill"><b>${m.n_members}</b> managers</span>`+
+ `<span class="pill">${m.current_gw?('GW'+m.current_gw):'pre-season'}</span>`+
+ (m.bonus_pending?'<span class="live"><span class="dot"></span>bonus confirming</span>':(m.started?'<span class="live"><span class="dot"></span>live</span>':''));
+function ago(){if(!m.generated_iso)return m.generated_utc||'';const diff=(Date.now()-new Date(m.generated_iso).getTime())/60000;
+ return diff<1?'just now':diff<60?Math.round(diff)+'m ago':Math.round(diff/60)+'h ago';}
+const stale=m.generated_iso&&(Date.now()-new Date(m.generated_iso).getTime())>3*3600*1000;
+$('#foot').innerHTML=`${m.started?'Live data':'Pre-season'} · updated ${ago()} · auto-refreshes every 2h${stale?' · <span class="warn">⚠ data looks stale</span>':''} · League ${m.league_id}${m.demo?' · <b>DEMO</b>':''}`;
+$('#dl').onclick=()=>location.href=(m.xlsx||'Laxmi_Chit_Fund_S5_audit.xlsx');
+// theme
+const root=document.documentElement,tb=$('#theme');
+function setT(t){root.setAttribute('data-theme',t);tb.textContent=t==='dark'?'☀️':'🌙';try{localStorage.setItem('lcf-theme',t)}catch(e){}}
+let sv=null;try{sv=localStorage.getItem('lcf-theme')}catch(e){}
+setT(sv||'dark');
+tb.onclick=()=>setT(root.getAttribute('data-theme')==='dark'?'light':'dark');
 </script></body></html>

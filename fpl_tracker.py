@@ -340,18 +340,27 @@ def compute(raw, snap_dir, mt_config):
                       "chips": [c["name"] for c in hist.get(eid, {}).get("chips", [])]})
     stats.sort(key=lambda x: -x["total"])
 
+    # -------- per-GW series (for rank chart, GW-score bars, H2H) — pure data export
+    series = {}
+    for eid in M:
+        cur = {r["event"]: r for r in hist.get(eid, {}).get("current", [])}
+        series[str(eid)] = [{"gw": g, "net": net[eid][g], "orank": cur.get(g, {}).get("overall_rank"),
+                             "cap": cap_gw[eid].get(g, 0)} for g in finished if g in net[eid]]
+
     # -------- Mini Tournaments (draws come from config)
     mini = compute_mts(mt_config, M, net, finished, cap_gw, bench_gw)
 
     return {"meta": {"league_name": raw["league_name"], "league_id": LEAGUE_ID,
                      "generated_utc": dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
+                     "generated_iso": dt.datetime.utcnow().isoformat() + "Z",
+                     "started": (raw["current"] or 0) > 0 or bool(finished),
                      "current_gw": raw["current"], "finished": finished,
                      "n_members": len(M), "xlsx": "Laxmi_Chit_Fund_S5_audit.xlsx",
                      "bonus_pending": raw.get("bonus_pending", False)},
             "overall": overall_tbl, "matrix": matrix, "chip_kings": chip_kings,
             "captaincy": captaincy, "green": green, "comeback": comeback,
             "differential": differential, "pity": pity, "profiles": profiles,
-            "stats": stats, "mini": mini}
+            "stats": stats, "series": series, "mini": mini}
 
 def compute_mts(mt_config, M, net, finished, cap_gw, bench_gw):
     """mt_config: list of {name, group_gws, ko_gws, groups:{A:[eids]...}}. Optional."""
@@ -600,11 +609,19 @@ def demo_data():
                       "bank": round(rng.uniform(0, 2.5), 1), "grank": rng.randint(50000, 3000000),
                       "best_jump": rng.randint(50000, 2500000), "best_jump_gw": rng.choice(GWS),
                       "chips": rng.choice(chips_pool)})
+    series = {}
+    for o in overall:
+        eid = o["entry"]; orank = rng.randint(300000, 3000000); s = []
+        for g in GWS:
+            orank = max(800, orank - rng.randint(-90000, 240000))
+            s.append({"gw": g, "net": net[eid][g], "orank": orank, "cap": rng.randint(2, 30)})
+        series[str(eid)] = s
     return {"meta": {"league_name": "Laxmi Chit Fund - Season 5 (DEMO)", "league_id": LEAGUE_ID,
                      "generated_utc": dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
+                     "generated_iso": dt.datetime.utcnow().isoformat() + "Z", "started": True,
                      "current_gw": 7, "finished": GWS, "n_members": len(roster), "demo": True,
                      "xlsx": "S5-Dashboard-audit-DEMO.xlsx"},
-            "overall": overall, "matrix": {"gws": GWS, "rows": matrix_rows},
+            "overall": overall, "series": series, "matrix": {"gws": GWS, "rows": matrix_rows},
             "chip_kings": chip_kings, "captaincy": captaincy, "green": green,
             "comeback": {"active": False, "board": [], "eligible_n": COMEBACK_BOTTOM_N},
             "differential": {"best": diff[0], "board": diff[:15], "has_snapshots": True},
