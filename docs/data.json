@@ -2,15 +2,24 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-19 22:56 UTC",
+  "generated_utc": "2026-08-20 02:52 UTC",
   "current_gw": 0,
   "finished": [],
-  "n_members": 29,
+  "n_members": 30,
   "xlsx": "Laxmi_Chit_Fund_S5_audit.xlsx"
  },
  "overall": [
   {
    "rank": 1,
+   "arrow": "\u2022",
+   "manager": "Pranav Thomas",
+   "team_name": "Invincibles",
+   "entry": 6514976,
+   "gw_points": 0,
+   "total": 0
+  },
+  {
+   "rank": 2,
    "arrow": "\u2022",
    "manager": "Deepankar Sachdeva",
    "team_name": "Cment_mixers",
@@ -19,7 +28,7 @@
    "total": 0
   },
   {
-   "rank": 2,
+   "rank": 3,
    "arrow": "\u2022",
    "manager": "Ajith Thomas Kuthukatt George",
    "team_name": "Onside Offside",
@@ -28,7 +37,7 @@
    "total": 0
   },
   {
-   "rank": 3,
+   "rank": 4,
    "arrow": "\u2022",
    "manager": "prateek gupta",
    "team_name": "sakalaka",
@@ -37,7 +46,7 @@
    "total": 0
   },
   {
-   "rank": 4,
+   "rank": 5,
    "arrow": "\u2022",
    "manager": "Karan Chopra",
    "team_name": "fpl_26_27",
@@ -46,7 +55,7 @@
    "total": 0
   },
   {
-   "rank": 5,
+   "rank": 6,
    "arrow": "\u2022",
    "manager": "Aquib Razack",
    "team_name": "BattleBorn",
@@ -55,7 +64,7 @@
    "total": 0
   },
   {
-   "rank": 6,
+   "rank": 7,
    "arrow": "\u2022",
    "manager": "Satweek Nayak",
    "team_name": "Xa bing chilling",
@@ -64,7 +73,7 @@
    "total": 0
   },
   {
-   "rank": 7,
+   "rank": 8,
    "arrow": "\u2022",
    "manager": "Arshaq Razack",
    "team_name": "ShakeNBake",
@@ -73,7 +82,7 @@
    "total": 0
   },
   {
-   "rank": 8,
+   "rank": 9,
    "arrow": "\u2022",
    "manager": "Rohan Agrawal",
    "team_name": "Southall United",
@@ -82,7 +91,7 @@
    "total": 0
   },
   {
-   "rank": 9,
+   "rank": 10,
    "arrow": "\u2022",
    "manager": "Dean Jenkins",
    "team_name": "Slumber FC",
@@ -91,7 +100,7 @@
    "total": 0
   },
   {
-   "rank": 10,
+   "rank": 11,
    "arrow": "\u2022",
    "manager": "Ashwin Jose",
    "team_name": "Pole Calmer \ufffd",
@@ -100,7 +109,7 @@
    "total": 0
   },
   {
-   "rank": 11,
+   "rank": 12,
    "arrow": "\u2022",
    "manager": "Shivanshu Madan",
    "team_name": "Cold Palmer",
@@ -109,7 +118,7 @@
    "total": 0
   },
   {
-   "rank": 12,
+   "rank": 13,
    "arrow": "\u2022",
    "manager": "Sid Shaurya",
    "team_name": "Old Reijnders Nagar",
@@ -118,7 +127,7 @@
    "total": 0
   },
   {
-   "rank": 13,
+   "rank": 14,
    "arrow": "\u2022",
    "manager": "Karan Khanna",
    "team_name": "Amad Aura",
@@ -127,7 +136,7 @@
    "total": 0
   },
   {
-   "rank": 14,
+   "rank": 15,
    "arrow": "\u2022",
    "manager": "Abhinav Premsekhar",
    "team_name": "Totally Szobo",
@@ -136,7 +145,7 @@
    "total": 0
   },
   {
-   "rank": 15,
+   "rank": 16,
    "arrow": "\u2022",
    "manager": "Danish Javed",
    "team_name": "ItDzntMata",
@@ -145,7 +154,7 @@
    "total": 0
   },
   {
-   "rank": 16,
+   "rank": 17,
    "arrow": "\u2022",
    "manager": "Nilay jain",
    "team_name": "Redsbay",
@@ -154,7 +163,7 @@
    "total": 0
   },
   {
-   "rank": 17,
+   "rank": 18,
    "arrow": "\u2022",
    "manager": "Anish Joshi",
    "team_name": "Fiery Raiders",
@@ -163,7 +172,7 @@
    "total": 0
   },
   {
-   "rank": 18,
+   "rank": 19,
    "arrow": "\u2022",
    "manager": "Abhay Rawat",
    "team_name": "115 FC",
@@ -172,7 +181,7 @@
    "total": 0
   },
   {
-   "rank": 19,
+   "rank": 20,
    "arrow": "\u2022",
    "manager": "Raveesh Kalra",
    "team_name": "MaSalah",
@@ -181,7 +190,7 @@
    "total": 0
   },
   {
-   "rank": 20,
+   "rank": 21,
    "arrow": "\u2022",
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
@@ -190,7 +199,7 @@
    "total": 0
   },
   {
-   "rank": 21,
+   "rank": 22,
    "arrow": "\u2022",
    "manager": "Varun Khurana",
    "team_name": "Goal Diggers FC",
@@ -199,7 +208,7 @@
    "total": 0
   },
   {
-   "rank": 22,
+   "rank": 23,
    "arrow": "\u2022",
    "manager": "Rajit Das",
    "team_name": "FC Teetotallers",
@@ -208,7 +217,7 @@
    "total": 0
   },
   {
-   "rank": 23,
+   "rank": 24,
    "arrow": "\u2022",
    "manager": "Aparnesh Mishra",
    "team_name": "Mishra's 13",
@@ -217,7 +226,7 @@
    "total": 0
   },
   {
-   "rank": 24,
+   "rank": 25,
    "arrow": "\u2022",
    "manager": "Aayush Khanna",
    "team_name": "Loading...",
@@ -226,7 +235,7 @@
    "total": 0
   },
   {
-   "rank": 25,
+   "rank": 26,
    "arrow": "\u2022",
    "manager": "Abhishek Gupte",
    "team_name": "Enzotic",
@@ -235,7 +244,7 @@
    "total": 0
   },
   {
-   "rank": 26,
+   "rank": 27,
    "arrow": "\u2022",
    "manager": "Naman Agrawal",
    "team_name": "Captn Magnifico",
@@ -244,7 +253,7 @@
    "total": 0
   },
   {
-   "rank": 27,
+   "rank": 28,
    "arrow": "\u2022",
    "manager": "Pranshul Jain",
    "team_name": "Carrick Janta Party",
@@ -253,7 +262,7 @@
    "total": 0
   },
   {
-   "rank": 28,
+   "rank": 29,
    "arrow": "\u2022",
    "manager": "Aditya Vaidya",
    "team_name": "His Name is Diogo",
@@ -262,7 +271,7 @@
    "total": 0
   },
   {
-   "rank": 29,
+   "rank": 30,
    "arrow": "\u2022",
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
@@ -274,6 +283,11 @@
  "matrix": {
   "gws": [],
   "rows": [
+   {
+    "manager": "Pranav Thomas",
+    "entry": 6514976,
+    "scores": []
+   },
    {
     "manager": "Deepankar Sachdeva",
     "entry": 1301167,
@@ -453,6 +467,12 @@
  ],
  "captaincy": [
   {
+   "manager": "Pranav Thomas",
+   "entry": 6514976,
+   "points": 0,
+   "excluded": true
+  },
+  {
    "manager": "Deepankar Sachdeva",
    "entry": 1301167,
    "points": 0,
@@ -480,7 +500,7 @@
    "manager": "Aquib Razack",
    "entry": 5926399,
    "points": 0,
-   "excluded": true
+   "excluded": false
   },
   {
    "manager": "Satweek Nayak",
@@ -629,6 +649,12 @@
  ],
  "green": [
   {
+   "manager": "Pranav Thomas",
+   "entry": 6514976,
+   "arrows": 0,
+   "excluded": true
+  },
+  {
    "manager": "Deepankar Sachdeva",
    "entry": 1301167,
    "arrows": 0,
@@ -656,7 +682,7 @@
    "manager": "Aquib Razack",
    "entry": 5926399,
    "arrows": 0,
-   "excluded": true
+   "excluded": false
   },
   {
    "manager": "Satweek Nayak",
@@ -816,9 +842,18 @@
  "pity": [],
  "profiles": [
   {
+   "manager": "Pranav Thomas",
+   "team_name": "Invincibles",
+   "league_rank": 1,
+   "seasons": 1,
+   "best_rank": null,
+   "best_season": null,
+   "last_rank": null
+  },
+  {
    "manager": "Deepankar Sachdeva",
    "team_name": "Cment_mixers",
-   "league_rank": 1,
+   "league_rank": 2,
    "seasons": 3,
    "best_rank": 1128645,
    "best_season": "2025/26",
@@ -827,7 +862,7 @@
   {
    "manager": "Ajith Thomas Kuthukatt George",
    "team_name": "Onside Offside",
-   "league_rank": 2,
+   "league_rank": 3,
    "seasons": 3,
    "best_rank": 545267,
    "best_season": "2025/26",
@@ -836,7 +871,7 @@
   {
    "manager": "prateek gupta",
    "team_name": "sakalaka",
-   "league_rank": 3,
+   "league_rank": 4,
    "seasons": 5,
    "best_rank": 117338,
    "best_season": "2025/26",
@@ -845,7 +880,7 @@
   {
    "manager": "Karan Chopra",
    "team_name": "fpl_26_27",
-   "league_rank": 4,
+   "league_rank": 5,
    "seasons": 12,
    "best_rank": 81907,
    "best_season": "2020/21",
@@ -854,7 +889,7 @@
   {
    "manager": "Aquib Razack",
    "team_name": "BattleBorn",
-   "league_rank": 5,
+   "league_rank": 6,
    "seasons": 14,
    "best_rank": 71857,
    "best_season": "2020/21",
@@ -863,7 +898,7 @@
   {
    "manager": "Satweek Nayak",
    "team_name": "Xa bing chilling",
-   "league_rank": 6,
+   "league_rank": 7,
    "seasons": 14,
    "best_rank": 14603,
    "best_season": "2016/17",
@@ -872,7 +907,7 @@
   {
    "manager": "Arshaq Razack",
    "team_name": "ShakeNBake",
-   "league_rank": 7,
+   "league_rank": 8,
    "seasons": 16,
    "best_rank": 6474,
    "best_season": "2025/26",
@@ -881,7 +916,7 @@
   {
    "manager": "Rohan Agrawal",
    "team_name": "Southall United",
-   "league_rank": 8,
+   "league_rank": 9,
    "seasons": 6,
    "best_rank": 1320699,
    "best_season": "2020/21",
@@ -890,7 +925,7 @@
   {
    "manager": "Dean Jenkins",
    "team_name": "Slumber FC",
-   "league_rank": 9,
+   "league_rank": 10,
    "seasons": 5,
    "best_rank": 676529,
    "best_season": "2025/26",
@@ -899,7 +934,7 @@
   {
    "manager": "Ashwin Jose",
    "team_name": "Pole Calmer \ufffd",
-   "league_rank": 10,
+   "league_rank": 11,
    "seasons": 11,
    "best_rank": 95791,
    "best_season": "2018/19",
@@ -908,7 +943,7 @@
   {
    "manager": "Shivanshu Madan",
    "team_name": "Cold Palmer",
-   "league_rank": 11,
+   "league_rank": 12,
    "seasons": 7,
    "best_rank": 31543,
    "best_season": "2022/23",
@@ -917,7 +952,7 @@
   {
    "manager": "Sid Shaurya",
    "team_name": "Old Reijnders Nagar",
-   "league_rank": 12,
+   "league_rank": 13,
    "seasons": 8,
    "best_rank": 189374,
    "best_season": "2024/25",
@@ -926,7 +961,7 @@
   {
    "manager": "Karan Khanna",
    "team_name": "Amad Aura",
-   "league_rank": 13,
+   "league_rank": 14,
    "seasons": 8,
    "best_rank": 453230,
    "best_season": "2019/20",
@@ -935,7 +970,7 @@
   {
    "manager": "Abhinav Premsekhar",
    "team_name": "Totally Szobo",
-   "league_rank": 14,
+   "league_rank": 15,
    "seasons": 12,
    "best_rank": 27153,
    "best_season": "2022/23",
@@ -944,7 +979,7 @@
   {
    "manager": "Danish Javed",
    "team_name": "ItDzntMata",
-   "league_rank": 15,
+   "league_rank": 16,
    "seasons": 6,
    "best_rank": 273503,
    "best_season": "2024/25",
@@ -953,7 +988,7 @@
   {
    "manager": "Nilay jain",
    "team_name": "Redsbay",
-   "league_rank": 16,
+   "league_rank": 17,
    "seasons": 2,
    "best_rank": 4884220,
    "best_season": "2025/26",
@@ -962,7 +997,7 @@
   {
    "manager": "Anish Joshi",
    "team_name": "Fiery Raiders",
-   "league_rank": 17,
+   "league_rank": 18,
    "seasons": 15,
    "best_rank": 281617,
    "best_season": "2019/20",
@@ -971,7 +1006,7 @@
   {
    "manager": "Abhay Rawat",
    "team_name": "115 FC",
-   "league_rank": 18,
+   "league_rank": 19,
    "seasons": 11,
    "best_rank": 38561,
    "best_season": "2018/19",
@@ -980,7 +1015,7 @@
   {
    "manager": "Raveesh Kalra",
    "team_name": "MaSalah",
-   "league_rank": 19,
+   "league_rank": 20,
    "seasons": 7,
    "best_rank": 8917,
    "best_season": "2021/22",
@@ -989,7 +1024,7 @@
   {
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
-   "league_rank": 20,
+   "league_rank": 21,
    "seasons": 11,
    "best_rank": 28582,
    "best_season": "2021/22",
@@ -998,7 +1033,7 @@
   {
    "manager": "Varun Khurana",
    "team_name": "Goal Diggers FC",
-   "league_rank": 21,
+   "league_rank": 22,
    "seasons": 15,
    "best_rank": 410102,
    "best_season": "2009/10",
@@ -1007,7 +1042,7 @@
   {
    "manager": "Rajit Das",
    "team_name": "FC Teetotallers",
-   "league_rank": 22,
+   "league_rank": 23,
    "seasons": 7,
    "best_rank": 1615102,
    "best_season": "2024/25",
@@ -1016,7 +1051,7 @@
   {
    "manager": "Aparnesh Mishra",
    "team_name": "Mishra's 13",
-   "league_rank": 23,
+   "league_rank": 24,
    "seasons": 9,
    "best_rank": 334016,
    "best_season": "2020/21",
@@ -1025,7 +1060,7 @@
   {
    "manager": "Aayush Khanna",
    "team_name": "Loading...",
-   "league_rank": 24,
+   "league_rank": 25,
    "seasons": 10,
    "best_rank": 486041,
    "best_season": "2024/25",
@@ -1034,7 +1069,7 @@
   {
    "manager": "Abhishek Gupte",
    "team_name": "Enzotic",
-   "league_rank": 25,
+   "league_rank": 26,
    "seasons": 16,
    "best_rank": 37120,
    "best_season": "2014/15",
@@ -1043,7 +1078,7 @@
   {
    "manager": "Naman Agrawal",
    "team_name": "Captn Magnifico",
-   "league_rank": 26,
+   "league_rank": 27,
    "seasons": 11,
    "best_rank": 15136,
    "best_season": "2021/22",
@@ -1052,7 +1087,7 @@
   {
    "manager": "Pranshul Jain",
    "team_name": "Carrick Janta Party",
-   "league_rank": 27,
+   "league_rank": 28,
    "seasons": 9,
    "best_rank": 182900,
    "best_season": "2025/26",
@@ -1061,7 +1096,7 @@
   {
    "manager": "Aditya Vaidya",
    "team_name": "His Name is Diogo",
-   "league_rank": 28,
+   "league_rank": 29,
    "seasons": 12,
    "best_rank": 15288,
    "best_season": "2020/21",
@@ -1070,7 +1105,7 @@
   {
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
-   "league_rank": 29,
+   "league_rank": 30,
    "seasons": 10,
    "best_rank": 30971,
    "best_season": "2018/19",
