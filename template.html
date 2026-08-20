@@ -53,6 +53,11 @@ td{padding:10px 12px;border-top:1px solid var(--border)} tbody tr:nth-child(even
 .top5 td{background:var(--shade)!important}
 .tag{font-size:10.5px;background:var(--chip);color:var(--muted);border-radius:9px;padding:1px 7px;margin-left:6px;font-weight:700}
 .excl td{opacity:.5}
+.info{cursor:pointer;display:inline-flex;align-items:center;justify-content:center;width:14px;height:14px;margin-left:5px;border:1px solid var(--border);border-radius:50%;font-size:9px;font-weight:800;font-style:normal;color:var(--muted);text-transform:none;position:relative;vertical-align:middle}
+.info:hover,.info.open{background:var(--brand);color:var(--brandText);border-color:var(--brand)}
+.info .tip{visibility:hidden;opacity:0;position:absolute;z-index:40;top:150%;left:50%;transform:translateX(-50%);width:200px;background:var(--surface);color:var(--text);border:1px solid var(--border);box-shadow:var(--shadow);border-radius:9px;padding:9px 11px;font-size:11.5px;font-weight:400;text-transform:none;letter-spacing:0;line-height:1.45;text-align:left;white-space:normal;transition:.14s}
+.info .tip::before{content:"";position:absolute;bottom:100%;left:50%;transform:translateX(-50%);border:6px solid transparent;border-bottom-color:var(--border)}
+.info:hover .tip,.info.open .tip{visibility:visible;opacity:1}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:13px;margin-bottom:14px}
 .kpi{padding:15px 16px;border-left:5px solid var(--accent)}
 .kpi .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;font-weight:700}
@@ -96,7 +101,7 @@ footer{color:var(--muted);font-size:11.5px;text-align:center;padding:26px}
 const D = __DATA__;
 const $=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e};
 const arrow=a=>a==='▲'?'<span class="up">▲</span>':a==='▼'?'<span class="down">▼</span>':'<span class="flat">•</span>';
-function table(cols,rows){let h='<table><thead><tr>'+cols.map(c=>`<th class="${c.cls||''}">${c.t}</th>`).join('')+'</tr></thead><tbody>';
+function table(cols,rows){let h='<table><thead><tr>'+cols.map(c=>`<th class="${c.cls||''}">${c.t}${c.tip?` <span class="info" tabindex="0" aria-label="${c.tip.replace(/"/g,'&quot;')}">i<span class="tip">${c.tip}</span></span>`:''}</th>`).join('')+'</tr></thead><tbody>';
  rows.forEach(r=>{h+='<tr'+(r._cls?` class="${r._cls}"`:'')+'>'+r.cells.map((c,i)=>`<td class="${cols[i].cls||''}">${c}</td>`).join('')+'</tr>'});return h+'</tbody></table>'}
 const TABS=[]; const addTab=(id,label,render)=>TABS.push({id,label,render});
 
@@ -141,9 +146,21 @@ addTab('stats','Stats',()=>{
  });
  return '<h2>Season Stats</h2><p class="note">Everything beyond the league table. "Above Avg" = weeks scored over the league\'s weekly average (consistency). "Cap Return" = total captain points. "Value Δ" = squad value change since GW1. "Best Jump" = biggest one-week climb in global rank. Scroll sideways for more.</p>'+
    '<div style="overflow-x:auto">'+
-   table([{t:'#'},{t:'Manager'},{t:'Total',cls:'r'},{t:'Avg',cls:'r'},{t:'Above Avg',cls:'c'},{t:'Cap Ret',cls:'r'},
-          {t:'High',cls:'r'},{t:'Low',cls:'r'},{t:'Transfers',cls:'c'},{t:'Hits',cls:'c'},{t:'Bench',cls:'c'},
-          {t:'Squad',cls:'r'},{t:'Value Δ',cls:'r'},{t:'Global Rank',cls:'r'},{t:'Best Jump',cls:'r'},{t:'Chips'}],rows)+
+   table([{t:'#'},{t:'Manager'},
+          {t:'Total',cls:'r',tip:'Cumulative season points, net of any transfer-hit deductions.'},
+          {t:'Avg',cls:'r',tip:'Average points per gameweek played so far.'},
+          {t:'Above Avg',cls:'c',tip:"Gameweeks scored above the league's average for that week — a consistency measure. Shown as (weeks above / weeks played)."},
+          {t:'Cap Ret',cls:'r',tip:'Total points earned from the captain, after the ×2 (or ×3 Triple Captain) multiplier, across the season.'},
+          {t:'High',cls:'r',tip:'Best single-gameweek score, and the gameweek it happened.'},
+          {t:'Low',cls:'r',tip:'Worst single-gameweek score, and the gameweek it happened.'},
+          {t:'Transfers',cls:'c',tip:'Total transfers made this season — free and paid combined.'},
+          {t:'Hits',cls:'c',tip:'Points hits taken for extra transfers. Shown as number of hits and total points lost, e.g. 2 (−8).'},
+          {t:'Bench',cls:'c',tip:"Total points scored by players left on the bench — points that didn't count (excluding Bench Boost weeks)."},
+          {t:'Squad',cls:'r',tip:'Current squad value in £m — the sale value of the 15-man team.'},
+          {t:'Value Δ',cls:'r',tip:'Change in squad value since GW1 — value gained or lost through player price rises and falls.'},
+          {t:'Global Rank',cls:'r',tip:'Current overall rank across all FPL managers worldwide.'},
+          {t:'Best Jump',cls:'r',tip:'Biggest one-gameweek climb in overall (global) rank, and the gameweek it happened.'},
+          {t:'Chips',tip:'Chips used so far: WC = Wildcard, FH = Free Hit, BB = Bench Boost, TC = Triple Captain.'}],rows)+
    '</div>';
 });
 
@@ -264,4 +281,11 @@ function setTheme(t){root.setAttribute('data-theme',t);tbtn.innerHTML=t==='dark'
 let _saved=null; try{_saved=localStorage.getItem('lcf-theme')}catch(e){}
 setTheme(_saved || (matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'));
 tbtn.onclick=()=>setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');
+
+/* info tooltips: tap to toggle (mobile), tap elsewhere to close */
+document.addEventListener('click',e=>{
+ const el=e.target.closest('.info');
+ document.querySelectorAll('.info.open').forEach(x=>{if(x!==el)x.classList.remove('open')});
+ if(el){e.stopPropagation();e.preventDefault();el.classList.toggle('open')}
+});
 </script></body></html>
