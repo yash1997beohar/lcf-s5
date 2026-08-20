@@ -2,11 +2,12 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-20 03:13 UTC",
+  "generated_utc": "2026-08-20 03:45 UTC",
   "current_gw": 0,
   "finished": [],
   "n_members": 30,
-  "xlsx": "Laxmi_Chit_Fund_S5_audit.xlsx"
+  "xlsx": "Laxmi_Chit_Fund_S5_audit.xlsx",
+  "bonus_pending": false
  },
  "overall": [
   {
@@ -16,7 +17,8 @@
    "team_name": "Invincibles",
    "entry": 6514976,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 2,
@@ -25,7 +27,8 @@
    "team_name": "Cment_mixers",
    "entry": 1301167,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 3,
@@ -34,7 +37,8 @@
    "team_name": "Onside Offside",
    "entry": 5419891,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 4,
@@ -43,7 +47,8 @@
    "team_name": "sakalaka",
    "entry": 6023506,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 5,
@@ -52,7 +57,8 @@
    "team_name": "fpl_26_27",
    "entry": 5970777,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 6,
@@ -61,7 +67,8 @@
    "team_name": "BattleBorn",
    "entry": 5926399,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 7,
@@ -70,7 +77,8 @@
    "team_name": "Xa bing chilling",
    "entry": 46711,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 8,
@@ -79,7 +87,8 @@
    "team_name": "ShakeNBake",
    "entry": 1086057,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 9,
@@ -88,7 +97,8 @@
    "team_name": "Southall United",
    "entry": 5582398,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 10,
@@ -97,7 +107,8 @@
    "team_name": "Slumber FC",
    "entry": 5565611,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 11,
@@ -106,7 +117,8 @@
    "team_name": "Pole Calmer \ufffd",
    "entry": 5008941,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 12,
@@ -115,7 +127,8 @@
    "team_name": "Cold Palmer",
    "entry": 2424090,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 13,
@@ -124,7 +137,8 @@
    "team_name": "Old Reijnders Nagar",
    "entry": 5340498,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 14,
@@ -133,7 +147,8 @@
    "team_name": "Amad Aura",
    "entry": 3330149,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 15,
@@ -142,7 +157,8 @@
    "team_name": "Totally Szobo",
    "entry": 79306,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 16,
@@ -151,7 +167,8 @@
    "team_name": "ItDzntMata",
    "entry": 3323226,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 17,
@@ -160,7 +177,8 @@
    "team_name": "Redsbay",
    "entry": 4993853,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 18,
@@ -169,7 +187,8 @@
    "team_name": "Fiery Raiders",
    "entry": 256447,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 19,
@@ -178,7 +197,8 @@
    "team_name": "115 FC",
    "entry": 3942416,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 20,
@@ -187,7 +207,8 @@
    "team_name": "MaSalah",
    "entry": 2354537,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 21,
@@ -196,7 +217,8 @@
    "team_name": "KingOfKings Fc",
    "entry": 427154,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 22,
@@ -205,7 +227,8 @@
    "team_name": "Goal Diggers FC",
    "entry": 3909562,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 23,
@@ -214,7 +237,8 @@
    "team_name": "FC Teetotallers",
    "entry": 4837220,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 24,
@@ -223,7 +247,8 @@
    "team_name": "Mishra's 13",
    "entry": 3181909,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 25,
@@ -232,7 +257,8 @@
    "team_name": "Loading...",
    "entry": 2003955,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 26,
@@ -241,7 +267,8 @@
    "team_name": "Enzotic",
    "entry": 4688717,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 27,
@@ -250,7 +277,8 @@
    "team_name": "Captn Magnifico",
    "entry": 20569,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 28,
@@ -259,7 +287,8 @@
    "team_name": "Carrick Janta Party",
    "entry": 1362641,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 29,
@@ -268,7 +297,8 @@
    "team_name": "His Name is Diogo",
    "entry": 9695,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   },
   {
    "rank": 30,
@@ -277,7 +307,8 @@
    "team_name": "Fluente in Football",
    "entry": 374875,
    "gw_points": 0,
-   "total": 0
+   "total": 0,
+   "hits": 0
   }
  ],
  "matrix": {
