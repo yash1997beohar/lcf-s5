@@ -58,8 +58,12 @@ def fetch_all(league_id, cache_dir="cache"):
     """Pull everything needed. Returns a raw dict. Finished-GW data is cached."""
     boot = _get(f"{API}/bootstrap-static/")
     events = boot["events"]
-    finished = [e["id"] for e in events if e["finished"]]
+    # A GW only counts once FPL confirms it: data_checked flips true AFTER bonus points
+    # are finalised (finished can flip earlier, before bonus). This guarantees no
+    # provisional/pre-bonus scores are ever shown or cached as immutable.
+    finished = [e["id"] for e in events if e.get("data_checked")]
     current = next((e["id"] for e in events if e["is_current"]), finished[-1] if finished else 0)
+    bonus_pending = any(e.get("finished") and not e.get("data_checked") for e in events)
 
     # roster: after GW1 members live in standings.results; pre-season in new_entries
     members, page = {}, 1
@@ -98,13 +102,14 @@ def fetch_all(league_id, cache_dir="cache"):
     for gw in finished:
         try:
             d = _cached(cache_dir, f"live_{gw}", f"{API}/event/{gw}/live/")
-            live[gw] = {e["id"]: e["stats"]["total_points"] for e in d["elements"]}
+            live[gw] = {e["id"]: {"p": e["stats"]["total_points"], "m": e["stats"]["minutes"]}
+                        for e in d["elements"]}
         except RuntimeError:
             live[gw] = {}
 
     return {"league_name": league_name, "events": events, "finished": finished,
             "current": current, "elements": boot["elements"], "members": members,
-            "histories": histories, "picks": picks, "live": live}
+            "histories": histories, "picks": picks, "live": live, "bonus_pending": bonus_pending}
 
 # ------------------------------------------------------------- snapshot (deadline)
 def capture_snapshot(elements, gw, snap_dir):
@@ -137,6 +142,32 @@ def compute(raw, snap_dir, mt_config):
     for eid in M:
         for row in hist.get(eid, {}).get("current", []):
             net[eid][row["event"]] = row["points"] - row["event_transfers_cost"]
+    # transfer hits taken (points lost) per manager
+    hits_total = {eid: sum(r.get("event_transfers_cost", 0) for r in hist.get(eid, {}).get("current", []))
+                  for eid in M}
+
+    # live player helpers (points / minutes) with captain->vice fallback
+    def _pv(gw, el):
+        v = live.get(gw, {}).get(el)
+        return v if isinstance(v, dict) else ({"p": v or 0, "m": 0} if v is not None else {"p": 0, "m": 0})
+    def P(gw, el):   return _pv(gw, el)["p"]
+    def MIN(gw, el): return _pv(gw, el)["m"]
+    def eff_captain(eid, gw):
+        """Captain points (x multiplier). If the captain played 0 mins, the armband
+        (and its multiplier, incl. Triple Captain x3) passes to the vice-captain."""
+        p = picks.get(eid, {}).get(gw)
+        if not p:
+            return 0
+        cap = next((pk for pk in p["picks"] if pk.get("is_captain")), None)
+        vice = next((pk for pk in p["picks"] if pk.get("is_vice_captain")), None)
+        if not cap:
+            return 0
+        mult = cap["multiplier"]
+        if MIN(gw, cap["element"]) > 0:
+            return P(gw, cap["element"]) * mult
+        if vice and MIN(gw, vice["element"]) > 0:
+            return P(gw, vice["element"]) * mult
+        return 0
 
     # -------- Overall table
     if any(m["rank"] for m in M.values()):
@@ -149,7 +180,8 @@ def compute(raw, snap_dir, mt_config):
         arrow = "•" if not lr or lr == r else ("▲" if r < lr else "▼")
         overall_tbl.append({"rank": r or i, "arrow": arrow, "manager": m["manager"],
                             "team_name": m["team_name"], "entry": m["entry"],
-                            "gw_points": m["event_total"], "total": m["total"]})
+                            "gw_points": m["event_total"], "total": m["total"],
+                            "hits": hits_total.get(m["entry"], 0)})
     top5_ids = {row["entry"] for row in overall_tbl[:TOP5_EXCLUDED]}
 
     # -------- GW score matrix
@@ -167,13 +199,7 @@ def compute(raw, snap_dir, mt_config):
             if name not in chip_key or gw not in finished:
                 continue
             if name == "3xc":
-                sc = 0
-                p = picks.get(eid, {}).get(gw)
-                if p:
-                    for pk in p["picks"]:
-                        if pk["is_captain"]:
-                            sc = live.get(gw, {}).get(pk["element"], 0) * 3
-                score = sc
+                score = eff_captain(eid, gw)   # x3 already in the captain's multiplier; vice fallback applied
             else:
                 score = net[eid].get(gw)
             if score is None:
@@ -190,12 +216,8 @@ def compute(raw, snap_dir, mt_config):
         for r in hist.get(eid, {}).get("current", []):
             bench_gw[eid][r["event"]] = r.get("points_on_bench", 0)
         for gw in finished:
-            p = picks.get(eid, {}).get(gw)
-            if not p:
-                continue
-            for pk in p["picks"]:
-                if pk["is_captain"]:
-                    cap_gw[eid][gw] = live.get(gw, {}).get(pk["element"], 0) * pk["multiplier"]
+            if picks.get(eid, {}).get(gw):
+                cap_gw[eid][gw] = eff_captain(eid, gw)
     cap_tot = {eid: sum(cap_gw[eid].values()) for eid in M}
     captaincy = sorted(
         [{"manager": M[eid]["manager"], "entry": eid, "points": cap_tot[eid],
@@ -241,7 +263,7 @@ def compute(raw, snap_dir, mt_config):
                 if s and s["own"] < DIFF_OWNERSHIP_MAX:
                     diff_board.append({"manager": M[eid]["manager"], "gw": gw,
                                        "player": names.get(pk["element"], "?"),
-                                       "points": live.get(gw, {}).get(pk["element"], 0),
+                                       "points": P(gw, pk["element"]),
                                        "own": s["own"]})
     diff_board.sort(key=lambda x: -x["points"])
     differential = {"best": diff_board[0] if diff_board else None, "board": diff_board[:15],
@@ -286,7 +308,8 @@ def compute(raw, snap_dir, mt_config):
     return {"meta": {"league_name": raw["league_name"], "league_id": LEAGUE_ID,
                      "generated_utc": dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
                      "current_gw": raw["current"], "finished": finished,
-                     "n_members": len(M), "xlsx": "Laxmi_Chit_Fund_S5_audit.xlsx"},
+                     "n_members": len(M), "xlsx": "Laxmi_Chit_Fund_S5_audit.xlsx",
+                     "bonus_pending": raw.get("bonus_pending", False)},
             "overall": overall_tbl, "matrix": matrix, "chip_kings": chip_kings,
             "captaincy": captaincy, "green": green, "comeback": comeback,
             "differential": differential, "pity": pity, "profiles": profiles, "mini": mini}
@@ -398,10 +421,10 @@ def write_excel(data, path):
             cell = ws.cell(1, c); cell.font = hdr; cell.fill = fill
             cell.alignment = Alignment(horizontal="center")
     ws = wb.active; ws.title = "Overall"
-    ws.append(["Rank", "Manager", "Team", "GW", "Total"])
+    ws.append(["Rank", "Manager", "Team", "GW", "Hits (pts)", "Total"])
     for r in data["overall"]:
-        ws.append([r["rank"], r["manager"], r["team_name"], r["gw_points"], r["total"]])
-    style(ws, 5)
+        ws.append([r["rank"], r["manager"], r["team_name"], r["gw_points"], -r.get("hits", 0), r["total"]])
+    style(ws, 6)
     # GW matrix
     ws = wb.create_sheet("GW Scores")
     ws.append(["Manager"] + [f"GW{g}" for g in data["matrix"]["gws"]])
@@ -482,7 +505,8 @@ def demo_data():
         arrow = "•" if lr == i else ("▲" if i < lr else "▼")
         overall.append({"rank": i, "arrow": arrow, "manager": members[eid]["manager"],
                         "team_name": members[eid]["team_name"], "entry": eid,
-                        "gw_points": members[eid]["event_total"], "total": members[eid]["total"]})
+                        "gw_points": members[eid]["event_total"], "total": members[eid]["total"],
+                        "hits": rng.choice([0, 0, 0, 4, 8, 12])})
         matrix_rows.append({"manager": members[eid]["manager"], "entry": eid,
                             "scores": [net[eid][g] for g in GWS]})
     top5 = {o["entry"] for o in overall[:5]}

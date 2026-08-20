@@ -104,10 +104,11 @@ const TABS=[]; const addTab=(id,label,render)=>TABS.push({id,label,render});
 addTab('overall','Overall',()=>{
  const rows=D.overall.map(r=>({_cls:r.rank<=5?'top5':'',cells:[
    `<span class="rk ${r.rank<=5?'gold':''}">${r.rank}</span> ${arrow(r.arrow)}`,
-   `<b>${r.manager}</b>`,`<span class="mut">${r.team_name}</span>`,r.gw_points,`<b>${r.total}</b>`]}));
+   `<b>${r.manager}</b>`,`<span class="mut">${r.team_name}</span>`,r.gw_points,
+   (r.hits?`<span class="down">−${r.hits}</span>`:`<span class="mut">0</span>`),`<b>${r.total}</b>`]}));
  return `<h2>Overall Table <span class="sm">₹75,000 · top 5</span></h2>
-  <p class="note">Cumulative net points, GW1–GW38. The shaded top 5 share the main pool. Arrows show movement since the last gameweek.</p>`+
-  table([{t:'#'},{t:'Manager'},{t:'Team'},{t:'GW',cls:'r'},{t:'Total',cls:'r'}],rows);
+  <p class="note">Cumulative points net of transfer hits, GW1–GW38. The shaded top 5 share the main pool. "Hits" is season points lost to extra transfers. Arrows show movement since the last gameweek.</p>`+
+  table([{t:'#'},{t:'Manager'},{t:'Team'},{t:'GW',cls:'r'},{t:'Hits',cls:'c'},{t:'Total',cls:'r'}],rows);
 });
 
 /* ---- Manager Profiles ---- */
@@ -216,6 +217,7 @@ const m=D.meta;
 document.getElementById('meta').innerHTML=
  `<span class="pill">${m.n_members} managers</span><span class="pill gold">₹1,24,000</span>`+
  `<span class="pill">${m.current_gw?('through GW'+m.current_gw):'pre-season'}</span>`+
+ (m.bonus_pending?'<span class="pill">⏳ bonus confirming</span>':'')+
  `<span class="pill">updated ${m.generated_utc}</span>`+(m.demo?'<span class="pill">DEMO</span>':'');
 document.getElementById('foot').innerHTML=`Auto-generated from the official FPL API · League ${m.league_id} · ${m.generated_utc}`+(m.demo?' · simulated numbers for design preview':'');
 document.getElementById('dl').onclick=()=>location.href=(m.xlsx||'Laxmi_Chit_Fund_S5_audit.xlsx');
