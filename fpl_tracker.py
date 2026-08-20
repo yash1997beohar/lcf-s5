@@ -302,6 +302,44 @@ def compute(raw, snap_dir, mt_config):
                          "last_rank": past[-1]["rank"] if past else None})
     profiles.sort(key=lambda x: x["league_rank"] or 1e9)
 
+    # -------- Season Stats (per manager)
+    gw_avg = {}
+    for g in finished:
+        xs = [net[eid][g] for eid in M if g in net[eid]]
+        gw_avg[g] = (sum(xs) / len(xs)) if xs else 0
+    stats = []
+    for eid, m in M.items():
+        cur = hist.get(eid, {}).get("current", [])
+        scores = [(net[eid][g], g) for g in finished if g in net[eid]]
+        vals = [s for s, _ in scores]
+        hi = max(scores, default=(None, None))
+        lo = min(scores, default=(None, None))
+        above_avg = sum(1 for g in finished if g in net[eid] and net[eid][g] > gw_avg[g])
+        orank = {r["event"]: r.get("overall_rank") for r in cur}
+        best_jump, best_jump_gw = None, None
+        for g in finished:
+            if g >= 2 and orank.get(g) and orank.get(g - 1):
+                jump = orank[g - 1] - orank[g]          # positive = climbed
+                if jump > 0 and (best_jump is None or jump > best_jump):
+                    best_jump, best_jump_gw = jump, g
+        v0 = cur[0].get("value") if cur else None
+        v1 = cur[-1].get("value") if cur else None
+        stats.append({"manager": m["manager"], "team_name": m["team_name"], "entry": eid,
+                      "total": m["total"], "played": len(vals),
+                      "avg": round(sum(vals) / len(vals), 1) if vals else None,
+                      "above_avg": above_avg, "cap_return": cap_tot.get(eid, 0),
+                      "high": hi[0], "high_gw": hi[1], "low": lo[0], "low_gw": lo[1],
+                      "transfers": sum(r.get("event_transfers", 0) for r in cur),
+                      "hits_pts": hits_total[eid], "hits_n": hits_total[eid] // 4,
+                      "bench": sum(r.get("points_on_bench", 0) for r in cur),
+                      "value": round(v1 / 10.0, 1) if v1 is not None else None,
+                      "value_delta": round((v1 - v0) / 10.0, 1) if (v0 is not None and v1 is not None) else None,
+                      "bank": round(cur[-1].get("bank", 0) / 10.0, 1) if cur else None,
+                      "grank": cur[-1].get("overall_rank") if cur else None,
+                      "best_jump": best_jump, "best_jump_gw": best_jump_gw,
+                      "chips": [c["name"] for c in hist.get(eid, {}).get("chips", [])]})
+    stats.sort(key=lambda x: -x["total"])
+
     # -------- Mini Tournaments (draws come from config)
     mini = compute_mts(mt_config, M, net, finished, cap_gw, bench_gw)
 
@@ -312,7 +350,8 @@ def compute(raw, snap_dir, mt_config):
                      "bonus_pending": raw.get("bonus_pending", False)},
             "overall": overall_tbl, "matrix": matrix, "chip_kings": chip_kings,
             "captaincy": captaincy, "green": green, "comeback": comeback,
-            "differential": differential, "pity": pity, "profiles": profiles, "mini": mini}
+            "differential": differential, "pity": pity, "profiles": profiles,
+            "stats": stats, "mini": mini}
 
 def compute_mts(mt_config, M, net, finished, cap_gw, bench_gw):
     """mt_config: list of {name, group_gws, ko_gws, groups:{A:[eids]...}}. Optional."""
@@ -463,6 +502,16 @@ def write_excel(data, path):
         ws.append([r["league_rank"], r["manager"], r["team_name"], r["seasons"],
                    r["best_rank"], r["best_season"], r["last_rank"]])
     style(ws, 7)
+    ws = wb.create_sheet("Season Stats")
+    ws.append(["Manager", "Team", "Total", "Avg GW", "Above Avg", "Cap Return", "High", "High GW",
+               "Low", "Low GW", "Transfers", "Hits (n)", "Hits (pts)", "Bench", "Squad £m",
+               "Value Δ £m", "Bank £m", "Global Rank", "Best Jump", "Best Jump GW", "Chips"])
+    for r in data.get("stats", []):
+        ws.append([r["manager"], r["team_name"], r["total"], r["avg"], r.get("above_avg"),
+                   r.get("cap_return"), r["high"], r["high_gw"], r["low"], r["low_gw"], r["transfers"],
+                   r["hits_n"], -r["hits_pts"], r["bench"], r["value"], r.get("value_delta"),
+                   r["bank"], r["grank"], r.get("best_jump"), r.get("best_jump_gw"), ", ".join(r["chips"])])
+    style(ws, 21)
     ws = wb.create_sheet("Pity")
     ws.append(["Manager", "GW", "Score", "Hit", "Ruled-out starters", "Valid?"])
     for r in data["pity"]:
@@ -536,6 +585,21 @@ def demo_data():
                  "seasons": rng.randint(2, 8), "best_rank": rng.randint(4000, 480000),
                  "best_season": rng.choice(seasons_pool), "last_rank": rng.randint(20000, 1200000)}
                 for o in overall]
+    chips_pool = [["3xc"], ["bboost"], ["wildcard"], [], ["freehit"], ["wildcard", "3xc"]]
+    stats = []
+    for o in overall:
+        eid = o["entry"]; sc = [(net[eid][g], g) for g in GWS]
+        vals = [v for v, _ in sc]; hi = max(sc); lo = min(sc)
+        stats.append({"manager": o["manager"], "team_name": o["team_name"], "entry": eid,
+                      "total": o["total"], "played": len(GWS), "avg": round(sum(vals) / len(vals), 1),
+                      "above_avg": rng.randint(0, len(GWS)), "cap_return": rng.randint(40, 130),
+                      "high": hi[0], "high_gw": hi[1], "low": lo[0], "low_gw": lo[1],
+                      "transfers": rng.randint(7, 22), "hits_pts": o["hits"], "hits_n": o["hits"] // 4,
+                      "bench": rng.randint(20, 80), "value": round(rng.uniform(99.5, 103.5), 1),
+                      "value_delta": round(rng.uniform(-1.5, 3.0), 1),
+                      "bank": round(rng.uniform(0, 2.5), 1), "grank": rng.randint(50000, 3000000),
+                      "best_jump": rng.randint(50000, 2500000), "best_jump_gw": rng.choice(GWS),
+                      "chips": rng.choice(chips_pool)})
     return {"meta": {"league_name": "Laxmi Chit Fund - Season 5 (DEMO)", "league_id": LEAGUE_ID,
                      "generated_utc": dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
                      "current_gw": 7, "finished": GWS, "n_members": len(roster), "demo": True,
@@ -544,7 +608,7 @@ def demo_data():
             "chip_kings": chip_kings, "captaincy": captaincy, "green": green,
             "comeback": {"active": False, "board": [], "eligible_n": COMEBACK_BOTTOM_N},
             "differential": {"best": diff[0], "board": diff[:15], "has_snapshots": True},
-            "pity": pity, "profiles": profiles, "mini": mini}
+            "pity": pity, "profiles": profiles, "stats": stats, "mini": mini}
 
 def _demo_knockout(gtables, rng):
     q = [tbl[0][0] for tbl in gtables.values()] + [tbl[1][0] for tbl in gtables.values()][:2]

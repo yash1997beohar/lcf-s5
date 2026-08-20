@@ -102,13 +102,49 @@ const TABS=[]; const addTab=(id,label,render)=>TABS.push({id,label,render});
 
 /* ---- Overall ---- */
 addTab('overall','Overall',()=>{
+ const gwlab = D.meta.current_gw ? ('GW'+D.meta.current_gw) : 'GW';
  const rows=D.overall.map(r=>({_cls:r.rank<=5?'top5':'',cells:[
    `<span class="rk ${r.rank<=5?'gold':''}">${r.rank}</span> ${arrow(r.arrow)}`,
-   `<b>${r.manager}</b>`,`<span class="mut">${r.team_name}</span>`,r.gw_points,
-   (r.hits?`<span class="down">−${r.hits}</span>`:`<span class="mut">0</span>`),`<b>${r.total}</b>`]}));
+   `<b>${r.manager}</b>`,`<span class="mut">${r.team_name}</span>`,r.gw_points,`<b>${r.total}</b>`]}));
  return `<h2>Overall Table <span class="sm">₹75,000 · top 5</span></h2>
-  <p class="note">Cumulative points net of transfer hits, GW1–GW38. The shaded top 5 share the main pool. "Hits" is season points lost to extra transfers. Arrows show movement since the last gameweek.</p>`+
-  table([{t:'#'},{t:'Manager'},{t:'Team'},{t:'GW',cls:'r'},{t:'Hits',cls:'c'},{t:'Total',cls:'r'}],rows);
+  <p class="note">Ranked by total points (net of transfer hits), highest to lowest. "${gwlab}" is each manager's score in the latest gameweek; "Total" is the season score. Shaded top 5 share the main pool; arrows show movement since the previous gameweek. Fuller per-manager numbers live on the Stats tab.</p>`+
+  table([{t:'#'},{t:'Manager'},{t:'Team'},{t:gwlab,cls:'r'},{t:'Total',cls:'r'}],rows);
+});
+
+/* ---- Season Stats ---- */
+addTab('stats','Stats',()=>{
+ if(!D.stats||!D.stats.length) return '<h2>Season Stats</h2><p class="note">Per-manager season stats populate once the season is live.</p>';
+ const cm={wildcard:'WC',freehit:'FH',bboost:'BB','3xc':'TC'};
+ const fk=n=>n==null?'—':(n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e3?Math.round(n/1e3)+'k':(''+n));
+ const rows=D.stats.map((r,i)=>{
+   const vd=r.value_delta;
+   const vds=vd==null?'—':(vd>0?`<span class="up">+£${vd}m</span>`:vd<0?`<span class="down">−£${Math.abs(vd)}m</span>`:'£0.0m');
+   const bj=r.best_jump!=null?`<span class="up">▲${fk(r.best_jump)}</span> <span class="mut">GW${r.best_jump_gw}</span>`:'—';
+   return {cells:[
+     `<span class="rk">${i+1}</span>`,
+     `<b>${r.manager}</b><br><span class="mut">${r.team_name}</span>`,
+     `<b>${r.total}</b>`,
+     r.avg!=null?r.avg:'—',
+     `${r.above_avg}<span class="mut">/${r.played}</span>`,
+     `<b>${r.cap_return}</b>`,
+     r.high!=null?`${r.high} <span class="mut">GW${r.high_gw}</span>`:'—',
+     r.low!=null?`${r.low} <span class="mut">GW${r.low_gw}</span>`:'—',
+     r.transfers,
+     `${r.hits_n} <span class="mut">(−${r.hits_pts})</span>`,
+     r.bench,
+     r.value!=null?('£'+r.value+'m'):'—',
+     vds,
+     r.grank!=null?fk(r.grank):'—',
+     bj,
+     (r.chips&&r.chips.length)?r.chips.map(c=>`<span class="tag">${cm[c]||c}</span>`).join(' '):'<span class="mut">—</span>'
+   ]};
+ });
+ return '<h2>Season Stats</h2><p class="note">Everything beyond the league table. "Above Avg" = weeks scored over the league\'s weekly average (consistency). "Cap Return" = total captain points. "Value Δ" = squad value change since GW1. "Best Jump" = biggest one-week climb in global rank. Scroll sideways for more.</p>'+
+   '<div style="overflow-x:auto">'+
+   table([{t:'#'},{t:'Manager'},{t:'Total',cls:'r'},{t:'Avg',cls:'r'},{t:'Above Avg',cls:'c'},{t:'Cap Ret',cls:'r'},
+          {t:'High',cls:'r'},{t:'Low',cls:'r'},{t:'Transfers',cls:'c'},{t:'Hits',cls:'c'},{t:'Bench',cls:'c'},
+          {t:'Squad',cls:'r'},{t:'Value Δ',cls:'r'},{t:'Global Rank',cls:'r'},{t:'Best Jump',cls:'r'},{t:'Chips'}],rows)+
+   '</div>';
 });
 
 /* ---- Manager Profiles ---- */
