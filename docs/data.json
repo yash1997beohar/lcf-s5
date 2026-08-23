@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-23 20:53 UTC",
-  "generated_iso": "2026-08-23T20:53:13.454506Z",
+  "generated_utc": "2026-08-23 22:51 UTC",
+  "generated_iso": "2026-08-23T22:51:18.036118Z",
   "started": true,
   "current_gw": 1,
   "finished": [],
@@ -115,16 +115,6 @@
   {
    "rank": 11,
    "arrow": "\u2022",
-   "manager": "Karan Chopra",
-   "team_name": "fpl_26_27",
-   "entry": 5970777,
-   "gw_points": 48,
-   "total": 48,
-   "hits": 0
-  },
-  {
-   "rank": 11,
-   "arrow": "\u2022",
    "manager": "Aparnesh Mishra",
    "team_name": "Mishra's 13",
    "entry": 3181909,
@@ -133,13 +123,13 @@
    "hits": 0
   },
   {
-   "rank": 13,
+   "rank": 11,
    "arrow": "\u2022",
-   "manager": "Ajith Thomas Kuthukatt George",
-   "team_name": "Onside Offside",
-   "entry": 5419891,
-   "gw_points": 44,
-   "total": 44,
+   "manager": "Karan Chopra",
+   "team_name": "fpl_26_27",
+   "entry": 5970777,
+   "gw_points": 48,
+   "total": 48,
    "hits": 0
   },
   {
@@ -148,6 +138,16 @@
    "manager": "Rohan Agrawal",
    "team_name": "Southall United",
    "entry": 5582398,
+   "gw_points": 44,
+   "total": 44,
+   "hits": 0
+  },
+  {
+   "rank": 13,
+   "arrow": "\u2022",
+   "manager": "Ajith Thomas Kuthukatt George",
+   "team_name": "Onside Offside",
+   "entry": 5419891,
    "gw_points": 44,
    "total": 44,
    "hits": 0
@@ -377,23 +377,23 @@
     "scores": []
    },
    {
-    "manager": "Karan Chopra",
-    "entry": 5970777,
-    "scores": []
-   },
-   {
     "manager": "Aparnesh Mishra",
     "entry": 3181909,
     "scores": []
    },
    {
-    "manager": "Ajith Thomas Kuthukatt George",
-    "entry": 5419891,
+    "manager": "Karan Chopra",
+    "entry": 5970777,
     "scores": []
    },
    {
     "manager": "Rohan Agrawal",
     "entry": 5582398,
+    "scores": []
+   },
+   {
+    "manager": "Ajith Thomas Kuthukatt George",
+    "entry": 5419891,
     "scores": []
    },
    {
@@ -575,26 +575,26 @@
    "excluded": false
   },
   {
-   "manager": "Karan Chopra",
-   "entry": 5970777,
-   "points": 0,
-   "excluded": false
-  },
-  {
    "manager": "Aparnesh Mishra",
    "entry": 3181909,
    "points": 0,
    "excluded": false
   },
   {
-   "manager": "Ajith Thomas Kuthukatt George",
-   "entry": 5419891,
+   "manager": "Karan Chopra",
+   "entry": 5970777,
    "points": 0,
    "excluded": false
   },
   {
    "manager": "Rohan Agrawal",
    "entry": 5582398,
+   "points": 0,
+   "excluded": false
+  },
+  {
+   "manager": "Ajith Thomas Kuthukatt George",
+   "entry": 5419891,
    "points": 0,
    "excluded": false
   },
@@ -763,26 +763,26 @@
    "excluded": false
   },
   {
-   "manager": "Karan Chopra",
-   "entry": 5970777,
-   "arrows": 0,
-   "excluded": false
-  },
-  {
    "manager": "Aparnesh Mishra",
    "entry": 3181909,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Ajith Thomas Kuthukatt George",
-   "entry": 5419891,
+   "manager": "Karan Chopra",
+   "entry": 5970777,
    "arrows": 0,
    "excluded": false
   },
   {
    "manager": "Rohan Agrawal",
    "entry": 5582398,
+   "arrows": 0,
+   "excluded": false
+  },
+  {
+   "manager": "Ajith Thomas Kuthukatt George",
+   "entry": 5419891,
    "arrows": 0,
    "excluded": false
   },
@@ -1022,18 +1022,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Karan Chopra",
-   "team_name": "fpl_26_27",
-   "league_rank": 11,
-   "seasons": 12,
-   "past_seasons": 11,
-   "best_rank": 81907,
-   "best_season": "2020/21",
-   "avg_rank": 3252487,
-   "last_rank": 11118394,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Aparnesh Mishra",
    "team_name": "Mishra's 13",
    "league_rank": 11,
@@ -1046,15 +1034,15 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Ajith Thomas Kuthukatt George",
-   "team_name": "Onside Offside",
-   "league_rank": 13,
-   "seasons": 3,
-   "past_seasons": 2,
-   "best_rank": 545267,
-   "best_season": "2025/26",
-   "avg_rank": 604934,
-   "last_rank": 545267,
+   "manager": "Karan Chopra",
+   "team_name": "fpl_26_27",
+   "league_rank": 11,
+   "seasons": 12,
+   "past_seasons": 11,
+   "best_rank": 81907,
+   "best_season": "2020/21",
+   "avg_rank": 3252487,
+   "last_rank": 11118394,
    "last_season": "2025/26"
   },
   {
@@ -1068,6 +1056,18 @@
    "avg_rank": 2490743,
    "last_rank": 1861933,
    "last_season": "2024/25"
+  },
+  {
+   "manager": "Ajith Thomas Kuthukatt George",
+   "team_name": "Onside Offside",
+   "league_rank": 13,
+   "seasons": 3,
+   "past_seasons": 2,
+   "best_rank": 545267,
+   "best_season": "2025/26",
+   "avg_rank": 604934,
+   "last_rank": 545267,
+   "last_season": "2025/26"
   },
   {
    "manager": "Pranshul Jain",
@@ -1542,31 +1542,6 @@
    "chips": []
   },
   {
-   "manager": "Karan Chopra",
-   "team_name": "fpl_26_27",
-   "entry": 5970777,
-   "total": 48,
-   "played": 0,
-   "avg": null,
-   "above_avg": 0,
-   "cap_return": 0,
-   "high": null,
-   "high_gw": null,
-   "low": null,
-   "low_gw": null,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 18,
-   "value": 100.0,
-   "value_delta": 0.0,
-   "bank": 0.0,
-   "grank": 1166621,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Aparnesh Mishra",
    "team_name": "Mishra's 13",
    "entry": 3181909,
@@ -1592,10 +1567,10 @@
    "chips": []
   },
   {
-   "manager": "Ajith Thomas Kuthukatt George",
-   "team_name": "Onside Offside",
-   "entry": 5419891,
-   "total": 44,
+   "manager": "Karan Chopra",
+   "team_name": "fpl_26_27",
+   "entry": 5970777,
+   "total": 48,
    "played": 0,
    "avg": null,
    "above_avg": 0,
@@ -1607,11 +1582,11 @@
    "transfers": 0,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 8,
+   "bench": 18,
    "value": 100.0,
    "value_delta": 0.0,
    "bank": 0.0,
-   "grank": 1908174,
+   "grank": 1166621,
    "best_jump": null,
    "best_jump_gw": null,
    "chips": []
@@ -1633,6 +1608,31 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 12,
+   "value": 100.0,
+   "value_delta": 0.0,
+   "bank": 0.0,
+   "grank": 1908174,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
+   "manager": "Ajith Thomas Kuthukatt George",
+   "team_name": "Onside Offside",
+   "entry": 5419891,
+   "total": 44,
+   "played": 0,
+   "avg": null,
+   "above_avg": 0,
+   "cap_return": 0,
+   "high": null,
+   "high_gw": null,
+   "low": null,
+   "low_gw": null,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 8,
    "value": 100.0,
    "value_delta": 0.0,
    "bank": 0.0,
@@ -2080,10 +2080,10 @@
   "256447": [],
   "374875": [],
   "3942416": [],
-  "5970777": [],
   "3181909": [],
-  "5419891": [],
+  "5970777": [],
   "5582398": [],
+  "5419891": [],
   "1362641": [],
   "5340498": [],
   "2424090": [],
