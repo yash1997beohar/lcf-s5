@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-24 05:58 UTC",
-  "generated_iso": "2026-08-24T05:58:57.971444Z",
+  "generated_utc": "2026-08-24 08:29 UTC",
+  "generated_iso": "2026-08-24T08:29:50.280556Z",
   "started": true,
   "current_gw": 1,
   "finished": [],
@@ -55,9 +55,9 @@
   {
    "rank": 5,
    "arrow": "\u2022",
-   "manager": "Arshaq Razack",
-   "team_name": "ShakeNBake",
-   "entry": 1086057,
+   "manager": "Dean Jenkins",
+   "team_name": "Slumber FC",
+   "entry": 5565611,
    "gw_points": 53,
    "total": 53,
    "hits": 0
@@ -65,9 +65,9 @@
   {
    "rank": 5,
    "arrow": "\u2022",
-   "manager": "Dean Jenkins",
-   "team_name": "Slumber FC",
-   "entry": 5565611,
+   "manager": "Arshaq Razack",
+   "team_name": "ShakeNBake",
+   "entry": 1086057,
    "gw_points": 53,
    "total": 53,
    "hits": 0
@@ -235,9 +235,9 @@
   {
    "rank": 23,
    "arrow": "\u2022",
-   "manager": "Varun Khurana",
-   "team_name": "Goal Diggers FC",
-   "entry": 3909562,
+   "manager": "Abhishek Gupte",
+   "team_name": "Enzotic",
+   "entry": 4688717,
    "gw_points": 33,
    "total": 33,
    "hits": 0
@@ -245,9 +245,9 @@
   {
    "rank": 23,
    "arrow": "\u2022",
-   "manager": "Abhishek Gupte",
-   "team_name": "Enzotic",
-   "entry": 4688717,
+   "manager": "Varun Khurana",
+   "team_name": "Goal Diggers FC",
+   "entry": 3909562,
    "gw_points": 33,
    "total": 33,
    "hits": 0
@@ -275,9 +275,9 @@
   {
    "rank": 27,
    "arrow": "\u2022",
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "entry": 46711,
+   "manager": "Danish Javed",
+   "team_name": "ItDzntMata",
+   "entry": 3323226,
    "gw_points": 29,
    "total": 29,
    "hits": 0
@@ -285,9 +285,9 @@
   {
    "rank": 27,
    "arrow": "\u2022",
-   "manager": "Danish Javed",
-   "team_name": "ItDzntMata",
-   "entry": 3323226,
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "entry": 46711,
    "gw_points": 29,
    "total": 29,
    "hits": 0
@@ -347,13 +347,13 @@
     "scores": []
    },
    {
-    "manager": "Arshaq Razack",
-    "entry": 1086057,
+    "manager": "Dean Jenkins",
+    "entry": 5565611,
     "scores": []
    },
    {
-    "manager": "Dean Jenkins",
-    "entry": 5565611,
+    "manager": "Arshaq Razack",
+    "entry": 1086057,
     "scores": []
    },
    {
@@ -437,13 +437,13 @@
     "scores": []
    },
    {
-    "manager": "Varun Khurana",
-    "entry": 3909562,
+    "manager": "Abhishek Gupte",
+    "entry": 4688717,
     "scores": []
    },
    {
-    "manager": "Abhishek Gupte",
-    "entry": 4688717,
+    "manager": "Varun Khurana",
+    "entry": 3909562,
     "scores": []
    },
    {
@@ -457,13 +457,13 @@
     "scores": []
    },
    {
-    "manager": "Satweek Nayak",
-    "entry": 46711,
+    "manager": "Danish Javed",
+    "entry": 3323226,
     "scores": []
    },
    {
-    "manager": "Danish Javed",
-    "entry": 3323226,
+    "manager": "Satweek Nayak",
+    "entry": 46711,
     "scores": []
    },
    {
@@ -539,14 +539,14 @@
    "excluded": true
   },
   {
-   "manager": "Arshaq Razack",
-   "entry": 1086057,
+   "manager": "Dean Jenkins",
+   "entry": 5565611,
    "points": 0,
    "excluded": true
   },
   {
-   "manager": "Dean Jenkins",
-   "entry": 5565611,
+   "manager": "Arshaq Razack",
+   "entry": 1086057,
    "points": 0,
    "excluded": false
   },
@@ -647,14 +647,14 @@
    "excluded": false
   },
   {
-   "manager": "Varun Khurana",
-   "entry": 3909562,
+   "manager": "Abhishek Gupte",
+   "entry": 4688717,
    "points": 0,
    "excluded": false
   },
   {
-   "manager": "Abhishek Gupte",
-   "entry": 4688717,
+   "manager": "Varun Khurana",
+   "entry": 3909562,
    "points": 0,
    "excluded": false
   },
@@ -671,14 +671,14 @@
    "excluded": false
   },
   {
-   "manager": "Satweek Nayak",
-   "entry": 46711,
+   "manager": "Danish Javed",
+   "entry": 3323226,
    "points": 0,
    "excluded": false
   },
   {
-   "manager": "Danish Javed",
-   "entry": 3323226,
+   "manager": "Satweek Nayak",
+   "entry": 46711,
    "points": 0,
    "excluded": false
   },
@@ -727,14 +727,14 @@
    "excluded": true
   },
   {
-   "manager": "Arshaq Razack",
-   "entry": 1086057,
+   "manager": "Dean Jenkins",
+   "entry": 5565611,
    "arrows": 0,
    "excluded": true
   },
   {
-   "manager": "Dean Jenkins",
-   "entry": 5565611,
+   "manager": "Arshaq Razack",
+   "entry": 1086057,
    "arrows": 0,
    "excluded": false
   },
@@ -835,14 +835,14 @@
    "excluded": false
   },
   {
-   "manager": "Varun Khurana",
-   "entry": 3909562,
+   "manager": "Abhishek Gupte",
+   "entry": 4688717,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Abhishek Gupte",
-   "entry": 4688717,
+   "manager": "Varun Khurana",
+   "entry": 3909562,
    "arrows": 0,
    "excluded": false
   },
@@ -859,14 +859,14 @@
    "excluded": false
   },
   {
-   "manager": "Satweek Nayak",
-   "entry": 46711,
+   "manager": "Danish Javed",
+   "entry": 3323226,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Danish Javed",
-   "entry": 3323226,
+   "manager": "Satweek Nayak",
+   "entry": 46711,
    "arrows": 0,
    "excluded": false
   },
@@ -950,18 +950,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Arshaq Razack",
-   "team_name": "ShakeNBake",
-   "league_rank": 5,
-   "seasons": 16,
-   "past_seasons": 15,
-   "best_rank": 6474,
-   "best_season": "2025/26",
-   "avg_rank": 1177681,
-   "last_rank": 6474,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Dean Jenkins",
    "team_name": "Slumber FC",
    "league_rank": 5,
@@ -971,6 +959,18 @@
    "best_season": "2025/26",
    "avg_rank": 998938,
    "last_rank": 676529,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Arshaq Razack",
+   "team_name": "ShakeNBake",
+   "league_rank": 5,
+   "seasons": 16,
+   "past_seasons": 15,
+   "best_rank": 6474,
+   "best_season": "2025/26",
+   "avg_rank": 1177681,
+   "last_rank": 6474,
    "last_season": "2025/26"
   },
   {
@@ -1166,18 +1166,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Varun Khurana",
-   "team_name": "Goal Diggers FC",
-   "league_rank": 23,
-   "seasons": 15,
-   "past_seasons": 14,
-   "best_rank": 410102,
-   "best_season": "2009/10",
-   "avg_rank": 2088802,
-   "last_rank": 5360778,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Abhishek Gupte",
    "team_name": "Enzotic",
    "league_rank": 23,
@@ -1187,6 +1175,18 @@
    "best_season": "2014/15",
    "avg_rank": 1571193,
    "last_rank": 3349378,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Varun Khurana",
+   "team_name": "Goal Diggers FC",
+   "league_rank": 23,
+   "seasons": 15,
+   "past_seasons": 14,
+   "best_rank": 410102,
+   "best_season": "2009/10",
+   "avg_rank": 2088802,
+   "last_rank": 5360778,
    "last_season": "2025/26"
   },
   {
@@ -1214,18 +1214,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "league_rank": 27,
-   "seasons": 14,
-   "past_seasons": 13,
-   "best_rank": 14603,
-   "best_season": "2016/17",
-   "avg_rank": 949628,
-   "last_rank": 515830,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Danish Javed",
    "team_name": "ItDzntMata",
    "league_rank": 27,
@@ -1235,6 +1223,18 @@
    "best_season": "2024/25",
    "avg_rank": 1994005,
    "last_rank": 1917309,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "league_rank": 27,
+   "seasons": 14,
+   "past_seasons": 13,
+   "best_rank": 14603,
+   "best_season": "2016/17",
+   "avg_rank": 949628,
+   "last_rank": 515830,
    "last_season": "2025/26"
   },
   {
@@ -1384,6 +1384,31 @@
    ]
   },
   {
+   "manager": "Dean Jenkins",
+   "team_name": "Slumber FC",
+   "entry": 5565611,
+   "total": 53,
+   "played": 0,
+   "avg": null,
+   "above_avg": 0,
+   "cap_return": 0,
+   "high": null,
+   "high_gw": null,
+   "low": null,
+   "low_gw": null,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 12,
+   "value": 100.0,
+   "value_delta": 0.0,
+   "bank": 0.0,
+   "grank": 610764,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
    "manager": "Arshaq Razack",
    "team_name": "ShakeNBake",
    "entry": 1086057,
@@ -1409,31 +1434,6 @@
    "chips": [
     "bboost"
    ]
-  },
-  {
-   "manager": "Dean Jenkins",
-   "team_name": "Slumber FC",
-   "entry": 5565611,
-   "total": 53,
-   "played": 0,
-   "avg": null,
-   "above_avg": 0,
-   "cap_return": 0,
-   "high": null,
-   "high_gw": null,
-   "low": null,
-   "low_gw": null,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 12,
-   "value": 100.0,
-   "value_delta": 0.0,
-   "bank": 0.0,
-   "grank": 610764,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
   },
   {
    "manager": "Raveesh Kalra",
@@ -1844,31 +1844,6 @@
    "chips": []
   },
   {
-   "manager": "Varun Khurana",
-   "team_name": "Goal Diggers FC",
-   "entry": 3909562,
-   "total": 33,
-   "played": 0,
-   "avg": null,
-   "above_avg": 0,
-   "cap_return": 0,
-   "high": null,
-   "high_gw": null,
-   "low": null,
-   "low_gw": null,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 5,
-   "value": 100.0,
-   "value_delta": 0.0,
-   "bank": 0.0,
-   "grank": 5324535,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Abhishek Gupte",
    "team_name": "Enzotic",
    "entry": 4688717,
@@ -1888,6 +1863,31 @@
    "value": 100.0,
    "value_delta": 0.0,
    "bank": 0.5,
+   "grank": 5324535,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
+   "manager": "Varun Khurana",
+   "team_name": "Goal Diggers FC",
+   "entry": 3909562,
+   "total": 33,
+   "played": 0,
+   "avg": null,
+   "above_avg": 0,
+   "cap_return": 0,
+   "high": null,
+   "high_gw": null,
+   "low": null,
+   "low_gw": null,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 5,
+   "value": 100.0,
+   "value_delta": 0.0,
+   "bank": 0.0,
    "grank": 5324535,
    "best_jump": null,
    "best_jump_gw": null,
@@ -1944,31 +1944,6 @@
    "chips": []
   },
   {
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "entry": 46711,
-   "total": 29,
-   "played": 0,
-   "avg": null,
-   "above_avg": 0,
-   "cap_return": 0,
-   "high": null,
-   "high_gw": null,
-   "low": null,
-   "low_gw": null,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 3,
-   "value": 100.0,
-   "value_delta": 0.0,
-   "bank": 0.0,
-   "grank": 6624262,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Danish Javed",
    "team_name": "ItDzntMata",
    "entry": 3323226,
@@ -1985,6 +1960,31 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 13,
+   "value": 100.0,
+   "value_delta": 0.0,
+   "bank": 0.0,
+   "grank": 6624262,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "entry": 46711,
+   "total": 29,
+   "played": 0,
+   "avg": null,
+   "above_avg": 0,
+   "cap_return": 0,
+   "high": null,
+   "high_gw": null,
+   "low": null,
+   "low_gw": null,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 3,
    "value": 100.0,
    "value_delta": 0.0,
    "bank": 0.0,
@@ -2074,8 +2074,8 @@
   "427154": [],
   "79306": [],
   "20569": [],
-  "1086057": [],
   "5565611": [],
+  "1086057": [],
   "2354537": [],
   "256447": [],
   "374875": [],
@@ -2092,12 +2092,12 @@
   "3330149": [],
   "4837220": [],
   "5008941": [],
-  "3909562": [],
   "4688717": [],
+  "3909562": [],
   "2003955": [],
   "9695": [],
-  "46711": [],
   "3323226": [],
+  "46711": [],
   "6023506": [],
   "4993853": [],
   "6514976": []
