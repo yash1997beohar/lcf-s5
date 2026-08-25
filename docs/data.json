@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-25 03:16 UTC",
-  "generated_iso": "2026-08-25T03:16:30.039318Z",
+  "generated_utc": "2026-08-25 05:49 UTC",
+  "generated_iso": "2026-08-25T05:49:14.748378Z",
   "started": true,
   "current_gw": 1,
   "finished": [],
@@ -35,9 +35,9 @@
   {
    "rank": 3,
    "arrow": "\u2022",
-   "manager": "Abhishek Gupte",
-   "team_name": "Enzotic",
-   "entry": 4688717,
+   "manager": "Abhiraj Singh",
+   "team_name": "KingOfKings Fc",
+   "entry": 427154,
    "gw_points": 73,
    "total": 73,
    "hits": 0
@@ -45,9 +45,9 @@
   {
    "rank": 3,
    "arrow": "\u2022",
-   "manager": "Abhiraj Singh",
-   "team_name": "KingOfKings Fc",
-   "entry": 427154,
+   "manager": "Abhishek Gupte",
+   "team_name": "Enzotic",
+   "entry": 4688717,
    "gw_points": 73,
    "total": 73,
    "hits": 0
@@ -155,9 +155,9 @@
   {
    "rank": 15,
    "arrow": "\u2022",
-   "manager": "Pranshul Jain",
-   "team_name": "Carrick Janta Party",
-   "entry": 1362641,
+   "manager": "Dean Jenkins",
+   "team_name": "Slumber FC",
+   "entry": 5565611,
    "gw_points": 53,
    "total": 53,
    "hits": 0
@@ -165,9 +165,9 @@
   {
    "rank": 15,
    "arrow": "\u2022",
-   "manager": "Dean Jenkins",
-   "team_name": "Slumber FC",
-   "entry": 5565611,
+   "manager": "Pranshul Jain",
+   "team_name": "Carrick Janta Party",
+   "entry": 1362641,
    "gw_points": 53,
    "total": 53,
    "hits": 0
@@ -337,13 +337,13 @@
     "scores": []
    },
    {
-    "manager": "Abhishek Gupte",
-    "entry": 4688717,
+    "manager": "Abhiraj Singh",
+    "entry": 427154,
     "scores": []
    },
    {
-    "manager": "Abhiraj Singh",
-    "entry": 427154,
+    "manager": "Abhishek Gupte",
+    "entry": 4688717,
     "scores": []
    },
    {
@@ -397,13 +397,13 @@
     "scores": []
    },
    {
-    "manager": "Pranshul Jain",
-    "entry": 1362641,
+    "manager": "Dean Jenkins",
+    "entry": 5565611,
     "scores": []
    },
    {
-    "manager": "Dean Jenkins",
-    "entry": 5565611,
+    "manager": "Pranshul Jain",
+    "entry": 1362641,
     "scores": []
    },
    {
@@ -527,14 +527,14 @@
    "excluded": true
   },
   {
-   "manager": "Abhishek Gupte",
-   "entry": 4688717,
+   "manager": "Abhiraj Singh",
+   "entry": 427154,
    "points": 0,
    "excluded": true
   },
   {
-   "manager": "Abhiraj Singh",
-   "entry": 427154,
+   "manager": "Abhishek Gupte",
+   "entry": 4688717,
    "points": 0,
    "excluded": true
   },
@@ -599,14 +599,14 @@
    "excluded": false
   },
   {
-   "manager": "Pranshul Jain",
-   "entry": 1362641,
+   "manager": "Dean Jenkins",
+   "entry": 5565611,
    "points": 0,
    "excluded": false
   },
   {
-   "manager": "Dean Jenkins",
-   "entry": 5565611,
+   "manager": "Pranshul Jain",
+   "entry": 1362641,
    "points": 0,
    "excluded": false
   },
@@ -715,14 +715,14 @@
    "excluded": true
   },
   {
-   "manager": "Abhishek Gupte",
-   "entry": 4688717,
+   "manager": "Abhiraj Singh",
+   "entry": 427154,
    "arrows": 0,
    "excluded": true
   },
   {
-   "manager": "Abhiraj Singh",
-   "entry": 427154,
+   "manager": "Abhishek Gupte",
+   "entry": 4688717,
    "arrows": 0,
    "excluded": true
   },
@@ -787,14 +787,14 @@
    "excluded": false
   },
   {
-   "manager": "Pranshul Jain",
-   "entry": 1362641,
+   "manager": "Dean Jenkins",
+   "entry": 5565611,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Dean Jenkins",
-   "entry": 5565611,
+   "manager": "Pranshul Jain",
+   "entry": 1362641,
    "arrows": 0,
    "excluded": false
   },
@@ -926,18 +926,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Abhishek Gupte",
-   "team_name": "Enzotic",
-   "league_rank": 3,
-   "seasons": 16,
-   "past_seasons": 15,
-   "best_rank": 37120,
-   "best_season": "2014/15",
-   "avg_rank": 1571193,
-   "last_rank": 3349378,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
    "league_rank": 3,
@@ -947,6 +935,18 @@
    "best_season": "2021/22",
    "avg_rank": 881388,
    "last_rank": 239490,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Abhishek Gupte",
+   "team_name": "Enzotic",
+   "league_rank": 3,
+   "seasons": 16,
+   "past_seasons": 15,
+   "best_rank": 37120,
+   "best_season": "2014/15",
+   "avg_rank": 1571193,
+   "last_rank": 3349378,
    "last_season": "2025/26"
   },
   {
@@ -1070,18 +1070,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Pranshul Jain",
-   "team_name": "Carrick Janta Party",
-   "league_rank": 15,
-   "seasons": 9,
-   "past_seasons": 8,
-   "best_rank": 182900,
-   "best_season": "2025/26",
-   "avg_rank": 2098988,
-   "last_rank": 182900,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Dean Jenkins",
    "team_name": "Slumber FC",
    "league_rank": 15,
@@ -1091,6 +1079,18 @@
    "best_season": "2025/26",
    "avg_rank": 998938,
    "last_rank": 676529,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Pranshul Jain",
+   "team_name": "Carrick Janta Party",
+   "league_rank": 15,
+   "seasons": 9,
+   "past_seasons": 8,
+   "best_rank": 182900,
+   "best_season": "2025/26",
+   "avg_rank": 2098988,
+   "last_rank": 182900,
    "last_season": "2025/26"
   },
   {
@@ -1328,31 +1328,6 @@
    ]
   },
   {
-   "manager": "Abhishek Gupte",
-   "team_name": "Enzotic",
-   "entry": 4688717,
-   "total": 73,
-   "played": 0,
-   "avg": null,
-   "above_avg": 0,
-   "cap_return": 0,
-   "high": null,
-   "high_gw": null,
-   "low": null,
-   "low_gw": null,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 6,
-   "value": 100.0,
-   "value_delta": 0.0,
-   "bank": 0.5,
-   "grank": 282653,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
    "entry": 427154,
@@ -1378,6 +1353,31 @@
    "chips": [
     "bboost"
    ]
+  },
+  {
+   "manager": "Abhishek Gupte",
+   "team_name": "Enzotic",
+   "entry": 4688717,
+   "total": 73,
+   "played": 0,
+   "avg": null,
+   "above_avg": 0,
+   "cap_return": 0,
+   "high": null,
+   "high_gw": null,
+   "low": null,
+   "low_gw": null,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 6,
+   "value": 100.0,
+   "value_delta": 0.0,
+   "bank": 0.5,
+   "grank": 282653,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
   },
   {
    "manager": "Abhinav Premsekhar",
@@ -1642,31 +1642,6 @@
    "chips": []
   },
   {
-   "manager": "Pranshul Jain",
-   "team_name": "Carrick Janta Party",
-   "entry": 1362641,
-   "total": 53,
-   "played": 0,
-   "avg": null,
-   "above_avg": 0,
-   "cap_return": 0,
-   "high": null,
-   "high_gw": null,
-   "low": null,
-   "low_gw": null,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 8,
-   "value": 100.0,
-   "value_delta": 0.0,
-   "bank": 0.0,
-   "grank": 2933691,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Dean Jenkins",
    "team_name": "Slumber FC",
    "entry": 5565611,
@@ -1683,6 +1658,31 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 12,
+   "value": 100.0,
+   "value_delta": 0.0,
+   "bank": 0.0,
+   "grank": 2933691,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
+   "manager": "Pranshul Jain",
+   "team_name": "Carrick Janta Party",
+   "entry": 1362641,
+   "total": 53,
+   "played": 0,
+   "avg": null,
+   "above_avg": 0,
+   "cap_return": 0,
+   "high": null,
+   "high_gw": null,
+   "low": null,
+   "low_gw": null,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 8,
    "value": 100.0,
    "value_delta": 0.0,
    "bank": 0.0,
@@ -2072,8 +2072,8 @@
  "series": {
   "3942416": [],
   "5926399": [],
-  "4688717": [],
   "427154": [],
+  "4688717": [],
   "79306": [],
   "20569": [],
   "1086057": [],
@@ -2084,8 +2084,8 @@
   "3181909": [],
   "5970777": [],
   "5419891": [],
-  "1362641": [],
   "5565611": [],
+  "1362641": [],
   "5340498": [],
   "4795345": [],
   "3330149": [],
