@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-25 14:28 UTC",
-  "generated_iso": "2026-08-25T14:28:29.764974Z",
+  "generated_utc": "2026-08-25 17:45 UTC",
+  "generated_iso": "2026-08-25T17:45:20.170660Z",
   "started": true,
   "current_gw": 1,
   "finished": [
@@ -17,9 +17,9 @@
   {
    "rank": 1,
    "arrow": "\u2022",
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "entry": 5926399,
+   "manager": "Abhay Rawat",
+   "team_name": "115 FC",
+   "entry": 3942416,
    "gw_points": 74,
    "total": 74,
    "hits": 0
@@ -27,9 +27,9 @@
   {
    "rank": 1,
    "arrow": "\u2022",
-   "manager": "Abhay Rawat",
-   "team_name": "115 FC",
-   "entry": 3942416,
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "entry": 5926399,
    "gw_points": 74,
    "total": 74,
    "hits": 0
@@ -167,9 +167,9 @@
   {
    "rank": 15,
    "arrow": "\u2022",
-   "manager": "Dean Jenkins",
-   "team_name": "Slumber FC",
-   "entry": 5565611,
+   "manager": "Pranshul Jain",
+   "team_name": "Carrick Janta Party",
+   "entry": 1362641,
    "gw_points": 53,
    "total": 53,
    "hits": 0
@@ -177,9 +177,9 @@
   {
    "rank": 15,
    "arrow": "\u2022",
-   "manager": "Pranshul Jain",
-   "team_name": "Carrick Janta Party",
-   "entry": 1362641,
+   "manager": "Dean Jenkins",
+   "team_name": "Slumber FC",
+   "entry": 5565611,
    "gw_points": 53,
    "total": 53,
    "hits": 0
@@ -257,9 +257,9 @@
   {
    "rank": 25,
    "arrow": "\u2022",
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "entry": 46711,
+   "manager": "Aayush Khanna",
+   "team_name": "Loading...",
+   "entry": 2003955,
    "gw_points": 42,
    "total": 42,
    "hits": 0
@@ -267,9 +267,9 @@
   {
    "rank": 25,
    "arrow": "\u2022",
-   "manager": "Aayush Khanna",
-   "team_name": "Loading...",
-   "entry": 2003955,
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "entry": 46711,
    "gw_points": 42,
    "total": 42,
    "hits": 0
@@ -331,15 +331,15 @@
   ],
   "rows": [
    {
-    "manager": "Aquib Razack",
-    "entry": 5926399,
+    "manager": "Abhay Rawat",
+    "entry": 3942416,
     "scores": [
      74
     ]
    },
    {
-    "manager": "Abhay Rawat",
-    "entry": 3942416,
+    "manager": "Aquib Razack",
+    "entry": 5926399,
     "scores": [
      74
     ]
@@ -436,15 +436,15 @@
     ]
    },
    {
-    "manager": "Dean Jenkins",
-    "entry": 5565611,
+    "manager": "Pranshul Jain",
+    "entry": 1362641,
     "scores": [
      53
     ]
    },
    {
-    "manager": "Pranshul Jain",
-    "entry": 1362641,
+    "manager": "Dean Jenkins",
+    "entry": 5565611,
     "scores": [
      53
     ]
@@ -499,15 +499,15 @@
     ]
    },
    {
-    "manager": "Satweek Nayak",
-    "entry": 46711,
+    "manager": "Aayush Khanna",
+    "entry": 2003955,
     "scores": [
      42
     ]
    },
    {
-    "manager": "Aayush Khanna",
-    "entry": 2003955,
+    "manager": "Satweek Nayak",
+    "entry": 46711,
     "scores": [
      42
     ]
@@ -599,14 +599,14 @@
    "excluded": true
   },
   {
-   "manager": "Aquib Razack",
-   "entry": 5926399,
+   "manager": "Abhay Rawat",
+   "entry": 3942416,
    "points": 4,
    "excluded": true
   },
   {
-   "manager": "Abhay Rawat",
-   "entry": 3942416,
+   "manager": "Aquib Razack",
+   "entry": 5926399,
    "points": 4,
    "excluded": true
   },
@@ -725,14 +725,14 @@
    "excluded": false
   },
   {
-   "manager": "Satweek Nayak",
-   "entry": 46711,
+   "manager": "Aayush Khanna",
+   "entry": 2003955,
    "points": 4,
    "excluded": false
   },
   {
-   "manager": "Aayush Khanna",
-   "entry": 2003955,
+   "manager": "Satweek Nayak",
+   "entry": 46711,
    "points": 4,
    "excluded": false
   },
@@ -769,14 +769,14 @@
  ],
  "green": [
   {
-   "manager": "Aquib Razack",
-   "entry": 5926399,
+   "manager": "Abhay Rawat",
+   "entry": 3942416,
    "arrows": 0,
    "excluded": true
   },
   {
-   "manager": "Abhay Rawat",
-   "entry": 3942416,
+   "manager": "Aquib Razack",
+   "entry": 5926399,
    "arrows": 0,
    "excluded": true
   },
@@ -859,14 +859,14 @@
    "excluded": false
   },
   {
-   "manager": "Dean Jenkins",
-   "entry": 5565611,
+   "manager": "Pranshul Jain",
+   "entry": 1362641,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Pranshul Jain",
-   "entry": 1362641,
+   "manager": "Dean Jenkins",
+   "entry": 5565611,
    "arrows": 0,
    "excluded": false
   },
@@ -913,14 +913,14 @@
    "excluded": false
   },
   {
-   "manager": "Satweek Nayak",
-   "entry": 46711,
+   "manager": "Aayush Khanna",
+   "entry": 2003955,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Aayush Khanna",
-   "entry": 2003955,
+   "manager": "Satweek Nayak",
+   "entry": 46711,
    "arrows": 0,
    "excluded": false
   },
@@ -1119,7 +1119,7 @@
    "valid": true
   },
   {
-   "manager": "Satweek Nayak",
+   "manager": "Aayush Khanna",
    "gw": 1,
    "score": 42,
    "hit": 0,
@@ -1127,7 +1127,7 @@
    "valid": true
   },
   {
-   "manager": "Aayush Khanna",
+   "manager": "Satweek Nayak",
    "gw": 1,
    "score": 42,
    "hit": 0,
@@ -1177,18 +1177,6 @@
  ],
  "profiles": [
   {
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "league_rank": 1,
-   "seasons": 14,
-   "past_seasons": 13,
-   "best_rank": 71857,
-   "best_season": "2020/21",
-   "avg_rank": 1929309,
-   "last_rank": 297407,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Abhay Rawat",
    "team_name": "115 FC",
    "league_rank": 1,
@@ -1198,6 +1186,18 @@
    "best_season": "2018/19",
    "avg_rank": 858178,
    "last_rank": 726260,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "league_rank": 1,
+   "seasons": 14,
+   "past_seasons": 13,
+   "best_rank": 71857,
+   "best_season": "2020/21",
+   "avg_rank": 1929309,
+   "last_rank": 297407,
    "last_season": "2025/26"
   },
   {
@@ -1357,18 +1357,6 @@
    "last_season": "2024/25"
   },
   {
-   "manager": "Dean Jenkins",
-   "team_name": "Slumber FC",
-   "league_rank": 15,
-   "seasons": 5,
-   "past_seasons": 4,
-   "best_rank": 676529,
-   "best_season": "2025/26",
-   "avg_rank": 998938,
-   "last_rank": 676529,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Pranshul Jain",
    "team_name": "Carrick Janta Party",
    "league_rank": 15,
@@ -1378,6 +1366,18 @@
    "best_season": "2025/26",
    "avg_rank": 2098988,
    "last_rank": 182900,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Dean Jenkins",
+   "team_name": "Slumber FC",
+   "league_rank": 15,
+   "seasons": 5,
+   "past_seasons": 4,
+   "best_rank": 676529,
+   "best_season": "2025/26",
+   "avg_rank": 998938,
+   "last_rank": 676529,
    "last_season": "2025/26"
   },
   {
@@ -1465,18 +1465,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "league_rank": 25,
-   "seasons": 14,
-   "past_seasons": 13,
-   "best_rank": 14603,
-   "best_season": "2016/17",
-   "avg_rank": 949628,
-   "last_rank": 515830,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Aayush Khanna",
    "team_name": "Loading...",
    "league_rank": 25,
@@ -1486,6 +1474,18 @@
    "best_season": "2024/25",
    "avg_rank": 2415786,
    "last_rank": 1206623,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "league_rank": 25,
+   "seasons": 14,
+   "past_seasons": 13,
+   "best_rank": 14603,
+   "best_season": "2016/17",
+   "avg_rank": 949628,
+   "last_rank": 515830,
    "last_season": "2025/26"
   },
   {
@@ -1551,6 +1551,31 @@
  ],
  "stats": [
   {
+   "manager": "Abhay Rawat",
+   "team_name": "115 FC",
+   "entry": 3942416,
+   "total": 74,
+   "played": 1,
+   "avg": 74.0,
+   "above_avg": 1,
+   "cap_return": 4,
+   "high": 74,
+   "high_gw": 1,
+   "low": 74,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 19,
+   "value": 100.0,
+   "value_delta": 0.0,
+   "bank": 0.0,
+   "grank": 279827,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
    "manager": "Aquib Razack",
    "team_name": "BattleBorn",
    "entry": 5926399,
@@ -1576,31 +1601,6 @@
    "chips": [
     "bboost"
    ]
-  },
-  {
-   "manager": "Abhay Rawat",
-   "team_name": "115 FC",
-   "entry": 3942416,
-   "total": 74,
-   "played": 1,
-   "avg": 74.0,
-   "above_avg": 1,
-   "cap_return": 4,
-   "high": 74,
-   "high_gw": 1,
-   "low": 74,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 19,
-   "value": 100.0,
-   "value_delta": 0.0,
-   "bank": 0.0,
-   "grank": 279827,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
   },
   {
    "manager": "Abhishek Gupte",
@@ -1942,31 +1942,6 @@
    "chips": []
   },
   {
-   "manager": "Dean Jenkins",
-   "team_name": "Slumber FC",
-   "entry": 5565611,
-   "total": 53,
-   "played": 1,
-   "avg": 53.0,
-   "above_avg": 0,
-   "cap_return": 18,
-   "high": 53,
-   "high_gw": 1,
-   "low": 53,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 12,
-   "value": 100.0,
-   "value_delta": 0.0,
-   "bank": 0.0,
-   "grank": 3482299,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Pranshul Jain",
    "team_name": "Carrick Janta Party",
    "entry": 1362641,
@@ -1983,6 +1958,31 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 8,
+   "value": 100.0,
+   "value_delta": 0.0,
+   "bank": 0.0,
+   "grank": 3482299,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
+   "manager": "Dean Jenkins",
+   "team_name": "Slumber FC",
+   "entry": 5565611,
+   "total": 53,
+   "played": 1,
+   "avg": 53.0,
+   "above_avg": 0,
+   "cap_return": 18,
+   "high": 53,
+   "high_gw": 1,
+   "low": 53,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 12,
    "value": 100.0,
    "value_delta": 0.0,
    "bank": 0.0,
@@ -2169,31 +2169,6 @@
    "chips": []
   },
   {
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "entry": 46711,
-   "total": 42,
-   "played": 1,
-   "avg": 42.0,
-   "above_avg": 0,
-   "cap_return": 4,
-   "high": 42,
-   "high_gw": 1,
-   "low": 42,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 1,
-   "value": 100.0,
-   "value_delta": 0.0,
-   "bank": 0.0,
-   "grank": 6633922,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Aayush Khanna",
    "team_name": "Loading...",
    "entry": 2003955,
@@ -2213,6 +2188,31 @@
    "value": 100.0,
    "value_delta": 0.0,
    "bank": 0.5,
+   "grank": 6633922,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "entry": 46711,
+   "total": 42,
+   "played": 1,
+   "avg": 42.0,
+   "above_avg": 0,
+   "cap_return": 4,
+   "high": 42,
+   "high_gw": 1,
+   "low": 42,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 1,
+   "value": 100.0,
+   "value_delta": 0.0,
+   "bank": 0.0,
    "grank": 6633922,
    "best_jump": null,
    "best_jump_gw": null,
@@ -2345,7 +2345,7 @@
   }
  ],
  "series": {
-  "5926399": [
+  "3942416": [
    {
     "gw": 1,
     "net": 74,
@@ -2353,7 +2353,7 @@
     "cap": 4
    }
   ],
-  "3942416": [
+  "5926399": [
    {
     "gw": 1,
     "net": 74,
@@ -2465,20 +2465,20 @@
     "cap": 4
    }
   ],
-  "5565611": [
-   {
-    "gw": 1,
-    "net": 53,
-    "orank": 3482299,
-    "cap": 18
-   }
-  ],
   "1362641": [
    {
     "gw": 1,
     "net": 53,
     "orank": 3482299,
     "cap": 4
+   }
+  ],
+  "5565611": [
+   {
+    "gw": 1,
+    "net": 53,
+    "orank": 3482299,
+    "cap": 18
    }
   ],
   "5340498": [
@@ -2537,7 +2537,7 @@
     "cap": 4
    }
   ],
-  "46711": [
+  "2003955": [
    {
     "gw": 1,
     "net": 42,
@@ -2545,7 +2545,7 @@
     "cap": 4
    }
   ],
-  "2003955": [
+  "46711": [
    {
     "gw": 1,
     "net": 42,
