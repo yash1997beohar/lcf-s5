@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-25 17:45 UTC",
-  "generated_iso": "2026-08-25T17:45:20.170660Z",
+  "generated_utc": "2026-08-25 19:45 UTC",
+  "generated_iso": "2026-08-25T19:45:31.826495Z",
   "started": true,
   "current_gw": 1,
   "finished": [
@@ -97,9 +97,9 @@
   {
    "rank": 9,
    "arrow": "\u2022",
-   "manager": "Anish Joshi",
-   "team_name": "Fiery Raiders",
-   "entry": 256447,
+   "manager": "Shivanshu Madan",
+   "team_name": "Cold Palmer",
+   "entry": 2424090,
    "gw_points": 62,
    "total": 62,
    "hits": 0
@@ -107,9 +107,9 @@
   {
    "rank": 9,
    "arrow": "\u2022",
-   "manager": "Shivanshu Madan",
-   "team_name": "Cold Palmer",
-   "entry": 2424090,
+   "manager": "Anish Joshi",
+   "team_name": "Fiery Raiders",
+   "entry": 256447,
    "gw_points": 62,
    "total": 62,
    "hits": 0
@@ -157,9 +157,9 @@
   {
    "rank": 15,
    "arrow": "\u2022",
-   "manager": "Rohan Agrawal",
-   "team_name": "Southall United",
-   "entry": 5582398,
+   "manager": "Pranshul Jain",
+   "team_name": "Carrick Janta Party",
+   "entry": 1362641,
    "gw_points": 53,
    "total": 53,
    "hits": 0
@@ -167,9 +167,9 @@
   {
    "rank": 15,
    "arrow": "\u2022",
-   "manager": "Pranshul Jain",
-   "team_name": "Carrick Janta Party",
-   "entry": 1362641,
+   "manager": "Rohan Agrawal",
+   "team_name": "Southall United",
+   "entry": 5582398,
    "gw_points": 53,
    "total": 53,
    "hits": 0
@@ -387,15 +387,15 @@
     ]
    },
    {
-    "manager": "Anish Joshi",
-    "entry": 256447,
+    "manager": "Shivanshu Madan",
+    "entry": 2424090,
     "scores": [
      62
     ]
    },
    {
-    "manager": "Shivanshu Madan",
-    "entry": 2424090,
+    "manager": "Anish Joshi",
+    "entry": 256447,
     "scores": [
      62
     ]
@@ -429,15 +429,15 @@
     ]
    },
    {
-    "manager": "Rohan Agrawal",
-    "entry": 5582398,
+    "manager": "Pranshul Jain",
+    "entry": 1362641,
     "scores": [
      53
     ]
    },
    {
-    "manager": "Pranshul Jain",
-    "entry": 1362641,
+    "manager": "Rohan Agrawal",
+    "entry": 5582398,
     "scores": [
      53
     ]
@@ -671,14 +671,14 @@
    "excluded": false
   },
   {
-   "manager": "Rohan Agrawal",
-   "entry": 5582398,
+   "manager": "Pranshul Jain",
+   "entry": 1362641,
    "points": 4,
    "excluded": false
   },
   {
-   "manager": "Pranshul Jain",
-   "entry": 1362641,
+   "manager": "Rohan Agrawal",
+   "entry": 5582398,
    "points": 4,
    "excluded": false
   },
@@ -817,14 +817,14 @@
    "excluded": false
   },
   {
-   "manager": "Anish Joshi",
-   "entry": 256447,
+   "manager": "Shivanshu Madan",
+   "entry": 2424090,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Shivanshu Madan",
-   "entry": 2424090,
+   "manager": "Anish Joshi",
+   "entry": 256447,
    "arrows": 0,
    "excluded": false
   },
@@ -853,14 +853,14 @@
    "excluded": false
   },
   {
-   "manager": "Rohan Agrawal",
-   "entry": 5582398,
+   "manager": "Pranshul Jain",
+   "entry": 1362641,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Pranshul Jain",
-   "entry": 1362641,
+   "manager": "Rohan Agrawal",
+   "entry": 5582398,
    "arrows": 0,
    "excluded": false
   },
@@ -1273,18 +1273,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Anish Joshi",
-   "team_name": "Fiery Raiders",
-   "league_rank": 9,
-   "seasons": 15,
-   "past_seasons": 14,
-   "best_rank": 281617,
-   "best_season": "2019/20",
-   "avg_rank": 1051323,
-   "last_rank": 1076546,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Shivanshu Madan",
    "team_name": "Cold Palmer",
    "league_rank": 9,
@@ -1294,6 +1282,18 @@
    "best_season": "2022/23",
    "avg_rank": 820692,
    "last_rank": 1637750,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Anish Joshi",
+   "team_name": "Fiery Raiders",
+   "league_rank": 9,
+   "seasons": 15,
+   "past_seasons": 14,
+   "best_rank": 281617,
+   "best_season": "2019/20",
+   "avg_rank": 1051323,
+   "last_rank": 1076546,
    "last_season": "2025/26"
   },
   {
@@ -1345,18 +1345,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Rohan Agrawal",
-   "team_name": "Southall United",
-   "league_rank": 15,
-   "seasons": 6,
-   "past_seasons": 5,
-   "best_rank": 1320699,
-   "best_season": "2020/21",
-   "avg_rank": 2490743,
-   "last_rank": 1861933,
-   "last_season": "2024/25"
-  },
-  {
    "manager": "Pranshul Jain",
    "team_name": "Carrick Janta Party",
    "league_rank": 15,
@@ -1367,6 +1355,18 @@
    "avg_rank": 2098988,
    "last_rank": 182900,
    "last_season": "2025/26"
+  },
+  {
+   "manager": "Rohan Agrawal",
+   "team_name": "Southall United",
+   "league_rank": 15,
+   "seasons": 6,
+   "past_seasons": 5,
+   "best_rank": 1320699,
+   "best_season": "2020/21",
+   "avg_rank": 2490743,
+   "last_rank": 1861933,
+   "last_season": "2024/25"
   },
   {
    "manager": "Dean Jenkins",
@@ -1763,6 +1763,31 @@
    ]
   },
   {
+   "manager": "Shivanshu Madan",
+   "team_name": "Cold Palmer",
+   "entry": 2424090,
+   "total": 62,
+   "played": 1,
+   "avg": 62.0,
+   "above_avg": 1,
+   "cap_return": 22,
+   "high": 62,
+   "high_gw": 1,
+   "low": 62,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 11,
+   "value": 100.0,
+   "value_delta": 0.0,
+   "bank": 0.5,
+   "grank": 1436683,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
    "manager": "Anish Joshi",
    "team_name": "Fiery Raiders",
    "entry": 256447,
@@ -1788,31 +1813,6 @@
    "chips": [
     "bboost"
    ]
-  },
-  {
-   "manager": "Shivanshu Madan",
-   "team_name": "Cold Palmer",
-   "entry": 2424090,
-   "total": 62,
-   "played": 1,
-   "avg": 62.0,
-   "above_avg": 1,
-   "cap_return": 22,
-   "high": 62,
-   "high_gw": 1,
-   "low": 62,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 11,
-   "value": 100.0,
-   "value_delta": 0.0,
-   "bank": 0.5,
-   "grank": 1436683,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
   },
   {
    "manager": "Yash Beohar",
@@ -1917,31 +1917,6 @@
    "chips": []
   },
   {
-   "manager": "Rohan Agrawal",
-   "team_name": "Southall United",
-   "entry": 5582398,
-   "total": 53,
-   "played": 1,
-   "avg": 53.0,
-   "above_avg": 0,
-   "cap_return": 4,
-   "high": 53,
-   "high_gw": 1,
-   "low": 53,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 3,
-   "value": 100.0,
-   "value_delta": 0.0,
-   "bank": 0.0,
-   "grank": 3482299,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Pranshul Jain",
    "team_name": "Carrick Janta Party",
    "entry": 1362641,
@@ -1958,6 +1933,31 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 8,
+   "value": 100.0,
+   "value_delta": 0.0,
+   "bank": 0.0,
+   "grank": 3482299,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
+   "manager": "Rohan Agrawal",
+   "team_name": "Southall United",
+   "entry": 5582398,
+   "total": 53,
+   "played": 1,
+   "avg": 53.0,
+   "above_avg": 0,
+   "cap_return": 4,
+   "high": 53,
+   "high_gw": 1,
+   "low": 53,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 3,
    "value": 100.0,
    "value_delta": 0.0,
    "bank": 0.0,
@@ -2409,20 +2409,20 @@
     "cap": 4
    }
   ],
-  "256447": [
-   {
-    "gw": 1,
-    "net": 62,
-    "orank": 1436683,
-    "cap": 4
-   }
-  ],
   "2424090": [
    {
     "gw": 1,
     "net": 62,
     "orank": 1436683,
     "cap": 22
+   }
+  ],
+  "256447": [
+   {
+    "gw": 1,
+    "net": 62,
+    "orank": 1436683,
+    "cap": 4
    }
   ],
   "374875": [
@@ -2457,7 +2457,7 @@
     "cap": 4
    }
   ],
-  "5582398": [
+  "1362641": [
    {
     "gw": 1,
     "net": 53,
@@ -2465,7 +2465,7 @@
     "cap": 4
    }
   ],
-  "1362641": [
+  "5582398": [
    {
     "gw": 1,
     "net": 53,
