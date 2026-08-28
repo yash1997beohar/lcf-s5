@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-28 21:54 UTC",
-  "generated_iso": "2026-08-28T21:54:37.574103Z",
+  "generated_utc": "2026-08-28 22:05 UTC",
+  "generated_iso": "2026-08-28T22:05:53.649396Z",
   "started": true,
   "current_gw": 2,
   "finished": [
@@ -166,21 +166,21 @@
   },
   {
    "rank": 16,
-   "arrow": "\u25b2",
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "entry": 46711,
-   "gw_points": 31,
-   "total": 73,
-   "hits": 0
-  },
-  {
-   "rank": 16,
    "arrow": "\u25bc",
    "manager": "Abhishek Gupte",
    "team_name": "Enzotic",
    "entry": 4688717,
    "gw_points": 0,
+   "total": 73,
+   "hits": 0
+  },
+  {
+   "rank": 16,
+   "arrow": "\u25b2",
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "entry": 46711,
+   "gw_points": 31,
    "total": 73,
    "hits": 0
   },
@@ -436,17 +436,17 @@
     ]
    },
    {
-    "manager": "Satweek Nayak",
-    "entry": 46711,
-    "scores": [
-     42
-    ]
-   },
-   {
     "manager": "Abhishek Gupte",
     "entry": 4688717,
     "scores": [
      73
+    ]
+   },
+   {
+    "manager": "Satweek Nayak",
+    "entry": 46711,
+    "scores": [
+     42
     ]
    },
    {
@@ -859,14 +859,14 @@
    "excluded": false
   },
   {
-   "manager": "Satweek Nayak",
-   "entry": 46711,
+   "manager": "Abhishek Gupte",
+   "entry": 4688717,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Abhishek Gupte",
-   "entry": 4688717,
+   "manager": "Satweek Nayak",
+   "entry": 46711,
    "arrows": 0,
    "excluded": false
   },
@@ -1357,18 +1357,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "league_rank": 16,
-   "seasons": 14,
-   "past_seasons": 13,
-   "best_rank": 14603,
-   "best_season": "2016/17",
-   "avg_rank": 949628,
-   "last_rank": 515830,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Abhishek Gupte",
    "team_name": "Enzotic",
    "league_rank": 16,
@@ -1378,6 +1366,18 @@
    "best_season": "2014/15",
    "avg_rank": 1571193,
    "last_rank": 3349378,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "league_rank": 16,
+   "seasons": 14,
+   "past_seasons": 13,
+   "best_rank": 14603,
+   "best_season": "2016/17",
+   "avg_rank": 949628,
+   "last_rank": 515830,
    "last_season": "2025/26"
   },
   {
@@ -1942,31 +1942,6 @@
    ]
   },
   {
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "entry": 46711,
-   "total": 73,
-   "played": 1,
-   "avg": 42.0,
-   "above_avg": 0,
-   "cap_return": 4,
-   "high": 42,
-   "high_gw": 1,
-   "low": 42,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 1,
-   "value": 100.1,
-   "value_delta": 0.1,
-   "bank": 0.0,
-   "grank": 6633922,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Abhishek Gupte",
    "team_name": "Enzotic",
    "entry": 4688717,
@@ -1992,6 +1967,31 @@
    "chips": [
     "bboost"
    ]
+  },
+  {
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "entry": 46711,
+   "total": 73,
+   "played": 1,
+   "avg": 42.0,
+   "above_avg": 0,
+   "cap_return": 4,
+   "high": 42,
+   "high_gw": 1,
+   "low": 42,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 1,
+   "value": 100.1,
+   "value_delta": 0.1,
+   "bank": 0.0,
+   "grank": 6633922,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
   },
   {
    "manager": "Aditya Vaidya",
@@ -2471,20 +2471,20 @@
     "cap": 4
    }
   ],
-  "46711": [
-   {
-    "gw": 1,
-    "net": 42,
-    "orank": 6633922,
-    "cap": 4
-   }
-  ],
   "4688717": [
    {
     "gw": 1,
     "net": 73,
     "orank": 344108,
     "cap": 16
+   }
+  ],
+  "46711": [
+   {
+    "gw": 1,
+    "net": 42,
+    "orank": 6633922,
+    "cap": 4
    }
   ],
   "9695": [
