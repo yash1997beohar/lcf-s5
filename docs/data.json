@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-29 20:05 UTC",
-  "generated_iso": "2026-08-29T20:05:58.702919Z",
+  "generated_utc": "2026-08-29 22:05 UTC",
+  "generated_iso": "2026-08-29T22:05:51.529451Z",
   "started": true,
   "current_gw": 2,
   "finished": [
@@ -77,20 +77,20 @@
   {
    "rank": 7,
    "arrow": "\u25b2",
-   "manager": "Rohan Agrawal",
-   "team_name": "Southall United",
-   "entry": 5582398,
-   "gw_points": 41,
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
+   "entry": 3181909,
+   "gw_points": 35,
    "total": 94,
    "hits": 0
   },
   {
    "rank": 7,
    "arrow": "\u25b2",
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "entry": 3181909,
-   "gw_points": 35,
+   "manager": "Rohan Agrawal",
+   "team_name": "Southall United",
+   "entry": 5582398,
+   "gw_points": 41,
    "total": 94,
    "hits": 0
   },
@@ -373,17 +373,17 @@
     ]
    },
    {
-    "manager": "Rohan Agrawal",
-    "entry": 5582398,
-    "scores": [
-     53
-    ]
-   },
-   {
     "manager": "Aparnesh Mishra",
     "entry": 3181909,
     "scores": [
      59
+    ]
+   },
+   {
+    "manager": "Rohan Agrawal",
+    "entry": 5582398,
+    "scores": [
+     53
     ]
    },
    {
@@ -629,14 +629,14 @@
    "excluded": false
   },
   {
-   "manager": "Rohan Agrawal",
-   "entry": 5582398,
+   "manager": "Aparnesh Mishra",
+   "entry": 3181909,
    "points": 4,
    "excluded": false
   },
   {
-   "manager": "Aparnesh Mishra",
-   "entry": 3181909,
+   "manager": "Rohan Agrawal",
+   "entry": 5582398,
    "points": 4,
    "excluded": false
   },
@@ -805,14 +805,14 @@
    "excluded": false
   },
   {
-   "manager": "Rohan Agrawal",
-   "entry": 5582398,
+   "manager": "Aparnesh Mishra",
+   "entry": 3181909,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Aparnesh Mishra",
-   "entry": 3181909,
+   "manager": "Rohan Agrawal",
+   "entry": 5582398,
    "arrows": 0,
    "excluded": false
   },
@@ -1249,18 +1249,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Rohan Agrawal",
-   "team_name": "Southall United",
-   "league_rank": 7,
-   "seasons": 6,
-   "past_seasons": 5,
-   "best_rank": 1320699,
-   "best_season": "2020/21",
-   "avg_rank": 2490743,
-   "last_rank": 1861933,
-   "last_season": "2024/25"
-  },
-  {
    "manager": "Aparnesh Mishra",
    "team_name": "Mishra's 13",
    "league_rank": 7,
@@ -1271,6 +1259,18 @@
    "avg_rank": 2156629,
    "last_rank": 2691725,
    "last_season": "2025/26"
+  },
+  {
+   "manager": "Rohan Agrawal",
+   "team_name": "Southall United",
+   "league_rank": 7,
+   "seasons": 6,
+   "past_seasons": 5,
+   "best_rank": 1320699,
+   "best_season": "2020/21",
+   "avg_rank": 2490743,
+   "last_rank": 1861933,
+   "last_season": "2024/25"
   },
   {
    "manager": "Abhiraj Singh",
@@ -1707,31 +1707,6 @@
    "chips": []
   },
   {
-   "manager": "Rohan Agrawal",
-   "team_name": "Southall United",
-   "entry": 5582398,
-   "total": 94,
-   "played": 1,
-   "avg": 53.0,
-   "above_avg": 0,
-   "cap_return": 4,
-   "high": 53,
-   "high_gw": 1,
-   "low": 53,
-   "low_gw": 1,
-   "transfers": 1,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 5,
-   "value": 100.1,
-   "value_delta": 0.1,
-   "bank": 1.5,
-   "grank": 1562941,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Aparnesh Mishra",
    "team_name": "Mishra's 13",
    "entry": 3181909,
@@ -1751,6 +1726,31 @@
    "value": 100.3,
    "value_delta": 0.3,
    "bank": 1.0,
+   "grank": 1562941,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
+   "manager": "Rohan Agrawal",
+   "team_name": "Southall United",
+   "entry": 5582398,
+   "total": 94,
+   "played": 1,
+   "avg": 53.0,
+   "above_avg": 0,
+   "cap_return": 4,
+   "high": 53,
+   "high_gw": 1,
+   "low": 53,
+   "low_gw": 1,
+   "transfers": 1,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 5,
+   "value": 100.1,
+   "value_delta": 0.1,
+   "bank": 1.5,
    "grank": 1562941,
    "best_jump": null,
    "best_jump_gw": null,
@@ -2399,19 +2399,19 @@
     "cap": 4
    }
   ],
-  "5582398": [
-   {
-    "gw": 1,
-    "net": 53,
-    "orank": 3482299,
-    "cap": 4
-   }
-  ],
   "3181909": [
    {
     "gw": 1,
     "net": 59,
     "orank": 1987556,
+    "cap": 4
+   }
+  ],
+  "5582398": [
+   {
+    "gw": 1,
+    "net": 53,
+    "orank": 3482299,
     "cap": 4
    }
   ],
