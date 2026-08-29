@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-29 08:06 UTC",
-  "generated_iso": "2026-08-29T08:06:03.035264Z",
+  "generated_utc": "2026-08-29 10:05 UTC",
+  "generated_iso": "2026-08-29T10:05:57.398019Z",
   "started": true,
   "current_gw": 2,
   "finished": [
@@ -97,6 +97,16 @@
   {
    "rank": 9,
    "arrow": "\u25bc",
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "entry": 5926399,
+   "gw_points": 2,
+   "total": 76,
+   "hits": 0
+  },
+  {
+   "rank": 9,
+   "arrow": "\u25bc",
    "manager": "Raveesh Kalra",
    "team_name": "MaSalah",
    "entry": 2354537,
@@ -111,16 +121,6 @@
    "team_name": "Pole Calmer \ufffd",
    "entry": 5008941,
    "gw_points": 31,
-   "total": 76,
-   "hits": 0
-  },
-  {
-   "rank": 9,
-   "arrow": "\u25bc",
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "entry": 5926399,
-   "gw_points": 2,
    "total": 76,
    "hits": 0
   },
@@ -166,21 +166,21 @@
   },
   {
    "rank": 16,
-   "arrow": "\u25bc",
-   "manager": "Abhishek Gupte",
-   "team_name": "Enzotic",
-   "entry": 4688717,
-   "gw_points": 0,
-   "total": 73,
-   "hits": 0
-  },
-  {
-   "rank": 16,
    "arrow": "\u25b2",
    "manager": "Satweek Nayak",
    "team_name": "Xa bing chilling",
    "entry": 46711,
    "gw_points": 31,
+   "total": 73,
+   "hits": 0
+  },
+  {
+   "rank": 16,
+   "arrow": "\u25bc",
+   "manager": "Abhishek Gupte",
+   "team_name": "Enzotic",
+   "entry": 4688717,
+   "gw_points": 0,
    "total": 73,
    "hits": 0
   },
@@ -387,6 +387,13 @@
     ]
    },
    {
+    "manager": "Aquib Razack",
+    "entry": 5926399,
+    "scores": [
+     74
+    ]
+   },
+   {
     "manager": "Raveesh Kalra",
     "entry": 2354537,
     "scores": [
@@ -398,13 +405,6 @@
     "entry": 5008941,
     "scores": [
      45
-    ]
-   },
-   {
-    "manager": "Aquib Razack",
-    "entry": 5926399,
-    "scores": [
-     74
     ]
    },
    {
@@ -436,17 +436,17 @@
     ]
    },
    {
-    "manager": "Abhishek Gupte",
-    "entry": 4688717,
-    "scores": [
-     73
-    ]
-   },
-   {
     "manager": "Satweek Nayak",
     "entry": 46711,
     "scores": [
      42
+    ]
+   },
+   {
+    "manager": "Abhishek Gupte",
+    "entry": 4688717,
+    "scores": [
+     73
     ]
    },
    {
@@ -647,6 +647,12 @@
    "excluded": false
   },
   {
+   "manager": "Aquib Razack",
+   "entry": 5926399,
+   "points": 4,
+   "excluded": false
+  },
+  {
    "manager": "Raveesh Kalra",
    "entry": 2354537,
    "points": 4,
@@ -655,12 +661,6 @@
   {
    "manager": "Ashwin Jose",
    "entry": 5008941,
-   "points": 4,
-   "excluded": false
-  },
-  {
-   "manager": "Aquib Razack",
-   "entry": 5926399,
    "points": 4,
    "excluded": false
   },
@@ -817,6 +817,12 @@
    "excluded": false
   },
   {
+   "manager": "Aquib Razack",
+   "entry": 5926399,
+   "arrows": 0,
+   "excluded": false
+  },
+  {
    "manager": "Raveesh Kalra",
    "entry": 2354537,
    "arrows": 0,
@@ -825,12 +831,6 @@
   {
    "manager": "Ashwin Jose",
    "entry": 5008941,
-   "arrows": 0,
-   "excluded": false
-  },
-  {
-   "manager": "Aquib Razack",
-   "entry": 5926399,
    "arrows": 0,
    "excluded": false
   },
@@ -859,14 +859,14 @@
    "excluded": false
   },
   {
-   "manager": "Abhishek Gupte",
-   "entry": 4688717,
+   "manager": "Satweek Nayak",
+   "entry": 46711,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Satweek Nayak",
-   "entry": 46711,
+   "manager": "Abhishek Gupte",
+   "entry": 4688717,
    "arrows": 0,
    "excluded": false
   },
@@ -1273,6 +1273,18 @@
    "last_season": "2025/26"
   },
   {
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "league_rank": 9,
+   "seasons": 14,
+   "past_seasons": 13,
+   "best_rank": 71857,
+   "best_season": "2020/21",
+   "avg_rank": 1929309,
+   "last_rank": 297407,
+   "last_season": "2025/26"
+  },
+  {
    "manager": "Raveesh Kalra",
    "team_name": "MaSalah",
    "league_rank": 9,
@@ -1294,18 +1306,6 @@
    "best_season": "2018/19",
    "avg_rank": 2404119,
    "last_rank": 5124417,
-   "last_season": "2025/26"
-  },
-  {
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "league_rank": 9,
-   "seasons": 14,
-   "past_seasons": 13,
-   "best_rank": 71857,
-   "best_season": "2020/21",
-   "avg_rank": 1929309,
-   "last_rank": 297407,
    "last_season": "2025/26"
   },
   {
@@ -1357,18 +1357,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Abhishek Gupte",
-   "team_name": "Enzotic",
-   "league_rank": 16,
-   "seasons": 16,
-   "past_seasons": 15,
-   "best_rank": 37120,
-   "best_season": "2014/15",
-   "avg_rank": 1571193,
-   "last_rank": 3349378,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Satweek Nayak",
    "team_name": "Xa bing chilling",
    "league_rank": 16,
@@ -1378,6 +1366,18 @@
    "best_season": "2016/17",
    "avg_rank": 949628,
    "last_rank": 515830,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Abhishek Gupte",
+   "team_name": "Enzotic",
+   "league_rank": 16,
+   "seasons": 16,
+   "past_seasons": 15,
+   "best_rank": 37120,
+   "best_season": "2014/15",
+   "avg_rank": 1571193,
+   "last_rank": 3349378,
    "last_season": "2025/26"
   },
   {
@@ -1759,6 +1759,33 @@
    ]
   },
   {
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "entry": 5926399,
+   "total": 76,
+   "played": 1,
+   "avg": 74.0,
+   "above_avg": 1,
+   "cap_return": 4,
+   "high": 74,
+   "high_gw": 1,
+   "low": 74,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 0,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.0,
+   "grank": 2839056,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": [
+    "bboost"
+   ]
+  },
+  {
    "manager": "Raveesh Kalra",
    "team_name": "MaSalah",
    "entry": 2354537,
@@ -1809,33 +1836,6 @@
    "best_jump": null,
    "best_jump_gw": null,
    "chips": []
-  },
-  {
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "entry": 5926399,
-   "total": 76,
-   "played": 1,
-   "avg": 74.0,
-   "above_avg": 1,
-   "cap_return": 4,
-   "high": 74,
-   "high_gw": 1,
-   "low": 74,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 0,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.0,
-   "grank": 2839056,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": [
-    "bboost"
-   ]
   },
   {
    "manager": "Shivanshu Madan",
@@ -1942,6 +1942,31 @@
    ]
   },
   {
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "entry": 46711,
+   "total": 73,
+   "played": 1,
+   "avg": 42.0,
+   "above_avg": 0,
+   "cap_return": 4,
+   "high": 42,
+   "high_gw": 1,
+   "low": 42,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 1,
+   "value": 100.1,
+   "value_delta": 0.1,
+   "bank": 0.0,
+   "grank": 3459630,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
    "manager": "Abhishek Gupte",
    "team_name": "Enzotic",
    "entry": 4688717,
@@ -1967,31 +1992,6 @@
    "chips": [
     "bboost"
    ]
-  },
-  {
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "entry": 46711,
-   "total": 73,
-   "played": 1,
-   "avg": 42.0,
-   "above_avg": 0,
-   "cap_return": 4,
-   "high": 42,
-   "high_gw": 1,
-   "low": 42,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 1,
-   "value": 100.1,
-   "value_delta": 0.1,
-   "bank": 0.0,
-   "grank": 3459630,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
   },
   {
    "manager": "Aditya Vaidya",
@@ -2415,6 +2415,14 @@
     "cap": 4
    }
   ],
+  "5926399": [
+   {
+    "gw": 1,
+    "net": 74,
+    "orank": 279827,
+    "cap": 4
+   }
+  ],
   "2354537": [
    {
     "gw": 1,
@@ -2428,14 +2436,6 @@
     "gw": 1,
     "net": 45,
     "orank": 5859109,
-    "cap": 4
-   }
-  ],
-  "5926399": [
-   {
-    "gw": 1,
-    "net": 74,
-    "orank": 279827,
     "cap": 4
    }
   ],
@@ -2471,20 +2471,20 @@
     "cap": 4
    }
   ],
-  "4688717": [
-   {
-    "gw": 1,
-    "net": 73,
-    "orank": 344108,
-    "cap": 16
-   }
-  ],
   "46711": [
    {
     "gw": 1,
     "net": 42,
     "orank": 6633922,
     "cap": 4
+   }
+  ],
+  "4688717": [
+   {
+    "gw": 1,
+    "net": 73,
+    "orank": 344108,
+    "cap": 16
    }
   ],
   "9695": [
