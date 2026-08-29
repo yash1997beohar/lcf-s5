@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-29 06:06 UTC",
-  "generated_iso": "2026-08-29T06:06:35.097269Z",
+  "generated_utc": "2026-08-29 08:06 UTC",
+  "generated_iso": "2026-08-29T08:06:03.035264Z",
   "started": true,
   "current_gw": 2,
   "finished": [
@@ -96,6 +96,16 @@
   },
   {
    "rank": 9,
+   "arrow": "\u25bc",
+   "manager": "Raveesh Kalra",
+   "team_name": "MaSalah",
+   "entry": 2354537,
+   "gw_points": 13,
+   "total": 76,
+   "hits": 0
+  },
+  {
+   "rank": 9,
    "arrow": "\u25b2",
    "manager": "Ashwin Jose",
    "team_name": "Pole Calmer \ufffd",
@@ -111,16 +121,6 @@
    "team_name": "BattleBorn",
    "entry": 5926399,
    "gw_points": 2,
-   "total": 76,
-   "hits": 0
-  },
-  {
-   "rank": 9,
-   "arrow": "\u25bc",
-   "manager": "Raveesh Kalra",
-   "team_name": "MaSalah",
-   "entry": 2354537,
-   "gw_points": 13,
    "total": 76,
    "hits": 0
   },
@@ -166,21 +166,21 @@
   },
   {
    "rank": 16,
-   "arrow": "\u25b2",
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "entry": 46711,
-   "gw_points": 31,
-   "total": 73,
-   "hits": 0
-  },
-  {
-   "rank": 16,
    "arrow": "\u25bc",
    "manager": "Abhishek Gupte",
    "team_name": "Enzotic",
    "entry": 4688717,
    "gw_points": 0,
+   "total": 73,
+   "hits": 0
+  },
+  {
+   "rank": 16,
+   "arrow": "\u25b2",
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "entry": 46711,
+   "gw_points": 31,
    "total": 73,
    "hits": 0
   },
@@ -207,20 +207,20 @@
   {
    "rank": 20,
    "arrow": "\u25bc",
-   "manager": "Pranshul Jain",
-   "team_name": "Carrick Janta Party",
-   "entry": 1362641,
-   "gw_points": 13,
+   "manager": "Yash Beohar",
+   "team_name": "Fluente in Football",
+   "entry": 374875,
+   "gw_points": 5,
    "total": 66,
    "hits": 0
   },
   {
    "rank": 20,
    "arrow": "\u25bc",
-   "manager": "Yash Beohar",
-   "team_name": "Fluente in Football",
-   "entry": 374875,
-   "gw_points": 5,
+   "manager": "Pranshul Jain",
+   "team_name": "Carrick Janta Party",
+   "entry": 1362641,
+   "gw_points": 13,
    "total": 66,
    "hits": 0
   },
@@ -276,21 +276,21 @@
   },
   {
    "rank": 27,
-   "arrow": "\u25bc",
-   "manager": "Aayush Khanna",
-   "team_name": "Loading...",
-   "entry": 2003955,
-   "gw_points": 13,
-   "total": 55,
-   "hits": 0
-  },
-  {
-   "rank": 27,
    "arrow": "\u25b2",
    "manager": "Nilay jain",
    "team_name": "Redsbay",
    "entry": 4993853,
    "gw_points": 18,
+   "total": 55,
+   "hits": 0
+  },
+  {
+   "rank": 27,
+   "arrow": "\u25bc",
+   "manager": "Aayush Khanna",
+   "team_name": "Loading...",
+   "entry": 2003955,
+   "gw_points": 13,
    "total": 55,
    "hits": 0
   },
@@ -387,6 +387,13 @@
     ]
    },
    {
+    "manager": "Raveesh Kalra",
+    "entry": 2354537,
+    "scores": [
+     63
+    ]
+   },
+   {
     "manager": "Ashwin Jose",
     "entry": 5008941,
     "scores": [
@@ -398,13 +405,6 @@
     "entry": 5926399,
     "scores": [
      74
-    ]
-   },
-   {
-    "manager": "Raveesh Kalra",
-    "entry": 2354537,
-    "scores": [
-     63
     ]
    },
    {
@@ -436,17 +436,17 @@
     ]
    },
    {
-    "manager": "Satweek Nayak",
-    "entry": 46711,
-    "scores": [
-     42
-    ]
-   },
-   {
     "manager": "Abhishek Gupte",
     "entry": 4688717,
     "scores": [
      73
+    ]
+   },
+   {
+    "manager": "Satweek Nayak",
+    "entry": 46711,
+    "scores": [
+     42
     ]
    },
    {
@@ -464,17 +464,17 @@
     ]
    },
    {
-    "manager": "Pranshul Jain",
-    "entry": 1362641,
-    "scores": [
-     53
-    ]
-   },
-   {
     "manager": "Yash Beohar",
     "entry": 374875,
     "scores": [
      61
+    ]
+   },
+   {
+    "manager": "Pranshul Jain",
+    "entry": 1362641,
+    "scores": [
+     53
     ]
    },
    {
@@ -513,17 +513,17 @@
     ]
    },
    {
-    "manager": "Aayush Khanna",
-    "entry": 2003955,
-    "scores": [
-     42
-    ]
-   },
-   {
     "manager": "Nilay jain",
     "entry": 4993853,
     "scores": [
      37
+    ]
+   },
+   {
+    "manager": "Aayush Khanna",
+    "entry": 2003955,
+    "scores": [
+     42
     ]
    },
    {
@@ -647,6 +647,12 @@
    "excluded": false
   },
   {
+   "manager": "Raveesh Kalra",
+   "entry": 2354537,
+   "points": 4,
+   "excluded": false
+  },
+  {
    "manager": "Ashwin Jose",
    "entry": 5008941,
    "points": 4,
@@ -655,12 +661,6 @@
   {
    "manager": "Aquib Razack",
    "entry": 5926399,
-   "points": 4,
-   "excluded": false
-  },
-  {
-   "manager": "Raveesh Kalra",
-   "entry": 2354537,
    "points": 4,
    "excluded": false
   },
@@ -701,14 +701,14 @@
    "excluded": false
   },
   {
-   "manager": "Pranshul Jain",
-   "entry": 1362641,
+   "manager": "Yash Beohar",
+   "entry": 374875,
    "points": 4,
    "excluded": false
   },
   {
-   "manager": "Yash Beohar",
-   "entry": 374875,
+   "manager": "Pranshul Jain",
+   "entry": 1362641,
    "points": 4,
    "excluded": false
   },
@@ -737,14 +737,14 @@
    "excluded": false
   },
   {
-   "manager": "Aayush Khanna",
-   "entry": 2003955,
+   "manager": "Nilay jain",
+   "entry": 4993853,
    "points": 4,
    "excluded": false
   },
   {
-   "manager": "Nilay jain",
-   "entry": 4993853,
+   "manager": "Aayush Khanna",
+   "entry": 2003955,
    "points": 4,
    "excluded": false
   },
@@ -817,6 +817,12 @@
    "excluded": false
   },
   {
+   "manager": "Raveesh Kalra",
+   "entry": 2354537,
+   "arrows": 0,
+   "excluded": false
+  },
+  {
    "manager": "Ashwin Jose",
    "entry": 5008941,
    "arrows": 0,
@@ -825,12 +831,6 @@
   {
    "manager": "Aquib Razack",
    "entry": 5926399,
-   "arrows": 0,
-   "excluded": false
-  },
-  {
-   "manager": "Raveesh Kalra",
-   "entry": 2354537,
    "arrows": 0,
    "excluded": false
   },
@@ -859,14 +859,14 @@
    "excluded": false
   },
   {
-   "manager": "Satweek Nayak",
-   "entry": 46711,
+   "manager": "Abhishek Gupte",
+   "entry": 4688717,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Abhishek Gupte",
-   "entry": 4688717,
+   "manager": "Satweek Nayak",
+   "entry": 46711,
    "arrows": 0,
    "excluded": false
   },
@@ -883,14 +883,14 @@
    "excluded": false
   },
   {
-   "manager": "Pranshul Jain",
-   "entry": 1362641,
+   "manager": "Yash Beohar",
+   "entry": 374875,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Yash Beohar",
-   "entry": 374875,
+   "manager": "Pranshul Jain",
+   "entry": 1362641,
    "arrows": 0,
    "excluded": false
   },
@@ -925,14 +925,14 @@
    "excluded": false
   },
   {
-   "manager": "Aayush Khanna",
-   "entry": 2003955,
+   "manager": "Nilay jain",
+   "entry": 4993853,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Nilay jain",
-   "entry": 4993853,
+   "manager": "Aayush Khanna",
+   "entry": 2003955,
    "arrows": 0,
    "excluded": false
   },
@@ -1273,6 +1273,18 @@
    "last_season": "2025/26"
   },
   {
+   "manager": "Raveesh Kalra",
+   "team_name": "MaSalah",
+   "league_rank": 9,
+   "seasons": 7,
+   "past_seasons": 6,
+   "best_rank": 8917,
+   "best_season": "2021/22",
+   "avg_rank": 2118382,
+   "last_rank": 9146930,
+   "last_season": "2025/26"
+  },
+  {
    "manager": "Ashwin Jose",
    "team_name": "Pole Calmer \ufffd",
    "league_rank": 9,
@@ -1294,18 +1306,6 @@
    "best_season": "2020/21",
    "avg_rank": 1929309,
    "last_rank": 297407,
-   "last_season": "2025/26"
-  },
-  {
-   "manager": "Raveesh Kalra",
-   "team_name": "MaSalah",
-   "league_rank": 9,
-   "seasons": 7,
-   "past_seasons": 6,
-   "best_rank": 8917,
-   "best_season": "2021/22",
-   "avg_rank": 2118382,
-   "last_rank": 9146930,
    "last_season": "2025/26"
   },
   {
@@ -1357,18 +1357,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "league_rank": 16,
-   "seasons": 14,
-   "past_seasons": 13,
-   "best_rank": 14603,
-   "best_season": "2016/17",
-   "avg_rank": 949628,
-   "last_rank": 515830,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Abhishek Gupte",
    "team_name": "Enzotic",
    "league_rank": 16,
@@ -1378,6 +1366,18 @@
    "best_season": "2014/15",
    "avg_rank": 1571193,
    "last_rank": 3349378,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "league_rank": 16,
+   "seasons": 14,
+   "past_seasons": 13,
+   "best_rank": 14603,
+   "best_season": "2016/17",
+   "avg_rank": 949628,
+   "last_rank": 515830,
    "last_season": "2025/26"
   },
   {
@@ -1405,18 +1405,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Pranshul Jain",
-   "team_name": "Carrick Janta Party",
-   "league_rank": 20,
-   "seasons": 9,
-   "past_seasons": 8,
-   "best_rank": 182900,
-   "best_season": "2025/26",
-   "avg_rank": 2098988,
-   "last_rank": 182900,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
    "league_rank": 20,
@@ -1426,6 +1414,18 @@
    "best_season": "2018/19",
    "avg_rank": 820221,
    "last_rank": 58227,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Pranshul Jain",
+   "team_name": "Carrick Janta Party",
+   "league_rank": 20,
+   "seasons": 9,
+   "past_seasons": 8,
+   "best_rank": 182900,
+   "best_season": "2025/26",
+   "avg_rank": 2098988,
+   "last_rank": 182900,
    "last_season": "2025/26"
   },
   {
@@ -1489,18 +1489,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Aayush Khanna",
-   "team_name": "Loading...",
-   "league_rank": 27,
-   "seasons": 10,
-   "past_seasons": 9,
-   "best_rank": 486041,
-   "best_season": "2024/25",
-   "avg_rank": 2415786,
-   "last_rank": 1206623,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Nilay jain",
    "team_name": "Redsbay",
    "league_rank": 27,
@@ -1510,6 +1498,18 @@
    "best_season": "2025/26",
    "avg_rank": 4884220,
    "last_rank": 4884220,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Aayush Khanna",
+   "team_name": "Loading...",
+   "league_rank": 27,
+   "seasons": 10,
+   "past_seasons": 9,
+   "best_rank": 486041,
+   "best_season": "2024/25",
+   "avg_rank": 2415786,
+   "last_rank": 1206623,
    "last_season": "2025/26"
   },
   {
@@ -1759,6 +1759,33 @@
    ]
   },
   {
+   "manager": "Raveesh Kalra",
+   "team_name": "MaSalah",
+   "entry": 2354537,
+   "total": 76,
+   "played": 1,
+   "avg": 63.0,
+   "above_avg": 1,
+   "cap_return": 4,
+   "high": 63,
+   "high_gw": 1,
+   "low": 63,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 0,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.0,
+   "grank": 2839056,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": [
+    "bboost"
+   ]
+  },
+  {
    "manager": "Ashwin Jose",
    "team_name": "Pole Calmer \ufffd",
    "entry": 5008941,
@@ -1795,33 +1822,6 @@
    "high": 74,
    "high_gw": 1,
    "low": 74,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 0,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.0,
-   "grank": 2839056,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": [
-    "bboost"
-   ]
-  },
-  {
-   "manager": "Raveesh Kalra",
-   "team_name": "MaSalah",
-   "entry": 2354537,
-   "total": 76,
-   "played": 1,
-   "avg": 63.0,
-   "above_avg": 1,
-   "cap_return": 4,
-   "high": 63,
-   "high_gw": 1,
-   "low": 63,
    "low_gw": 1,
    "transfers": 0,
    "hits_pts": 0,
@@ -1942,31 +1942,6 @@
    ]
   },
   {
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "entry": 46711,
-   "total": 73,
-   "played": 1,
-   "avg": 42.0,
-   "above_avg": 0,
-   "cap_return": 4,
-   "high": 42,
-   "high_gw": 1,
-   "low": 42,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 1,
-   "value": 100.1,
-   "value_delta": 0.1,
-   "bank": 0.0,
-   "grank": 3459630,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Abhishek Gupte",
    "team_name": "Enzotic",
    "entry": 4688717,
@@ -1992,6 +1967,31 @@
    "chips": [
     "bboost"
    ]
+  },
+  {
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "entry": 46711,
+   "total": 73,
+   "played": 1,
+   "avg": 42.0,
+   "above_avg": 0,
+   "cap_return": 4,
+   "high": 42,
+   "high_gw": 1,
+   "low": 42,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 1,
+   "value": 100.1,
+   "value_delta": 0.1,
+   "bank": 0.0,
+   "grank": 3459630,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
   },
   {
    "manager": "Aditya Vaidya",
@@ -2046,31 +2046,6 @@
    ]
   },
   {
-   "manager": "Pranshul Jain",
-   "team_name": "Carrick Janta Party",
-   "entry": 1362641,
-   "total": 66,
-   "played": 1,
-   "avg": 53.0,
-   "above_avg": 0,
-   "cap_return": 4,
-   "high": 53,
-   "high_gw": 1,
-   "low": 53,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 8,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.0,
-   "grank": 4978807,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
    "entry": 374875,
@@ -2096,6 +2071,31 @@
    "chips": [
     "bboost"
    ]
+  },
+  {
+   "manager": "Pranshul Jain",
+   "team_name": "Carrick Janta Party",
+   "entry": 1362641,
+   "total": 66,
+   "played": 1,
+   "avg": 53.0,
+   "above_avg": 0,
+   "cap_return": 4,
+   "high": 53,
+   "high_gw": 1,
+   "low": 53,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 8,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.0,
+   "grank": 4978807,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
   },
   {
    "manager": "Sid Shaurya",
@@ -2223,31 +2223,6 @@
    "chips": []
   },
   {
-   "manager": "Aayush Khanna",
-   "team_name": "Loading...",
-   "entry": 2003955,
-   "total": 55,
-   "played": 1,
-   "avg": 42.0,
-   "above_avg": 0,
-   "cap_return": 4,
-   "high": 42,
-   "high_gw": 1,
-   "low": 42,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 5,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.5,
-   "grank": 7021567,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Nilay jain",
    "team_name": "Redsbay",
    "entry": 4993853,
@@ -2273,6 +2248,31 @@
    "chips": [
     "wildcard"
    ]
+  },
+  {
+   "manager": "Aayush Khanna",
+   "team_name": "Loading...",
+   "entry": 2003955,
+   "total": 55,
+   "played": 1,
+   "avg": 42.0,
+   "above_avg": 0,
+   "cap_return": 4,
+   "high": 42,
+   "high_gw": 1,
+   "low": 42,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 5,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.5,
+   "grank": 7021567,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
   },
   {
    "manager": "Danish Javed",
@@ -2415,6 +2415,14 @@
     "cap": 4
    }
   ],
+  "2354537": [
+   {
+    "gw": 1,
+    "net": 63,
+    "orank": 1282717,
+    "cap": 4
+   }
+  ],
   "5008941": [
    {
     "gw": 1,
@@ -2428,14 +2436,6 @@
     "gw": 1,
     "net": 74,
     "orank": 279827,
-    "cap": 4
-   }
-  ],
-  "2354537": [
-   {
-    "gw": 1,
-    "net": 63,
-    "orank": 1282717,
     "cap": 4
    }
   ],
@@ -2471,20 +2471,20 @@
     "cap": 4
    }
   ],
-  "46711": [
-   {
-    "gw": 1,
-    "net": 42,
-    "orank": 6633922,
-    "cap": 4
-   }
-  ],
   "4688717": [
    {
     "gw": 1,
     "net": 73,
     "orank": 344108,
     "cap": 16
+   }
+  ],
+  "46711": [
+   {
+    "gw": 1,
+    "net": 42,
+    "orank": 6633922,
+    "cap": 4
    }
   ],
   "9695": [
@@ -2503,19 +2503,19 @@
     "cap": 4
    }
   ],
-  "1362641": [
-   {
-    "gw": 1,
-    "net": 53,
-    "orank": 3482299,
-    "cap": 4
-   }
-  ],
   "374875": [
    {
     "gw": 1,
     "net": 61,
     "orank": 1605173,
+    "cap": 4
+   }
+  ],
+  "1362641": [
+   {
+    "gw": 1,
+    "net": 53,
+    "orank": 3482299,
     "cap": 4
    }
   ],
@@ -2559,19 +2559,19 @@
     "cap": 4
    }
   ],
-  "2003955": [
-   {
-    "gw": 1,
-    "net": 42,
-    "orank": 6633922,
-    "cap": 4
-   }
-  ],
   "4993853": [
    {
     "gw": 1,
     "net": 37,
     "orank": 7658231,
+    "cap": 4
+   }
+  ],
+  "2003955": [
+   {
+    "gw": 1,
+    "net": 42,
+    "orank": 6633922,
     "cap": 4
    }
   ],
