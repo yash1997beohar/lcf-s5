@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-29 02:05 UTC",
-  "generated_iso": "2026-08-29T02:05:46.771594Z",
+  "generated_utc": "2026-08-29 04:05 UTC",
+  "generated_iso": "2026-08-29T04:05:57.140007Z",
   "started": true,
   "current_gw": 2,
   "finished": [
@@ -96,6 +96,16 @@
   },
   {
    "rank": 9,
+   "arrow": "\u25b2",
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "entry": 5008941,
+   "gw_points": 31,
+   "total": 76,
+   "hits": 0
+  },
+  {
+   "rank": 9,
    "arrow": "\u25bc",
    "manager": "Aquib Razack",
    "team_name": "BattleBorn",
@@ -111,16 +121,6 @@
    "team_name": "MaSalah",
    "entry": 2354537,
    "gw_points": 13,
-   "total": 76,
-   "hits": 0
-  },
-  {
-   "rank": 9,
-   "arrow": "\u25b2",
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "entry": 5008941,
-   "gw_points": 31,
    "total": 76,
    "hits": 0
   },
@@ -276,21 +276,21 @@
   },
   {
    "rank": 27,
-   "arrow": "\u25b2",
-   "manager": "Nilay jain",
-   "team_name": "Redsbay",
-   "entry": 4993853,
-   "gw_points": 18,
-   "total": 55,
-   "hits": 0
-  },
-  {
-   "rank": 27,
    "arrow": "\u25bc",
    "manager": "Aayush Khanna",
    "team_name": "Loading...",
    "entry": 2003955,
    "gw_points": 13,
+   "total": 55,
+   "hits": 0
+  },
+  {
+   "rank": 27,
+   "arrow": "\u25b2",
+   "manager": "Nilay jain",
+   "team_name": "Redsbay",
+   "entry": 4993853,
+   "gw_points": 18,
    "total": 55,
    "hits": 0
   },
@@ -387,6 +387,13 @@
     ]
    },
    {
+    "manager": "Ashwin Jose",
+    "entry": 5008941,
+    "scores": [
+     45
+    ]
+   },
+   {
     "manager": "Aquib Razack",
     "entry": 5926399,
     "scores": [
@@ -398,13 +405,6 @@
     "entry": 2354537,
     "scores": [
      63
-    ]
-   },
-   {
-    "manager": "Ashwin Jose",
-    "entry": 5008941,
-    "scores": [
-     45
     ]
    },
    {
@@ -513,17 +513,17 @@
     ]
    },
    {
-    "manager": "Nilay jain",
-    "entry": 4993853,
-    "scores": [
-     37
-    ]
-   },
-   {
     "manager": "Aayush Khanna",
     "entry": 2003955,
     "scores": [
      42
+    ]
+   },
+   {
+    "manager": "Nilay jain",
+    "entry": 4993853,
+    "scores": [
+     37
     ]
    },
    {
@@ -647,6 +647,12 @@
    "excluded": false
   },
   {
+   "manager": "Ashwin Jose",
+   "entry": 5008941,
+   "points": 4,
+   "excluded": false
+  },
+  {
    "manager": "Aquib Razack",
    "entry": 5926399,
    "points": 4,
@@ -655,12 +661,6 @@
   {
    "manager": "Raveesh Kalra",
    "entry": 2354537,
-   "points": 4,
-   "excluded": false
-  },
-  {
-   "manager": "Ashwin Jose",
-   "entry": 5008941,
    "points": 4,
    "excluded": false
   },
@@ -737,14 +737,14 @@
    "excluded": false
   },
   {
-   "manager": "Nilay jain",
-   "entry": 4993853,
+   "manager": "Aayush Khanna",
+   "entry": 2003955,
    "points": 4,
    "excluded": false
   },
   {
-   "manager": "Aayush Khanna",
-   "entry": 2003955,
+   "manager": "Nilay jain",
+   "entry": 4993853,
    "points": 4,
    "excluded": false
   },
@@ -817,6 +817,12 @@
    "excluded": false
   },
   {
+   "manager": "Ashwin Jose",
+   "entry": 5008941,
+   "arrows": 0,
+   "excluded": false
+  },
+  {
    "manager": "Aquib Razack",
    "entry": 5926399,
    "arrows": 0,
@@ -825,12 +831,6 @@
   {
    "manager": "Raveesh Kalra",
    "entry": 2354537,
-   "arrows": 0,
-   "excluded": false
-  },
-  {
-   "manager": "Ashwin Jose",
-   "entry": 5008941,
    "arrows": 0,
    "excluded": false
   },
@@ -925,14 +925,14 @@
    "excluded": false
   },
   {
-   "manager": "Nilay jain",
-   "entry": 4993853,
+   "manager": "Aayush Khanna",
+   "entry": 2003955,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Aayush Khanna",
-   "entry": 2003955,
+   "manager": "Nilay jain",
+   "entry": 4993853,
    "arrows": 0,
    "excluded": false
   },
@@ -1273,6 +1273,18 @@
    "last_season": "2025/26"
   },
   {
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "league_rank": 9,
+   "seasons": 11,
+   "past_seasons": 10,
+   "best_rank": 95791,
+   "best_season": "2018/19",
+   "avg_rank": 2404119,
+   "last_rank": 5124417,
+   "last_season": "2025/26"
+  },
+  {
    "manager": "Aquib Razack",
    "team_name": "BattleBorn",
    "league_rank": 9,
@@ -1294,18 +1306,6 @@
    "best_season": "2021/22",
    "avg_rank": 2118382,
    "last_rank": 9146930,
-   "last_season": "2025/26"
-  },
-  {
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "league_rank": 9,
-   "seasons": 11,
-   "past_seasons": 10,
-   "best_rank": 95791,
-   "best_season": "2018/19",
-   "avg_rank": 2404119,
-   "last_rank": 5124417,
    "last_season": "2025/26"
   },
   {
@@ -1489,18 +1489,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Nilay jain",
-   "team_name": "Redsbay",
-   "league_rank": 27,
-   "seasons": 2,
-   "past_seasons": 1,
-   "best_rank": 4884220,
-   "best_season": "2025/26",
-   "avg_rank": 4884220,
-   "last_rank": 4884220,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Aayush Khanna",
    "team_name": "Loading...",
    "league_rank": 27,
@@ -1510,6 +1498,18 @@
    "best_season": "2024/25",
    "avg_rank": 2415786,
    "last_rank": 1206623,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Nilay jain",
+   "team_name": "Redsbay",
+   "league_rank": 27,
+   "seasons": 2,
+   "past_seasons": 1,
+   "best_rank": 4884220,
+   "best_season": "2025/26",
+   "avg_rank": 4884220,
+   "last_rank": 4884220,
    "last_season": "2025/26"
   },
   {
@@ -1759,6 +1759,31 @@
    ]
   },
   {
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "entry": 5008941,
+   "total": 76,
+   "played": 1,
+   "avg": 45.0,
+   "above_avg": 0,
+   "cap_return": 4,
+   "high": 45,
+   "high_gw": 1,
+   "low": 45,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 16,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.0,
+   "grank": 2839056,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
    "manager": "Aquib Razack",
    "team_name": "BattleBorn",
    "entry": 5926399,
@@ -1811,31 +1836,6 @@
    "chips": [
     "bboost"
    ]
-  },
-  {
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "entry": 5008941,
-   "total": 76,
-   "played": 1,
-   "avg": 45.0,
-   "above_avg": 0,
-   "cap_return": 4,
-   "high": 45,
-   "high_gw": 1,
-   "low": 45,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 16,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.0,
-   "grank": 2839056,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
   },
   {
    "manager": "Shivanshu Madan",
@@ -2223,6 +2223,31 @@
    "chips": []
   },
   {
+   "manager": "Aayush Khanna",
+   "team_name": "Loading...",
+   "entry": 2003955,
+   "total": 55,
+   "played": 1,
+   "avg": 42.0,
+   "above_avg": 0,
+   "cap_return": 4,
+   "high": 42,
+   "high_gw": 1,
+   "low": 42,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 5,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.5,
+   "grank": 7021567,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
    "manager": "Nilay jain",
    "team_name": "Redsbay",
    "entry": 4993853,
@@ -2248,31 +2273,6 @@
    "chips": [
     "wildcard"
    ]
-  },
-  {
-   "manager": "Aayush Khanna",
-   "team_name": "Loading...",
-   "entry": 2003955,
-   "total": 55,
-   "played": 1,
-   "avg": 42.0,
-   "above_avg": 0,
-   "cap_return": 4,
-   "high": 42,
-   "high_gw": 1,
-   "low": 42,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 5,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.5,
-   "grank": 7021567,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
   },
   {
    "manager": "Danish Javed",
@@ -2415,6 +2415,14 @@
     "cap": 4
    }
   ],
+  "5008941": [
+   {
+    "gw": 1,
+    "net": 45,
+    "orank": 5859109,
+    "cap": 4
+   }
+  ],
   "5926399": [
    {
     "gw": 1,
@@ -2428,14 +2436,6 @@
     "gw": 1,
     "net": 63,
     "orank": 1282717,
-    "cap": 4
-   }
-  ],
-  "5008941": [
-   {
-    "gw": 1,
-    "net": 45,
-    "orank": 5859109,
     "cap": 4
    }
   ],
@@ -2559,19 +2559,19 @@
     "cap": 4
    }
   ],
-  "4993853": [
-   {
-    "gw": 1,
-    "net": 37,
-    "orank": 7658231,
-    "cap": 4
-   }
-  ],
   "2003955": [
    {
     "gw": 1,
     "net": 42,
     "orank": 6633922,
+    "cap": 4
+   }
+  ],
+  "4993853": [
+   {
+    "gw": 1,
+    "net": 37,
+    "orank": 7658231,
     "cap": 4
    }
   ],
