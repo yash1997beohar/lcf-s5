@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-30 22:06 UTC",
-  "generated_iso": "2026-08-30T22:06:05.527740Z",
+  "generated_utc": "2026-08-31 00:07 UTC",
+  "generated_iso": "2026-08-31T00:07:38.030252Z",
   "started": true,
   "current_gw": 2,
   "finished": [
@@ -107,20 +107,20 @@
   {
    "rank": 10,
    "arrow": "\u25b2",
-   "manager": "Sid Shaurya",
-   "team_name": "Old Reijnders Nagar",
-   "entry": 5340498,
-   "gw_points": 102,
+   "manager": "Pranshul Jain",
+   "team_name": "Carrick Janta Party",
+   "entry": 1362641,
+   "gw_points": 101,
    "total": 154,
    "hits": 0
   },
   {
    "rank": 10,
    "arrow": "\u25b2",
-   "manager": "Pranshul Jain",
-   "team_name": "Carrick Janta Party",
-   "entry": 1362641,
-   "gw_points": 101,
+   "manager": "Sid Shaurya",
+   "team_name": "Old Reijnders Nagar",
+   "entry": 5340498,
+   "gw_points": 102,
    "total": 154,
    "hits": 0
   },
@@ -394,17 +394,17 @@
     ]
    },
    {
-    "manager": "Sid Shaurya",
-    "entry": 5340498,
-    "scores": [
-     52
-    ]
-   },
-   {
     "manager": "Pranshul Jain",
     "entry": 1362641,
     "scores": [
      53
+    ]
+   },
+   {
+    "manager": "Sid Shaurya",
+    "entry": 5340498,
+    "scores": [
+     52
     ]
    },
    {
@@ -647,14 +647,14 @@
    "excluded": false
   },
   {
-   "manager": "Sid Shaurya",
-   "entry": 5340498,
+   "manager": "Pranshul Jain",
+   "entry": 1362641,
    "points": 4,
    "excluded": false
   },
   {
-   "manager": "Pranshul Jain",
-   "entry": 1362641,
+   "manager": "Sid Shaurya",
+   "entry": 5340498,
    "points": 4,
    "excluded": false
   },
@@ -823,14 +823,14 @@
    "excluded": false
   },
   {
-   "manager": "Sid Shaurya",
-   "entry": 5340498,
+   "manager": "Pranshul Jain",
+   "entry": 1362641,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Pranshul Jain",
-   "entry": 1362641,
+   "manager": "Sid Shaurya",
+   "entry": 5340498,
    "arrows": 0,
    "excluded": false
   },
@@ -1285,18 +1285,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Sid Shaurya",
-   "team_name": "Old Reijnders Nagar",
-   "league_rank": 10,
-   "seasons": 8,
-   "past_seasons": 7,
-   "best_rank": 189374,
-   "best_season": "2024/25",
-   "avg_rank": 1757289,
-   "last_rank": 250879,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Pranshul Jain",
    "team_name": "Carrick Janta Party",
    "league_rank": 10,
@@ -1306,6 +1294,18 @@
    "best_season": "2025/26",
    "avg_rank": 2098988,
    "last_rank": 182900,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Sid Shaurya",
+   "team_name": "Old Reijnders Nagar",
+   "league_rank": 10,
+   "seasons": 8,
+   "past_seasons": 7,
+   "best_rank": 189374,
+   "best_season": "2024/25",
+   "avg_rank": 1757289,
+   "last_rank": 250879,
    "last_season": "2025/26"
   },
   {
@@ -1790,31 +1790,6 @@
    "chips": []
   },
   {
-   "manager": "Sid Shaurya",
-   "team_name": "Old Reijnders Nagar",
-   "entry": 5340498,
-   "total": 154,
-   "played": 1,
-   "avg": 52.0,
-   "above_avg": 0,
-   "cap_return": 4,
-   "high": 52,
-   "high_gw": 1,
-   "low": 52,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 21,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.0,
-   "grank": 538640,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Pranshul Jain",
    "team_name": "Carrick Janta Party",
    "entry": 1362641,
@@ -1831,6 +1806,31 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 11,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.0,
+   "grank": 538640,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
+   "manager": "Sid Shaurya",
+   "team_name": "Old Reijnders Nagar",
+   "entry": 5340498,
+   "total": 154,
+   "played": 1,
+   "avg": 52.0,
+   "above_avg": 0,
+   "cap_return": 4,
+   "high": 52,
+   "high_gw": 1,
+   "low": 52,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 21,
    "value": 100.2,
    "value_delta": 0.2,
    "bank": 0.0,
@@ -2423,19 +2423,19 @@
     "cap": 22
    }
   ],
-  "5340498": [
-   {
-    "gw": 1,
-    "net": 52,
-    "orank": 3770910,
-    "cap": 4
-   }
-  ],
   "1362641": [
    {
     "gw": 1,
     "net": 53,
     "orank": 3482299,
+    "cap": 4
+   }
+  ],
+  "5340498": [
+   {
+    "gw": 1,
+    "net": 52,
+    "orank": 3770910,
     "cap": 4
    }
   ],
