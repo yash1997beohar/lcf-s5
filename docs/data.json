@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-08-31 06:07 UTC",
-  "generated_iso": "2026-08-31T06:07:21.934037Z",
+  "generated_utc": "2026-08-31 08:06 UTC",
+  "generated_iso": "2026-08-31T08:06:22.499768Z",
   "started": true,
   "current_gw": 2,
   "finished": [
@@ -27,20 +27,20 @@
   {
    "rank": 2,
    "arrow": "\u25b2",
-   "manager": "Abhinav Premsekhar",
-   "team_name": "Totally Szobo",
-   "entry": 79306,
-   "gw_points": 89,
+   "manager": "Raveesh Kalra",
+   "team_name": "MaSalah",
+   "entry": 2354537,
+   "gw_points": 98,
    "total": 161,
    "hits": 0
   },
   {
    "rank": 2,
    "arrow": "\u25b2",
-   "manager": "Raveesh Kalra",
-   "team_name": "MaSalah",
-   "entry": 2354537,
-   "gw_points": 98,
+   "manager": "Abhinav Premsekhar",
+   "team_name": "Totally Szobo",
+   "entry": 79306,
+   "gw_points": 89,
    "total": 161,
    "hits": 0
   },
@@ -56,21 +56,21 @@
   },
   {
    "rank": 5,
-   "arrow": "\u25b2",
-   "manager": "Naman Agrawal",
-   "team_name": "Captn Magnifico",
-   "entry": 20569,
-   "gw_points": 93,
-   "total": 159,
-   "hits": 0
-  },
-  {
-   "rank": 5,
    "arrow": "\u25bc",
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
    "entry": 427154,
    "gw_points": 86,
+   "total": 159,
+   "hits": 0
+  },
+  {
+   "rank": 5,
+   "arrow": "\u25b2",
+   "manager": "Naman Agrawal",
+   "team_name": "Captn Magnifico",
+   "entry": 20569,
+   "gw_points": 93,
    "total": 159,
    "hits": 0
   },
@@ -107,10 +107,10 @@
   {
    "rank": 10,
    "arrow": "\u25b2",
-   "manager": "Sid Shaurya",
-   "team_name": "Old Reijnders Nagar",
-   "entry": 5340498,
-   "gw_points": 102,
+   "manager": "Yash Beohar",
+   "team_name": "Fluente in Football",
+   "entry": 374875,
+   "gw_points": 93,
    "total": 154,
    "hits": 0
   },
@@ -127,10 +127,10 @@
   {
    "rank": 10,
    "arrow": "\u25b2",
-   "manager": "Yash Beohar",
-   "team_name": "Fluente in Football",
-   "entry": 374875,
-   "gw_points": 93,
+   "manager": "Sid Shaurya",
+   "team_name": "Old Reijnders Nagar",
+   "entry": 5340498,
+   "gw_points": 102,
    "total": 154,
    "hits": 0
   },
@@ -338,17 +338,17 @@
     ]
    },
    {
-    "manager": "Abhinav Premsekhar",
-    "entry": 79306,
-    "scores": [
-     72
-    ]
-   },
-   {
     "manager": "Raveesh Kalra",
     "entry": 2354537,
     "scores": [
      63
+    ]
+   },
+   {
+    "manager": "Abhinav Premsekhar",
+    "entry": 79306,
+    "scores": [
+     72
     ]
    },
    {
@@ -359,17 +359,17 @@
     ]
    },
    {
-    "manager": "Naman Agrawal",
-    "entry": 20569,
-    "scores": [
-     66
-    ]
-   },
-   {
     "manager": "Abhiraj Singh",
     "entry": 427154,
     "scores": [
      73
+    ]
+   },
+   {
+    "manager": "Naman Agrawal",
+    "entry": 20569,
+    "scores": [
+     66
     ]
    },
    {
@@ -394,10 +394,10 @@
     ]
    },
    {
-    "manager": "Sid Shaurya",
-    "entry": 5340498,
+    "manager": "Yash Beohar",
+    "entry": 374875,
     "scores": [
-     52
+     61
     ]
    },
    {
@@ -408,10 +408,10 @@
     ]
    },
    {
-    "manager": "Yash Beohar",
-    "entry": 374875,
+    "manager": "Sid Shaurya",
+    "entry": 5340498,
     "scores": [
-     61
+     52
     ]
    },
    {
@@ -605,14 +605,14 @@
    "excluded": true
   },
   {
-   "manager": "Abhinav Premsekhar",
-   "entry": 79306,
+   "manager": "Raveesh Kalra",
+   "entry": 2354537,
    "points": 4,
    "excluded": true
   },
   {
-   "manager": "Raveesh Kalra",
-   "entry": 2354537,
+   "manager": "Abhinav Premsekhar",
+   "entry": 79306,
    "points": 4,
    "excluded": true
   },
@@ -623,14 +623,14 @@
    "excluded": true
   },
   {
-   "manager": "Naman Agrawal",
-   "entry": 20569,
+   "manager": "Abhiraj Singh",
+   "entry": 427154,
    "points": 4,
    "excluded": true
   },
   {
-   "manager": "Abhiraj Singh",
-   "entry": 427154,
+   "manager": "Naman Agrawal",
+   "entry": 20569,
    "points": 4,
    "excluded": false
   },
@@ -647,8 +647,8 @@
    "excluded": false
   },
   {
-   "manager": "Sid Shaurya",
-   "entry": 5340498,
+   "manager": "Yash Beohar",
+   "entry": 374875,
    "points": 4,
    "excluded": false
   },
@@ -659,8 +659,8 @@
    "excluded": false
   },
   {
-   "manager": "Yash Beohar",
-   "entry": 374875,
+   "manager": "Sid Shaurya",
+   "entry": 5340498,
    "points": 4,
    "excluded": false
   },
@@ -775,14 +775,14 @@
    "excluded": true
   },
   {
-   "manager": "Abhinav Premsekhar",
-   "entry": 79306,
+   "manager": "Raveesh Kalra",
+   "entry": 2354537,
    "arrows": 0,
    "excluded": true
   },
   {
-   "manager": "Raveesh Kalra",
-   "entry": 2354537,
+   "manager": "Abhinav Premsekhar",
+   "entry": 79306,
    "arrows": 0,
    "excluded": true
   },
@@ -793,14 +793,14 @@
    "excluded": true
   },
   {
-   "manager": "Naman Agrawal",
-   "entry": 20569,
+   "manager": "Abhiraj Singh",
+   "entry": 427154,
    "arrows": 0,
    "excluded": true
   },
   {
-   "manager": "Abhiraj Singh",
-   "entry": 427154,
+   "manager": "Naman Agrawal",
+   "entry": 20569,
    "arrows": 0,
    "excluded": false
   },
@@ -823,8 +823,8 @@
    "excluded": false
   },
   {
-   "manager": "Sid Shaurya",
-   "entry": 5340498,
+   "manager": "Yash Beohar",
+   "entry": 374875,
    "arrows": 0,
    "excluded": false
   },
@@ -835,8 +835,8 @@
    "excluded": false
   },
   {
-   "manager": "Yash Beohar",
-   "entry": 374875,
+   "manager": "Sid Shaurya",
+   "entry": 5340498,
    "arrows": 0,
    "excluded": false
   },
@@ -984,14 +984,14 @@
     "own": 3.2
    },
    {
-    "manager": "Naman Agrawal",
+    "manager": "Abhiraj Singh",
     "gw": 1,
     "player": "White",
     "points": 11,
     "own": 4.5
    },
    {
-    "manager": "Abhiraj Singh",
+    "manager": "Naman Agrawal",
     "gw": 1,
     "player": "White",
     "points": 11,
@@ -1005,28 +1005,28 @@
     "own": 4.5
    },
    {
-    "manager": "Abhinav Premsekhar",
+    "manager": "Raveesh Kalra",
     "gw": 1,
     "player": "Rodon",
     "points": 6,
     "own": 3.7
    },
    {
-    "manager": "Abhinav Premsekhar",
+    "manager": "Raveesh Kalra",
     "gw": 1,
     "player": "Gomez",
     "points": 6,
     "own": 4.0
    },
    {
-    "manager": "Raveesh Kalra",
+    "manager": "Abhinav Premsekhar",
     "gw": 1,
     "player": "Rodon",
     "points": 6,
     "own": 3.7
    },
    {
-    "manager": "Raveesh Kalra",
+    "manager": "Abhinav Premsekhar",
     "gw": 1,
     "player": "Gomez",
     "points": 6,
@@ -1189,18 +1189,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Abhinav Premsekhar",
-   "team_name": "Totally Szobo",
-   "league_rank": 2,
-   "seasons": 12,
-   "past_seasons": 11,
-   "best_rank": 27153,
-   "best_season": "2022/23",
-   "avg_rank": 606381,
-   "last_rank": 240451,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Raveesh Kalra",
    "team_name": "MaSalah",
    "league_rank": 2,
@@ -1210,6 +1198,18 @@
    "best_season": "2021/22",
    "avg_rank": 2118382,
    "last_rank": 9146930,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Abhinav Premsekhar",
+   "team_name": "Totally Szobo",
+   "league_rank": 2,
+   "seasons": 12,
+   "past_seasons": 11,
+   "best_rank": 27153,
+   "best_season": "2022/23",
+   "avg_rank": 606381,
+   "last_rank": 240451,
    "last_season": "2025/26"
   },
   {
@@ -1225,18 +1225,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Naman Agrawal",
-   "team_name": "Captn Magnifico",
-   "league_rank": 5,
-   "seasons": 11,
-   "past_seasons": 10,
-   "best_rank": 15136,
-   "best_season": "2021/22",
-   "avg_rank": 983840,
-   "last_rank": 45077,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
    "league_rank": 5,
@@ -1246,6 +1234,18 @@
    "best_season": "2021/22",
    "avg_rank": 881388,
    "last_rank": 239490,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Naman Agrawal",
+   "team_name": "Captn Magnifico",
+   "league_rank": 5,
+   "seasons": 11,
+   "past_seasons": 10,
+   "best_rank": 15136,
+   "best_season": "2021/22",
+   "avg_rank": 983840,
+   "last_rank": 45077,
    "last_season": "2025/26"
   },
   {
@@ -1285,15 +1285,15 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Sid Shaurya",
-   "team_name": "Old Reijnders Nagar",
+   "manager": "Yash Beohar",
+   "team_name": "Fluente in Football",
    "league_rank": 10,
-   "seasons": 8,
-   "past_seasons": 7,
-   "best_rank": 189374,
-   "best_season": "2024/25",
-   "avg_rank": 1757289,
-   "last_rank": 250879,
+   "seasons": 10,
+   "past_seasons": 9,
+   "best_rank": 30971,
+   "best_season": "2018/19",
+   "avg_rank": 820221,
+   "last_rank": 58227,
    "last_season": "2025/26"
   },
   {
@@ -1309,15 +1309,15 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Yash Beohar",
-   "team_name": "Fluente in Football",
+   "manager": "Sid Shaurya",
+   "team_name": "Old Reijnders Nagar",
    "league_rank": 10,
-   "seasons": 10,
-   "past_seasons": 9,
-   "best_rank": 30971,
-   "best_season": "2018/19",
-   "avg_rank": 820221,
-   "last_rank": 58227,
+   "seasons": 8,
+   "past_seasons": 7,
+   "best_rank": 189374,
+   "best_season": "2024/25",
+   "avg_rank": 1757289,
+   "last_rank": 250879,
    "last_season": "2025/26"
   },
   {
@@ -1578,33 +1578,6 @@
    ]
   },
   {
-   "manager": "Abhinav Premsekhar",
-   "team_name": "Totally Szobo",
-   "entry": 79306,
-   "total": 161,
-   "played": 1,
-   "avg": 72.0,
-   "above_avg": 1,
-   "cap_return": 4,
-   "high": 72,
-   "high_gw": 1,
-   "low": 72,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 8,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.0,
-   "grank": 288890,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": [
-    "bboost"
-   ]
-  },
-  {
    "manager": "Raveesh Kalra",
    "team_name": "MaSalah",
    "entry": 2354537,
@@ -1621,6 +1594,33 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 26,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.0,
+   "grank": 288890,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": [
+    "bboost"
+   ]
+  },
+  {
+   "manager": "Abhinav Premsekhar",
+   "team_name": "Totally Szobo",
+   "entry": 79306,
+   "total": 161,
+   "played": 1,
+   "avg": 72.0,
+   "above_avg": 1,
+   "cap_return": 4,
+   "high": 72,
+   "high_gw": 1,
+   "low": 72,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 8,
    "value": 100.2,
    "value_delta": 0.2,
    "bank": 0.0,
@@ -1659,33 +1659,6 @@
    ]
   },
   {
-   "manager": "Naman Agrawal",
-   "team_name": "Captn Magnifico",
-   "entry": 20569,
-   "total": 159,
-   "played": 1,
-   "avg": 66.0,
-   "above_avg": 1,
-   "cap_return": 4,
-   "high": 66,
-   "high_gw": 1,
-   "low": 66,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 20,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.0,
-   "grank": 346427,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": [
-    "bboost"
-   ]
-  },
-  {
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
    "entry": 427154,
@@ -1702,6 +1675,33 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 11,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.0,
+   "grank": 346427,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": [
+    "bboost"
+   ]
+  },
+  {
+   "manager": "Naman Agrawal",
+   "team_name": "Captn Magnifico",
+   "entry": 20569,
+   "total": 159,
+   "played": 1,
+   "avg": 66.0,
+   "above_avg": 1,
+   "cap_return": 4,
+   "high": 66,
+   "high_gw": 1,
+   "low": 66,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 20,
    "value": 100.2,
    "value_delta": 0.2,
    "bank": 0.0,
@@ -1790,29 +1790,31 @@
    "chips": []
   },
   {
-   "manager": "Sid Shaurya",
-   "team_name": "Old Reijnders Nagar",
-   "entry": 5340498,
+   "manager": "Yash Beohar",
+   "team_name": "Fluente in Football",
+   "entry": 374875,
    "total": 154,
    "played": 1,
-   "avg": 52.0,
-   "above_avg": 0,
+   "avg": 61.0,
+   "above_avg": 1,
    "cap_return": 4,
-   "high": 52,
+   "high": 61,
    "high_gw": 1,
-   "low": 52,
+   "low": 61,
    "low_gw": 1,
    "transfers": 0,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 21,
-   "value": 100.2,
-   "value_delta": 0.2,
+   "bench": 17,
+   "value": 100.1,
+   "value_delta": 0.1,
    "bank": 0.0,
    "grank": 538640,
    "best_jump": null,
    "best_jump_gw": null,
-   "chips": []
+   "chips": [
+    "bboost"
+   ]
   },
   {
    "manager": "Pranshul Jain",
@@ -1840,31 +1842,29 @@
    "chips": []
   },
   {
-   "manager": "Yash Beohar",
-   "team_name": "Fluente in Football",
-   "entry": 374875,
+   "manager": "Sid Shaurya",
+   "team_name": "Old Reijnders Nagar",
+   "entry": 5340498,
    "total": 154,
    "played": 1,
-   "avg": 61.0,
-   "above_avg": 1,
+   "avg": 52.0,
+   "above_avg": 0,
    "cap_return": 4,
-   "high": 61,
+   "high": 52,
    "high_gw": 1,
-   "low": 61,
+   "low": 52,
    "low_gw": 1,
    "transfers": 0,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 17,
-   "value": 100.1,
-   "value_delta": 0.1,
+   "bench": 21,
+   "value": 100.2,
+   "value_delta": 0.2,
    "bank": 0.0,
    "grank": 538640,
    "best_jump": null,
    "best_jump_gw": null,
-   "chips": [
-    "bboost"
-   ]
+   "chips": []
   },
   {
    "manager": "Anish Joshi",
@@ -2359,19 +2359,19 @@
     "cap": 4
    }
   ],
-  "79306": [
-   {
-    "gw": 1,
-    "net": 72,
-    "orank": 398656,
-    "cap": 4
-   }
-  ],
   "2354537": [
    {
     "gw": 1,
     "net": 63,
     "orank": 1282717,
+    "cap": 4
+   }
+  ],
+  "79306": [
+   {
+    "gw": 1,
+    "net": 72,
+    "orank": 398656,
     "cap": 4
    }
   ],
@@ -2383,19 +2383,19 @@
     "cap": 4
    }
   ],
-  "20569": [
-   {
-    "gw": 1,
-    "net": 66,
-    "orank": 893714,
-    "cap": 4
-   }
-  ],
   "427154": [
    {
     "gw": 1,
     "net": 73,
     "orank": 344108,
+    "cap": 4
+   }
+  ],
+  "20569": [
+   {
+    "gw": 1,
+    "net": 66,
+    "orank": 893714,
     "cap": 4
    }
   ],
@@ -2423,11 +2423,11 @@
     "cap": 22
    }
   ],
-  "5340498": [
+  "374875": [
    {
     "gw": 1,
-    "net": 52,
-    "orank": 3770910,
+    "net": 61,
+    "orank": 1605173,
     "cap": 4
    }
   ],
@@ -2439,11 +2439,11 @@
     "cap": 4
    }
   ],
-  "374875": [
+  "5340498": [
    {
     "gw": 1,
-    "net": 61,
-    "orank": 1605173,
+    "net": 52,
+    "orank": 3770910,
     "cap": 4
    }
   ],
