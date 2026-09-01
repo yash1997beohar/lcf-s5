@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-01 10:11 UTC",
-  "generated_iso": "2026-09-01T10:11:45.053297Z",
+  "generated_utc": "2026-09-01 12:15 UTC",
+  "generated_iso": "2026-09-01T12:15:08.650715Z",
   "started": true,
   "current_gw": 2,
   "finished": [
@@ -46,21 +46,21 @@
   },
   {
    "rank": 3,
-   "arrow": "\u25bc",
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "entry": 5926399,
-   "gw_points": 103,
-   "total": 177,
-   "hits": 0
-  },
-  {
-   "rank": 3,
    "arrow": "\u25b2",
    "manager": "Naman Agrawal",
    "team_name": "Captn Magnifico",
    "entry": 20569,
    "gw_points": 111,
+   "total": 177,
+   "hits": 0
+  },
+  {
+   "rank": 3,
+   "arrow": "\u25bc",
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "entry": 5926399,
+   "gw_points": 103,
    "total": 177,
    "hits": 0
   },
@@ -107,20 +107,20 @@
   {
    "rank": 10,
    "arrow": "\u25b2",
-   "manager": "Parakh Tripathy",
-   "team_name": "Malisahi Randuas",
-   "entry": 4795345,
-   "gw_points": 120,
+   "manager": "Yash Beohar",
+   "team_name": "Fluente in Football",
+   "entry": 374875,
+   "gw_points": 107,
    "total": 168,
    "hits": 0
   },
   {
    "rank": 10,
    "arrow": "\u25b2",
-   "manager": "Yash Beohar",
-   "team_name": "Fluente in Football",
-   "entry": 374875,
-   "gw_points": 107,
+   "manager": "Parakh Tripathy",
+   "team_name": "Malisahi Randuas",
+   "entry": 4795345,
+   "gw_points": 120,
    "total": 168,
    "hits": 0
   },
@@ -246,22 +246,22 @@
   },
   {
    "rank": 24,
+   "arrow": "\u25b2",
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "entry": 46711,
+   "gw_points": 93,
+   "total": 135,
+   "hits": 0
+  },
+  {
+   "rank": 25,
    "arrow": "\u25bc",
    "manager": "Rajit Das",
    "team_name": "FC Teetotallers",
    "entry": 4837220,
    "gw_points": 89,
    "total": 135,
-   "hits": 0
-  },
-  {
-   "rank": 25,
-   "arrow": "\u2022",
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "entry": 46711,
-   "gw_points": 91,
-   "total": 133,
    "hits": 0
   },
   {
@@ -320,8 +320,8 @@
    "manager": "Pranav Thomas",
    "team_name": "Invincibles",
    "entry": 6514976,
-   "gw_points": 42,
-   "total": 77,
+   "gw_points": 45,
+   "total": 80,
    "hits": 0
   }
  ],
@@ -352,17 +352,17 @@
     ]
    },
    {
-    "manager": "Aquib Razack",
-    "entry": 5926399,
-    "scores": [
-     74
-    ]
-   },
-   {
     "manager": "Naman Agrawal",
     "entry": 20569,
     "scores": [
      66
+    ]
+   },
+   {
+    "manager": "Aquib Razack",
+    "entry": 5926399,
+    "scores": [
+     74
     ]
    },
    {
@@ -394,17 +394,17 @@
     ]
    },
    {
-    "manager": "Parakh Tripathy",
-    "entry": 4795345,
-    "scores": [
-     48
-    ]
-   },
-   {
     "manager": "Yash Beohar",
     "entry": 374875,
     "scores": [
      61
+    ]
+   },
+   {
+    "manager": "Parakh Tripathy",
+    "entry": 4795345,
+    "scores": [
+     48
     ]
    },
    {
@@ -492,17 +492,17 @@
     ]
    },
    {
-    "manager": "Rajit Das",
-    "entry": 4837220,
-    "scores": [
-     46
-    ]
-   },
-   {
     "manager": "Satweek Nayak",
     "entry": 46711,
     "scores": [
      42
+    ]
+   },
+   {
+    "manager": "Rajit Das",
+    "entry": 4837220,
+    "scores": [
+     46
     ]
    },
    {
@@ -617,14 +617,14 @@
    "excluded": true
   },
   {
-   "manager": "Aquib Razack",
-   "entry": 5926399,
+   "manager": "Naman Agrawal",
+   "entry": 20569,
    "points": 4,
    "excluded": true
   },
   {
-   "manager": "Naman Agrawal",
-   "entry": 20569,
+   "manager": "Aquib Razack",
+   "entry": 5926399,
    "points": 4,
    "excluded": true
   },
@@ -647,14 +647,14 @@
    "excluded": false
   },
   {
-   "manager": "Parakh Tripathy",
-   "entry": 4795345,
+   "manager": "Yash Beohar",
+   "entry": 374875,
    "points": 4,
    "excluded": false
   },
   {
-   "manager": "Yash Beohar",
-   "entry": 374875,
+   "manager": "Parakh Tripathy",
+   "entry": 4795345,
    "points": 4,
    "excluded": false
   },
@@ -725,14 +725,14 @@
    "excluded": false
   },
   {
-   "manager": "Rajit Das",
-   "entry": 4837220,
+   "manager": "Satweek Nayak",
+   "entry": 46711,
    "points": 4,
    "excluded": false
   },
   {
-   "manager": "Satweek Nayak",
-   "entry": 46711,
+   "manager": "Rajit Das",
+   "entry": 4837220,
    "points": 4,
    "excluded": false
   },
@@ -787,14 +787,14 @@
    "excluded": true
   },
   {
-   "manager": "Aquib Razack",
-   "entry": 5926399,
+   "manager": "Naman Agrawal",
+   "entry": 20569,
    "arrows": 0,
    "excluded": true
   },
   {
-   "manager": "Naman Agrawal",
-   "entry": 20569,
+   "manager": "Aquib Razack",
+   "entry": 5926399,
    "arrows": 0,
    "excluded": true
   },
@@ -823,14 +823,14 @@
    "excluded": false
   },
   {
-   "manager": "Parakh Tripathy",
-   "entry": 4795345,
+   "manager": "Yash Beohar",
+   "entry": 374875,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Yash Beohar",
-   "entry": 374875,
+   "manager": "Parakh Tripathy",
+   "entry": 4795345,
    "arrows": 0,
    "excluded": false
   },
@@ -907,14 +907,14 @@
    "excluded": false
   },
   {
-   "manager": "Rajit Das",
-   "entry": 4837220,
+   "manager": "Satweek Nayak",
+   "entry": 46711,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Satweek Nayak",
-   "entry": 46711,
+   "manager": "Rajit Das",
+   "entry": 4837220,
    "arrows": 0,
    "excluded": false
   },
@@ -1213,18 +1213,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "league_rank": 3,
-   "seasons": 14,
-   "past_seasons": 13,
-   "best_rank": 71857,
-   "best_season": "2020/21",
-   "avg_rank": 1929309,
-   "last_rank": 297407,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Naman Agrawal",
    "team_name": "Captn Magnifico",
    "league_rank": 3,
@@ -1234,6 +1222,18 @@
    "best_season": "2021/22",
    "avg_rank": 983840,
    "last_rank": 45077,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "league_rank": 3,
+   "seasons": 14,
+   "past_seasons": 13,
+   "best_rank": 71857,
+   "best_season": "2020/21",
+   "avg_rank": 1929309,
+   "last_rank": 297407,
    "last_season": "2025/26"
   },
   {
@@ -1285,18 +1285,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Parakh Tripathy",
-   "team_name": "Malisahi Randuas",
-   "league_rank": 10,
-   "seasons": 13,
-   "past_seasons": 12,
-   "best_rank": 60517,
-   "best_season": "2015/16",
-   "avg_rank": 1414622,
-   "last_rank": 339763,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
    "league_rank": 10,
@@ -1306,6 +1294,18 @@
    "best_season": "2018/19",
    "avg_rank": 820221,
    "last_rank": 58227,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Parakh Tripathy",
+   "team_name": "Malisahi Randuas",
+   "league_rank": 10,
+   "seasons": 13,
+   "past_seasons": 12,
+   "best_rank": 60517,
+   "best_season": "2015/16",
+   "avg_rank": 1414622,
+   "last_rank": 339763,
    "last_season": "2025/26"
   },
   {
@@ -1453,27 +1453,27 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Rajit Das",
-   "team_name": "FC Teetotallers",
-   "league_rank": 24,
-   "seasons": 7,
-   "past_seasons": 6,
-   "best_rank": 1615102,
-   "best_season": "2024/25",
-   "avg_rank": 4234674,
-   "last_rank": 6092784,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Satweek Nayak",
    "team_name": "Xa bing chilling",
-   "league_rank": 25,
+   "league_rank": 24,
    "seasons": 14,
    "past_seasons": 13,
    "best_rank": 14603,
    "best_season": "2016/17",
    "avg_rank": 949628,
    "last_rank": 515830,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Rajit Das",
+   "team_name": "FC Teetotallers",
+   "league_rank": 25,
+   "seasons": 7,
+   "past_seasons": 6,
+   "best_rank": 1615102,
+   "best_season": "2024/25",
+   "avg_rank": 4234674,
+   "last_rank": 6092784,
    "last_season": "2025/26"
   },
   {
@@ -1632,33 +1632,6 @@
    ]
   },
   {
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "entry": 5926399,
-   "total": 177,
-   "played": 1,
-   "avg": 74.0,
-   "above_avg": 1,
-   "cap_return": 4,
-   "high": 74,
-   "high_gw": 1,
-   "low": 74,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 23,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.0,
-   "grank": 255722,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": [
-    "bboost"
-   ]
-  },
-  {
    "manager": "Naman Agrawal",
    "team_name": "Captn Magnifico",
    "entry": 20569,
@@ -1675,6 +1648,33 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 22,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.0,
+   "grank": 255722,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": [
+    "bboost"
+   ]
+  },
+  {
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "entry": 5926399,
+   "total": 177,
+   "played": 1,
+   "avg": 74.0,
+   "above_avg": 1,
+   "cap_return": 4,
+   "high": 74,
+   "high_gw": 1,
+   "low": 74,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 23,
    "value": 100.2,
    "value_delta": 0.2,
    "bank": 0.0,
@@ -1790,31 +1790,6 @@
    ]
   },
   {
-   "manager": "Parakh Tripathy",
-   "team_name": "Malisahi Randuas",
-   "entry": 4795345,
-   "total": 168,
-   "played": 1,
-   "avg": 48.0,
-   "above_avg": 0,
-   "cap_return": 4,
-   "high": 48,
-   "high_gw": 1,
-   "low": 48,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 31,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.0,
-   "grank": 570762,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
    "entry": 374875,
@@ -1840,6 +1815,31 @@
    "chips": [
     "bboost"
    ]
+  },
+  {
+   "manager": "Parakh Tripathy",
+   "team_name": "Malisahi Randuas",
+   "entry": 4795345,
+   "total": 168,
+   "played": 1,
+   "avg": 48.0,
+   "above_avg": 0,
+   "cap_return": 4,
+   "high": 48,
+   "high_gw": 1,
+   "low": 48,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 31,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.0,
+   "grank": 570762,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
   },
   {
    "manager": "Sid Shaurya",
@@ -2146,6 +2146,31 @@
    "chips": []
   },
   {
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "entry": 46711,
+   "total": 135,
+   "played": 1,
+   "avg": 42.0,
+   "above_avg": 0,
+   "cap_return": 4,
+   "high": 42,
+   "high_gw": 1,
+   "low": 42,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 7,
+   "value": 100.1,
+   "value_delta": 0.1,
+   "bank": 0.0,
+   "grank": 3898676,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
+  },
+  {
    "manager": "Rajit Das",
    "team_name": "FC Teetotallers",
    "entry": 4837220,
@@ -2171,31 +2196,6 @@
    "chips": [
     "bboost"
    ]
-  },
-  {
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "entry": 46711,
-   "total": 133,
-   "played": 1,
-   "avg": 42.0,
-   "above_avg": 0,
-   "cap_return": 4,
-   "high": 42,
-   "high_gw": 1,
-   "low": 42,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 7,
-   "value": 100.1,
-   "value_delta": 0.1,
-   "bank": 0.0,
-   "grank": 3898676,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
   },
   {
    "manager": "Ashwin Jose",
@@ -2328,7 +2328,7 @@
    "manager": "Pranav Thomas",
    "team_name": "Invincibles",
    "entry": 6514976,
-   "total": 77,
+   "total": 80,
    "played": 1,
    "avg": 35.0,
    "above_avg": 0,
@@ -2375,19 +2375,19 @@
     "cap": 4
    }
   ],
-  "5926399": [
-   {
-    "gw": 1,
-    "net": 74,
-    "orank": 279827,
-    "cap": 4
-   }
-  ],
   "20569": [
    {
     "gw": 1,
     "net": 66,
     "orank": 893714,
+    "cap": 4
+   }
+  ],
+  "5926399": [
+   {
+    "gw": 1,
+    "net": 74,
+    "orank": 279827,
     "cap": 4
    }
   ],
@@ -2423,19 +2423,19 @@
     "cap": 4
    }
   ],
-  "4795345": [
-   {
-    "gw": 1,
-    "net": 48,
-    "orank": 4969899,
-    "cap": 4
-   }
-  ],
   "374875": [
    {
     "gw": 1,
     "net": 61,
     "orank": 1605173,
+    "cap": 4
+   }
+  ],
+  "4795345": [
+   {
+    "gw": 1,
+    "net": 48,
+    "orank": 4969899,
     "cap": 4
    }
   ],
@@ -2535,19 +2535,19 @@
     "cap": 4
    }
   ],
-  "4837220": [
-   {
-    "gw": 1,
-    "net": 46,
-    "orank": 5572584,
-    "cap": 4
-   }
-  ],
   "46711": [
    {
     "gw": 1,
     "net": 42,
     "orank": 6633922,
+    "cap": 4
+   }
+  ],
+  "4837220": [
+   {
+    "gw": 1,
+    "net": 46,
+    "orank": 5572584,
     "cap": 4
    }
   ],
