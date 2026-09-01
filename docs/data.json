@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-01 02:10 UTC",
-  "generated_iso": "2026-09-01T02:10:00.903169Z",
+  "generated_utc": "2026-09-01 04:10 UTC",
+  "generated_iso": "2026-09-01T04:10:46.869061Z",
   "started": true,
   "current_gw": 2,
   "finished": [
@@ -36,6 +36,16 @@
   },
   {
    "rank": 3,
+   "arrow": "\u25b2",
+   "manager": "Naman Agrawal",
+   "team_name": "Captn Magnifico",
+   "entry": 20569,
+   "gw_points": 111,
+   "total": 177,
+   "hits": 0
+  },
+  {
+   "rank": 3,
    "arrow": "\u25bc",
    "manager": "Aquib Razack",
    "team_name": "BattleBorn",
@@ -51,16 +61,6 @@
    "team_name": "KingOfKings Fc",
    "entry": 427154,
    "gw_points": 104,
-   "total": 177,
-   "hits": 0
-  },
-  {
-   "rank": 3,
-   "arrow": "\u25b2",
-   "manager": "Naman Agrawal",
-   "team_name": "Captn Magnifico",
-   "entry": 20569,
-   "gw_points": 111,
    "total": 177,
    "hits": 0
   },
@@ -107,20 +107,20 @@
   {
    "rank": 10,
    "arrow": "\u25b2",
-   "manager": "Parakh Tripathy",
-   "team_name": "Malisahi Randuas",
-   "entry": 4795345,
-   "gw_points": 120,
+   "manager": "Yash Beohar",
+   "team_name": "Fluente in Football",
+   "entry": 374875,
+   "gw_points": 107,
    "total": 168,
    "hits": 0
   },
   {
    "rank": 10,
    "arrow": "\u25b2",
-   "manager": "Yash Beohar",
-   "team_name": "Fluente in Football",
-   "entry": 374875,
-   "gw_points": 107,
+   "manager": "Parakh Tripathy",
+   "team_name": "Malisahi Randuas",
+   "entry": 4795345,
+   "gw_points": 120,
    "total": 168,
    "hits": 0
   },
@@ -345,6 +345,13 @@
     ]
    },
    {
+    "manager": "Naman Agrawal",
+    "entry": 20569,
+    "scores": [
+     66
+    ]
+   },
+   {
     "manager": "Aquib Razack",
     "entry": 5926399,
     "scores": [
@@ -356,13 +363,6 @@
     "entry": 427154,
     "scores": [
      73
-    ]
-   },
-   {
-    "manager": "Naman Agrawal",
-    "entry": 20569,
-    "scores": [
-     66
     ]
    },
    {
@@ -394,17 +394,17 @@
     ]
    },
    {
-    "manager": "Parakh Tripathy",
-    "entry": 4795345,
-    "scores": [
-     48
-    ]
-   },
-   {
     "manager": "Yash Beohar",
     "entry": 374875,
     "scores": [
      61
+    ]
+   },
+   {
+    "manager": "Parakh Tripathy",
+    "entry": 4795345,
+    "scores": [
+     48
     ]
    },
    {
@@ -611,6 +611,12 @@
    "excluded": true
   },
   {
+   "manager": "Naman Agrawal",
+   "entry": 20569,
+   "points": 4,
+   "excluded": true
+  },
+  {
    "manager": "Aquib Razack",
    "entry": 5926399,
    "points": 4,
@@ -619,12 +625,6 @@
   {
    "manager": "Abhiraj Singh",
    "entry": 427154,
-   "points": 4,
-   "excluded": true
-  },
-  {
-   "manager": "Naman Agrawal",
-   "entry": 20569,
    "points": 4,
    "excluded": true
   },
@@ -647,14 +647,14 @@
    "excluded": false
   },
   {
-   "manager": "Parakh Tripathy",
-   "entry": 4795345,
+   "manager": "Yash Beohar",
+   "entry": 374875,
    "points": 4,
    "excluded": false
   },
   {
-   "manager": "Yash Beohar",
-   "entry": 374875,
+   "manager": "Parakh Tripathy",
+   "entry": 4795345,
    "points": 4,
    "excluded": false
   },
@@ -781,6 +781,12 @@
    "excluded": true
   },
   {
+   "manager": "Naman Agrawal",
+   "entry": 20569,
+   "arrows": 0,
+   "excluded": true
+  },
+  {
    "manager": "Aquib Razack",
    "entry": 5926399,
    "arrows": 0,
@@ -789,12 +795,6 @@
   {
    "manager": "Abhiraj Singh",
    "entry": 427154,
-   "arrows": 0,
-   "excluded": true
-  },
-  {
-   "manager": "Naman Agrawal",
-   "entry": 20569,
    "arrows": 0,
    "excluded": true
   },
@@ -823,14 +823,14 @@
    "excluded": false
   },
   {
-   "manager": "Parakh Tripathy",
-   "entry": 4795345,
+   "manager": "Yash Beohar",
+   "entry": 374875,
    "arrows": 0,
    "excluded": false
   },
   {
-   "manager": "Yash Beohar",
-   "entry": 374875,
+   "manager": "Parakh Tripathy",
+   "entry": 4795345,
    "arrows": 0,
    "excluded": false
   },
@@ -984,14 +984,14 @@
     "own": 3.2
    },
    {
-    "manager": "Abhiraj Singh",
+    "manager": "Naman Agrawal",
     "gw": 1,
     "player": "White",
     "points": 11,
     "own": 4.5
    },
    {
-    "manager": "Naman Agrawal",
+    "manager": "Abhiraj Singh",
     "gw": 1,
     "player": "White",
     "points": 11,
@@ -1201,6 +1201,18 @@
    "last_season": "2025/26"
   },
   {
+   "manager": "Naman Agrawal",
+   "team_name": "Captn Magnifico",
+   "league_rank": 3,
+   "seasons": 11,
+   "past_seasons": 10,
+   "best_rank": 15136,
+   "best_season": "2021/22",
+   "avg_rank": 983840,
+   "last_rank": 45077,
+   "last_season": "2025/26"
+  },
+  {
    "manager": "Aquib Razack",
    "team_name": "BattleBorn",
    "league_rank": 3,
@@ -1222,18 +1234,6 @@
    "best_season": "2021/22",
    "avg_rank": 881388,
    "last_rank": 239490,
-   "last_season": "2025/26"
-  },
-  {
-   "manager": "Naman Agrawal",
-   "team_name": "Captn Magnifico",
-   "league_rank": 3,
-   "seasons": 11,
-   "past_seasons": 10,
-   "best_rank": 15136,
-   "best_season": "2021/22",
-   "avg_rank": 983840,
-   "last_rank": 45077,
    "last_season": "2025/26"
   },
   {
@@ -1285,18 +1285,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Parakh Tripathy",
-   "team_name": "Malisahi Randuas",
-   "league_rank": 10,
-   "seasons": 13,
-   "past_seasons": 12,
-   "best_rank": 60517,
-   "best_season": "2015/16",
-   "avg_rank": 1414622,
-   "last_rank": 339763,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
    "league_rank": 10,
@@ -1306,6 +1294,18 @@
    "best_season": "2018/19",
    "avg_rank": 820221,
    "last_rank": 58227,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Parakh Tripathy",
+   "team_name": "Malisahi Randuas",
+   "league_rank": 10,
+   "seasons": 13,
+   "past_seasons": 12,
+   "best_rank": 60517,
+   "best_season": "2015/16",
+   "avg_rank": 1414622,
+   "last_rank": 339763,
    "last_season": "2025/26"
   },
   {
@@ -1605,6 +1605,33 @@
    ]
   },
   {
+   "manager": "Naman Agrawal",
+   "team_name": "Captn Magnifico",
+   "entry": 20569,
+   "total": 177,
+   "played": 1,
+   "avg": 66.0,
+   "above_avg": 1,
+   "cap_return": 4,
+   "high": 66,
+   "high_gw": 1,
+   "low": 66,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 22,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.0,
+   "grank": 250589,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": [
+    "bboost"
+   ]
+  },
+  {
    "manager": "Aquib Razack",
    "team_name": "BattleBorn",
    "entry": 5926399,
@@ -1648,33 +1675,6 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 11,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.0,
-   "grank": 250589,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": [
-    "bboost"
-   ]
-  },
-  {
-   "manager": "Naman Agrawal",
-   "team_name": "Captn Magnifico",
-   "entry": 20569,
-   "total": 177,
-   "played": 1,
-   "avg": 66.0,
-   "above_avg": 1,
-   "cap_return": 4,
-   "high": 66,
-   "high_gw": 1,
-   "low": 66,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 22,
    "value": 100.2,
    "value_delta": 0.2,
    "bank": 0.0,
@@ -1790,31 +1790,6 @@
    ]
   },
   {
-   "manager": "Parakh Tripathy",
-   "team_name": "Malisahi Randuas",
-   "entry": 4795345,
-   "total": 168,
-   "played": 1,
-   "avg": 48.0,
-   "above_avg": 0,
-   "cap_return": 4,
-   "high": 48,
-   "high_gw": 1,
-   "low": 48,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 31,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.0,
-   "grank": 553824,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": []
-  },
-  {
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
    "entry": 374875,
@@ -1840,6 +1815,31 @@
    "chips": [
     "bboost"
    ]
+  },
+  {
+   "manager": "Parakh Tripathy",
+   "team_name": "Malisahi Randuas",
+   "entry": 4795345,
+   "total": 168,
+   "played": 1,
+   "avg": 48.0,
+   "above_avg": 0,
+   "cap_return": 4,
+   "high": 48,
+   "high_gw": 1,
+   "low": 48,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 31,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.0,
+   "grank": 553824,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
   },
   {
    "manager": "Sid Shaurya",
@@ -2367,6 +2367,14 @@
     "cap": 4
    }
   ],
+  "20569": [
+   {
+    "gw": 1,
+    "net": 66,
+    "orank": 893714,
+    "cap": 4
+   }
+  ],
   "5926399": [
    {
     "gw": 1,
@@ -2380,14 +2388,6 @@
     "gw": 1,
     "net": 73,
     "orank": 344108,
-    "cap": 4
-   }
-  ],
-  "20569": [
-   {
-    "gw": 1,
-    "net": 66,
-    "orank": 893714,
     "cap": 4
    }
   ],
@@ -2423,19 +2423,19 @@
     "cap": 4
    }
   ],
-  "4795345": [
-   {
-    "gw": 1,
-    "net": 48,
-    "orank": 4969899,
-    "cap": 4
-   }
-  ],
   "374875": [
    {
     "gw": 1,
     "net": 61,
     "orank": 1605173,
+    "cap": 4
+   }
+  ],
+  "4795345": [
+   {
+    "gw": 1,
+    "net": 48,
+    "orank": 4969899,
     "cap": 4
    }
   ],
