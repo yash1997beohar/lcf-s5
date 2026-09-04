@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-04 04:11 UTC",
-  "generated_iso": "2026-09-04T04:11:15.125204Z",
+  "generated_utc": "2026-09-04 06:14 UTC",
+  "generated_iso": "2026-09-04T06:14:33.879101Z",
   "started": true,
   "current_gw": 2,
   "finished": [
@@ -37,6 +37,16 @@
   },
   {
    "rank": 3,
+   "arrow": "\u25bc",
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "entry": 5926399,
+   "gw_points": 103,
+   "total": 177,
+   "hits": 0
+  },
+  {
+   "rank": 3,
    "arrow": "\u2022",
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
@@ -52,16 +62,6 @@
    "team_name": "Captn Magnifico",
    "entry": 20569,
    "gw_points": 111,
-   "total": 177,
-   "hits": 0
-  },
-  {
-   "rank": 3,
-   "arrow": "\u25bc",
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "entry": 5926399,
-   "gw_points": 103,
    "total": 177,
    "hits": 0
   },
@@ -188,20 +188,20 @@
   {
    "rank": 18,
    "arrow": "\u25bc",
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "entry": 3181909,
-   "gw_points": 96,
+   "manager": "Rohan Agrawal",
+   "team_name": "Southall United",
+   "entry": 5582398,
+   "gw_points": 102,
    "total": 155,
    "hits": 0
   },
   {
    "rank": 18,
    "arrow": "\u25bc",
-   "manager": "Rohan Agrawal",
-   "team_name": "Southall United",
-   "entry": 5582398,
-   "gw_points": 102,
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
+   "entry": 3181909,
+   "gw_points": 96,
    "total": 155,
    "hits": 0
   },
@@ -349,6 +349,14 @@
     ]
    },
    {
+    "manager": "Aquib Razack",
+    "entry": 5926399,
+    "scores": [
+     74,
+     103
+    ]
+   },
+   {
     "manager": "Abhiraj Singh",
     "entry": 427154,
     "scores": [
@@ -362,14 +370,6 @@
     "scores": [
      66,
      111
-    ]
-   },
-   {
-    "manager": "Aquib Razack",
-    "entry": 5926399,
-    "scores": [
-     74,
-     103
     ]
    },
    {
@@ -469,19 +469,19 @@
     ]
    },
    {
-    "manager": "Aparnesh Mishra",
-    "entry": 3181909,
-    "scores": [
-     59,
-     96
-    ]
-   },
-   {
     "manager": "Rohan Agrawal",
     "entry": 5582398,
     "scores": [
      53,
      102
+    ]
+   },
+   {
+    "manager": "Aparnesh Mishra",
+    "entry": 3181909,
+    "scores": [
+     59,
+     96
     ]
    },
    {
@@ -626,6 +626,12 @@
    "excluded": true
   },
   {
+   "manager": "Aquib Razack",
+   "entry": 5926399,
+   "points": 50,
+   "excluded": true
+  },
+  {
    "manager": "Abhiraj Singh",
    "entry": 427154,
    "points": 50,
@@ -634,12 +640,6 @@
   {
    "manager": "Naman Agrawal",
    "entry": 20569,
-   "points": 50,
-   "excluded": true
-  },
-  {
-   "manager": "Aquib Razack",
-   "entry": 5926399,
    "points": 50,
    "excluded": true
   },
@@ -722,14 +722,14 @@
    "excluded": false
   },
   {
-   "manager": "Aparnesh Mishra",
-   "entry": 3181909,
+   "manager": "Rohan Agrawal",
+   "entry": 5582398,
    "points": 30,
    "excluded": false
   },
   {
-   "manager": "Rohan Agrawal",
-   "entry": 5582398,
+   "manager": "Aparnesh Mishra",
+   "entry": 3181909,
    "points": 30,
    "excluded": false
   },
@@ -814,6 +814,12 @@
    "excluded": true
   },
   {
+   "manager": "Aquib Razack",
+   "entry": 5926399,
+   "arrows": 1,
+   "excluded": true
+  },
+  {
    "manager": "Abhiraj Singh",
    "entry": 427154,
    "arrows": 1,
@@ -822,12 +828,6 @@
   {
    "manager": "Naman Agrawal",
    "entry": 20569,
-   "arrows": 1,
-   "excluded": true
-  },
-  {
-   "manager": "Aquib Razack",
-   "entry": 5926399,
    "arrows": 1,
    "excluded": true
   },
@@ -898,14 +898,14 @@
    "excluded": false
   },
   {
-   "manager": "Aparnesh Mishra",
-   "entry": 3181909,
+   "manager": "Rohan Agrawal",
+   "entry": 5582398,
    "arrows": 1,
    "excluded": false
   },
   {
-   "manager": "Rohan Agrawal",
-   "entry": 5582398,
+   "manager": "Aparnesh Mishra",
+   "entry": 3181909,
    "arrows": 1,
    "excluded": false
   },
@@ -1234,6 +1234,18 @@
    "last_season": "2025/26"
   },
   {
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "league_rank": 3,
+   "seasons": 14,
+   "past_seasons": 13,
+   "best_rank": 71857,
+   "best_season": "2020/21",
+   "avg_rank": 1929309,
+   "last_rank": 297407,
+   "last_season": "2025/26"
+  },
+  {
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
    "league_rank": 3,
@@ -1255,18 +1267,6 @@
    "best_season": "2021/22",
    "avg_rank": 983840,
    "last_rank": 45077,
-   "last_season": "2025/26"
-  },
-  {
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "league_rank": 3,
-   "seasons": 14,
-   "past_seasons": 13,
-   "best_rank": 71857,
-   "best_season": "2020/21",
-   "avg_rank": 1929309,
-   "last_rank": 297407,
    "last_season": "2025/26"
   },
   {
@@ -1414,18 +1414,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "league_rank": 18,
-   "seasons": 9,
-   "past_seasons": 8,
-   "best_rank": 334016,
-   "best_season": "2020/21",
-   "avg_rank": 2156629,
-   "last_rank": 2691725,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Rohan Agrawal",
    "team_name": "Southall United",
    "league_rank": 18,
@@ -1436,6 +1424,18 @@
    "avg_rank": 2490743,
    "last_rank": 1861933,
    "last_season": "2024/25"
+  },
+  {
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
+   "league_rank": 18,
+   "seasons": 9,
+   "past_seasons": 8,
+   "best_rank": 334016,
+   "best_season": "2020/21",
+   "avg_rank": 2156629,
+   "last_rank": 2691725,
+   "last_season": "2025/26"
   },
   {
    "manager": "Varun Khurana",
@@ -1638,6 +1638,33 @@
    ]
   },
   {
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "entry": 5926399,
+   "total": 177,
+   "played": 2,
+   "avg": 88.5,
+   "above_avg": 2,
+   "cap_return": 50,
+   "high": 103,
+   "high_gw": 2,
+   "low": 74,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 23,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.0,
+   "grank": 255722,
+   "best_jump": 24105,
+   "best_jump_gw": 2,
+   "chips": [
+    "bboost"
+   ]
+  },
+  {
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
    "entry": 427154,
@@ -1686,33 +1713,6 @@
    "bank": 0.0,
    "grank": 255722,
    "best_jump": 637992,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost"
-   ]
-  },
-  {
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "entry": 5926399,
-   "total": 177,
-   "played": 2,
-   "avg": 88.5,
-   "above_avg": 2,
-   "cap_return": 50,
-   "high": 103,
-   "high_gw": 2,
-   "low": 74,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 23,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.0,
-   "grank": 255722,
-   "best_jump": 24105,
    "best_jump_gw": 2,
    "chips": [
     "bboost"
@@ -2029,31 +2029,6 @@
    "chips": []
   },
   {
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "entry": 3181909,
-   "total": 155,
-   "played": 2,
-   "avg": 77.5,
-   "above_avg": 1,
-   "cap_return": 30,
-   "high": 96,
-   "high_gw": 2,
-   "low": 59,
-   "low_gw": 1,
-   "transfers": 1,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 28,
-   "value": 100.3,
-   "value_delta": 0.3,
-   "bank": 1.0,
-   "grank": 1534195,
-   "best_jump": 453361,
-   "best_jump_gw": 2,
-   "chips": []
-  },
-  {
    "manager": "Rohan Agrawal",
    "team_name": "Southall United",
    "entry": 5582398,
@@ -2075,6 +2050,31 @@
    "bank": 1.5,
    "grank": 1534195,
    "best_jump": 1948104,
+   "best_jump_gw": 2,
+   "chips": []
+  },
+  {
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
+   "entry": 3181909,
+   "total": 155,
+   "played": 2,
+   "avg": 77.5,
+   "above_avg": 1,
+   "cap_return": 30,
+   "high": 96,
+   "high_gw": 2,
+   "low": 59,
+   "low_gw": 1,
+   "transfers": 1,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 28,
+   "value": 100.3,
+   "value_delta": 0.3,
+   "bank": 1.0,
+   "grank": 1534195,
+   "best_jump": 453361,
    "best_jump_gw": 2,
    "chips": []
   },
@@ -2412,6 +2412,20 @@
     "cap": 22
    }
   ],
+  "5926399": [
+   {
+    "gw": 1,
+    "net": 74,
+    "orank": 279827,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 103,
+    "orank": 255722,
+    "cap": 46
+   }
+  ],
   "427154": [
    {
     "gw": 1,
@@ -2436,20 +2450,6 @@
    {
     "gw": 2,
     "net": 111,
-    "orank": 255722,
-    "cap": 46
-   }
-  ],
-  "5926399": [
-   {
-    "gw": 1,
-    "net": 74,
-    "orank": 279827,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 103,
     "orank": 255722,
     "cap": 46
    }
@@ -2622,20 +2622,6 @@
     "cap": 26
    }
   ],
-  "3181909": [
-   {
-    "gw": 1,
-    "net": 59,
-    "orank": 1987556,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 96,
-    "orank": 1534195,
-    "cap": 26
-   }
-  ],
   "5582398": [
    {
     "gw": 1,
@@ -2646,6 +2632,20 @@
    {
     "gw": 2,
     "net": 102,
+    "orank": 1534195,
+    "cap": 26
+   }
+  ],
+  "3181909": [
+   {
+    "gw": 1,
+    "net": 59,
+    "orank": 1987556,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 96,
     "orank": 1534195,
     "cap": 26
    }
