@@ -391,12 +391,27 @@ def compute_mts(mt_config, M, net, finished, cap_gw, bench_gw):
             standings[gname] = [(e, recs[e]) for e in order]
             gtables[gname] = [[id2name[e], recs[e]] for e in order]
 
+        # fixture schedule (who plays whom each GW) — round-robin, with results once played
+        fixtures = []
+        for gname, eids in groups.items():
+            sched = _rr4(eids)
+            for idx, gw in enumerate(mt["group_gws"]):
+                if idx >= len(sched):
+                    continue
+                for a, b in sched[idx]:
+                    sa, sb = net.get(a, {}).get(gw), net.get(b, {}).get(gw)
+                    played = gw in finished and sa is not None and sb is not None
+                    fixtures.append({"gw": gw, "group": gname, "a": id2name[a], "b": id2name[b],
+                                     "sa": sa if played else None, "sb": sb if played else None,
+                                     "winner": ("a" if sa > sb else "b" if sb > sa else "draw") if played else None})
+        fixtures.sort(key=lambda f: (f["gw"], f["group"]))
+
         knockout = None
         if groups and all(g in finished for g in mt["group_gws"]):
             knockout = _build_knockout(standings, mt["ko_gws"], finished, net, cap_gw, bench_gw, id2name)
 
         out.append({"name": mt["name"], "group_gws": mt["group_gws"], "ko_gws": mt["ko_gws"],
-                    "groups": gtables, "has_draw": bool(groups),
+                    "groups": gtables, "fixtures": fixtures, "has_draw": bool(groups),
                     "played": [g for g in mt["group_gws"] if g in finished], "knockout": knockout})
     return out
 
@@ -591,8 +606,19 @@ def demo_data():
                     "ruled_out": rng.choice([0,0,1,2]), "valid": True} for _ in range(12)],
                   key=lambda x: x["score"])[:12]
     gtables = _demo_groups(order, members, net, rng)
+    q24 = order[:24]
+    group_ids = {g: q24[i * 4:(i + 1) * 4] for i, g in enumerate("ABCDEF")}
+    demo_fx = []
+    for g, eids in group_ids.items():
+        sched = _rr4(eids)
+        for idx, gw in enumerate([3, 4, 5]):
+            for a, b in sched[idx]:
+                sa, sb = net[a][gw], net[b][gw]
+                demo_fx.append({"gw": gw, "group": g, "a": members[a]["manager"], "b": members[b]["manager"],
+                                "sa": sa, "sb": sb, "winner": "a" if sa > sb else ("b" if sb > sa else "draw")})
+    demo_fx.sort(key=lambda f: (f["gw"], f["group"]))
     mini = [{"name": "MT1 (GW3–GW8)", "group_gws": [3,4,5], "ko_gws": [6,7,8], "has_draw": True,
-             "played": [3,4,5], "groups": gtables, "knockout": _demo_knockout(gtables, rng)}]
+             "played": [3,4,5], "groups": gtables, "fixtures": demo_fx, "knockout": _demo_knockout(gtables, rng)}]
     seasons_pool = ["2019/20","2020/21","2021/22","2022/23","2023/24","2024/25","2025/26"]
     profiles = []
     for o in overall:

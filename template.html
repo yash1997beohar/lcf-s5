@@ -112,6 +112,17 @@ td{padding:9px 12px;border-top:1px solid var(--hair)} tbody tr:hover td{backgrou
 .tie{background:linear-gradient(155deg,var(--s2),var(--s1));border:1px solid var(--line);border-radius:11px;box-shadow:var(--shadow);overflow:hidden}
 .tie .side{display:flex;justify-content:space-between;gap:8px;padding:9px 12px}
 .tie .side+.side{border-top:1px solid var(--hair)}
+/* fixtures */
+.fxgw{margin-top:14px}
+.fxwrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.fxg{background:var(--s1);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
+.fxg h4{margin:0;padding:9px 13px;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--ts);background:var(--s2);border-bottom:1px solid var(--line)}
+.fx{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px;padding:10px 13px;border-top:1px solid var(--hair);font-size:13px}
+.fx:first-of-type{border-top:0}
+.fx .l{text-align:right} .fx .rr{text-align:left}
+.fx .sc{font-weight:800;color:var(--gold);white-space:nowrap;font-variant-numeric:tabular-nums}
+.fx .vs{color:var(--mut);font-size:10.5px;font-weight:700;border:1px solid var(--line);border-radius:20px;padding:2px 8px}
+.fx .win{font-weight:800;color:var(--tp)} .fx .lo{color:var(--mut)}
 /* h2h picker */
 .h2pick{display:flex;align-items:flex-end;gap:14px;background:linear-gradient(155deg,var(--s2),var(--s1));border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:16px;margin-bottom:18px;flex-wrap:wrap}
 .h2side{flex:1;min-width:190px;display:flex;flex-direction:column;gap:6px}
@@ -248,18 +259,19 @@ add('mt','⚔️','Tournaments',()=>{
  const mt=D.mini[0];
  let h=`<div class="ah"><h1>${esc(mt.name)}</h1><span class="tag">₹3,000</span></div>
   <p class="desc">Top 24 · 6 groups of 4 · group stage GW ${mt.group_gws.join(', ')} → knockouts GW ${mt.ko_gws.join(', ')}.</p>
-  <div class="seg"><button id="tg" class="on">Group Phase</button><button id="tk">Knockouts</button></div>
-  <div id="mgrp"></div><div id="mko" style="display:none"></div>`;
+  <div class="seg"><button id="tf" class="on">Fixtures</button><button id="tg">Standings</button><button id="tk">Knockouts</button></div>
+  <div id="mfx"></div><div id="mgrp" style="display:none"></div><div id="mko" style="display:none"></div>`;
  setTimeout(()=>{
-  const g=$('#mgrp'),k=$('#mko');
+  const f=$('#mfx'),g=$('#mgrp'),k=$('#mko');
+  f.innerHTML=fixturesView(mt);
   if(!mt.has_draw)g.innerHTML='<p class="desc">Awaiting the random group draw.</p>';
   else{let gh='<div class="pgrid">';Object.entries(mt.groups).forEach(([gn,t])=>{
     const rows=t.map((r,i)=>({_cls:i<2?'top5':'',cells:[r[0],r[1].P,r[1].W,r[1].D,r[1].L,`<b>${r[1].pts}</b>`,r[1].fpl]}));
     gh+=`<div><div class="charttitle">Group ${gn} · top 2 advance</div>`+tbl([{t:'Team'},{t:'P',cls:'c'},{t:'W',cls:'c'},{t:'D',cls:'c'},{t:'L',cls:'c'},{t:'Pts',cls:'c'},{t:'FPL',cls:'r'}],rows)+'</div>';});
    g.innerHTML=gh+'</div>';}
   k.innerHTML=bracket(mt.knockout);
-  $('#tg').onclick=()=>{$('#tg').classList.add('on');$('#tk').classList.remove('on');g.style.display='';k.style.display='none'};
-  $('#tk').onclick=()=>{$('#tk').classList.add('on');$('#tg').classList.remove('on');k.style.display='';g.style.display='none'};
+  const panes={tf:f,tg:g,tk:k};
+  ['tf','tg','tk'].forEach(id=>$('#'+id).onclick=()=>{['tf','tg','tk'].forEach(x=>{$('#'+x).classList.toggle('on',x===id);panes[x].style.display=x===id?'':'none'})});
  });
  return h;
 });
@@ -271,6 +283,25 @@ function bracket(ko){if(!ko||!ko.rounds)return '<p class="desc">The 8-team knock
       `<div class="side"><span class="${bw?'':'mut'}"><b>${esc(t.b||'—')}</b></span><b class="${bw?'pz':'mut'}">${t.sb??''}</b></div></div>`});
   h+='</div></div>'});
  return h+'</div>'+(ko.champion?`<div class="charttitle" style="margin-top:14px">🏆 Champion: <span class="pz">${esc(ko.champion)}</span></div>`:'');}
+function fixturesView(mt){
+ if(!mt.fixtures||!mt.fixtures.length) return '<p class="desc">Fixtures appear once the group draw is set.</p>';
+ const fin=D.meta.finished||[];
+ const byGw={}; mt.fixtures.forEach(f=>{(byGw[f.gw]=byGw[f.gw]||[]).push(f)});
+ let h='';
+ Object.keys(byGw).map(Number).sort((a,b)=>a-b).forEach(gw=>{
+   const tag=fin.includes(gw)?'<span class="pill">completed</span>':'<span class="live"><span class="dot"></span>upcoming</span>';
+   h+=`<div class="fxgw"><div class="ah"><h1 style="font-size:16px">Gameweek ${gw}</h1>${tag}</div><div class="fxwrap">`;
+   const grp={}; byGw[gw].forEach(f=>{(grp[f.group]=grp[f.group]||[]).push(f)});
+   Object.keys(grp).sort().forEach(g=>{
+     h+=`<div class="fxg"><h4>Group ${g}</h4>`;
+     grp[g].forEach(f=>{const aw=f.winner==='a',bw=f.winner==='b',played=f.winner!=null;
+       const sc=played?`<span class="sc">${f.sa} – ${f.sb}</span>`:`<span class="vs">vs</span>`;
+       h+=`<div class="fx"><span class="l ${played?(aw?'win':'lo'):''}">${esc(f.a)}</span>${sc}<span class="rr ${played?(bw?'win':'lo'):''}">${esc(f.b)}</span></div>`;});
+     h+='</div>';});
+   h+='</div></div>';
+ });
+ return h;
+}
 
 /* simple prize-leaderboard tabs */
 function board(title,tag,desc,cols,rows){return `<div class="ah"><h1>${title}</h1><span class="tag">${tag}</span></div><p class="desc">${desc}</p>`+tbl(cols,rows,'clik');}
