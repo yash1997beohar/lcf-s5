@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-04 14:10 UTC",
-  "generated_iso": "2026-09-04T14:10:51.000176Z",
+  "generated_utc": "2026-09-04 14:44 UTC",
+  "generated_iso": "2026-09-04T14:44:05.487895Z",
   "started": true,
   "current_gw": 2,
   "finished": [
@@ -37,11 +37,11 @@
   },
   {
    "rank": 3,
-   "arrow": "\u25b2",
-   "manager": "Naman Agrawal",
-   "team_name": "Captn Magnifico",
-   "entry": 20569,
-   "gw_points": 111,
+   "arrow": "\u2022",
+   "manager": "Abhiraj Singh",
+   "team_name": "KingOfKings Fc",
+   "entry": 427154,
+   "gw_points": 104,
    "total": 177,
    "hits": 0
   },
@@ -57,11 +57,11 @@
   },
   {
    "rank": 3,
-   "arrow": "\u2022",
-   "manager": "Abhiraj Singh",
-   "team_name": "KingOfKings Fc",
-   "entry": 427154,
-   "gw_points": 104,
+   "arrow": "\u25b2",
+   "manager": "Naman Agrawal",
+   "team_name": "Captn Magnifico",
+   "entry": 20569,
+   "gw_points": 111,
    "total": 177,
    "hits": 0
   },
@@ -349,11 +349,11 @@
     ]
    },
    {
-    "manager": "Naman Agrawal",
-    "entry": 20569,
+    "manager": "Abhiraj Singh",
+    "entry": 427154,
     "scores": [
-     66,
-     111
+     73,
+     104
     ]
    },
    {
@@ -365,11 +365,11 @@
     ]
    },
    {
-    "manager": "Abhiraj Singh",
-    "entry": 427154,
+    "manager": "Naman Agrawal",
+    "entry": 20569,
     "scores": [
-     73,
-     104
+     66,
+     111
     ]
    },
    {
@@ -626,8 +626,8 @@
    "excluded": true
   },
   {
-   "manager": "Naman Agrawal",
-   "entry": 20569,
+   "manager": "Abhiraj Singh",
+   "entry": 427154,
    "points": 50,
    "excluded": true
   },
@@ -638,8 +638,8 @@
    "excluded": true
   },
   {
-   "manager": "Abhiraj Singh",
-   "entry": 427154,
+   "manager": "Naman Agrawal",
+   "entry": 20569,
    "points": 50,
    "excluded": true
   },
@@ -814,8 +814,8 @@
    "excluded": true
   },
   {
-   "manager": "Naman Agrawal",
-   "entry": 20569,
+   "manager": "Abhiraj Singh",
+   "entry": 427154,
    "arrows": 1,
    "excluded": true
   },
@@ -826,8 +826,8 @@
    "excluded": true
   },
   {
-   "manager": "Abhiraj Singh",
-   "entry": 427154,
+   "manager": "Naman Agrawal",
+   "entry": 20569,
    "arrows": 1,
    "excluded": true
   },
@@ -1017,14 +1017,14 @@
     "own": 3.2
    },
    {
-    "manager": "Naman Agrawal",
+    "manager": "Abhiraj Singh",
     "gw": 1,
     "player": "White",
     "points": 11,
     "own": 4.5
    },
    {
-    "manager": "Abhiraj Singh",
+    "manager": "Naman Agrawal",
     "gw": 1,
     "player": "White",
     "points": 11,
@@ -1087,14 +1087,14 @@
     "own": 6.8
    },
    {
-    "manager": "Naman Agrawal",
+    "manager": "Abhiraj Singh",
     "gw": 2,
     "player": "White",
     "points": 7,
     "own": 6.8
    },
    {
-    "manager": "Abhiraj Singh",
+    "manager": "Naman Agrawal",
     "gw": 2,
     "player": "White",
     "points": 7,
@@ -1234,15 +1234,15 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Naman Agrawal",
-   "team_name": "Captn Magnifico",
+   "manager": "Abhiraj Singh",
+   "team_name": "KingOfKings Fc",
    "league_rank": 3,
    "seasons": 11,
    "past_seasons": 10,
-   "best_rank": 15136,
+   "best_rank": 28582,
    "best_season": "2021/22",
-   "avg_rank": 983840,
-   "last_rank": 45077,
+   "avg_rank": 881388,
+   "last_rank": 239490,
    "last_season": "2025/26"
   },
   {
@@ -1258,15 +1258,15 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Abhiraj Singh",
-   "team_name": "KingOfKings Fc",
+   "manager": "Naman Agrawal",
+   "team_name": "Captn Magnifico",
    "league_rank": 3,
    "seasons": 11,
    "past_seasons": 10,
-   "best_rank": 28582,
+   "best_rank": 15136,
    "best_season": "2021/22",
-   "avg_rank": 881388,
-   "last_rank": 239490,
+   "avg_rank": 983840,
+   "last_rank": 45077,
    "last_season": "2025/26"
   },
   {
@@ -1638,27 +1638,27 @@
    ]
   },
   {
-   "manager": "Naman Agrawal",
-   "team_name": "Captn Magnifico",
-   "entry": 20569,
+   "manager": "Abhiraj Singh",
+   "team_name": "KingOfKings Fc",
+   "entry": 427154,
    "total": 177,
    "played": 2,
    "avg": 88.5,
    "above_avg": 2,
    "cap_return": 50,
-   "high": 111,
+   "high": 104,
    "high_gw": 2,
-   "low": 66,
+   "low": 73,
    "low_gw": 1,
    "transfers": 0,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 22,
+   "bench": 11,
    "value": 100.2,
    "value_delta": 0.2,
    "bank": 0.0,
    "grank": 255722,
-   "best_jump": 637992,
+   "best_jump": 88386,
    "best_jump_gw": 2,
    "chips": [
     "bboost"
@@ -1692,27 +1692,27 @@
    ]
   },
   {
-   "manager": "Abhiraj Singh",
-   "team_name": "KingOfKings Fc",
-   "entry": 427154,
+   "manager": "Naman Agrawal",
+   "team_name": "Captn Magnifico",
+   "entry": 20569,
    "total": 177,
    "played": 2,
    "avg": 88.5,
    "above_avg": 2,
    "cap_return": 50,
-   "high": 104,
+   "high": 111,
    "high_gw": 2,
-   "low": 73,
+   "low": 66,
    "low_gw": 1,
    "transfers": 0,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 11,
+   "bench": 22,
    "value": 100.2,
    "value_delta": 0.2,
    "bank": 0.0,
    "grank": 255722,
-   "best_jump": 88386,
+   "best_jump": 637992,
    "best_jump_gw": 2,
    "chips": [
     "bboost"
@@ -2412,16 +2412,16 @@
     "cap": 22
    }
   ],
-  "20569": [
+  "427154": [
    {
     "gw": 1,
-    "net": 66,
-    "orank": 893714,
+    "net": 73,
+    "orank": 344108,
     "cap": 4
    },
    {
     "gw": 2,
-    "net": 111,
+    "net": 104,
     "orank": 255722,
     "cap": 46
    }
@@ -2440,16 +2440,16 @@
     "cap": 46
    }
   ],
-  "427154": [
+  "20569": [
    {
     "gw": 1,
-    "net": 73,
-    "orank": 344108,
+    "net": 66,
+    "orank": 893714,
     "cap": 4
    },
    {
     "gw": 2,
-    "net": 104,
+    "net": 111,
     "orank": 255722,
     "cap": 46
    }
@@ -3110,6 +3110,332 @@
      ]
     ]
    },
+   "fixtures": [
+    {
+     "gw": 3,
+     "group": "A",
+     "a": "Arshaq Razack",
+     "b": "Aayush Khanna",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 3,
+     "group": "A",
+     "a": "Deepankar Sachdeva",
+     "b": "Shivanshu Madan",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 3,
+     "group": "B",
+     "a": "Naman Agrawal",
+     "b": "Aquib Razack",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 3,
+     "group": "B",
+     "a": "Aparnesh Mishra",
+     "b": "Yash Beohar",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 3,
+     "group": "C",
+     "a": "Rohan Agrawal",
+     "b": "Abhay Rawat",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 3,
+     "group": "C",
+     "a": "Sid Shaurya",
+     "b": "Parakh Tripathy",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 3,
+     "group": "D",
+     "a": "Anish Joshi",
+     "b": "Abhinav Premsekhar",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 3,
+     "group": "D",
+     "a": "Varun Khurana",
+     "b": "Abhishek Gupte",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 3,
+     "group": "E",
+     "a": "Ajith Thomas Kuthukatt George",
+     "b": "Abhiraj Singh",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 3,
+     "group": "E",
+     "a": "Karan Khanna",
+     "b": "Satweek Nayak",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 3,
+     "group": "F",
+     "a": "Raveesh Kalra",
+     "b": "Danish Javed",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 3,
+     "group": "F",
+     "a": "Pranshul Jain",
+     "b": "Karan Chopra",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 4,
+     "group": "A",
+     "a": "Arshaq Razack",
+     "b": "Deepankar Sachdeva",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 4,
+     "group": "A",
+     "a": "Aayush Khanna",
+     "b": "Shivanshu Madan",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 4,
+     "group": "B",
+     "a": "Naman Agrawal",
+     "b": "Aparnesh Mishra",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 4,
+     "group": "B",
+     "a": "Aquib Razack",
+     "b": "Yash Beohar",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 4,
+     "group": "C",
+     "a": "Rohan Agrawal",
+     "b": "Sid Shaurya",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 4,
+     "group": "C",
+     "a": "Abhay Rawat",
+     "b": "Parakh Tripathy",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 4,
+     "group": "D",
+     "a": "Anish Joshi",
+     "b": "Varun Khurana",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 4,
+     "group": "D",
+     "a": "Abhinav Premsekhar",
+     "b": "Abhishek Gupte",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 4,
+     "group": "E",
+     "a": "Ajith Thomas Kuthukatt George",
+     "b": "Karan Khanna",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 4,
+     "group": "E",
+     "a": "Abhiraj Singh",
+     "b": "Satweek Nayak",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 4,
+     "group": "F",
+     "a": "Raveesh Kalra",
+     "b": "Pranshul Jain",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 4,
+     "group": "F",
+     "a": "Danish Javed",
+     "b": "Karan Chopra",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 5,
+     "group": "A",
+     "a": "Arshaq Razack",
+     "b": "Shivanshu Madan",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 5,
+     "group": "A",
+     "a": "Aayush Khanna",
+     "b": "Deepankar Sachdeva",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 5,
+     "group": "B",
+     "a": "Naman Agrawal",
+     "b": "Yash Beohar",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 5,
+     "group": "B",
+     "a": "Aquib Razack",
+     "b": "Aparnesh Mishra",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 5,
+     "group": "C",
+     "a": "Rohan Agrawal",
+     "b": "Parakh Tripathy",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 5,
+     "group": "C",
+     "a": "Abhay Rawat",
+     "b": "Sid Shaurya",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 5,
+     "group": "D",
+     "a": "Anish Joshi",
+     "b": "Abhishek Gupte",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 5,
+     "group": "D",
+     "a": "Abhinav Premsekhar",
+     "b": "Varun Khurana",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 5,
+     "group": "E",
+     "a": "Ajith Thomas Kuthukatt George",
+     "b": "Satweek Nayak",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 5,
+     "group": "E",
+     "a": "Abhiraj Singh",
+     "b": "Karan Khanna",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 5,
+     "group": "F",
+     "a": "Raveesh Kalra",
+     "b": "Karan Chopra",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 5,
+     "group": "F",
+     "a": "Danish Javed",
+     "b": "Pranshul Jain",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    }
+   ],
    "has_draw": true,
    "played": [],
    "knockout": null
