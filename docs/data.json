@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-05 14:10 UTC",
-  "generated_iso": "2026-09-05T14:10:06.186266Z",
+  "generated_utc": "2026-09-05 16:10 UTC",
+  "generated_iso": "2026-09-05T16:10:42.735630Z",
   "started": true,
   "current_gw": 3,
   "finished": [
@@ -21,8 +21,8 @@
    "manager": "Abhay Rawat",
    "team_name": "115 FC",
    "entry": 3942416,
-   "gw_points": 29,
-   "total": 229,
+   "gw_points": 53,
+   "total": 253,
    "hits": 0
   },
   {
@@ -31,88 +31,88 @@
    "manager": "Naman Agrawal",
    "team_name": "Captn Magnifico",
    "entry": 20569,
-   "gw_points": 33,
-   "total": 210,
+   "gw_points": 45,
+   "total": 222,
    "hits": 0
   },
   {
    "rank": 3,
-   "arrow": "\u25b2",
-   "manager": "Abhishek Gupte",
-   "team_name": "Enzotic",
-   "entry": 4688717,
-   "gw_points": 30,
-   "total": 193,
+   "arrow": "\u2022",
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "entry": 5926399,
+   "gw_points": 41,
+   "total": 218,
    "hits": 0
   },
   {
    "rank": 4,
-   "arrow": "\u25bc",
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "entry": 5926399,
-   "gw_points": 12,
-   "total": 189,
+   "arrow": "\u25b2",
+   "manager": "Shivanshu Madan",
+   "team_name": "Cold Palmer",
+   "entry": 2424090,
+   "gw_points": 44,
+   "total": 217,
    "hits": 0
   },
   {
    "rank": 5,
    "arrow": "\u25bc",
-   "manager": "Abhiraj Singh",
-   "team_name": "KingOfKings Fc",
-   "entry": 427154,
-   "gw_points": 10,
-   "total": 187,
+   "manager": "Abhinav Premsekhar",
+   "team_name": "Totally Szobo",
+   "entry": 79306,
+   "gw_points": 36,
+   "total": 214,
    "hits": 0
   },
   {
    "rank": 6,
-   "arrow": "\u2022",
-   "manager": "Shivanshu Madan",
-   "team_name": "Cold Palmer",
-   "entry": 2424090,
-   "gw_points": 13,
-   "total": 186,
-   "hits": 0
-  },
-  {
-   "rank": 7,
-   "arrow": "\u2022",
-   "manager": "Raveesh Kalra",
-   "team_name": "MaSalah",
-   "entry": 2354537,
-   "gw_points": 13,
-   "total": 185,
-   "hits": 0
-  },
-  {
-   "rank": 7,
-   "arrow": "\u25bc",
-   "manager": "Abhinav Premsekhar",
-   "team_name": "Totally Szobo",
-   "entry": 79306,
-   "gw_points": 7,
-   "total": 185,
+   "arrow": "\u25b2",
+   "manager": "Arshaq Razack",
+   "team_name": "ShakeNBake",
+   "entry": 1086057,
+   "gw_points": 44,
+   "total": 213,
    "hits": 0
   },
   {
    "rank": 7,
    "arrow": "\u25b2",
-   "manager": "Arshaq Razack",
-   "team_name": "ShakeNBake",
-   "entry": 1086057,
-   "gw_points": 16,
-   "total": 185,
+   "manager": "Pranshul Jain",
+   "team_name": "Carrick Janta Party",
+   "entry": 1362641,
+   "gw_points": 41,
+   "total": 212,
+   "hits": 0
+  },
+  {
+   "rank": 8,
+   "arrow": "\u25bc",
+   "manager": "Abhiraj Singh",
+   "team_name": "KingOfKings Fc",
+   "entry": 427154,
+   "gw_points": 30,
+   "total": 207,
+   "hits": 0
+  },
+  {
+   "rank": 9,
+   "arrow": "\u25bc",
+   "manager": "Raveesh Kalra",
+   "team_name": "MaSalah",
+   "entry": 2354537,
+   "gw_points": 34,
+   "total": 206,
    "hits": 0
   },
   {
    "rank": 10,
-   "arrow": "\u25bc",
-   "manager": "Pranshul Jain",
-   "team_name": "Carrick Janta Party",
-   "entry": 1362641,
-   "gw_points": 8,
-   "total": 179,
+   "arrow": "\u25b2",
+   "manager": "Anish Joshi",
+   "team_name": "Fiery Raiders",
+   "entry": 256447,
+   "gw_points": 38,
+   "total": 203,
    "hits": 0
   },
   {
@@ -121,78 +121,78 @@
    "manager": "Parakh Tripathy",
    "team_name": "Malisahi Randuas",
    "entry": 4795345,
-   "gw_points": 10,
-   "total": 178,
+   "gw_points": 34,
+   "total": 202,
    "hits": 0
   },
   {
-   "rank": 11,
+   "rank": 12,
    "arrow": "\u25bc",
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
    "entry": 374875,
-   "gw_points": 10,
-   "total": 178,
+   "gw_points": 31,
+   "total": 199,
    "hits": 0
   },
   {
    "rank": 13,
-   "arrow": "\u2022",
-   "manager": "Anish Joshi",
-   "team_name": "Fiery Raiders",
-   "entry": 256447,
-   "gw_points": 9,
-   "total": 174,
+   "arrow": "\u25b2",
+   "manager": "Danish Javed",
+   "team_name": "ItDzntMata",
+   "entry": 3323226,
+   "gw_points": 40,
+   "total": 198,
    "hits": 0
   },
   {
-   "rank": 13,
+   "rank": 14,
    "arrow": "\u25bc",
    "manager": "Sid Shaurya",
    "team_name": "Old Reijnders Nagar",
    "entry": 5340498,
-   "gw_points": 9,
-   "total": 174,
+   "gw_points": 32,
+   "total": 197,
    "hits": 0
   },
   {
    "rank": 15,
-   "arrow": "\u2022",
-   "manager": "Danish Javed",
-   "team_name": "ItDzntMata",
-   "entry": 3323226,
-   "gw_points": 10,
-   "total": 168,
+   "arrow": "\u25b2",
+   "manager": "Ajith Thomas Kuthukatt George",
+   "team_name": "Onside Offside",
+   "entry": 5419891,
+   "gw_points": 40,
+   "total": 195,
    "hits": 0
   },
   {
    "rank": 16,
-   "arrow": "\u2022",
-   "manager": "Aayush Khanna",
-   "team_name": "Loading...",
-   "entry": 2003955,
-   "gw_points": 9,
-   "total": 165,
+   "arrow": "\u25bc",
+   "manager": "Abhishek Gupte",
+   "team_name": "Enzotic",
+   "entry": 4688717,
+   "gw_points": 31,
+   "total": 194,
    "hits": 0
   },
   {
    "rank": 17,
-   "arrow": "\u2022",
-   "manager": "Ajith Thomas Kuthukatt George",
-   "team_name": "Onside Offside",
-   "entry": 5419891,
-   "gw_points": 9,
-   "total": 164,
+   "arrow": "\u25bc",
+   "manager": "Aayush Khanna",
+   "team_name": "Loading...",
+   "entry": 2003955,
+   "gw_points": 35,
+   "total": 191,
    "hits": 0
   },
   {
-   "rank": 18,
-   "arrow": "\u2022",
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "entry": 3181909,
-   "gw_points": 9,
-   "total": 164,
+   "rank": 17,
+   "arrow": "\u25b2",
+   "manager": "Karan Khanna",
+   "team_name": "Amad Aura",
+   "entry": 3330149,
+   "gw_points": 43,
+   "total": 191,
    "hits": 0
   },
   {
@@ -201,19 +201,19 @@
    "manager": "Rohan Agrawal",
    "team_name": "Southall United",
    "entry": 5582398,
-   "gw_points": 10,
-   "total": 161,
+   "gw_points": 38,
+   "total": 189,
    "hits": 4
   },
   {
    "rank": 20,
    "arrow": "\u25b2",
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "entry": 46711,
-   "gw_points": 22,
-   "total": 157,
-   "hits": 0
+   "manager": "Deepankar Sachdeva",
+   "team_name": "Cment_mixers",
+   "entry": 1301167,
+   "gw_points": 47,
+   "total": 187,
+   "hits": 4
   },
   {
    "rank": 21,
@@ -221,78 +221,78 @@
    "manager": "Varun Khurana",
    "team_name": "Goal Diggers FC",
    "entry": 3909562,
-   "gw_points": 6,
-   "total": 157,
+   "gw_points": 32,
+   "total": 183,
    "hits": 0
   },
   {
    "rank": 22,
    "arrow": "\u25bc",
-   "manager": "Karan Khanna",
-   "team_name": "Amad Aura",
-   "entry": 3330149,
-   "gw_points": 8,
-   "total": 156,
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
+   "entry": 3181909,
+   "gw_points": 27,
+   "total": 182,
    "hits": 0
   },
   {
    "rank": 23,
-   "arrow": "\u2022",
-   "manager": "Karan Chopra",
-   "team_name": "fpl_26_27",
-   "entry": 5970777,
-   "gw_points": 12,
-   "total": 151,
+   "arrow": "\u25b2",
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "entry": 46711,
+   "gw_points": 46,
+   "total": 181,
    "hits": 0
   },
   {
    "rank": 24,
    "arrow": "\u25bc",
-   "manager": "Deepankar Sachdeva",
-   "team_name": "Cment_mixers",
-   "entry": 1301167,
-   "gw_points": 9,
-   "total": 149,
-   "hits": 4
-  },
-  {
-   "rank": 25,
-   "arrow": "\u2022",
-   "manager": "Rajit Das",
-   "team_name": "FC Teetotallers",
-   "entry": 4837220,
-   "gw_points": 7,
-   "total": 142,
+   "manager": "Karan Chopra",
+   "team_name": "fpl_26_27",
+   "entry": 5970777,
+   "gw_points": 41,
+   "total": 180,
    "hits": 0
   },
   {
    "rank": 25,
-   "arrow": "\u25b2",
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "entry": 5008941,
-   "gw_points": 11,
-   "total": 142,
-   "hits": 0
-  },
-  {
-   "rank": 25,
-   "arrow": "\u25b2",
-   "manager": "prateek gupta",
-   "team_name": "sakalaka",
-   "entry": 6023506,
-   "gw_points": 12,
-   "total": 142,
-   "hits": 0
-  },
-  {
-   "rank": 28,
    "arrow": "\u25b2",
    "manager": "Aditya Vaidya",
    "team_name": "His Name is Diogo",
    "entry": 9695,
-   "gw_points": 22,
-   "total": 141,
+   "gw_points": 60,
+   "total": 179,
+   "hits": 0
+  },
+  {
+   "rank": 26,
+   "arrow": "\u25b2",
+   "manager": "prateek gupta",
+   "team_name": "sakalaka",
+   "entry": 6023506,
+   "gw_points": 43,
+   "total": 173,
+   "hits": 0
+  },
+  {
+   "rank": 26,
+   "arrow": "\u25bc",
+   "manager": "Rajit Das",
+   "team_name": "FC Teetotallers",
+   "entry": 4837220,
+   "gw_points": 38,
+   "total": 173,
+   "hits": 0
+  },
+  {
+   "rank": 28,
+   "arrow": "\u25bc",
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "entry": 5008941,
+   "gw_points": 41,
+   "total": 172,
    "hits": 0
   },
   {
@@ -301,8 +301,8 @@
    "manager": "Dean Jenkins",
    "team_name": "Slumber FC",
    "entry": 5565611,
-   "gw_points": 6,
-   "total": 128,
+   "gw_points": 20,
+   "total": 142,
    "hits": 4
   },
   {
@@ -311,8 +311,8 @@
    "manager": "Nilay jain",
    "team_name": "Redsbay",
    "entry": 4993853,
-   "gw_points": 6,
-   "total": 104,
+   "gw_points": 24,
+   "total": 122,
    "hits": 8
   },
   {
@@ -321,8 +321,8 @@
    "manager": "Pranav Thomas",
    "team_name": "Invincibles",
    "entry": 6514976,
-   "gw_points": 18,
-   "total": 98,
+   "gw_points": 39,
+   "total": 119,
    "hits": 0
   }
  ],
@@ -349,14 +349,6 @@
     ]
    },
    {
-    "manager": "Abhishek Gupte",
-    "entry": 4688717,
-    "scores": [
-     73,
-     90
-    ]
-   },
-   {
     "manager": "Aquib Razack",
     "entry": 5926399,
     "scores": [
@@ -365,27 +357,11 @@
     ]
    },
    {
-    "manager": "Abhiraj Singh",
-    "entry": 427154,
-    "scores": [
-     73,
-     104
-    ]
-   },
-   {
     "manager": "Shivanshu Madan",
     "entry": 2424090,
     "scores": [
      62,
      111
-    ]
-   },
-   {
-    "manager": "Raveesh Kalra",
-    "entry": 2354537,
-    "scores": [
-     63,
-     109
     ]
    },
    {
@@ -413,6 +389,30 @@
     ]
    },
    {
+    "manager": "Abhiraj Singh",
+    "entry": 427154,
+    "scores": [
+     73,
+     104
+    ]
+   },
+   {
+    "manager": "Raveesh Kalra",
+    "entry": 2354537,
+    "scores": [
+     63,
+     109
+    ]
+   },
+   {
+    "manager": "Anish Joshi",
+    "entry": 256447,
+    "scores": [
+     62,
+     103
+    ]
+   },
+   {
     "manager": "Parakh Tripathy",
     "entry": 4795345,
     "scores": [
@@ -429,11 +429,11 @@
     ]
    },
    {
-    "manager": "Anish Joshi",
-    "entry": 256447,
+    "manager": "Danish Javed",
+    "entry": 3323226,
     "scores": [
-     62,
-     103
+     40,
+     118
     ]
    },
    {
@@ -445,11 +445,19 @@
     ]
    },
    {
-    "manager": "Danish Javed",
-    "entry": 3323226,
+    "manager": "Ajith Thomas Kuthukatt George",
+    "entry": 5419891,
     "scores": [
-     40,
-     118
+     55,
+     100
+    ]
+   },
+   {
+    "manager": "Abhishek Gupte",
+    "entry": 4688717,
+    "scores": [
+     73,
+     90
     ]
    },
    {
@@ -461,19 +469,11 @@
     ]
    },
    {
-    "manager": "Ajith Thomas Kuthukatt George",
-    "entry": 5419891,
+    "manager": "Karan Khanna",
+    "entry": 3330149,
     "scores": [
-     55,
-     100
-    ]
-   },
-   {
-    "manager": "Aparnesh Mishra",
-    "entry": 3181909,
-    "scores": [
-     59,
-     96
+     47,
+     101
     ]
    },
    {
@@ -485,11 +485,11 @@
     ]
    },
    {
-    "manager": "Satweek Nayak",
-    "entry": 46711,
+    "manager": "Deepankar Sachdeva",
+    "entry": 1301167,
     "scores": [
-     42,
-     93
+     43,
+     97
     ]
    },
    {
@@ -501,11 +501,19 @@
     ]
    },
    {
-    "manager": "Karan Khanna",
-    "entry": 3330149,
+    "manager": "Aparnesh Mishra",
+    "entry": 3181909,
     "scores": [
-     47,
-     101
+     59,
+     96
+    ]
+   },
+   {
+    "manager": "Satweek Nayak",
+    "entry": 46711,
+    "scores": [
+     42,
+     93
     ]
    },
    {
@@ -517,11 +525,19 @@
     ]
    },
    {
-    "manager": "Deepankar Sachdeva",
-    "entry": 1301167,
+    "manager": "Aditya Vaidya",
+    "entry": 9695,
     "scores": [
-     43,
-     97
+     41,
+     78
+    ]
+   },
+   {
+    "manager": "prateek gupta",
+    "entry": 6023506,
+    "scores": [
+     29,
+     101
     ]
    },
    {
@@ -538,22 +554,6 @@
     "scores": [
      45,
      86
-    ]
-   },
-   {
-    "manager": "prateek gupta",
-    "entry": 6023506,
-    "scores": [
-     29,
-     101
-    ]
-   },
-   {
-    "manager": "Aditya Vaidya",
-    "entry": 9695,
-    "scores": [
-     41,
-     78
     ]
    },
    {
@@ -617,7 +617,7 @@
    "manager": "Shivanshu Madan",
    "entry": 2424090,
    "points": 68,
-   "excluded": false
+   "excluded": true
   },
   {
    "manager": "Abhay Rawat",
@@ -638,20 +638,20 @@
    "excluded": true
   },
   {
-   "manager": "Abhiraj Singh",
-   "entry": 427154,
-   "points": 50,
-   "excluded": true
-  },
-  {
-   "manager": "Raveesh Kalra",
-   "entry": 2354537,
+   "manager": "Pranshul Jain",
+   "entry": 1362641,
    "points": 50,
    "excluded": false
   },
   {
-   "manager": "Pranshul Jain",
-   "entry": 1362641,
+   "manager": "Abhiraj Singh",
+   "entry": 427154,
+   "points": 50,
+   "excluded": false
+  },
+  {
+   "manager": "Raveesh Kalra",
+   "entry": 2354537,
    "points": 50,
    "excluded": false
   },
@@ -668,26 +668,26 @@
    "excluded": false
   },
   {
-   "manager": "Sid Shaurya",
-   "entry": 5340498,
-   "points": 50,
-   "excluded": false
-  },
-  {
    "manager": "Danish Javed",
    "entry": 3323226,
    "points": 50,
    "excluded": false
   },
   {
-   "manager": "Varun Khurana",
-   "entry": 3909562,
+   "manager": "Sid Shaurya",
+   "entry": 5340498,
    "points": 50,
    "excluded": false
   },
   {
    "manager": "Karan Khanna",
    "entry": 3330149,
+   "points": 50,
+   "excluded": false
+  },
+  {
+   "manager": "Varun Khurana",
+   "entry": 3909562,
    "points": 50,
    "excluded": false
   },
@@ -722,14 +722,20 @@
    "excluded": false
   },
   {
-   "manager": "Aparnesh Mishra",
-   "entry": 3181909,
+   "manager": "Rohan Agrawal",
+   "entry": 5582398,
    "points": 30,
    "excluded": false
   },
   {
-   "manager": "Rohan Agrawal",
-   "entry": 5582398,
+   "manager": "Deepankar Sachdeva",
+   "entry": 1301167,
+   "points": 30,
+   "excluded": false
+  },
+  {
+   "manager": "Aparnesh Mishra",
+   "entry": 3181909,
    "points": 30,
    "excluded": false
   },
@@ -746,8 +752,8 @@
    "excluded": false
   },
   {
-   "manager": "Deepankar Sachdeva",
-   "entry": 1301167,
+   "manager": "Aditya Vaidya",
+   "entry": 9695,
    "points": 30,
    "excluded": false
   },
@@ -764,20 +770,14 @@
    "excluded": false
   },
   {
-   "manager": "Aditya Vaidya",
-   "entry": 9695,
-   "points": 30,
-   "excluded": false
-  },
-  {
-   "manager": "Abhishek Gupte",
-   "entry": 4688717,
+   "manager": "Abhinav Premsekhar",
+   "entry": 79306,
    "points": 26,
    "excluded": true
   },
   {
-   "manager": "Abhinav Premsekhar",
-   "entry": 79306,
+   "manager": "Abhishek Gupte",
+   "entry": 4688717,
    "points": 26,
    "excluded": false
   },
@@ -820,28 +820,16 @@
    "excluded": true
   },
   {
-   "manager": "Abhiraj Singh",
-   "entry": 427154,
-   "arrows": 1,
-   "excluded": true
-  },
-  {
    "manager": "Shivanshu Madan",
    "entry": 2424090,
    "arrows": 1,
-   "excluded": false
-  },
-  {
-   "manager": "Raveesh Kalra",
-   "entry": 2354537,
-   "arrows": 1,
-   "excluded": false
+   "excluded": true
   },
   {
    "manager": "Abhinav Premsekhar",
    "entry": 79306,
    "arrows": 1,
-   "excluded": false
+   "excluded": true
   },
   {
    "manager": "Arshaq Razack",
@@ -852,6 +840,24 @@
   {
    "manager": "Pranshul Jain",
    "entry": 1362641,
+   "arrows": 1,
+   "excluded": false
+  },
+  {
+   "manager": "Abhiraj Singh",
+   "entry": 427154,
+   "arrows": 1,
+   "excluded": false
+  },
+  {
+   "manager": "Raveesh Kalra",
+   "entry": 2354537,
+   "arrows": 1,
+   "excluded": false
+  },
+  {
+   "manager": "Anish Joshi",
+   "entry": 256447,
    "arrows": 1,
    "excluded": false
   },
@@ -868,8 +874,8 @@
    "excluded": false
   },
   {
-   "manager": "Anish Joshi",
-   "entry": 256447,
+   "manager": "Danish Javed",
+   "entry": 3323226,
    "arrows": 1,
    "excluded": false
   },
@@ -880,8 +886,8 @@
    "excluded": false
   },
   {
-   "manager": "Danish Javed",
-   "entry": 3323226,
+   "manager": "Ajith Thomas Kuthukatt George",
+   "entry": 5419891,
    "arrows": 1,
    "excluded": false
   },
@@ -892,14 +898,8 @@
    "excluded": false
   },
   {
-   "manager": "Ajith Thomas Kuthukatt George",
-   "entry": 5419891,
-   "arrows": 1,
-   "excluded": false
-  },
-  {
-   "manager": "Aparnesh Mishra",
-   "entry": 3181909,
+   "manager": "Karan Khanna",
+   "entry": 3330149,
    "arrows": 1,
    "excluded": false
   },
@@ -910,8 +910,8 @@
    "excluded": false
   },
   {
-   "manager": "Satweek Nayak",
-   "entry": 46711,
+   "manager": "Deepankar Sachdeva",
+   "entry": 1301167,
    "arrows": 1,
    "excluded": false
   },
@@ -922,14 +922,26 @@
    "excluded": false
   },
   {
-   "manager": "Karan Khanna",
-   "entry": 3330149,
+   "manager": "Aparnesh Mishra",
+   "entry": 3181909,
    "arrows": 1,
    "excluded": false
   },
   {
-   "manager": "Deepankar Sachdeva",
-   "entry": 1301167,
+   "manager": "Satweek Nayak",
+   "entry": 46711,
+   "arrows": 1,
+   "excluded": false
+  },
+  {
+   "manager": "Aditya Vaidya",
+   "entry": 9695,
+   "arrows": 1,
+   "excluded": false
+  },
+  {
+   "manager": "prateek gupta",
+   "entry": 6023506,
    "arrows": 1,
    "excluded": false
   },
@@ -946,18 +958,6 @@
    "excluded": false
   },
   {
-   "manager": "prateek gupta",
-   "entry": 6023506,
-   "arrows": 1,
-   "excluded": false
-  },
-  {
-   "manager": "Aditya Vaidya",
-   "entry": 9695,
-   "arrows": 1,
-   "excluded": false
-  },
-  {
    "manager": "Nilay jain",
    "entry": 4993853,
    "arrows": 1,
@@ -967,7 +967,7 @@
    "manager": "Abhishek Gupte",
    "entry": 4688717,
    "arrows": 0,
-   "excluded": true
+   "excluded": false
   },
   {
    "manager": "Karan Chopra",
@@ -1024,14 +1024,14 @@
     "own": 4.5
    },
    {
-    "manager": "Abhiraj Singh",
+    "manager": "Shivanshu Madan",
     "gw": 1,
     "player": "White",
     "points": 11,
     "own": 4.5
    },
    {
-    "manager": "Shivanshu Madan",
+    "manager": "Abhiraj Singh",
     "gw": 1,
     "player": "White",
     "points": 11,
@@ -1094,14 +1094,14 @@
     "own": 6.8
    },
    {
-    "manager": "Abhiraj Singh",
+    "manager": "Shivanshu Madan",
     "gw": 2,
     "player": "White",
     "points": 7,
     "own": 6.8
    },
    {
-    "manager": "Shivanshu Madan",
+    "manager": "Abhiraj Singh",
     "gw": 2,
     "player": "White",
     "points": 7,
@@ -1234,21 +1234,9 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Abhishek Gupte",
-   "team_name": "Enzotic",
-   "league_rank": 3,
-   "seasons": 16,
-   "past_seasons": 15,
-   "best_rank": 37120,
-   "best_season": "2014/15",
-   "avg_rank": 1571193,
-   "last_rank": 3349378,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Aquib Razack",
    "team_name": "BattleBorn",
-   "league_rank": 4,
+   "league_rank": 3,
    "seasons": 14,
    "past_seasons": 13,
    "best_rank": 71857,
@@ -1258,21 +1246,9 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Abhiraj Singh",
-   "team_name": "KingOfKings Fc",
-   "league_rank": 5,
-   "seasons": 11,
-   "past_seasons": 10,
-   "best_rank": 28582,
-   "best_season": "2021/22",
-   "avg_rank": 881388,
-   "last_rank": 239490,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Shivanshu Madan",
    "team_name": "Cold Palmer",
-   "league_rank": 6,
+   "league_rank": 4,
    "seasons": 7,
    "past_seasons": 6,
    "best_rank": 31543,
@@ -1282,21 +1258,9 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Raveesh Kalra",
-   "team_name": "MaSalah",
-   "league_rank": 7,
-   "seasons": 7,
-   "past_seasons": 6,
-   "best_rank": 8917,
-   "best_season": "2021/22",
-   "avg_rank": 2118382,
-   "last_rank": 9146930,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Abhinav Premsekhar",
    "team_name": "Totally Szobo",
-   "league_rank": 7,
+   "league_rank": 5,
    "seasons": 12,
    "past_seasons": 11,
    "best_rank": 27153,
@@ -1308,7 +1272,7 @@
   {
    "manager": "Arshaq Razack",
    "team_name": "ShakeNBake",
-   "league_rank": 7,
+   "league_rank": 6,
    "seasons": 16,
    "past_seasons": 15,
    "best_rank": 6474,
@@ -1320,13 +1284,49 @@
   {
    "manager": "Pranshul Jain",
    "team_name": "Carrick Janta Party",
-   "league_rank": 10,
+   "league_rank": 7,
    "seasons": 9,
    "past_seasons": 8,
    "best_rank": 182900,
    "best_season": "2025/26",
    "avg_rank": 2098988,
    "last_rank": 182900,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Abhiraj Singh",
+   "team_name": "KingOfKings Fc",
+   "league_rank": 8,
+   "seasons": 11,
+   "past_seasons": 10,
+   "best_rank": 28582,
+   "best_season": "2021/22",
+   "avg_rank": 881388,
+   "last_rank": 239490,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Raveesh Kalra",
+   "team_name": "MaSalah",
+   "league_rank": 9,
+   "seasons": 7,
+   "past_seasons": 6,
+   "best_rank": 8917,
+   "best_season": "2021/22",
+   "avg_rank": 2118382,
+   "last_rank": 9146930,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Anish Joshi",
+   "team_name": "Fiery Raiders",
+   "league_rank": 10,
+   "seasons": 15,
+   "past_seasons": 14,
+   "best_rank": 281617,
+   "best_season": "2019/20",
+   "avg_rank": 1051323,
+   "last_rank": 1076546,
    "last_season": "2025/26"
   },
   {
@@ -1344,7 +1344,7 @@
   {
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
-   "league_rank": 11,
+   "league_rank": 12,
    "seasons": 10,
    "past_seasons": 9,
    "best_rank": 30971,
@@ -1354,33 +1354,9 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Anish Joshi",
-   "team_name": "Fiery Raiders",
-   "league_rank": 13,
-   "seasons": 15,
-   "past_seasons": 14,
-   "best_rank": 281617,
-   "best_season": "2019/20",
-   "avg_rank": 1051323,
-   "last_rank": 1076546,
-   "last_season": "2025/26"
-  },
-  {
-   "manager": "Sid Shaurya",
-   "team_name": "Old Reijnders Nagar",
-   "league_rank": 13,
-   "seasons": 8,
-   "past_seasons": 7,
-   "best_rank": 189374,
-   "best_season": "2024/25",
-   "avg_rank": 1757289,
-   "last_rank": 250879,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Danish Javed",
    "team_name": "ItDzntMata",
-   "league_rank": 15,
+   "league_rank": 13,
    "seasons": 6,
    "past_seasons": 5,
    "best_rank": 273503,
@@ -1390,21 +1366,21 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Aayush Khanna",
-   "team_name": "Loading...",
-   "league_rank": 16,
-   "seasons": 10,
-   "past_seasons": 9,
-   "best_rank": 486041,
+   "manager": "Sid Shaurya",
+   "team_name": "Old Reijnders Nagar",
+   "league_rank": 14,
+   "seasons": 8,
+   "past_seasons": 7,
+   "best_rank": 189374,
    "best_season": "2024/25",
-   "avg_rank": 2415786,
-   "last_rank": 1206623,
+   "avg_rank": 1757289,
+   "last_rank": 250879,
    "last_season": "2025/26"
   },
   {
    "manager": "Ajith Thomas Kuthukatt George",
    "team_name": "Onside Offside",
-   "league_rank": 17,
+   "league_rank": 15,
    "seasons": 3,
    "past_seasons": 2,
    "best_rank": 545267,
@@ -1414,15 +1390,39 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "league_rank": 18,
-   "seasons": 9,
-   "past_seasons": 8,
-   "best_rank": 334016,
-   "best_season": "2020/21",
-   "avg_rank": 2156629,
-   "last_rank": 2691725,
+   "manager": "Abhishek Gupte",
+   "team_name": "Enzotic",
+   "league_rank": 16,
+   "seasons": 16,
+   "past_seasons": 15,
+   "best_rank": 37120,
+   "best_season": "2014/15",
+   "avg_rank": 1571193,
+   "last_rank": 3349378,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Aayush Khanna",
+   "team_name": "Loading...",
+   "league_rank": 17,
+   "seasons": 10,
+   "past_seasons": 9,
+   "best_rank": 486041,
+   "best_season": "2024/25",
+   "avg_rank": 2415786,
+   "last_rank": 1206623,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Karan Khanna",
+   "team_name": "Amad Aura",
+   "league_rank": 17,
+   "seasons": 8,
+   "past_seasons": 7,
+   "best_rank": 453230,
+   "best_season": "2019/20",
+   "avg_rank": 5483351,
+   "last_rank": 8188106,
    "last_season": "2025/26"
   },
   {
@@ -1438,15 +1438,15 @@
    "last_season": "2024/25"
   },
   {
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
+   "manager": "Deepankar Sachdeva",
+   "team_name": "Cment_mixers",
    "league_rank": 20,
-   "seasons": 14,
-   "past_seasons": 13,
-   "best_rank": 14603,
-   "best_season": "2016/17",
-   "avg_rank": 949628,
-   "last_rank": 515830,
+   "seasons": 3,
+   "past_seasons": 2,
+   "best_rank": 1128645,
+   "best_season": "2025/26",
+   "avg_rank": 3434302,
+   "last_rank": 1128645,
    "last_season": "2025/26"
   },
   {
@@ -1462,21 +1462,33 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Karan Khanna",
-   "team_name": "Amad Aura",
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
    "league_rank": 22,
-   "seasons": 8,
-   "past_seasons": 7,
-   "best_rank": 453230,
-   "best_season": "2019/20",
-   "avg_rank": 5483351,
-   "last_rank": 8188106,
+   "seasons": 9,
+   "past_seasons": 8,
+   "best_rank": 334016,
+   "best_season": "2020/21",
+   "avg_rank": 2156629,
+   "last_rank": 2691725,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "league_rank": 23,
+   "seasons": 14,
+   "past_seasons": 13,
+   "best_rank": 14603,
+   "best_season": "2016/17",
+   "avg_rank": 949628,
+   "last_rank": 515830,
    "last_season": "2025/26"
   },
   {
    "manager": "Karan Chopra",
    "team_name": "fpl_26_27",
-   "league_rank": 23,
+   "league_rank": 24,
    "seasons": 12,
    "past_seasons": 11,
    "best_rank": 81907,
@@ -1486,21 +1498,33 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Deepankar Sachdeva",
-   "team_name": "Cment_mixers",
-   "league_rank": 24,
-   "seasons": 3,
-   "past_seasons": 2,
-   "best_rank": 1128645,
+   "manager": "Aditya Vaidya",
+   "team_name": "His Name is Diogo",
+   "league_rank": 25,
+   "seasons": 12,
+   "past_seasons": 11,
+   "best_rank": 15288,
+   "best_season": "2020/21",
+   "avg_rank": 329510,
+   "last_rank": 538046,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "prateek gupta",
+   "team_name": "sakalaka",
+   "league_rank": 26,
+   "seasons": 5,
+   "past_seasons": 4,
+   "best_rank": 117338,
    "best_season": "2025/26",
-   "avg_rank": 3434302,
-   "last_rank": 1128645,
+   "avg_rank": 4684930,
+   "last_rank": 117338,
    "last_season": "2025/26"
   },
   {
    "manager": "Rajit Das",
    "team_name": "FC Teetotallers",
-   "league_rank": 25,
+   "league_rank": 26,
    "seasons": 7,
    "past_seasons": 6,
    "best_rank": 1615102,
@@ -1512,37 +1536,13 @@
   {
    "manager": "Ashwin Jose",
    "team_name": "Pole Calmer \ufffd",
-   "league_rank": 25,
+   "league_rank": 28,
    "seasons": 11,
    "past_seasons": 10,
    "best_rank": 95791,
    "best_season": "2018/19",
    "avg_rank": 2404119,
    "last_rank": 5124417,
-   "last_season": "2025/26"
-  },
-  {
-   "manager": "prateek gupta",
-   "team_name": "sakalaka",
-   "league_rank": 25,
-   "seasons": 5,
-   "past_seasons": 4,
-   "best_rank": 117338,
-   "best_season": "2025/26",
-   "avg_rank": 4684930,
-   "last_rank": 117338,
-   "last_season": "2025/26"
-  },
-  {
-   "manager": "Aditya Vaidya",
-   "team_name": "His Name is Diogo",
-   "league_rank": 28,
-   "seasons": 12,
-   "past_seasons": 11,
-   "best_rank": 15288,
-   "best_season": "2020/21",
-   "avg_rank": 329510,
-   "last_rank": 538046,
    "last_season": "2025/26"
   },
   {
@@ -1587,7 +1587,7 @@
    "manager": "Abhay Rawat",
    "team_name": "115 FC",
    "entry": 3942416,
-   "total": 229,
+   "total": 253,
    "played": 2,
    "avg": 100.0,
    "above_avg": 2,
@@ -1615,7 +1615,7 @@
    "manager": "Naman Agrawal",
    "team_name": "Captn Magnifico",
    "entry": 20569,
-   "total": 210,
+   "total": 222,
    "played": 2,
    "avg": 88.5,
    "above_avg": 2,
@@ -1639,37 +1639,10 @@
    ]
   },
   {
-   "manager": "Abhishek Gupte",
-   "team_name": "Enzotic",
-   "entry": 4688717,
-   "total": 193,
-   "played": 2,
-   "avg": 81.5,
-   "above_avg": 1,
-   "cap_return": 26,
-   "high": 90,
-   "high_gw": 2,
-   "low": 73,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 6,
-   "value": 100.6,
-   "value_delta": 0.6,
-   "bank": 0.5,
-   "grank": 119702,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": [
-    "bboost"
-   ]
-  },
-  {
    "manager": "Aquib Razack",
    "team_name": "BattleBorn",
    "entry": 5926399,
-   "total": 189,
+   "total": 218,
    "played": 2,
    "avg": 88.5,
    "above_avg": 2,
@@ -1694,38 +1667,10 @@
    ]
   },
   {
-   "manager": "Abhiraj Singh",
-   "team_name": "KingOfKings Fc",
-   "entry": 427154,
-   "total": 187,
-   "played": 2,
-   "avg": 88.5,
-   "above_avg": 2,
-   "cap_return": 50,
-   "high": 104,
-   "high_gw": 2,
-   "low": 73,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 11,
-   "value": 100.8,
-   "value_delta": 0.8,
-   "bank": 0.2,
-   "grank": 380620,
-   "best_jump": 88386,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost",
-    "wildcard"
-   ]
-  },
-  {
    "manager": "Shivanshu Madan",
    "team_name": "Cold Palmer",
    "entry": 2424090,
-   "total": 186,
+   "total": 217,
    "played": 2,
    "avg": 86.5,
    "above_avg": 2,
@@ -1749,37 +1694,10 @@
    ]
   },
   {
-   "manager": "Raveesh Kalra",
-   "team_name": "MaSalah",
-   "entry": 2354537,
-   "total": 185,
-   "played": 2,
-   "avg": 86.0,
-   "above_avg": 2,
-   "cap_return": 50,
-   "high": 109,
-   "high_gw": 2,
-   "low": 63,
-   "low_gw": 1,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 26,
-   "value": 100.6,
-   "value_delta": 0.6,
-   "bank": 5.0,
-   "grank": 399470,
-   "best_jump": 878473,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost"
-   ]
-  },
-  {
    "manager": "Abhinav Premsekhar",
    "team_name": "Totally Szobo",
    "entry": 79306,
-   "total": 185,
+   "total": 214,
    "played": 2,
    "avg": 89.0,
    "above_avg": 2,
@@ -1807,7 +1725,7 @@
    "manager": "Arshaq Razack",
    "team_name": "ShakeNBake",
    "entry": 1086057,
-   "total": 185,
+   "total": 213,
    "played": 2,
    "avg": 84.5,
    "above_avg": 2,
@@ -1835,7 +1753,7 @@
    "manager": "Pranshul Jain",
    "team_name": "Carrick Janta Party",
    "entry": 1362641,
-   "total": 179,
+   "total": 212,
    "played": 2,
    "avg": 85.5,
    "above_avg": 1,
@@ -1859,52 +1777,27 @@
    ]
   },
   {
-   "manager": "Parakh Tripathy",
-   "team_name": "Malisahi Randuas",
-   "entry": 4795345,
-   "total": 178,
+   "manager": "Abhiraj Singh",
+   "team_name": "KingOfKings Fc",
+   "entry": 427154,
+   "total": 207,
    "played": 2,
-   "avg": 84.0,
-   "above_avg": 1,
-   "cap_return": 50,
-   "high": 120,
-   "high_gw": 2,
-   "low": 48,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 32,
-   "value": 100.4,
-   "value_delta": 0.4,
-   "bank": 0.0,
-   "grank": 761295,
-   "best_jump": 4399137,
-   "best_jump_gw": 2,
-   "chips": []
-  },
-  {
-   "manager": "Yash Beohar",
-   "team_name": "Fluente in Football",
-   "entry": 374875,
-   "total": 178,
-   "played": 2,
-   "avg": 84.0,
+   "avg": 88.5,
    "above_avg": 2,
    "cap_return": 50,
-   "high": 107,
+   "high": 104,
    "high_gw": 2,
-   "low": 61,
+   "low": 73,
    "low_gw": 1,
    "transfers": 0,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 18,
-   "value": 100.4,
-   "value_delta": 0.4,
-   "bank": 0.3,
-   "grank": 761295,
-   "best_jump": 1034411,
+   "bench": 11,
+   "value": 100.8,
+   "value_delta": 0.8,
+   "bank": 0.2,
+   "grank": 380620,
+   "best_jump": 88386,
    "best_jump_gw": 2,
    "chips": [
     "bboost",
@@ -1912,10 +1805,37 @@
    ]
   },
   {
+   "manager": "Raveesh Kalra",
+   "team_name": "MaSalah",
+   "entry": 2354537,
+   "total": 206,
+   "played": 2,
+   "avg": 86.0,
+   "above_avg": 2,
+   "cap_return": 50,
+   "high": 109,
+   "high_gw": 2,
+   "low": 63,
+   "low_gw": 1,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 26,
+   "value": 100.6,
+   "value_delta": 0.6,
+   "bank": 5.0,
+   "grank": 399470,
+   "best_jump": 878473,
+   "best_jump_gw": 2,
+   "chips": [
+    "bboost"
+   ]
+  },
+  {
    "manager": "Anish Joshi",
    "team_name": "Fiery Raiders",
    "entry": 256447,
-   "total": 174,
+   "total": 203,
    "played": 2,
    "avg": 82.5,
    "above_avg": 2,
@@ -1940,35 +1860,63 @@
    ]
   },
   {
-   "manager": "Sid Shaurya",
-   "team_name": "Old Reijnders Nagar",
-   "entry": 5340498,
-   "total": 174,
+   "manager": "Parakh Tripathy",
+   "team_name": "Malisahi Randuas",
+   "entry": 4795345,
+   "total": 202,
    "played": 2,
-   "avg": 82.5,
+   "avg": 84.0,
    "above_avg": 1,
    "cap_return": 50,
-   "high": 113,
+   "high": 120,
    "high_gw": 2,
-   "low": 52,
+   "low": 48,
    "low_gw": 1,
-   "transfers": 1,
+   "transfers": 0,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 21,
+   "bench": 32,
+   "value": 100.4,
+   "value_delta": 0.4,
+   "bank": 0.0,
+   "grank": 761295,
+   "best_jump": 4399137,
+   "best_jump_gw": 2,
+   "chips": []
+  },
+  {
+   "manager": "Yash Beohar",
+   "team_name": "Fluente in Football",
+   "entry": 374875,
+   "total": 199,
+   "played": 2,
+   "avg": 84.0,
+   "above_avg": 2,
+   "cap_return": 50,
+   "high": 107,
+   "high_gw": 2,
+   "low": 61,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 18,
    "value": 100.4,
    "value_delta": 0.4,
    "bank": 0.3,
-   "grank": 963257,
-   "best_jump": 3046343,
+   "grank": 761295,
+   "best_jump": 1034411,
    "best_jump_gw": 2,
-   "chips": []
+   "chips": [
+    "bboost",
+    "wildcard"
+   ]
   },
   {
    "manager": "Danish Javed",
    "team_name": "ItDzntMata",
    "entry": 3323226,
-   "total": 168,
+   "total": 198,
    "played": 2,
    "avg": 79.0,
    "above_avg": 1,
@@ -1992,10 +1940,87 @@
    ]
   },
   {
+   "manager": "Sid Shaurya",
+   "team_name": "Old Reijnders Nagar",
+   "entry": 5340498,
+   "total": 197,
+   "played": 2,
+   "avg": 82.5,
+   "above_avg": 1,
+   "cap_return": 50,
+   "high": 113,
+   "high_gw": 2,
+   "low": 52,
+   "low_gw": 1,
+   "transfers": 1,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 21,
+   "value": 100.4,
+   "value_delta": 0.4,
+   "bank": 0.3,
+   "grank": 963257,
+   "best_jump": 3046343,
+   "best_jump_gw": 2,
+   "chips": []
+  },
+  {
+   "manager": "Ajith Thomas Kuthukatt George",
+   "team_name": "Onside Offside",
+   "entry": 5419891,
+   "total": 195,
+   "played": 2,
+   "avg": 77.5,
+   "above_avg": 2,
+   "cap_return": 30,
+   "high": 100,
+   "high_gw": 2,
+   "low": 55,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 28,
+   "value": 100.4,
+   "value_delta": 0.4,
+   "bank": 0.0,
+   "grank": 1782323,
+   "best_jump": 1461471,
+   "best_jump_gw": 2,
+   "chips": []
+  },
+  {
+   "manager": "Abhishek Gupte",
+   "team_name": "Enzotic",
+   "entry": 4688717,
+   "total": 194,
+   "played": 2,
+   "avg": 81.5,
+   "above_avg": 1,
+   "cap_return": 26,
+   "high": 90,
+   "high_gw": 2,
+   "low": 73,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 6,
+   "value": 100.6,
+   "value_delta": 0.6,
+   "bank": 0.5,
+   "grank": 119702,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": [
+    "bboost"
+   ]
+  },
+  {
    "manager": "Aayush Khanna",
    "team_name": "Loading...",
    "entry": 2003955,
-   "total": 165,
+   "total": 191,
    "played": 2,
    "avg": 78.0,
    "above_avg": 1,
@@ -2019,139 +2044,10 @@
    ]
   },
   {
-   "manager": "Ajith Thomas Kuthukatt George",
-   "team_name": "Onside Offside",
-   "entry": 5419891,
-   "total": 164,
-   "played": 2,
-   "avg": 77.5,
-   "above_avg": 2,
-   "cap_return": 30,
-   "high": 100,
-   "high_gw": 2,
-   "low": 55,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 28,
-   "value": 100.4,
-   "value_delta": 0.4,
-   "bank": 0.0,
-   "grank": 1782323,
-   "best_jump": 1461471,
-   "best_jump_gw": 2,
-   "chips": []
-  },
-  {
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "entry": 3181909,
-   "total": 164,
-   "played": 2,
-   "avg": 77.5,
-   "above_avg": 1,
-   "cap_return": 30,
-   "high": 96,
-   "high_gw": 2,
-   "low": 59,
-   "low_gw": 1,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 31,
-   "value": 100.6,
-   "value_delta": 0.6,
-   "bank": 1.0,
-   "grank": 1833310,
-   "best_jump": 453361,
-   "best_jump_gw": 2,
-   "chips": []
-  },
-  {
-   "manager": "Rohan Agrawal",
-   "team_name": "Southall United",
-   "entry": 5582398,
-   "total": 161,
-   "played": 2,
-   "avg": 77.5,
-   "above_avg": 1,
-   "cap_return": 30,
-   "high": 102,
-   "high_gw": 2,
-   "low": 53,
-   "low_gw": 1,
-   "transfers": 3,
-   "hits_pts": 4,
-   "hits_n": 1,
-   "bench": 7,
-   "value": 100.3,
-   "value_delta": 0.3,
-   "bank": 0.6,
-   "grank": 2321552,
-   "best_jump": 1948104,
-   "best_jump_gw": 2,
-   "chips": []
-  },
-  {
-   "manager": "Satweek Nayak",
-   "team_name": "Xa bing chilling",
-   "entry": 46711,
-   "total": 157,
-   "played": 2,
-   "avg": 67.5,
-   "above_avg": 0,
-   "cap_return": 30,
-   "high": 93,
-   "high_gw": 2,
-   "low": 42,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 7,
-   "value": 100.4,
-   "value_delta": 0.4,
-   "bank": 1.4,
-   "grank": 3216457,
-   "best_jump": 2735246,
-   "best_jump_gw": 2,
-   "chips": [
-    "wildcard"
-   ]
-  },
-  {
-   "manager": "Varun Khurana",
-   "team_name": "Goal Diggers FC",
-   "entry": 3909562,
-   "total": 157,
-   "played": 2,
-   "avg": 75.5,
-   "above_avg": 1,
-   "cap_return": 50,
-   "high": 107,
-   "high_gw": 2,
-   "low": 44,
-   "low_gw": 1,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 21,
-   "value": 100.4,
-   "value_delta": 0.4,
-   "bank": 1.0,
-   "grank": 2634780,
-   "best_jump": 4185865,
-   "best_jump_gw": 2,
-   "chips": [
-    "3xc"
-   ]
-  },
-  {
    "manager": "Karan Khanna",
    "team_name": "Amad Aura",
    "entry": 3330149,
-   "total": 156,
+   "total": 191,
    "played": 2,
    "avg": 74.0,
    "above_avg": 1,
@@ -2175,37 +2071,35 @@
    ]
   },
   {
-   "manager": "Karan Chopra",
-   "team_name": "fpl_26_27",
-   "entry": 5970777,
-   "total": 151,
+   "manager": "Rohan Agrawal",
+   "team_name": "Southall United",
+   "entry": 5582398,
+   "total": 189,
    "played": 2,
-   "avg": 69.5,
+   "avg": 77.5,
    "above_avg": 1,
    "cap_return": 30,
-   "high": 80,
+   "high": 102,
    "high_gw": 2,
-   "low": 59,
+   "low": 53,
    "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 32,
-   "value": 100.5,
-   "value_delta": 0.5,
-   "bank": 2.2,
-   "grank": 3760048,
-   "best_jump": null,
-   "best_jump_gw": null,
-   "chips": [
-    "wildcard"
-   ]
+   "transfers": 3,
+   "hits_pts": 4,
+   "hits_n": 1,
+   "bench": 7,
+   "value": 100.3,
+   "value_delta": 0.3,
+   "bank": 0.6,
+   "grank": 2321552,
+   "best_jump": 1948104,
+   "best_jump_gw": 2,
+   "chips": []
   },
   {
    "manager": "Deepankar Sachdeva",
    "team_name": "Cment_mixers",
    "entry": 1301167,
-   "total": 149,
+   "total": 187,
    "played": 2,
    "avg": 70.0,
    "above_avg": 0,
@@ -2229,10 +2123,168 @@
    ]
   },
   {
+   "manager": "Varun Khurana",
+   "team_name": "Goal Diggers FC",
+   "entry": 3909562,
+   "total": 183,
+   "played": 2,
+   "avg": 75.5,
+   "above_avg": 1,
+   "cap_return": 50,
+   "high": 107,
+   "high_gw": 2,
+   "low": 44,
+   "low_gw": 1,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 21,
+   "value": 100.4,
+   "value_delta": 0.4,
+   "bank": 1.0,
+   "grank": 2634780,
+   "best_jump": 4185865,
+   "best_jump_gw": 2,
+   "chips": [
+    "3xc"
+   ]
+  },
+  {
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
+   "entry": 3181909,
+   "total": 182,
+   "played": 2,
+   "avg": 77.5,
+   "above_avg": 1,
+   "cap_return": 30,
+   "high": 96,
+   "high_gw": 2,
+   "low": 59,
+   "low_gw": 1,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 31,
+   "value": 100.6,
+   "value_delta": 0.6,
+   "bank": 1.0,
+   "grank": 1833310,
+   "best_jump": 453361,
+   "best_jump_gw": 2,
+   "chips": []
+  },
+  {
+   "manager": "Satweek Nayak",
+   "team_name": "Xa bing chilling",
+   "entry": 46711,
+   "total": 181,
+   "played": 2,
+   "avg": 67.5,
+   "above_avg": 0,
+   "cap_return": 30,
+   "high": 93,
+   "high_gw": 2,
+   "low": 42,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 7,
+   "value": 100.4,
+   "value_delta": 0.4,
+   "bank": 1.4,
+   "grank": 3216457,
+   "best_jump": 2735246,
+   "best_jump_gw": 2,
+   "chips": [
+    "wildcard"
+   ]
+  },
+  {
+   "manager": "Karan Chopra",
+   "team_name": "fpl_26_27",
+   "entry": 5970777,
+   "total": 180,
+   "played": 2,
+   "avg": 69.5,
+   "above_avg": 1,
+   "cap_return": 30,
+   "high": 80,
+   "high_gw": 2,
+   "low": 59,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 32,
+   "value": 100.5,
+   "value_delta": 0.5,
+   "bank": 2.2,
+   "grank": 3760048,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": [
+    "wildcard"
+   ]
+  },
+  {
+   "manager": "Aditya Vaidya",
+   "team_name": "His Name is Diogo",
+   "entry": 9695,
+   "total": 179,
+   "played": 2,
+   "avg": 59.5,
+   "above_avg": 0,
+   "cap_return": 30,
+   "high": 78,
+   "high_gw": 2,
+   "low": 41,
+   "low_gw": 1,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 14,
+   "value": 100.6,
+   "value_delta": 0.6,
+   "bank": 0.0,
+   "grank": 4795255,
+   "best_jump": 779926,
+   "best_jump_gw": 2,
+   "chips": [
+    "3xc"
+   ]
+  },
+  {
+   "manager": "prateek gupta",
+   "team_name": "sakalaka",
+   "entry": 6023506,
+   "total": 173,
+   "played": 2,
+   "avg": 65.0,
+   "above_avg": 1,
+   "cap_return": 50,
+   "high": 101,
+   "high_gw": 2,
+   "low": 29,
+   "low_gw": 1,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 24,
+   "value": 99.9,
+   "value_delta": -0.1,
+   "bank": 0.0,
+   "grank": 5068738,
+   "best_jump": 3963132,
+   "best_jump_gw": 2,
+   "chips": []
+  },
+  {
    "manager": "Rajit Das",
    "team_name": "FC Teetotallers",
    "entry": 4837220,
-   "total": 142,
+   "total": 173,
    "played": 2,
    "avg": 67.5,
    "above_avg": 0,
@@ -2260,7 +2312,7 @@
    "manager": "Ashwin Jose",
    "team_name": "Pole Calmer \ufffd",
    "entry": 5008941,
-   "total": 142,
+   "total": 172,
    "played": 2,
    "avg": 65.5,
    "above_avg": 0,
@@ -2282,62 +2334,10 @@
    "chips": []
   },
   {
-   "manager": "prateek gupta",
-   "team_name": "sakalaka",
-   "entry": 6023506,
-   "total": 142,
-   "played": 2,
-   "avg": 65.0,
-   "above_avg": 1,
-   "cap_return": 50,
-   "high": 101,
-   "high_gw": 2,
-   "low": 29,
-   "low_gw": 1,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 24,
-   "value": 99.9,
-   "value_delta": -0.1,
-   "bank": 0.0,
-   "grank": 5068738,
-   "best_jump": 3963132,
-   "best_jump_gw": 2,
-   "chips": []
-  },
-  {
-   "manager": "Aditya Vaidya",
-   "team_name": "His Name is Diogo",
-   "entry": 9695,
-   "total": 141,
-   "played": 2,
-   "avg": 59.5,
-   "above_avg": 0,
-   "cap_return": 30,
-   "high": 78,
-   "high_gw": 2,
-   "low": 41,
-   "low_gw": 1,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 14,
-   "value": 100.6,
-   "value_delta": 0.6,
-   "bank": 0.0,
-   "grank": 4795255,
-   "best_jump": 779926,
-   "best_jump_gw": 2,
-   "chips": [
-    "3xc"
-   ]
-  },
-  {
    "manager": "Dean Jenkins",
    "team_name": "Slumber FC",
    "entry": 5565611,
-   "total": 128,
+   "total": 142,
    "played": 2,
    "avg": 63.0,
    "above_avg": 0,
@@ -2362,7 +2362,7 @@
    "manager": "Nilay jain",
    "team_name": "Redsbay",
    "entry": 4993853,
-   "total": 104,
+   "total": 122,
    "played": 2,
    "avg": 53.0,
    "above_avg": 0,
@@ -2389,7 +2389,7 @@
    "manager": "Pranav Thomas",
    "team_name": "Invincibles",
    "entry": 6514976,
-   "total": 98,
+   "total": 119,
    "played": 2,
    "avg": 40.0,
    "above_avg": 0,
@@ -2440,20 +2440,6 @@
     "cap": 46
    }
   ],
-  "4688717": [
-   {
-    "gw": 1,
-    "net": 73,
-    "orank": 344108,
-    "cap": 16
-   },
-   {
-    "gw": 2,
-    "net": 90,
-    "orank": 845574,
-    "cap": 10
-   }
-  ],
   "5926399": [
    {
     "gw": 1,
@@ -2464,20 +2450,6 @@
    {
     "gw": 2,
     "net": 103,
-    "orank": 255722,
-    "cap": 46
-   }
-  ],
-  "427154": [
-   {
-    "gw": 1,
-    "net": 73,
-    "orank": 344108,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 104,
     "orank": 255722,
     "cap": 46
    }
@@ -2493,20 +2465,6 @@
     "gw": 2,
     "net": 111,
     "orank": 370271,
-    "cap": 46
-   }
-  ],
-  "2354537": [
-   {
-    "gw": 1,
-    "net": 63,
-    "orank": 1282717,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 109,
-    "orank": 404244,
     "cap": 46
    }
   ],
@@ -2552,6 +2510,48 @@
     "cap": 46
    }
   ],
+  "427154": [
+   {
+    "gw": 1,
+    "net": 73,
+    "orank": 344108,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 104,
+    "orank": 255722,
+    "cap": 46
+   }
+  ],
+  "2354537": [
+   {
+    "gw": 1,
+    "net": 63,
+    "orank": 1282717,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 109,
+    "orank": 404244,
+    "cap": 46
+   }
+  ],
+  "256447": [
+   {
+    "gw": 1,
+    "net": 62,
+    "orank": 1436683,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 103,
+    "orank": 765925,
+    "cap": 26
+   }
+  ],
   "4795345": [
    {
     "gw": 1,
@@ -2580,18 +2580,18 @@
     "cap": 46
    }
   ],
-  "256447": [
+  "3323226": [
    {
     "gw": 1,
-    "net": 62,
-    "orank": 1436683,
+    "net": 40,
+    "orank": 7094513,
     "cap": 4
    },
    {
     "gw": 2,
-    "net": 103,
-    "orank": 765925,
-    "cap": 26
+    "net": 118,
+    "orank": 1213143,
+    "cap": 46
    }
   ],
   "5340498": [
@@ -2608,18 +2608,32 @@
     "cap": 46
    }
   ],
-  "3323226": [
+  "5419891": [
    {
     "gw": 1,
-    "net": 40,
-    "orank": 7094513,
+    "net": 55,
+    "orank": 2935782,
     "cap": 4
    },
    {
     "gw": 2,
-    "net": 118,
-    "orank": 1213143,
-    "cap": 46
+    "net": 100,
+    "orank": 1474311,
+    "cap": 26
+   }
+  ],
+  "4688717": [
+   {
+    "gw": 1,
+    "net": 73,
+    "orank": 344108,
+    "cap": 16
+   },
+   {
+    "gw": 2,
+    "net": 90,
+    "orank": 845574,
+    "cap": 10
    }
   ],
   "2003955": [
@@ -2636,32 +2650,18 @@
     "cap": 22
    }
   ],
-  "5419891": [
+  "3330149": [
    {
     "gw": 1,
-    "net": 55,
-    "orank": 2935782,
+    "net": 47,
+    "orank": 5282775,
     "cap": 4
    },
    {
     "gw": 2,
-    "net": 100,
-    "orank": 1474311,
-    "cap": 26
-   }
-  ],
-  "3181909": [
-   {
-    "gw": 1,
-    "net": 59,
-    "orank": 1987556,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 96,
-    "orank": 1534195,
-    "cap": 26
+    "net": 101,
+    "orank": 2273760,
+    "cap": 46
    }
   ],
   "5582398": [
@@ -2674,6 +2674,48 @@
    {
     "gw": 2,
     "net": 102,
+    "orank": 1534195,
+    "cap": 26
+   }
+  ],
+  "1301167": [
+   {
+    "gw": 1,
+    "net": 43,
+    "orank": 6382778,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 97,
+    "orank": 3334383,
+    "cap": 26
+   }
+  ],
+  "3909562": [
+   {
+    "gw": 1,
+    "net": 44,
+    "orank": 6124832,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 107,
+    "orank": 1938967,
+    "cap": 46
+   }
+  ],
+  "3181909": [
+   {
+    "gw": 1,
+    "net": 59,
+    "orank": 1987556,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 96,
     "orank": 1534195,
     "cap": 26
    }
@@ -2692,34 +2734,6 @@
     "cap": 26
    }
   ],
-  "3909562": [
-   {
-    "gw": 1,
-    "net": 44,
-    "orank": 6124832,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 107,
-    "orank": 1938967,
-    "cap": 46
-   }
-  ],
-  "3330149": [
-   {
-    "gw": 1,
-    "net": 47,
-    "orank": 5282775,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 101,
-    "orank": 2273760,
-    "cap": 46
-   }
-  ],
   "5970777": [
    {
     "gw": 1,
@@ -2734,18 +2748,32 @@
     "cap": 26
    }
   ],
-  "1301167": [
+  "9695": [
    {
     "gw": 1,
-    "net": 43,
-    "orank": 6382778,
+    "net": 41,
+    "orank": 6875541,
     "cap": 4
    },
    {
     "gw": 2,
-    "net": 97,
-    "orank": 3334383,
+    "net": 78,
+    "orank": 6095615,
     "cap": 26
+   }
+  ],
+  "6023506": [
+   {
+    "gw": 1,
+    "net": 29,
+    "orank": 8566706,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 101,
+    "orank": 4603574,
+    "cap": 46
    }
   ],
   "4837220": [
@@ -2773,34 +2801,6 @@
     "gw": 2,
     "net": 86,
     "orank": 4462746,
-    "cap": 26
-   }
-  ],
-  "6023506": [
-   {
-    "gw": 1,
-    "net": 29,
-    "orank": 8566706,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 101,
-    "orank": 4603574,
-    "cap": 46
-   }
-  ],
-  "9695": [
-   {
-    "gw": 1,
-    "net": 41,
-    "orank": 6875541,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 78,
-    "orank": 6095615,
     "cap": 26
    }
   ],
