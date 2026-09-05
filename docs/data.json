@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-05 02:10 UTC",
-  "generated_iso": "2026-09-05T02:10:47.451168Z",
+  "generated_utc": "2026-09-05 04:11 UTC",
+  "generated_iso": "2026-09-05T04:11:05.491051Z",
   "started": true,
   "current_gw": 3,
   "finished": [
@@ -48,9 +48,9 @@
   {
    "rank": 4,
    "arrow": "\u25bc",
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "entry": 5926399,
+   "manager": "Abhiraj Singh",
+   "team_name": "KingOfKings Fc",
+   "entry": 427154,
    "gw_points": 3,
    "total": 180,
    "hits": 0
@@ -58,9 +58,9 @@
   {
    "rank": 4,
    "arrow": "\u25bc",
-   "manager": "Abhiraj Singh",
-   "team_name": "KingOfKings Fc",
-   "entry": 427154,
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "entry": 5926399,
    "gw_points": 3,
    "total": 180,
    "hits": 0
@@ -257,21 +257,21 @@
   },
   {
    "rank": 25,
-   "arrow": "\u2022",
-   "manager": "Rajit Das",
-   "team_name": "FC Teetotallers",
-   "entry": 4837220,
-   "gw_points": 0,
-   "total": 135,
-   "hits": 0
-  },
-  {
-   "rank": 25,
    "arrow": "\u25b2",
    "manager": "Aditya Vaidya",
    "team_name": "His Name is Diogo",
    "entry": 9695,
    "gw_points": 16,
+   "total": 135,
+   "hits": 0
+  },
+  {
+   "rank": 25,
+   "arrow": "\u2022",
+   "manager": "Rajit Das",
+   "team_name": "FC Teetotallers",
+   "entry": 4837220,
+   "gw_points": 0,
    "total": 135,
    "hits": 0
   },
@@ -357,19 +357,19 @@
     ]
    },
    {
-    "manager": "Aquib Razack",
-    "entry": 5926399,
-    "scores": [
-     74,
-     103
-    ]
-   },
-   {
     "manager": "Abhiraj Singh",
     "entry": 427154,
     "scores": [
      73,
      104
+    ]
+   },
+   {
+    "manager": "Aquib Razack",
+    "entry": 5926399,
+    "scores": [
+     74,
+     103
     ]
    },
    {
@@ -525,19 +525,19 @@
     ]
    },
    {
-    "manager": "Rajit Das",
-    "entry": 4837220,
-    "scores": [
-     46,
-     89
-    ]
-   },
-   {
     "manager": "Aditya Vaidya",
     "entry": 9695,
     "scores": [
      41,
      78
+    ]
+   },
+   {
+    "manager": "Rajit Das",
+    "entry": 4837220,
+    "scores": [
+     46,
+     89
     ]
    },
    {
@@ -632,14 +632,14 @@
    "excluded": true
   },
   {
-   "manager": "Aquib Razack",
-   "entry": 5926399,
+   "manager": "Abhiraj Singh",
+   "entry": 427154,
    "points": 50,
    "excluded": true
   },
   {
-   "manager": "Abhiraj Singh",
-   "entry": 427154,
+   "manager": "Aquib Razack",
+   "entry": 5926399,
    "points": 50,
    "excluded": true
   },
@@ -752,14 +752,14 @@
    "excluded": false
   },
   {
-   "manager": "Rajit Das",
-   "entry": 4837220,
+   "manager": "Aditya Vaidya",
+   "entry": 9695,
    "points": 30,
    "excluded": false
   },
   {
-   "manager": "Aditya Vaidya",
-   "entry": 9695,
+   "manager": "Rajit Das",
+   "entry": 4837220,
    "points": 30,
    "excluded": false
   },
@@ -814,14 +814,14 @@
    "excluded": true
   },
   {
-   "manager": "Aquib Razack",
-   "entry": 5926399,
+   "manager": "Abhiraj Singh",
+   "entry": 427154,
    "arrows": 1,
    "excluded": true
   },
   {
-   "manager": "Abhiraj Singh",
-   "entry": 427154,
+   "manager": "Aquib Razack",
+   "entry": 5926399,
    "arrows": 1,
    "excluded": true
   },
@@ -934,14 +934,14 @@
    "excluded": false
   },
   {
-   "manager": "Rajit Das",
-   "entry": 4837220,
+   "manager": "Aditya Vaidya",
+   "entry": 9695,
    "arrows": 1,
    "excluded": false
   },
   {
-   "manager": "Aditya Vaidya",
-   "entry": 9695,
+   "manager": "Rajit Das",
+   "entry": 4837220,
    "arrows": 1,
    "excluded": false
   },
@@ -1246,18 +1246,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "league_rank": 4,
-   "seasons": 14,
-   "past_seasons": 13,
-   "best_rank": 71857,
-   "best_season": "2020/21",
-   "avg_rank": 1929309,
-   "last_rank": 297407,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
    "league_rank": 4,
@@ -1267,6 +1255,18 @@
    "best_season": "2021/22",
    "avg_rank": 881388,
    "last_rank": 239490,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "league_rank": 4,
+   "seasons": 14,
+   "past_seasons": 13,
+   "best_rank": 71857,
+   "best_season": "2020/21",
+   "avg_rank": 1929309,
+   "last_rank": 297407,
    "last_season": "2025/26"
   },
   {
@@ -1498,18 +1498,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Rajit Das",
-   "team_name": "FC Teetotallers",
-   "league_rank": 25,
-   "seasons": 7,
-   "past_seasons": 6,
-   "best_rank": 1615102,
-   "best_season": "2024/25",
-   "avg_rank": 4234674,
-   "last_rank": 6092784,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Aditya Vaidya",
    "team_name": "His Name is Diogo",
    "league_rank": 25,
@@ -1519,6 +1507,18 @@
    "best_season": "2020/21",
    "avg_rank": 329510,
    "last_rank": 538046,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Rajit Das",
+   "team_name": "FC Teetotallers",
+   "league_rank": 25,
+   "seasons": 7,
+   "past_seasons": 6,
+   "best_rank": 1615102,
+   "best_season": "2024/25",
+   "avg_rank": 4234674,
+   "last_rank": 6092784,
    "last_season": "2025/26"
   },
   {
@@ -1666,34 +1666,6 @@
    ]
   },
   {
-   "manager": "Aquib Razack",
-   "team_name": "BattleBorn",
-   "entry": 5926399,
-   "total": 180,
-   "played": 2,
-   "avg": 88.5,
-   "above_avg": 2,
-   "cap_return": 50,
-   "high": 103,
-   "high_gw": 2,
-   "low": 74,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 23,
-   "value": 100.5,
-   "value_delta": 0.5,
-   "bank": 1.9,
-   "grank": 380620,
-   "best_jump": 24105,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost",
-    "wildcard"
-   ]
-  },
-  {
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
    "entry": 427154,
@@ -1715,6 +1687,34 @@
    "bank": 0.2,
    "grank": 380620,
    "best_jump": 88386,
+   "best_jump_gw": 2,
+   "chips": [
+    "bboost",
+    "wildcard"
+   ]
+  },
+  {
+   "manager": "Aquib Razack",
+   "team_name": "BattleBorn",
+   "entry": 5926399,
+   "total": 180,
+   "played": 2,
+   "avg": 88.5,
+   "above_avg": 2,
+   "cap_return": 50,
+   "high": 103,
+   "high_gw": 2,
+   "low": 74,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 23,
+   "value": 100.5,
+   "value_delta": 0.5,
+   "bank": 1.9,
+   "grank": 380620,
+   "best_jump": 24105,
    "best_jump_gw": 2,
    "chips": [
     "bboost",
@@ -2229,6 +2229,33 @@
    ]
   },
   {
+   "manager": "Aditya Vaidya",
+   "team_name": "His Name is Diogo",
+   "entry": 9695,
+   "total": 135,
+   "played": 2,
+   "avg": 59.5,
+   "above_avg": 0,
+   "cap_return": 30,
+   "high": 78,
+   "high_gw": 2,
+   "low": 41,
+   "low_gw": 1,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 14,
+   "value": 100.6,
+   "value_delta": 0.6,
+   "bank": 0.0,
+   "grank": 4795255,
+   "best_jump": 779926,
+   "best_jump_gw": 2,
+   "chips": [
+    "3xc"
+   ]
+  },
+  {
    "manager": "Rajit Das",
    "team_name": "FC Teetotallers",
    "entry": 4837220,
@@ -2253,33 +2280,6 @@
    "best_jump_gw": 2,
    "chips": [
     "bboost",
-    "3xc"
-   ]
-  },
-  {
-   "manager": "Aditya Vaidya",
-   "team_name": "His Name is Diogo",
-   "entry": 9695,
-   "total": 135,
-   "played": 2,
-   "avg": 59.5,
-   "above_avg": 0,
-   "cap_return": 30,
-   "high": 78,
-   "high_gw": 2,
-   "low": 41,
-   "low_gw": 1,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 14,
-   "value": 100.6,
-   "value_delta": 0.6,
-   "bank": 0.0,
-   "grank": 4795255,
-   "best_jump": 779926,
-   "best_jump_gw": 2,
-   "chips": [
     "3xc"
    ]
   },
@@ -2454,20 +2454,6 @@
     "cap": 10
    }
   ],
-  "5926399": [
-   {
-    "gw": 1,
-    "net": 74,
-    "orank": 279827,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 103,
-    "orank": 255722,
-    "cap": 46
-   }
-  ],
   "427154": [
    {
     "gw": 1,
@@ -2478,6 +2464,20 @@
    {
     "gw": 2,
     "net": 104,
+    "orank": 255722,
+    "cap": 46
+   }
+  ],
+  "5926399": [
+   {
+    "gw": 1,
+    "net": 74,
+    "orank": 279827,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 103,
     "orank": 255722,
     "cap": 46
    }
@@ -2748,20 +2748,6 @@
     "cap": 26
    }
   ],
-  "4837220": [
-   {
-    "gw": 1,
-    "net": 46,
-    "orank": 5572584,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 89,
-    "orank": 3976662,
-    "cap": 26
-   }
-  ],
   "9695": [
    {
     "gw": 1,
@@ -2773,6 +2759,20 @@
     "gw": 2,
     "net": 78,
     "orank": 6095615,
+    "cap": 26
+   }
+  ],
+  "4837220": [
+   {
+    "gw": 1,
+    "net": 46,
+    "orank": 5572584,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 89,
+    "orank": 3976662,
     "cap": 26
    }
   ],
