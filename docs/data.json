@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-06 00:19 UTC",
-  "generated_iso": "2026-09-06T00:19:02.426053Z",
+  "generated_utc": "2026-09-06 02:11 UTC",
+  "generated_iso": "2026-09-06T02:11:02.466825Z",
   "started": true,
   "current_gw": 3,
   "finished": [
@@ -68,20 +68,20 @@
   {
    "rank": 6,
    "arrow": "\u25b2",
-   "manager": "Pranshul Jain",
-   "team_name": "Carrick Janta Party",
-   "entry": 1362641,
-   "gw_points": 42,
+   "manager": "Arshaq Razack",
+   "team_name": "ShakeNBake",
+   "entry": 1086057,
+   "gw_points": 44,
    "total": 213,
    "hits": 0
   },
   {
    "rank": 6,
    "arrow": "\u25b2",
-   "manager": "Arshaq Razack",
-   "team_name": "ShakeNBake",
-   "entry": 1086057,
-   "gw_points": 44,
+   "manager": "Pranshul Jain",
+   "team_name": "Carrick Janta Party",
+   "entry": 1362641,
+   "gw_points": 42,
    "total": 213,
    "hits": 0
   },
@@ -373,19 +373,19 @@
     ]
    },
    {
-    "manager": "Pranshul Jain",
-    "entry": 1362641,
-    "scores": [
-     53,
-     118
-    ]
-   },
-   {
     "manager": "Arshaq Razack",
     "entry": 1086057,
     "scores": [
      64,
      105
+    ]
+   },
+   {
+    "manager": "Pranshul Jain",
+    "entry": 1362641,
+    "scores": [
+     53,
+     118
     ]
    },
    {
@@ -832,14 +832,14 @@
    "excluded": true
   },
   {
-   "manager": "Pranshul Jain",
-   "entry": 1362641,
+   "manager": "Arshaq Razack",
+   "entry": 1086057,
    "arrows": 1,
    "excluded": false
   },
   {
-   "manager": "Arshaq Razack",
-   "entry": 1086057,
+   "manager": "Pranshul Jain",
+   "entry": 1362641,
    "arrows": 1,
    "excluded": false
   },
@@ -1270,18 +1270,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Pranshul Jain",
-   "team_name": "Carrick Janta Party",
-   "league_rank": 6,
-   "seasons": 9,
-   "past_seasons": 8,
-   "best_rank": 182900,
-   "best_season": "2025/26",
-   "avg_rank": 2098988,
-   "last_rank": 182900,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Arshaq Razack",
    "team_name": "ShakeNBake",
    "league_rank": 6,
@@ -1291,6 +1279,18 @@
    "best_season": "2025/26",
    "avg_rank": 1177681,
    "last_rank": 6474,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Pranshul Jain",
+   "team_name": "Carrick Janta Party",
+   "league_rank": 6,
+   "seasons": 9,
+   "past_seasons": 8,
+   "best_rank": 182900,
+   "best_season": "2025/26",
+   "avg_rank": 2098988,
+   "last_rank": 182900,
    "last_season": "2025/26"
   },
   {
@@ -1722,33 +1722,6 @@
    ]
   },
   {
-   "manager": "Pranshul Jain",
-   "team_name": "Carrick Janta Party",
-   "entry": 1362641,
-   "total": 213,
-   "played": 2,
-   "avg": 85.5,
-   "above_avg": 1,
-   "cap_return": 50,
-   "high": 118,
-   "high_gw": 2,
-   "low": 53,
-   "low_gw": 1,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 15,
-   "value": 100.5,
-   "value_delta": 0.5,
-   "bank": 0.4,
-   "grank": 481069,
-   "best_jump": 3039834,
-   "best_jump_gw": 2,
-   "chips": [
-    "3xc"
-   ]
-  },
-  {
    "manager": "Arshaq Razack",
    "team_name": "ShakeNBake",
    "entry": 1086057,
@@ -1773,6 +1746,33 @@
    "best_jump_gw": 2,
    "chips": [
     "bboost",
+    "3xc"
+   ]
+  },
+  {
+   "manager": "Pranshul Jain",
+   "team_name": "Carrick Janta Party",
+   "entry": 1362641,
+   "total": 213,
+   "played": 2,
+   "avg": 85.5,
+   "above_avg": 1,
+   "cap_return": 50,
+   "high": 118,
+   "high_gw": 2,
+   "low": 53,
+   "low_gw": 1,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 15,
+   "value": 100.5,
+   "value_delta": 0.5,
+   "bank": 0.4,
+   "grank": 481069,
+   "best_jump": 3039834,
+   "best_jump_gw": 2,
+   "chips": [
     "3xc"
    ]
   },
@@ -2482,20 +2482,6 @@
     "cap": 22
    }
   ],
-  "1362641": [
-   {
-    "gw": 1,
-    "net": 53,
-    "orank": 3482299,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 118,
-    "orank": 442465,
-    "cap": 46
-   }
-  ],
   "1086057": [
    {
     "gw": 1,
@@ -2508,6 +2494,20 @@
     "net": 105,
     "orank": 525349,
     "cap": 26
+   }
+  ],
+  "1362641": [
+   {
+    "gw": 1,
+    "net": 53,
+    "orank": 3482299,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 118,
+    "orank": 442465,
+    "cap": 46
    }
   ],
   "427154": [
