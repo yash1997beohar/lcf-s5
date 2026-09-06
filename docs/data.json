@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-06 04:11 UTC",
-  "generated_iso": "2026-09-06T04:11:05.969968Z",
+  "generated_utc": "2026-09-06 06:13 UTC",
+  "generated_iso": "2026-09-06T06:13:31.192561Z",
   "started": true,
   "current_gw": 3,
   "finished": [
@@ -267,21 +267,21 @@
   },
   {
    "rank": 26,
-   "arrow": "\u25b2",
-   "manager": "prateek gupta",
-   "team_name": "sakalaka",
-   "entry": 6023506,
-   "gw_points": 44,
-   "total": 174,
-   "hits": 0
-  },
-  {
-   "rank": 26,
    "arrow": "\u25bc",
    "manager": "Rajit Das",
    "team_name": "FC Teetotallers",
    "entry": 4837220,
    "gw_points": 39,
+   "total": 174,
+   "hits": 0
+  },
+  {
+   "rank": 26,
+   "arrow": "\u25b2",
+   "manager": "prateek gupta",
+   "team_name": "sakalaka",
+   "entry": 6023506,
+   "gw_points": 44,
    "total": 174,
    "hits": 0
   },
@@ -533,19 +533,19 @@
     ]
    },
    {
-    "manager": "prateek gupta",
-    "entry": 6023506,
-    "scores": [
-     29,
-     101
-    ]
-   },
-   {
     "manager": "Rajit Das",
     "entry": 4837220,
     "scores": [
      46,
      89
+    ]
+   },
+   {
+    "manager": "prateek gupta",
+    "entry": 6023506,
+    "scores": [
+     29,
+     101
     ]
    },
    {
@@ -940,14 +940,14 @@
    "excluded": false
   },
   {
-   "manager": "prateek gupta",
-   "entry": 6023506,
+   "manager": "Rajit Das",
+   "entry": 4837220,
    "arrows": 1,
    "excluded": false
   },
   {
-   "manager": "Rajit Das",
-   "entry": 4837220,
+   "manager": "prateek gupta",
+   "entry": 6023506,
    "arrows": 1,
    "excluded": false
   },
@@ -1510,18 +1510,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "prateek gupta",
-   "team_name": "sakalaka",
-   "league_rank": 26,
-   "seasons": 5,
-   "past_seasons": 4,
-   "best_rank": 117338,
-   "best_season": "2025/26",
-   "avg_rank": 4684930,
-   "last_rank": 117338,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Rajit Das",
    "team_name": "FC Teetotallers",
    "league_rank": 26,
@@ -1531,6 +1519,18 @@
    "best_season": "2024/25",
    "avg_rank": 4234674,
    "last_rank": 6092784,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "prateek gupta",
+   "team_name": "sakalaka",
+   "league_rank": 26,
+   "seasons": 5,
+   "past_seasons": 4,
+   "best_rank": 117338,
+   "best_season": "2025/26",
+   "avg_rank": 4684930,
+   "last_rank": 117338,
    "last_season": "2025/26"
   },
   {
@@ -2256,31 +2256,6 @@
    ]
   },
   {
-   "manager": "prateek gupta",
-   "team_name": "sakalaka",
-   "entry": 6023506,
-   "total": 174,
-   "played": 2,
-   "avg": 65.0,
-   "above_avg": 1,
-   "cap_return": 50,
-   "high": 101,
-   "high_gw": 2,
-   "low": 29,
-   "low_gw": 1,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 33,
-   "value": 99.9,
-   "value_delta": -0.1,
-   "bank": 0.0,
-   "grank": 3811905,
-   "best_jump": 3963132,
-   "best_jump_gw": 2,
-   "chips": []
-  },
-  {
    "manager": "Rajit Das",
    "team_name": "FC Teetotallers",
    "entry": 4837220,
@@ -2307,6 +2282,31 @@
     "bboost",
     "3xc"
    ]
+  },
+  {
+   "manager": "prateek gupta",
+   "team_name": "sakalaka",
+   "entry": 6023506,
+   "total": 174,
+   "played": 2,
+   "avg": 65.0,
+   "above_avg": 1,
+   "cap_return": 50,
+   "high": 101,
+   "high_gw": 2,
+   "low": 29,
+   "low_gw": 1,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 33,
+   "value": 99.9,
+   "value_delta": -0.1,
+   "bank": 0.0,
+   "grank": 3811905,
+   "best_jump": 3963132,
+   "best_jump_gw": 2,
+   "chips": []
   },
   {
    "manager": "Ashwin Jose",
@@ -2762,20 +2762,6 @@
     "cap": 26
    }
   ],
-  "6023506": [
-   {
-    "gw": 1,
-    "net": 29,
-    "orank": 8566706,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 101,
-    "orank": 4603574,
-    "cap": 46
-   }
-  ],
   "4837220": [
    {
     "gw": 1,
@@ -2788,6 +2774,20 @@
     "net": 89,
     "orank": 3976662,
     "cap": 26
+   }
+  ],
+  "6023506": [
+   {
+    "gw": 1,
+    "net": 29,
+    "orank": 8566706,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 101,
+    "orank": 4603574,
+    "cap": 46
    }
   ],
   "5008941": [
