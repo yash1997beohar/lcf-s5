@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-07 06:16 UTC",
-  "generated_iso": "2026-09-07T06:16:30.853934Z",
+  "generated_utc": "2026-09-07 08:13 UTC",
+  "generated_iso": "2026-09-07T08:13:04.182525Z",
   "started": true,
   "current_gw": 3,
   "finished": [
@@ -127,21 +127,21 @@
   },
   {
    "rank": 12,
-   "arrow": "\u25bc",
-   "manager": "Abhiraj Singh",
-   "team_name": "KingOfKings Fc",
-   "entry": 427154,
-   "gw_points": 36,
-   "total": 213,
-   "hits": 0
-  },
-  {
-   "rank": 12,
    "arrow": "\u25b2",
    "manager": "Danish Javed",
    "team_name": "ItDzntMata",
    "entry": 3323226,
    "gw_points": 55,
+   "total": 213,
+   "hits": 0
+  },
+  {
+   "rank": 12,
+   "arrow": "\u25bc",
+   "manager": "Abhiraj Singh",
+   "team_name": "KingOfKings Fc",
+   "entry": 427154,
+   "gw_points": 36,
    "total": 213,
    "hits": 0
   },
@@ -421,19 +421,19 @@
     ]
    },
    {
-    "manager": "Abhiraj Singh",
-    "entry": 427154,
-    "scores": [
-     73,
-     104
-    ]
-   },
-   {
     "manager": "Danish Javed",
     "entry": 3323226,
     "scores": [
      40,
      118
+    ]
+   },
+   {
+    "manager": "Abhiraj Singh",
+    "entry": 427154,
+    "scores": [
+     73,
+     104
     ]
    },
    {
@@ -662,14 +662,14 @@
    "excluded": false
   },
   {
-   "manager": "Abhiraj Singh",
-   "entry": 427154,
+   "manager": "Danish Javed",
+   "entry": 3323226,
    "points": 50,
    "excluded": false
   },
   {
-   "manager": "Danish Javed",
-   "entry": 3323226,
+   "manager": "Abhiraj Singh",
+   "entry": 427154,
    "points": 50,
    "excluded": false
   },
@@ -862,14 +862,14 @@
    "excluded": false
   },
   {
-   "manager": "Abhiraj Singh",
-   "entry": 427154,
+   "manager": "Danish Javed",
+   "entry": 3323226,
    "arrows": 1,
    "excluded": false
   },
   {
-   "manager": "Danish Javed",
-   "entry": 3323226,
+   "manager": "Abhiraj Singh",
+   "entry": 427154,
    "arrows": 1,
    "excluded": false
   },
@@ -1342,18 +1342,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Abhiraj Singh",
-   "team_name": "KingOfKings Fc",
-   "league_rank": 12,
-   "seasons": 11,
-   "past_seasons": 10,
-   "best_rank": 28582,
-   "best_season": "2021/22",
-   "avg_rank": 881388,
-   "last_rank": 239490,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Danish Javed",
    "team_name": "ItDzntMata",
    "league_rank": 12,
@@ -1363,6 +1351,18 @@
    "best_season": "2024/25",
    "avg_rank": 1994005,
    "last_rank": 1917309,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Abhiraj Singh",
+   "team_name": "KingOfKings Fc",
+   "league_rank": 12,
+   "seasons": 11,
+   "past_seasons": 10,
+   "best_rank": 28582,
+   "best_season": "2021/22",
+   "avg_rank": 881388,
+   "last_rank": 239490,
    "last_season": "2025/26"
   },
   {
@@ -1883,6 +1883,33 @@
    ]
   },
   {
+   "manager": "Danish Javed",
+   "team_name": "ItDzntMata",
+   "entry": 3323226,
+   "total": 213,
+   "played": 2,
+   "avg": 79.0,
+   "above_avg": 1,
+   "cap_return": 50,
+   "high": 118,
+   "high_gw": 2,
+   "low": 40,
+   "low_gw": 1,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 40,
+   "value": 100.3,
+   "value_delta": 0.3,
+   "bank": 0.0,
+   "grank": 1174569,
+   "best_jump": 5881370,
+   "best_jump_gw": 2,
+   "chips": [
+    "3xc"
+   ]
+  },
+  {
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
    "entry": 427154,
@@ -1908,33 +1935,6 @@
    "chips": [
     "bboost",
     "wildcard"
-   ]
-  },
-  {
-   "manager": "Danish Javed",
-   "team_name": "ItDzntMata",
-   "entry": 3323226,
-   "total": 213,
-   "played": 2,
-   "avg": 79.0,
-   "above_avg": 1,
-   "cap_return": 50,
-   "high": 118,
-   "high_gw": 2,
-   "low": 40,
-   "low_gw": 1,
-   "transfers": 0,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 40,
-   "value": 100.3,
-   "value_delta": 0.3,
-   "bank": 0.0,
-   "grank": 1174569,
-   "best_jump": 5881370,
-   "best_jump_gw": 2,
-   "chips": [
-    "3xc"
    ]
   },
   {
@@ -2566,20 +2566,6 @@
     "cap": 46
    }
   ],
-  "427154": [
-   {
-    "gw": 1,
-    "net": 73,
-    "orank": 344108,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 104,
-    "orank": 255722,
-    "cap": 46
-   }
-  ],
   "3323226": [
    {
     "gw": 1,
@@ -2591,6 +2577,20 @@
     "gw": 2,
     "net": 118,
     "orank": 1213143,
+    "cap": 46
+   }
+  ],
+  "427154": [
+   {
+    "gw": 1,
+    "net": 73,
+    "orank": 344108,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 104,
+    "orank": 255722,
     "cap": 46
    }
   ],
