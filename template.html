@@ -175,9 +175,9 @@ select.sel{background:var(--s2);color:var(--tp);border:1px solid var(--line);bor
 <div class="foot" id="foot"></div>
 <div class="ov" id="ov"><div class="modal" id="modal"></div></div>
 <script>
-const D=__DATA__;
+let D=__DATA__;
 const PRIZE={1:30000,2:20000,3:12500,4:7500,5:5000};
-const BYID={}; (D.overall||[]).forEach(o=>BYID[o.entry]=o);
+let BYID={};
 const $=s=>document.querySelector(s);
 const esc=s=>(''+s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fk=n=>n==null?'—':(Math.abs(n)>=1e6?(n/1e6).toFixed(1)+'M':Math.abs(n)>=1e3?Math.round(n/1e3)+'k':(''+n));
@@ -394,14 +394,25 @@ function openProfile(id){
 window.closeM=()=>$('#ov').classList.remove('on');
 
 /* ---- build ---- */
-const nav=$('#nav'),main=$('#main');
-TABS.forEach((t,i)=>{const b=document.createElement('button');b.innerHTML=`<span>${t.ic}</span>${t.label}`;if(i===0)b.className='on';
- b.onclick=()=>{document.querySelectorAll('#nav button').forEach(x=>x.classList.remove('on'));document.querySelectorAll('main section').forEach(x=>x.classList.remove('on'));
-  b.classList.add('on');document.getElementById('sec_'+t.id).classList.add('on');window.scrollTo({top:0,behavior:'smooth'});
-  if(t.id==='h2h')wireH2H();};
- nav.appendChild(b);
- const sec=document.createElement('section');if(i===0)sec.className='on';sec.id='sec_'+t.id;sec.innerHTML=t.render();main.appendChild(sec);});
-// row clicks -> profile
+function buildUI(){
+ BYID={};(D.overall||[]).forEach(o=>BYID[o.entry]=o);
+ const nav=$('#nav'),main=$('#main');nav.innerHTML='';main.innerHTML='';
+ TABS.forEach((t,i)=>{const b=document.createElement('button');b.innerHTML=`<span>${t.ic}</span>${t.label}`;if(i===0)b.className='on';
+  b.onclick=()=>{document.querySelectorAll('#nav button').forEach(x=>x.classList.remove('on'));document.querySelectorAll('main section').forEach(x=>x.classList.remove('on'));
+   b.classList.add('on');document.getElementById('sec_'+t.id).classList.add('on');window.scrollTo({top:0,behavior:'smooth'});
+   if(t.id==='h2h')wireH2H();};
+  nav.appendChild(b);
+  const sec=document.createElement('section');if(i===0)sec.className='on';sec.id='sec_'+t.id;sec.innerHTML=t.render();main.appendChild(sec);});
+ const m=D.meta;
+ $('#hpills').innerHTML=`<span class="pill"><b>${m.n_members}</b> managers</span>`+
+  `<span class="pill">${m.current_gw?('GW'+m.current_gw):'Pre-Season'}</span>`+
+  (m.bonus_pending?'<span class="live"><span class="dot"></span>bonus confirming</span>':(m.started?'<span class="live"><span class="dot"></span>live</span>':''));
+ const ago=()=>{if(!m.generated_iso)return m.generated_utc||'';const diff=(Date.now()-new Date(m.generated_iso).getTime())/60000;return diff<1?'just now':diff<60?Math.round(diff)+'m ago':Math.round(diff/60)+'h ago';};
+ const stale=m.generated_iso&&(Date.now()-new Date(m.generated_iso).getTime())>3*3600*1000;
+ $('#foot').innerHTML=`${m.started?'Live data':'Pre-Season'} · updated ${ago()} · auto-refreshes every 2h${stale?' · <span class="warn">⚠ data looks stale</span>':''} · League ${m.league_id}${m.demo?' · <b>DEMO</b>':''}`;
+ $('#dl').onclick=()=>location.href=(m.xlsx||'Laxmi_Chit_Fund_S5_audit.xlsx');
+}
+// document-level listeners (added once)
 document.addEventListener('click',e=>{
  const info=e.target.closest('.info');
  document.querySelectorAll('.info.open').forEach(x=>{if(x!==info)x.classList.remove('open')});
@@ -410,20 +421,18 @@ document.addEventListener('click',e=>{
  if(e.target.id==='ov')closeM();
 });
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeM()});
-// header pills + freshness
-const m=D.meta;
-$('#hpills').innerHTML=`<span class="pill"><b>${m.n_members}</b> managers</span>`+
- `<span class="pill">${m.current_gw?('GW'+m.current_gw):'Pre-Season'}</span>`+
- (m.bonus_pending?'<span class="live"><span class="dot"></span>bonus confirming</span>':(m.started?'<span class="live"><span class="dot"></span>live</span>':''));
-function ago(){if(!m.generated_iso)return m.generated_utc||'';const diff=(Date.now()-new Date(m.generated_iso).getTime())/60000;
- return diff<1?'just now':diff<60?Math.round(diff)+'m ago':Math.round(diff/60)+'h ago';}
-const stale=m.generated_iso&&(Date.now()-new Date(m.generated_iso).getTime())>3*3600*1000;
-$('#foot').innerHTML=`${m.started?'Live data':'Pre-Season'} · updated ${ago()} · auto-refreshes every 2h${stale?' · <span class="warn">⚠ data looks stale</span>':''} · League ${m.league_id}${m.demo?' · <b>DEMO</b>':''}`;
-$('#dl').onclick=()=>location.href=(m.xlsx||'Laxmi_Chit_Fund_S5_audit.xlsx');
+buildUI();
 // theme
 const root=document.documentElement,tb=$('#theme');
 function setT(t){root.setAttribute('data-theme',t);tb.textContent=t==='dark'?'☀️':'🌙';try{localStorage.setItem('lcf-theme',t)}catch(e){}}
 let sv=null;try{sv=localStorage.getItem('lcf-theme')}catch(e){}
 setT(sv||'dark');
 tb.onclick=()=>setT(root.getAttribute('data-theme')==='dark'?'light':'dark');
+
+/* Always pull the freshest data (cache-busted). If the page itself was served stale
+   from cache, re-render with the newer data. Falls back silently (e.g. local preview). */
+fetch('data.json?t='+Date.now(),{cache:'no-store'})
+  .then(r=>r.ok?r.json():null)
+  .then(d=>{ if(d&&d.meta&&d.meta.generated_iso&&d.meta.generated_iso!==D.meta.generated_iso){ D=d; buildUI(); } })
+  .catch(()=>{});
 </script></body></html>
