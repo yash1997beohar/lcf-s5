@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-12 04:10 UTC",
-  "generated_iso": "2026-09-12T04:10:54.752850Z",
+  "generated_utc": "2026-09-12 06:14 UTC",
+  "generated_iso": "2026-09-12T06:14:01.489973Z",
   "started": true,
   "current_gw": 3,
   "finished": [
@@ -38,21 +38,21 @@
   },
   {
    "rank": 3,
-   "arrow": "\u25b2",
-   "manager": "Arshaq Razack",
-   "team_name": "ShakeNBake",
-   "entry": 1086057,
-   "gw_points": 60,
-   "total": 229,
-   "hits": 0
-  },
-  {
-   "rank": 3,
    "arrow": "\u25bc",
    "manager": "Abhinav Premsekhar",
    "team_name": "Totally Szobo",
    "entry": 79306,
    "gw_points": 51,
+   "total": 229,
+   "hits": 0
+  },
+  {
+   "rank": 3,
+   "arrow": "\u25b2",
+   "manager": "Arshaq Razack",
+   "team_name": "ShakeNBake",
+   "entry": 1086057,
+   "gw_points": 60,
    "total": 229,
    "hits": 0
   },
@@ -353,21 +353,21 @@
     ]
    },
    {
-    "manager": "Arshaq Razack",
-    "entry": 1086057,
-    "scores": [
-     64,
-     105,
-     60
-    ]
-   },
-   {
     "manager": "Abhinav Premsekhar",
     "entry": 79306,
     "scores": [
      72,
      106,
      51
+    ]
+   },
+   {
+    "manager": "Arshaq Razack",
+    "entry": 1086057,
+    "scores": [
+     64,
+     105,
+     60
     ]
    },
    {
@@ -620,7 +620,7 @@
    "chip": "Triple Captain",
    "code": "3xc",
    "score": 27,
-   "manager": "Arshaq Razack",
+   "manager": "Abhinav Premsekhar",
    "gw": 3
   },
   {
@@ -1267,18 +1267,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Arshaq Razack",
-   "team_name": "ShakeNBake",
-   "league_rank": 3,
-   "seasons": 16,
-   "past_seasons": 15,
-   "best_rank": 6474,
-   "best_season": "2025/26",
-   "avg_rank": 1177681,
-   "last_rank": 6474,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Abhinav Premsekhar",
    "team_name": "Totally Szobo",
    "league_rank": 3,
@@ -1288,6 +1276,18 @@
    "best_season": "2022/23",
    "avg_rank": 606381,
    "last_rank": 240451,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Arshaq Razack",
+   "team_name": "ShakeNBake",
+   "league_rank": 3,
+   "seasons": 16,
+   "past_seasons": 15,
+   "best_rank": 6474,
+   "best_season": "2025/26",
+   "avg_rank": 1177681,
+   "last_rank": 6474,
    "last_season": "2025/26"
   },
   {
@@ -1672,34 +1672,6 @@
    ]
   },
   {
-   "manager": "Arshaq Razack",
-   "team_name": "ShakeNBake",
-   "entry": 1086057,
-   "total": 229,
-   "played": 3,
-   "avg": 76.3,
-   "above_avg": 3,
-   "cap_return": 57,
-   "high": 105,
-   "high_gw": 2,
-   "low": 60,
-   "low_gw": 3,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 25,
-   "value": 100.6,
-   "value_delta": 0.6,
-   "bank": 4.4,
-   "grank": 314091,
-   "best_jump": 617418,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost",
-    "3xc"
-   ]
-  },
-  {
    "manager": "Abhinav Premsekhar",
    "team_name": "Totally Szobo",
    "entry": 79306,
@@ -1721,6 +1693,34 @@
    "bank": 0.3,
    "grank": 314091,
    "best_jump": 166751,
+   "best_jump_gw": 2,
+   "chips": [
+    "bboost",
+    "3xc"
+   ]
+  },
+  {
+   "manager": "Arshaq Razack",
+   "team_name": "ShakeNBake",
+   "entry": 1086057,
+   "total": 229,
+   "played": 3,
+   "avg": 76.3,
+   "above_avg": 3,
+   "cap_return": 57,
+   "high": 105,
+   "high_gw": 2,
+   "low": 60,
+   "low_gw": 3,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 25,
+   "value": 100.6,
+   "value_delta": 0.6,
+   "bank": 4.4,
+   "grank": 314091,
+   "best_jump": 617418,
    "best_jump_gw": 2,
    "chips": [
     "bboost",
@@ -2485,26 +2485,6 @@
     "cap": 26
    }
   ],
-  "1086057": [
-   {
-    "gw": 1,
-    "net": 64,
-    "orank": 1142767,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 105,
-    "orank": 525349,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 60,
-    "orank": 314091,
-    "cap": 27
-   }
-  ],
   "79306": [
    {
     "gw": 1,
@@ -2521,6 +2501,26 @@
    {
     "gw": 3,
     "net": 51,
+    "orank": 314091,
+    "cap": 27
+   }
+  ],
+  "1086057": [
+   {
+    "gw": 1,
+    "net": 64,
+    "orank": 1142767,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 105,
+    "orank": 525349,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 60,
     "orank": 314091,
     "cap": 27
    }
