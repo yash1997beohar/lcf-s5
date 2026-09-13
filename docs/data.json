@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-13 00:16 UTC",
-  "generated_iso": "2026-09-13T00:16:07.273264Z",
+  "generated_utc": "2026-09-13 02:11 UTC",
+  "generated_iso": "2026-09-13T02:11:22.872480Z",
   "started": true,
   "current_gw": 4,
   "finished": [
@@ -78,21 +78,21 @@
   },
   {
    "rank": 7,
-   "arrow": "\u25bc",
-   "manager": "Shivanshu Madan",
-   "team_name": "Cold Palmer",
-   "entry": 2424090,
-   "gw_points": 48,
-   "total": 275,
-   "hits": 0
-  },
-  {
-   "rank": 7,
    "arrow": "\u25b2",
    "manager": "Ajith Thomas Kuthukatt George",
    "team_name": "Onside Offside",
    "entry": 5419891,
    "gw_points": 66,
+   "total": 275,
+   "hits": 0
+  },
+  {
+   "rank": 7,
+   "arrow": "\u25bc",
+   "manager": "Shivanshu Madan",
+   "team_name": "Cold Palmer",
+   "entry": 2424090,
+   "gw_points": 48,
    "total": 275,
    "hits": 0
   },
@@ -389,20 +389,20 @@
     ]
    },
    {
-    "manager": "Shivanshu Madan",
-    "entry": 2424090,
-    "scores": [
-     62,
-     111,
-     54
-    ]
-   },
-   {
     "manager": "Ajith Thomas Kuthukatt George",
     "entry": 5419891,
     "scores": [
      55,
      100,
+     54
+    ]
+   },
+   {
+    "manager": "Shivanshu Madan",
+    "entry": 2424090,
+    "scores": [
+     62,
+     111,
      54
     ]
    },
@@ -1315,18 +1315,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Shivanshu Madan",
-   "team_name": "Cold Palmer",
-   "league_rank": 7,
-   "seasons": 7,
-   "past_seasons": 6,
-   "best_rank": 31543,
-   "best_season": "2022/23",
-   "avg_rank": 820692,
-   "last_rank": 1637750,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Ajith Thomas Kuthukatt George",
    "team_name": "Onside Offside",
    "league_rank": 7,
@@ -1336,6 +1324,18 @@
    "best_season": "2025/26",
    "avg_rank": 604934,
    "last_rank": 545267,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Shivanshu Madan",
+   "team_name": "Cold Palmer",
+   "league_rank": 7,
+   "seasons": 7,
+   "past_seasons": 6,
+   "best_rank": 31543,
+   "best_season": "2022/23",
+   "avg_rank": 820692,
+   "last_rank": 1637750,
    "last_season": "2025/26"
   },
   {
@@ -1785,6 +1785,31 @@
    ]
   },
   {
+   "manager": "Ajith Thomas Kuthukatt George",
+   "team_name": "Onside Offside",
+   "entry": 5419891,
+   "total": 275,
+   "played": 3,
+   "avg": 69.7,
+   "above_avg": 3,
+   "cap_return": 48,
+   "high": 100,
+   "high_gw": 2,
+   "low": 54,
+   "low_gw": 3,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 39,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 0.2,
+   "grank": 464779,
+   "best_jump": 1461471,
+   "best_jump_gw": 2,
+   "chips": []
+  },
+  {
    "manager": "Shivanshu Madan",
    "team_name": "Cold Palmer",
    "entry": 2424090,
@@ -1811,31 +1836,6 @@
     "3xc",
     "wildcard"
    ]
-  },
-  {
-   "manager": "Ajith Thomas Kuthukatt George",
-   "team_name": "Onside Offside",
-   "entry": 5419891,
-   "total": 275,
-   "played": 3,
-   "avg": 69.7,
-   "above_avg": 3,
-   "cap_return": 48,
-   "high": 100,
-   "high_gw": 2,
-   "low": 54,
-   "low_gw": 3,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 39,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.2,
-   "grank": 464779,
-   "best_jump": 1461471,
-   "best_jump_gw": 2,
-   "chips": []
   },
   {
    "manager": "Raveesh Kalra",
@@ -2586,26 +2586,6 @@
     "cap": 27
    }
   ],
-  "2424090": [
-   {
-    "gw": 1,
-    "net": 62,
-    "orank": 1436683,
-    "cap": 22
-   },
-   {
-    "gw": 2,
-    "net": 111,
-    "orank": 370271,
-    "cap": 46
-   },
-   {
-    "gw": 3,
-    "net": 54,
-    "orank": 375042,
-    "cap": 27
-   }
-  ],
   "5419891": [
    {
     "gw": 1,
@@ -2624,6 +2604,26 @@
     "net": 54,
     "orank": 1384256,
     "cap": 18
+   }
+  ],
+  "2424090": [
+   {
+    "gw": 1,
+    "net": 62,
+    "orank": 1436683,
+    "cap": 22
+   },
+   {
+    "gw": 2,
+    "net": 111,
+    "orank": 370271,
+    "cap": 46
+   },
+   {
+    "gw": 3,
+    "net": 54,
+    "orank": 375042,
+    "cap": 27
    }
   ],
   "2354537": [
