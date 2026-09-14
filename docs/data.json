@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-14 08:13 UTC",
-  "generated_iso": "2026-09-14T08:13:04.328422Z",
+  "generated_utc": "2026-09-14 10:11 UTC",
+  "generated_iso": "2026-09-14T10:11:59.775866Z",
   "started": true,
   "current_gw": 4,
   "finished": [
@@ -58,16 +58,6 @@
   },
   {
    "rank": 5,
-   "arrow": "\u25bc",
-   "manager": "Arshaq Razack",
-   "team_name": "ShakeNBake",
-   "entry": 1086057,
-   "gw_points": 76,
-   "total": 305,
-   "hits": 0
-  },
-  {
-   "rank": 5,
    "arrow": "\u25b2",
    "manager": "Anish Joshi",
    "team_name": "Fiery Raiders",
@@ -75,6 +65,16 @@
    "gw_points": 101,
    "total": 305,
    "hits": 4
+  },
+  {
+   "rank": 5,
+   "arrow": "\u25bc",
+   "manager": "Arshaq Razack",
+   "team_name": "ShakeNBake",
+   "entry": 1086057,
+   "gw_points": 76,
+   "total": 305,
+   "hits": 0
   },
   {
    "rank": 7,
@@ -371,21 +371,21 @@
     ]
    },
    {
-    "manager": "Arshaq Razack",
-    "entry": 1086057,
-    "scores": [
-     64,
-     105,
-     60
-    ]
-   },
-   {
     "manager": "Anish Joshi",
     "entry": 256447,
     "scores": [
      62,
      103,
      43
+    ]
+   },
+   {
+    "manager": "Arshaq Razack",
+    "entry": 1086057,
+    "scores": [
+     64,
+     105,
+     60
     ]
    },
    {
@@ -734,7 +734,7 @@
    "manager": "Arshaq Razack",
    "entry": 1086057,
    "points": 57,
-   "excluded": true
+   "excluded": false
   },
   {
    "manager": "Deepankar Sachdeva",
@@ -782,7 +782,7 @@
    "manager": "Anish Joshi",
    "entry": 256447,
    "points": 48,
-   "excluded": false
+   "excluded": true
   },
   {
    "manager": "Satweek Nayak",
@@ -850,7 +850,7 @@
    "manager": "Arshaq Razack",
    "entry": 1086057,
    "arrows": 2,
-   "excluded": true
+   "excluded": false
   },
   {
    "manager": "Naman Agrawal",
@@ -910,7 +910,7 @@
    "manager": "Anish Joshi",
    "entry": 256447,
    "arrows": 1,
-   "excluded": false
+   "excluded": true
   },
   {
    "manager": "Abhiraj Singh",
@@ -1291,18 +1291,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Arshaq Razack",
-   "team_name": "ShakeNBake",
-   "league_rank": 5,
-   "seasons": 16,
-   "past_seasons": 15,
-   "best_rank": 6474,
-   "best_season": "2025/26",
-   "avg_rank": 1177681,
-   "last_rank": 6474,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Anish Joshi",
    "team_name": "Fiery Raiders",
    "league_rank": 5,
@@ -1312,6 +1300,18 @@
    "best_season": "2019/20",
    "avg_rank": 1051323,
    "last_rank": 1076546,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Arshaq Razack",
+   "team_name": "ShakeNBake",
+   "league_rank": 5,
+   "seasons": 16,
+   "past_seasons": 15,
+   "best_rank": 6474,
+   "best_season": "2025/26",
+   "avg_rank": 1177681,
+   "last_rank": 6474,
    "last_season": "2025/26"
   },
   {
@@ -1727,34 +1727,6 @@
    ]
   },
   {
-   "manager": "Arshaq Razack",
-   "team_name": "ShakeNBake",
-   "entry": 1086057,
-   "total": 305,
-   "played": 3,
-   "avg": 76.3,
-   "above_avg": 3,
-   "cap_return": 57,
-   "high": 105,
-   "high_gw": 2,
-   "low": 60,
-   "low_gw": 3,
-   "transfers": 3,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 47,
-   "value": 100.7,
-   "value_delta": 0.7,
-   "bank": 0.7,
-   "grank": 394418,
-   "best_jump": 617418,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost",
-    "3xc"
-   ]
-  },
-  {
    "manager": "Anish Joshi",
    "team_name": "Fiery Raiders",
    "entry": 256447,
@@ -1780,6 +1752,34 @@
    "chips": [
     "bboost",
     "wildcard"
+   ]
+  },
+  {
+   "manager": "Arshaq Razack",
+   "team_name": "ShakeNBake",
+   "entry": 1086057,
+   "total": 305,
+   "played": 3,
+   "avg": 76.3,
+   "above_avg": 3,
+   "cap_return": 57,
+   "high": 105,
+   "high_gw": 2,
+   "low": 60,
+   "low_gw": 3,
+   "transfers": 3,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 47,
+   "value": 100.7,
+   "value_delta": 0.7,
+   "bank": 0.7,
+   "grank": 394418,
+   "best_jump": 617418,
+   "best_jump_gw": 2,
+   "chips": [
+    "bboost",
+    "3xc"
    ]
   },
   {
@@ -2546,26 +2546,6 @@
     "cap": 27
    }
   ],
-  "1086057": [
-   {
-    "gw": 1,
-    "net": 64,
-    "orank": 1142767,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 105,
-    "orank": 525349,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 60,
-    "orank": 314091,
-    "cap": 27
-   }
-  ],
   "256447": [
    {
     "gw": 1,
@@ -2584,6 +2564,26 @@
     "net": 43,
     "orank": 1496797,
     "cap": 18
+   }
+  ],
+  "1086057": [
+   {
+    "gw": 1,
+    "net": 64,
+    "orank": 1142767,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 105,
+    "orank": 525349,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 60,
+    "orank": 314091,
+    "cap": 27
    }
   ],
   "427154": [
