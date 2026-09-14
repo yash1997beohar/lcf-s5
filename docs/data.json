@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-14 04:11 UTC",
-  "generated_iso": "2026-09-14T04:11:31.675266Z",
+  "generated_utc": "2026-09-14 06:16 UTC",
+  "generated_iso": "2026-09-14T06:16:31.124457Z",
   "started": true,
   "current_gw": 4,
   "finished": [
@@ -159,20 +159,20 @@
   {
    "rank": 15,
    "arrow": "\u25bc",
-   "manager": "Karan Khanna",
-   "team_name": "Amad Aura",
-   "entry": 3330149,
-   "gw_points": 69,
+   "manager": "Shivanshu Madan",
+   "team_name": "Cold Palmer",
+   "entry": 2424090,
+   "gw_points": 57,
    "total": 284,
    "hits": 0
   },
   {
    "rank": 15,
    "arrow": "\u25bc",
-   "manager": "Shivanshu Madan",
-   "team_name": "Cold Palmer",
-   "entry": 2424090,
-   "gw_points": 57,
+   "manager": "Karan Khanna",
+   "team_name": "Amad Aura",
+   "entry": 3330149,
+   "gw_points": 69,
    "total": 284,
    "hits": 0
   },
@@ -461,21 +461,21 @@
     ]
    },
    {
-    "manager": "Karan Khanna",
-    "entry": 3330149,
-    "scores": [
-     47,
-     101,
-     67
-    ]
-   },
-   {
     "manager": "Shivanshu Madan",
     "entry": 2424090,
     "scores": [
      62,
      111,
      54
+    ]
+   },
+   {
+    "manager": "Karan Khanna",
+    "entry": 3330149,
+    "scores": [
+     47,
+     101,
+     67
     ]
    },
    {
@@ -1411,18 +1411,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Karan Khanna",
-   "team_name": "Amad Aura",
-   "league_rank": 15,
-   "seasons": 8,
-   "past_seasons": 7,
-   "best_rank": 453230,
-   "best_season": "2019/20",
-   "avg_rank": 5483351,
-   "last_rank": 8188106,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Shivanshu Madan",
    "team_name": "Cold Palmer",
    "league_rank": 15,
@@ -1432,6 +1420,18 @@
    "best_season": "2022/23",
    "avg_rank": 820692,
    "last_rank": 1637750,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Karan Khanna",
+   "team_name": "Amad Aura",
+   "league_rank": 15,
+   "seasons": 8,
+   "past_seasons": 7,
+   "best_rank": 453230,
+   "best_season": "2019/20",
+   "avg_rank": 5483351,
+   "last_rank": 8188106,
    "last_season": "2025/26"
   },
   {
@@ -2005,34 +2005,6 @@
    ]
   },
   {
-   "manager": "Karan Khanna",
-   "team_name": "Amad Aura",
-   "entry": 3330149,
-   "total": 284,
-   "played": 3,
-   "avg": 71.7,
-   "above_avg": 2,
-   "cap_return": 77,
-   "high": 101,
-   "high_gw": 2,
-   "low": 47,
-   "low_gw": 1,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 26,
-   "value": 100.4,
-   "value_delta": 0.4,
-   "bank": 0.5,
-   "grank": 1264459,
-   "best_jump": 3009015,
-   "best_jump_gw": 2,
-   "chips": [
-    "3xc",
-    "freehit"
-   ]
-  },
-  {
    "manager": "Shivanshu Madan",
    "team_name": "Cold Palmer",
    "entry": 2424090,
@@ -2058,6 +2030,34 @@
    "chips": [
     "3xc",
     "wildcard"
+   ]
+  },
+  {
+   "manager": "Karan Khanna",
+   "team_name": "Amad Aura",
+   "entry": 3330149,
+   "total": 284,
+   "played": 3,
+   "avg": 71.7,
+   "above_avg": 2,
+   "cap_return": 77,
+   "high": 101,
+   "high_gw": 2,
+   "low": 47,
+   "low_gw": 1,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 26,
+   "value": 100.4,
+   "value_delta": 0.4,
+   "bank": 0.5,
+   "grank": 1264459,
+   "best_jump": 3009015,
+   "best_jump_gw": 2,
+   "chips": [
+    "3xc",
+    "freehit"
    ]
   },
   {
@@ -2746,26 +2746,6 @@
     "cap": 27
    }
   ],
-  "3330149": [
-   {
-    "gw": 1,
-    "net": 47,
-    "orank": 5282775,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 101,
-    "orank": 2273760,
-    "cap": 46
-   },
-   {
-    "gw": 3,
-    "net": 67,
-    "orank": 961038,
-    "cap": 27
-   }
-  ],
   "2424090": [
    {
     "gw": 1,
@@ -2783,6 +2763,26 @@
     "gw": 3,
     "net": 54,
     "orank": 375042,
+    "cap": 27
+   }
+  ],
+  "3330149": [
+   {
+    "gw": 1,
+    "net": 47,
+    "orank": 5282775,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 101,
+    "orank": 2273760,
+    "cap": 46
+   },
+   {
+    "gw": 3,
+    "net": 67,
+    "orank": 961038,
     "cap": 27
    }
   ],
