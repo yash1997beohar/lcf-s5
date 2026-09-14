@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-14 06:16 UTC",
-  "generated_iso": "2026-09-14T06:16:31.124457Z",
+  "generated_utc": "2026-09-14 08:13 UTC",
+  "generated_iso": "2026-09-14T08:13:04.328422Z",
   "started": true,
   "current_gw": 4,
   "finished": [
@@ -58,16 +58,6 @@
   },
   {
    "rank": 5,
-   "arrow": "\u25b2",
-   "manager": "Anish Joshi",
-   "team_name": "Fiery Raiders",
-   "entry": 256447,
-   "gw_points": 101,
-   "total": 305,
-   "hits": 4
-  },
-  {
-   "rank": 5,
    "arrow": "\u25bc",
    "manager": "Arshaq Razack",
    "team_name": "ShakeNBake",
@@ -75,6 +65,16 @@
    "gw_points": 76,
    "total": 305,
    "hits": 0
+  },
+  {
+   "rank": 5,
+   "arrow": "\u25b2",
+   "manager": "Anish Joshi",
+   "team_name": "Fiery Raiders",
+   "entry": 256447,
+   "gw_points": 101,
+   "total": 305,
+   "hits": 4
   },
   {
    "rank": 7,
@@ -159,20 +159,20 @@
   {
    "rank": 15,
    "arrow": "\u25bc",
-   "manager": "Shivanshu Madan",
-   "team_name": "Cold Palmer",
-   "entry": 2424090,
-   "gw_points": 57,
+   "manager": "Karan Khanna",
+   "team_name": "Amad Aura",
+   "entry": 3330149,
+   "gw_points": 69,
    "total": 284,
    "hits": 0
   },
   {
    "rank": 15,
    "arrow": "\u25bc",
-   "manager": "Karan Khanna",
-   "team_name": "Amad Aura",
-   "entry": 3330149,
-   "gw_points": 69,
+   "manager": "Shivanshu Madan",
+   "team_name": "Cold Palmer",
+   "entry": 2424090,
+   "gw_points": 57,
    "total": 284,
    "hits": 0
   },
@@ -371,21 +371,21 @@
     ]
    },
    {
-    "manager": "Anish Joshi",
-    "entry": 256447,
-    "scores": [
-     62,
-     103,
-     43
-    ]
-   },
-   {
     "manager": "Arshaq Razack",
     "entry": 1086057,
     "scores": [
      64,
      105,
      60
+    ]
+   },
+   {
+    "manager": "Anish Joshi",
+    "entry": 256447,
+    "scores": [
+     62,
+     103,
+     43
     ]
    },
    {
@@ -461,21 +461,21 @@
     ]
    },
    {
-    "manager": "Shivanshu Madan",
-    "entry": 2424090,
-    "scores": [
-     62,
-     111,
-     54
-    ]
-   },
-   {
     "manager": "Karan Khanna",
     "entry": 3330149,
     "scores": [
      47,
      101,
      67
+    ]
+   },
+   {
+    "manager": "Shivanshu Madan",
+    "entry": 2424090,
+    "scores": [
+     62,
+     111,
+     54
     ]
    },
    {
@@ -734,7 +734,7 @@
    "manager": "Arshaq Razack",
    "entry": 1086057,
    "points": 57,
-   "excluded": false
+   "excluded": true
   },
   {
    "manager": "Deepankar Sachdeva",
@@ -782,7 +782,7 @@
    "manager": "Anish Joshi",
    "entry": 256447,
    "points": 48,
-   "excluded": true
+   "excluded": false
   },
   {
    "manager": "Satweek Nayak",
@@ -850,7 +850,7 @@
    "manager": "Arshaq Razack",
    "entry": 1086057,
    "arrows": 2,
-   "excluded": false
+   "excluded": true
   },
   {
    "manager": "Naman Agrawal",
@@ -910,7 +910,7 @@
    "manager": "Anish Joshi",
    "entry": 256447,
    "arrows": 1,
-   "excluded": true
+   "excluded": false
   },
   {
    "manager": "Abhiraj Singh",
@@ -1291,18 +1291,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Anish Joshi",
-   "team_name": "Fiery Raiders",
-   "league_rank": 5,
-   "seasons": 15,
-   "past_seasons": 14,
-   "best_rank": 281617,
-   "best_season": "2019/20",
-   "avg_rank": 1051323,
-   "last_rank": 1076546,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Arshaq Razack",
    "team_name": "ShakeNBake",
    "league_rank": 5,
@@ -1312,6 +1300,18 @@
    "best_season": "2025/26",
    "avg_rank": 1177681,
    "last_rank": 6474,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Anish Joshi",
+   "team_name": "Fiery Raiders",
+   "league_rank": 5,
+   "seasons": 15,
+   "past_seasons": 14,
+   "best_rank": 281617,
+   "best_season": "2019/20",
+   "avg_rank": 1051323,
+   "last_rank": 1076546,
    "last_season": "2025/26"
   },
   {
@@ -1411,18 +1411,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Shivanshu Madan",
-   "team_name": "Cold Palmer",
-   "league_rank": 15,
-   "seasons": 7,
-   "past_seasons": 6,
-   "best_rank": 31543,
-   "best_season": "2022/23",
-   "avg_rank": 820692,
-   "last_rank": 1637750,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Karan Khanna",
    "team_name": "Amad Aura",
    "league_rank": 15,
@@ -1432,6 +1420,18 @@
    "best_season": "2019/20",
    "avg_rank": 5483351,
    "last_rank": 8188106,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Shivanshu Madan",
+   "team_name": "Cold Palmer",
+   "league_rank": 15,
+   "seasons": 7,
+   "past_seasons": 6,
+   "best_rank": 31543,
+   "best_season": "2022/23",
+   "avg_rank": 820692,
+   "last_rank": 1637750,
    "last_season": "2025/26"
   },
   {
@@ -1727,34 +1727,6 @@
    ]
   },
   {
-   "manager": "Anish Joshi",
-   "team_name": "Fiery Raiders",
-   "entry": 256447,
-   "total": 305,
-   "played": 3,
-   "avg": 69.3,
-   "above_avg": 2,
-   "cap_return": 48,
-   "high": 103,
-   "high_gw": 2,
-   "low": 43,
-   "low_gw": 3,
-   "transfers": 3,
-   "hits_pts": 4,
-   "hits_n": 1,
-   "bench": 47,
-   "value": 101.0,
-   "value_delta": 1.0,
-   "bank": 1.4,
-   "grank": 394418,
-   "best_jump": 670758,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost",
-    "wildcard"
-   ]
-  },
-  {
    "manager": "Arshaq Razack",
    "team_name": "ShakeNBake",
    "entry": 1086057,
@@ -1780,6 +1752,34 @@
    "chips": [
     "bboost",
     "3xc"
+   ]
+  },
+  {
+   "manager": "Anish Joshi",
+   "team_name": "Fiery Raiders",
+   "entry": 256447,
+   "total": 305,
+   "played": 3,
+   "avg": 69.3,
+   "above_avg": 2,
+   "cap_return": 48,
+   "high": 103,
+   "high_gw": 2,
+   "low": 43,
+   "low_gw": 3,
+   "transfers": 3,
+   "hits_pts": 4,
+   "hits_n": 1,
+   "bench": 47,
+   "value": 101.0,
+   "value_delta": 1.0,
+   "bank": 1.4,
+   "grank": 394418,
+   "best_jump": 670758,
+   "best_jump_gw": 2,
+   "chips": [
+    "bboost",
+    "wildcard"
    ]
   },
   {
@@ -2005,34 +2005,6 @@
    ]
   },
   {
-   "manager": "Shivanshu Madan",
-   "team_name": "Cold Palmer",
-   "entry": 2424090,
-   "total": 284,
-   "played": 3,
-   "avg": 75.7,
-   "above_avg": 3,
-   "cap_return": 95,
-   "high": 111,
-   "high_gw": 2,
-   "low": 54,
-   "low_gw": 3,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 58,
-   "value": 100.5,
-   "value_delta": 0.5,
-   "bank": 0.0,
-   "grank": 1327109,
-   "best_jump": 1066412,
-   "best_jump_gw": 2,
-   "chips": [
-    "3xc",
-    "wildcard"
-   ]
-  },
-  {
    "manager": "Karan Khanna",
    "team_name": "Amad Aura",
    "entry": 3330149,
@@ -2058,6 +2030,34 @@
    "chips": [
     "3xc",
     "freehit"
+   ]
+  },
+  {
+   "manager": "Shivanshu Madan",
+   "team_name": "Cold Palmer",
+   "entry": 2424090,
+   "total": 284,
+   "played": 3,
+   "avg": 75.7,
+   "above_avg": 3,
+   "cap_return": 95,
+   "high": 111,
+   "high_gw": 2,
+   "low": 54,
+   "low_gw": 3,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 58,
+   "value": 100.5,
+   "value_delta": 0.5,
+   "bank": 0.0,
+   "grank": 1327109,
+   "best_jump": 1066412,
+   "best_jump_gw": 2,
+   "chips": [
+    "3xc",
+    "wildcard"
    ]
   },
   {
@@ -2546,26 +2546,6 @@
     "cap": 27
    }
   ],
-  "256447": [
-   {
-    "gw": 1,
-    "net": 62,
-    "orank": 1436683,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 103,
-    "orank": 765925,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 43,
-    "orank": 1496797,
-    "cap": 18
-   }
-  ],
   "1086057": [
    {
     "gw": 1,
@@ -2584,6 +2564,26 @@
     "net": 60,
     "orank": 314091,
     "cap": 27
+   }
+  ],
+  "256447": [
+   {
+    "gw": 1,
+    "net": 62,
+    "orank": 1436683,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 103,
+    "orank": 765925,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 43,
+    "orank": 1496797,
+    "cap": 18
    }
   ],
   "427154": [
@@ -2746,26 +2746,6 @@
     "cap": 27
    }
   ],
-  "2424090": [
-   {
-    "gw": 1,
-    "net": 62,
-    "orank": 1436683,
-    "cap": 22
-   },
-   {
-    "gw": 2,
-    "net": 111,
-    "orank": 370271,
-    "cap": 46
-   },
-   {
-    "gw": 3,
-    "net": 54,
-    "orank": 375042,
-    "cap": 27
-   }
-  ],
   "3330149": [
    {
     "gw": 1,
@@ -2783,6 +2763,26 @@
     "gw": 3,
     "net": 67,
     "orank": 961038,
+    "cap": 27
+   }
+  ],
+  "2424090": [
+   {
+    "gw": 1,
+    "net": 62,
+    "orank": 1436683,
+    "cap": 22
+   },
+   {
+    "gw": 2,
+    "net": 111,
+    "orank": 370271,
+    "cap": 46
+   },
+   {
+    "gw": 3,
+    "net": 54,
+    "orank": 375042,
     "cap": 27
    }
   ],
