@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-15 10:12 UTC",
-  "generated_iso": "2026-09-15T10:12:15.234248Z",
+  "generated_utc": "2026-09-15 12:14 UTC",
+  "generated_iso": "2026-09-15T12:14:26.233735Z",
   "started": true,
   "current_gw": 4,
   "finished": [
@@ -229,20 +229,20 @@
   {
    "rank": 22,
    "arrow": "\u25b2",
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "entry": 3181909,
-   "gw_points": 77,
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "entry": 5008941,
+   "gw_points": 93,
    "total": 270,
    "hits": 0
   },
   {
    "rank": 22,
    "arrow": "\u25b2",
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "entry": 5008941,
-   "gw_points": 93,
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
+   "entry": 3181909,
+   "gw_points": 77,
    "total": 270,
    "hits": 0
   },
@@ -524,21 +524,21 @@
     ]
    },
    {
-    "manager": "Aparnesh Mishra",
-    "entry": 3181909,
-    "scores": [
-     59,
-     96,
-     38
-    ]
-   },
-   {
     "manager": "Ashwin Jose",
     "entry": 5008941,
     "scores": [
      45,
      86,
      46
+    ]
+   },
+   {
+    "manager": "Aparnesh Mishra",
+    "entry": 3181909,
+    "scores": [
+     59,
+     96,
+     38
     ]
    },
    {
@@ -791,14 +791,14 @@
    "excluded": false
   },
   {
-   "manager": "Aparnesh Mishra",
-   "entry": 3181909,
+   "manager": "Ashwin Jose",
+   "entry": 5008941,
    "points": 48,
    "excluded": false
   },
   {
-   "manager": "Ashwin Jose",
-   "entry": 5008941,
+   "manager": "Aparnesh Mishra",
+   "entry": 3181909,
    "points": 48,
    "excluded": false
   },
@@ -967,14 +967,14 @@
    "excluded": false
   },
   {
-   "manager": "Aparnesh Mishra",
-   "entry": 3181909,
+   "manager": "Ashwin Jose",
+   "entry": 5008941,
    "arrows": 1,
    "excluded": false
   },
   {
-   "manager": "Ashwin Jose",
-   "entry": 5008941,
+   "manager": "Aparnesh Mishra",
+   "entry": 3181909,
    "arrows": 1,
    "excluded": false
   },
@@ -1495,18 +1495,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "league_rank": 22,
-   "seasons": 9,
-   "past_seasons": 8,
-   "best_rank": 334016,
-   "best_season": "2020/21",
-   "avg_rank": 2156629,
-   "last_rank": 2691725,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Ashwin Jose",
    "team_name": "Pole Calmer \ufffd",
    "league_rank": 22,
@@ -1516,6 +1504,18 @@
    "best_season": "2018/19",
    "avg_rank": 2404119,
    "last_rank": 5124417,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
+   "league_rank": 22,
+   "seasons": 9,
+   "past_seasons": 8,
+   "best_rank": 334016,
+   "best_season": "2020/21",
+   "avg_rank": 2156629,
+   "last_rank": 2691725,
    "last_season": "2025/26"
   },
   {
@@ -2197,31 +2197,6 @@
    ]
   },
   {
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "entry": 3181909,
-   "total": 270,
-   "played": 3,
-   "avg": 64.3,
-   "above_avg": 1,
-   "cap_return": 48,
-   "high": 96,
-   "high_gw": 2,
-   "low": 38,
-   "low_gw": 3,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 51,
-   "value": 100.9,
-   "value_delta": 0.9,
-   "bank": 1.0,
-   "grank": 2778338,
-   "best_jump": 453361,
-   "best_jump_gw": 2,
-   "chips": []
-  },
-  {
    "manager": "Ashwin Jose",
    "team_name": "Pole Calmer \ufffd",
    "entry": 5008941,
@@ -2247,6 +2222,31 @@
    "chips": [
     "wildcard"
    ]
+  },
+  {
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
+   "entry": 3181909,
+   "total": 270,
+   "played": 3,
+   "avg": 64.3,
+   "above_avg": 1,
+   "cap_return": 48,
+   "high": 96,
+   "high_gw": 2,
+   "low": 38,
+   "low_gw": 3,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 51,
+   "value": 100.9,
+   "value_delta": 0.9,
+   "bank": 1.0,
+   "grank": 2778338,
+   "best_jump": 453361,
+   "best_jump_gw": 2,
+   "chips": []
   },
   {
    "manager": "Rajit Das",
@@ -2886,26 +2886,6 @@
     "cap": 18
    }
   ],
-  "3181909": [
-   {
-    "gw": 1,
-    "net": 59,
-    "orank": 1987556,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 96,
-    "orank": 1534195,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 38,
-    "orank": 3198740,
-    "cap": 18
-   }
-  ],
   "5008941": [
    {
     "gw": 1,
@@ -2923,6 +2903,26 @@
     "gw": 3,
     "net": 46,
     "orank": 5267498,
+    "cap": 18
+   }
+  ],
+  "3181909": [
+   {
+    "gw": 1,
+    "net": 59,
+    "orank": 1987556,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 96,
+    "orank": 1534195,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 38,
+    "orank": 3198740,
     "cap": 18
    }
   ],
