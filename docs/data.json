@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-14 22:11 UTC",
-  "generated_iso": "2026-09-14T22:11:18.975758Z",
+  "generated_utc": "2026-09-15 00:16 UTC",
+  "generated_iso": "2026-09-15T00:16:31.503330Z",
   "started": true,
   "current_gw": 4,
   "finished": [
@@ -1636,7 +1636,7 @@
    "value": 101.2,
    "value_delta": 1.2,
    "bank": 0.4,
-   "grank": 9993,
+   "grank": 9971,
    "best_jump": 270274,
    "best_jump_gw": 2,
    "chips": [
@@ -1665,7 +1665,7 @@
    "value": 100.2,
    "value_delta": 0.2,
    "bank": 0.2,
-   "grank": 176788,
+   "grank": 105685,
    "best_jump": 1461471,
    "best_jump_gw": 2,
    "chips": []
@@ -1690,7 +1690,7 @@
    "value": 101.0,
    "value_delta": 1.0,
    "bank": 1.4,
-   "grank": 394418,
+   "grank": 258869,
    "best_jump": 670758,
    "best_jump_gw": 2,
    "chips": [
@@ -1718,7 +1718,7 @@
    "value": 101.1,
    "value_delta": 1.1,
    "bank": 0.0,
-   "grank": 223959,
+   "grank": 269558,
    "best_jump": 24105,
    "best_jump_gw": 2,
    "chips": [
@@ -1746,7 +1746,7 @@
    "value": 100.4,
    "value_delta": 0.4,
    "bank": 0.4,
-   "grank": 252786,
+   "grank": 301918,
    "best_jump": 166751,
    "best_jump_gw": 2,
    "chips": [
@@ -1774,7 +1774,7 @@
    "value": 101.4,
    "value_delta": 1.4,
    "bank": 0.2,
-   "grank": 434425,
+   "grank": 510595,
    "best_jump": 88386,
    "best_jump_gw": 2,
    "chips": [
@@ -1798,11 +1798,11 @@
    "transfers": 3,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 47,
+   "bench": 57,
    "value": 100.7,
    "value_delta": 0.7,
    "bank": 0.7,
-   "grank": 394418,
+   "grank": 530348,
    "best_jump": 617418,
    "best_jump_gw": 2,
    "chips": [
@@ -1826,11 +1826,11 @@
    "transfers": 3,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 38,
+   "bench": 48,
    "value": 100.3,
    "value_delta": 0.3,
    "bank": 0.6,
-   "grank": 516440,
+   "grank": 719732,
    "best_jump": 637992,
    "best_jump_gw": 2,
    "chips": [
@@ -1854,11 +1854,11 @@
    "transfers": 2,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 22,
+   "bench": 24,
    "value": 101.0,
    "value_delta": 1.0,
    "bank": 0.2,
-   "grank": 575726,
+   "grank": 747829,
    "best_jump": 1034411,
    "best_jump_gw": 2,
    "chips": [
@@ -1886,7 +1886,7 @@
    "value": 100.6,
    "value_delta": 0.6,
    "bank": 0.0,
-   "grank": 831682,
+   "grank": 836186,
    "best_jump": 3039834,
    "best_jump_gw": 2,
    "chips": [
@@ -1914,7 +1914,7 @@
    "value": 100.2,
    "value_delta": 0.2,
    "bank": 0.6,
-   "grank": 1411981,
+   "grank": 1050933,
    "best_jump": 4399137,
    "best_jump_gw": 2,
    "chips": []
@@ -1939,7 +1939,7 @@
    "value": 101.0,
    "value_delta": 1.0,
    "bank": 0.2,
-   "grank": 1458203,
+   "grank": 1258971,
    "best_jump": 878473,
    "best_jump_gw": 2,
    "chips": [
@@ -1967,7 +1967,7 @@
    "value": 100.4,
    "value_delta": 0.4,
    "bank": 0.0,
-   "grank": 1257108,
+   "grank": 1374667,
    "best_jump": 3046343,
    "best_jump_gw": 2,
    "chips": [
@@ -1994,7 +1994,7 @@
    "value": 101.1,
    "value_delta": 1.1,
    "bank": 1.1,
-   "grank": 1088487,
+   "grank": 1382146,
    "best_jump": 101935,
    "best_jump_gw": 3,
    "chips": [
@@ -2021,7 +2021,7 @@
    "value": 100.4,
    "value_delta": 0.4,
    "bank": 0.2,
-   "grank": 1163981,
+   "grank": 1402141,
    "best_jump": 3048395,
    "best_jump_gw": 2,
    "chips": [
@@ -2049,7 +2049,7 @@
    "value": 100.5,
    "value_delta": 0.5,
    "bank": 0.0,
-   "grank": 1327109,
+   "grank": 1512514,
    "best_jump": 1066412,
    "best_jump_gw": 2,
    "chips": [
@@ -2073,11 +2073,11 @@
    "transfers": 0,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 48,
+   "bench": 50,
    "value": 100.5,
    "value_delta": 0.5,
    "bank": 0.6,
-   "grank": 1375721,
+   "grank": 1563918,
    "best_jump": 5881370,
    "best_jump_gw": 2,
    "chips": [
@@ -2101,11 +2101,11 @@
    "transfers": 2,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 26,
+   "bench": 27,
    "value": 100.4,
    "value_delta": 0.4,
    "bank": 0.5,
-   "grank": 1264459,
+   "grank": 1580919,
    "best_jump": 3009015,
    "best_jump_gw": 2,
    "chips": [
@@ -2133,7 +2133,7 @@
    "value": 100.5,
    "value_delta": 0.5,
    "bank": 0.5,
-   "grank": 1391545,
+   "grank": 1650086,
    "best_jump": 5250200,
    "best_jump_gw": 2,
    "chips": [
@@ -2161,7 +2161,7 @@
    "value": 100.6,
    "value_delta": 0.6,
    "bank": 1.0,
-   "grank": 1595374,
+   "grank": 1867826,
    "best_jump": 4185865,
    "best_jump_gw": 2,
    "chips": [
@@ -2189,7 +2189,7 @@
    "value": 101.3,
    "value_delta": 1.3,
    "bank": 0.4,
-   "grank": 2129786,
+   "grank": 2260007,
    "best_jump": 2735246,
    "best_jump_gw": 2,
    "chips": [
@@ -2212,11 +2212,11 @@
    "transfers": 2,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 54,
+   "bench": 61,
    "value": 101.2,
    "value_delta": 1.2,
    "bank": 1.5,
-   "grank": 2381160,
+   "grank": 2682180,
    "best_jump": 1396363,
    "best_jump_gw": 2,
    "chips": [
@@ -2243,7 +2243,7 @@
    "value": 100.0,
    "value_delta": 0.0,
    "bank": 0.2,
-   "grank": 2467563,
+   "grank": 2769665,
    "best_jump": 1595922,
    "best_jump_gw": 2,
    "chips": [
@@ -2272,7 +2272,7 @@
    "value": 100.9,
    "value_delta": 0.9,
    "bank": 1.0,
-   "grank": 3583946,
+   "grank": 2949027,
    "best_jump": 453361,
    "best_jump_gw": 2,
    "chips": []
@@ -2297,7 +2297,7 @@
    "value": 100.7,
    "value_delta": 0.7,
    "bank": 0.1,
-   "grank": 3318900,
+   "grank": 2973583,
    "best_jump": 1948104,
    "best_jump_gw": 2,
    "chips": [
@@ -2324,7 +2324,7 @@
    "value": 100.6,
    "value_delta": 0.6,
    "bank": 1.0,
-   "grank": 2758639,
+   "grank": 3064196,
    "best_jump": 3395267,
    "best_jump_gw": 3,
    "chips": [
@@ -2351,7 +2351,7 @@
    "value": 101.2,
    "value_delta": 1.2,
    "bank": 0.7,
-   "grank": 3390269,
+   "grank": 3317256,
    "best_jump": null,
    "best_jump_gw": null,
    "chips": [
@@ -2378,7 +2378,7 @@
    "value": 100.2,
    "value_delta": 0.2,
    "bank": 0.0,
-   "grank": 4757632,
+   "grank": 4839833,
    "best_jump": 3963132,
    "best_jump_gw": 2,
    "chips": [
@@ -2405,7 +2405,7 @@
    "value": 100.9,
    "value_delta": 0.9,
    "bank": 1.0,
-   "grank": 7330374,
+   "grank": 6223274,
    "best_jump": 140252,
    "best_jump_gw": 2,
    "chips": [
@@ -2432,7 +2432,7 @@
    "value": 100.4,
    "value_delta": 0.4,
    "bank": 0.7,
-   "grank": 6572720,
+   "grank": 6606759,
    "best_jump": null,
    "best_jump_gw": null,
    "chips": [
@@ -2459,7 +2459,7 @@
    "value": 99.4,
    "value_delta": -0.6,
    "bank": 2.2,
-   "grank": 8752145,
+   "grank": 8850751,
    "best_jump": 216389,
    "best_jump_gw": 3,
    "chips": []
