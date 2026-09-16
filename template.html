@@ -90,6 +90,12 @@ td{padding:9px 12px;border-top:1px solid var(--hair)} tbody tr:hover td{backgrou
 .info:hover .tip,.info.open .tip{visibility:visible;opacity:1}
 /* prize board */
 .pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+/* MT group standings: fit the card, no horizontal scroll */
+.grptbl{width:100%;table-layout:fixed}
+.grptbl th,.grptbl td{padding:8px 5px;white-space:normal;overflow-wrap:anywhere;font-size:12px}
+.grptbl th{font-size:10px;padding:8px 4px}
+.grptbl th:first-child,.grptbl td:first-child{text-align:left}
+.grptbl th:first-child{width:38%}
 .pcat{background:var(--s1);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
 .pcat h3{margin:0;padding:11px 14px;font-size:12px;text-transform:uppercase;letter-spacing:.6px;color:var(--ts);background:var(--s2);border-bottom:1px solid var(--line);display:flex;justify-content:space-between}
 .pcat h3 span{color:var(--gold);font-weight:800}
@@ -281,7 +287,7 @@ add('mt','⚔️','Tournaments',()=>{
   if(!mt.has_draw)g.innerHTML='<p class="desc">Awaiting the random group draw.</p>';
   else{let gh='<div class="pgrid">';Object.entries(mt.groups).forEach(([gn,t])=>{
     const rows=t.map((r,i)=>({_cls:i<2?'top5':'',cells:[r[0],r[1].P,r[1].W,r[1].D,r[1].L,`<b>${r[1].pts}</b>`,r[1].fpl]}));
-    gh+=`<div><div class="charttitle">Group ${gn} · top 2 advance</div>`+tbl([{t:'Team'},{t:'P',cls:'c'},{t:'W',cls:'c'},{t:'D',cls:'c'},{t:'L',cls:'c'},{t:'Pts',cls:'c'},{t:'TB1',cls:'r',tip:'TB1 — total FPL points scored across the group gameweeks so far. Teams level on Pts are separated by: 1) Pts, 2) TB1 (total points), 3) head-to-head result, 4) highest single-GW score.'}],rows)+'</div>';});
+    gh+=`<div><div class="charttitle">Group ${gn} · top 2 advance</div>`+tbl([{t:'Team'},{t:'P',cls:'c'},{t:'W',cls:'c'},{t:'D',cls:'c'},{t:'L',cls:'c'},{t:'Pts',cls:'c'},{t:'TB1',cls:'c',tip:'TB1 — total FPL points scored across the group gameweeks so far. Teams level on Pts are separated by: 1) Pts, 2) TB1 (total points), 3) head-to-head result, 4) highest single-GW score.'}],rows,'grptbl')+'</div>';});
    g.innerHTML=gh+'</div>';}
   k.innerHTML=koHeader(mt)+bracket(mt.knockout);
   const panes={tf:f,tg:g,tk:k};
