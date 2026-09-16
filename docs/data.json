@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-16 16:12 UTC",
-  "generated_iso": "2026-09-16T16:12:02.694529Z",
+  "generated_utc": "2026-09-16 16:34 UTC",
+  "generated_iso": "2026-09-16T16:34:16.373366Z",
   "started": true,
   "current_gw": 4,
   "finished": [
@@ -230,20 +230,20 @@
   {
    "rank": 22,
    "arrow": "\u25b2",
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "entry": 5008941,
-   "gw_points": 93,
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
+   "entry": 3181909,
+   "gw_points": 77,
    "total": 270,
    "hits": 0
   },
   {
    "rank": 22,
    "arrow": "\u25b2",
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "entry": 3181909,
-   "gw_points": 77,
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "entry": 5008941,
+   "gw_points": 93,
    "total": 270,
    "hits": 0
   },
@@ -547,16 +547,6 @@
     ]
    },
    {
-    "manager": "Ashwin Jose",
-    "entry": 5008941,
-    "scores": [
-     45,
-     86,
-     46,
-     93
-    ]
-   },
-   {
     "manager": "Aparnesh Mishra",
     "entry": 3181909,
     "scores": [
@@ -564,6 +554,16 @@
      96,
      38,
      77
+    ]
+   },
+   {
+    "manager": "Ashwin Jose",
+    "entry": 5008941,
+    "scores": [
+     45,
+     86,
+     46,
+     93
     ]
    },
    {
@@ -958,14 +958,14 @@
    "excluded": false
   },
   {
-   "manager": "Ashwin Jose",
-   "entry": 5008941,
+   "manager": "Aparnesh Mishra",
+   "entry": 3181909,
    "arrows": 2,
    "excluded": false
   },
   {
-   "manager": "Aparnesh Mishra",
-   "entry": 3181909,
+   "manager": "Ashwin Jose",
+   "entry": 5008941,
    "arrows": 2,
    "excluded": false
   },
@@ -1528,18 +1528,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "league_rank": 22,
-   "seasons": 11,
-   "past_seasons": 10,
-   "best_rank": 95791,
-   "best_season": "2018/19",
-   "avg_rank": 2404119,
-   "last_rank": 5124417,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Aparnesh Mishra",
    "team_name": "Mishra's 13",
    "league_rank": 22,
@@ -1549,6 +1537,18 @@
    "best_season": "2020/21",
    "avg_rank": 2156629,
    "last_rank": 2691725,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "league_rank": 22,
+   "seasons": 11,
+   "past_seasons": 10,
+   "best_rank": 95791,
+   "best_season": "2018/19",
+   "avg_rank": 2404119,
+   "last_rank": 5124417,
    "last_season": "2025/26"
   },
   {
@@ -2230,6 +2230,31 @@
    ]
   },
   {
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
+   "entry": 3181909,
+   "total": 270,
+   "played": 4,
+   "avg": 67.5,
+   "above_avg": 1,
+   "cap_return": 72,
+   "high": 96,
+   "high_gw": 2,
+   "low": 38,
+   "low_gw": 3,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 51,
+   "value": 100.9,
+   "value_delta": 0.9,
+   "bank": 1.0,
+   "grank": 2778338,
+   "best_jump": 453361,
+   "best_jump_gw": 2,
+   "chips": []
+  },
+  {
    "manager": "Ashwin Jose",
    "team_name": "Pole Calmer \ufffd",
    "entry": 5008941,
@@ -2255,31 +2280,6 @@
    "chips": [
     "wildcard"
    ]
-  },
-  {
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "entry": 3181909,
-   "total": 270,
-   "played": 4,
-   "avg": 67.5,
-   "above_avg": 1,
-   "cap_return": 72,
-   "high": 96,
-   "high_gw": 2,
-   "low": 38,
-   "low_gw": 3,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 51,
-   "value": 100.9,
-   "value_delta": 0.9,
-   "bank": 1.0,
-   "grank": 2778338,
-   "best_jump": 453361,
-   "best_jump_gw": 2,
-   "chips": []
   },
   {
    "manager": "Rajit Das",
@@ -3045,32 +3045,6 @@
     "cap": 10
    }
   ],
-  "5008941": [
-   {
-    "gw": 1,
-    "net": 45,
-    "orank": 5859109,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 86,
-    "orank": 4462746,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 46,
-    "orank": 5267498,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 93,
-    "orank": 2778338,
-    "cap": 10
-   }
-  ],
   "3181909": [
    {
     "gw": 1,
@@ -3095,6 +3069,32 @@
     "net": 77,
     "orank": 2778338,
     "cap": 24
+   }
+  ],
+  "5008941": [
+   {
+    "gw": 1,
+    "net": 45,
+    "orank": 5859109,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 86,
+    "orank": 4462746,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 46,
+    "orank": 5267498,
+    "cap": 18
+   },
+   {
+    "gw": 4,
+    "net": 93,
+    "orank": 2778338,
+    "cap": 10
    }
   ],
   "4837220": [
@@ -3329,7 +3329,8 @@
        "D": 0,
        "L": 0,
        "pts": 6,
-       "fpl": 147
+       "fpl": 147,
+       "hi": 87
       }
      ],
      [
@@ -3340,7 +3341,8 @@
        "D": 0,
        "L": 1,
        "pts": 3,
-       "fpl": 136
+       "fpl": 136,
+       "hi": 76
       }
      ],
      [
@@ -3351,7 +3353,8 @@
        "D": 0,
        "L": 1,
        "pts": 3,
-       "fpl": 127
+       "fpl": 127,
+       "hi": 75
       }
      ],
      [
@@ -3362,7 +3365,8 @@
        "D": 0,
        "L": 2,
        "pts": 0,
-       "fpl": 112
+       "fpl": 112,
+       "hi": 58
       }
      ]
     ],
@@ -3375,7 +3379,8 @@
        "D": 0,
        "L": 1,
        "pts": 3,
-       "fpl": 137
+       "fpl": 137,
+       "hi": 92
       }
      ],
      [
@@ -3386,7 +3391,8 @@
        "D": 0,
        "L": 1,
        "pts": 3,
-       "fpl": 131
+       "fpl": 131,
+       "hi": 91
       }
      ],
      [
@@ -3397,7 +3403,8 @@
        "D": 0,
        "L": 1,
        "pts": 3,
-       "fpl": 123
+       "fpl": 123,
+       "hi": 62
       }
      ],
      [
@@ -3408,7 +3415,8 @@
        "D": 0,
        "L": 1,
        "pts": 3,
-       "fpl": 115
+       "fpl": 115,
+       "hi": 77
       }
      ]
     ],
@@ -3421,7 +3429,8 @@
        "D": 0,
        "L": 0,
        "pts": 6,
-       "fpl": 144
+       "fpl": 144,
+       "hi": 81
       }
      ],
      [
@@ -3432,7 +3441,8 @@
        "D": 0,
        "L": 1,
        "pts": 3,
-       "fpl": 125
+       "fpl": 125,
+       "hi": 76
       }
      ],
      [
@@ -3443,7 +3453,8 @@
        "D": 0,
        "L": 1,
        "pts": 3,
-       "fpl": 122
+       "fpl": 122,
+       "hi": 77
       }
      ],
      [
@@ -3454,7 +3465,8 @@
        "D": 0,
        "L": 2,
        "pts": 0,
-       "fpl": 112
+       "fpl": 112,
+       "hi": 66
       }
      ]
     ],
@@ -3467,7 +3479,8 @@
        "D": 0,
        "L": 0,
        "pts": 6,
-       "fpl": 135
+       "fpl": 135,
+       "hi": 84
       }
      ],
      [
@@ -3478,7 +3491,8 @@
        "D": 0,
        "L": 1,
        "pts": 3,
-       "fpl": 150
+       "fpl": 150,
+       "hi": 107
       }
      ],
      [
@@ -3489,7 +3503,8 @@
        "D": 0,
        "L": 1,
        "pts": 3,
-       "fpl": 129
+       "fpl": 129,
+       "hi": 73
       }
      ],
      [
@@ -3500,7 +3515,8 @@
        "D": 0,
        "L": 2,
        "pts": 0,
-       "fpl": 124
+       "fpl": 124,
+       "hi": 69
       }
      ]
     ],
@@ -3513,7 +3529,8 @@
        "D": 0,
        "L": 0,
        "pts": 6,
-       "fpl": 170
+       "fpl": 170,
+       "hi": 116
       }
      ],
      [
@@ -3524,7 +3541,8 @@
        "D": 0,
        "L": 1,
        "pts": 3,
-       "fpl": 138
+       "fpl": 138,
+       "hi": 71
       }
      ],
      [
@@ -3535,7 +3553,8 @@
        "D": 0,
        "L": 1,
        "pts": 3,
-       "fpl": 128
+       "fpl": 128,
+       "hi": 91
       }
      ],
      [
@@ -3546,7 +3565,8 @@
        "D": 0,
        "L": 2,
        "pts": 0,
-       "fpl": 140
+       "fpl": 140,
+       "hi": 90
       }
      ]
     ],
@@ -3559,7 +3579,8 @@
        "D": 0,
        "L": 0,
        "pts": 6,
-       "fpl": 126
+       "fpl": 126,
+       "hi": 71
       }
      ],
      [
@@ -3570,7 +3591,8 @@
        "D": 0,
        "L": 1,
        "pts": 3,
-       "fpl": 126
+       "fpl": 126,
+       "hi": 71
       }
      ],
      [
@@ -3581,7 +3603,8 @@
        "D": 0,
        "L": 1,
        "pts": 3,
-       "fpl": 124
+       "fpl": 124,
+       "hi": 77
       }
      ],
      [
@@ -3592,7 +3615,8 @@
        "D": 0,
        "L": 2,
        "pts": 0,
-       "fpl": 117
+       "fpl": 117,
+       "hi": 70
       }
      ]
     ]
