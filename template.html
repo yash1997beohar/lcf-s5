@@ -132,6 +132,9 @@ td{padding:9px 12px;border-top:1px solid var(--hair)} tbody tr:hover td{backgrou
 /* centered stats + wide-scroll */
 .statctr{min-width:1120px}
 .statctr th,.statctr td{text-align:center}
+.sortable{cursor:pointer;user-select:none;white-space:nowrap}
+.sortable:hover{color:var(--tp)}
+.scar{color:var(--gold);font-size:9px;margin-left:1px}
 @media(max-width:560px){.h2pick .vs{display:none}}
 .claimed{width:7px;height:7px;border-radius:50%;background:var(--good);display:inline-block;margin-right:6px;vertical-align:middle}
 /* h2h */
@@ -186,10 +189,14 @@ const arrow=a=>a==='▲'?'<span class="up">▲</span>':a==='▼'?'<span class="d
 const medal=r=>r<=3?`<span class="medal m${r}">${r}</span>`:`<span class="rk">${r}</span>`;
 const colorFor=id=>['--c1','--c2','--c3','--c4','--c5','--c6'][id%6];
 const mono=(t,id)=>`<span class="av" style="background:var(${colorFor(id)})">${esc((t||'?').slice(0,2)).toUpperCase()}</span>`;
-function tbl(cols,rows,cls){let h=`<div class="tw"><table class="${cls||''}"><thead><tr>`+cols.map(c=>`<th class="${c.cls||''}">${c.t}${c.tip?` <span class="info" tabindex="0">i<span class="tip">${c.tip}</span></span>`:''}</th>`).join('')+'</tr></thead><tbody>';
+function tbl(cols,rows,cls){let h=`<div class="tw"><table class="${cls||''}"><thead><tr>`+cols.map(c=>{
+   const so=c.sk?' sortable':'',sk=c.sk?` data-sk="${c.sk}"`:'',car=c.sortActive?` <span class="scar">${c.sortAsc?'▴':'▾'}</span>`:'';
+   const info=c.tip?` <span class="info" tabindex="0">i<span class="tip">${c.tip}</span></span>`:'';
+   return `<th class="${c.cls||''}${so}"${sk}>${c.t}${car}${info}</th>`;}).join('')+'</tr></thead><tbody>';
  rows.forEach(r=>{h+=`<tr${r._id?` data-id="${r._id}"`:''}${r._cls?` class="${r._cls}"`:''}>`+r.cells.map((c,i)=>`<td class="${cols[i].cls||''}">${c}</td>`).join('')+'</tr>'});return h+'</tbody></table></div>'}
 
 const TABS=[];const add=(id,ic,label,render)=>TABS.push({id,ic,label,render});
+let STATSORT='total';  // Stats tab: active sort key (high→low). Default = Overall Points.
 
 /* Overall */
 add('overall','🏆','League Table',()=>{
@@ -236,21 +243,28 @@ add('prizes','💰','Prizes',()=>{
 add('stats','📊','Stats',()=>{
  if(!D.stats||!D.stats.length)return '<div class="ah"><h1>Season Stats</h1></div><p class="desc">Populates once the season is live.</p>';
  const cm={wildcard:'WC',freehit:'FH',bboost:'BB','3xc':'TC'};
- const rows=D.stats.map((r,i)=>{const vd=r.value_delta;const vds=vd==null?'—':(vd>0?`<span class="up">+£${vd}m</span>`:vd<0?`<span class="dn">−£${Math.abs(vd)}m</span>`:'£0.0m');
+ // "best first": most columns are higher-is-better (desc); these three are lower-is-better (asc).
+ const ASC=new Set(['grank','hits_pts','bench']);
+ const asc=ASC.has(STATSORT),dir=asc?1:-1;
+ const num=r=>{const v=r[STATSORT];return typeof v==='number'?v:null;};
+ const srt=D.stats.slice().sort((a,b)=>{const x=num(a),y=num(b);
+   if(x===null&&y===null)return 0;if(x===null)return 1;if(y===null)return -1;return dir*(x-y);});
+ const rows=srt.map((r,i)=>{const vd=r.value_delta;const vds=vd==null?'—':(vd>0?`<span class="up">+£${vd}m</span>`:vd<0?`<span class="dn">−£${Math.abs(vd)}m</span>`:'£0.0m');
    return {_id:r.entry,cells:[`<span class="rk">${i+1}</span>`,`<b>${esc(r.manager)}</b>`,`<b>${r.total}</b>`,r.avg??'—',
      `${r.above_avg}<span class="mut">/${r.played}</span>`,`<b>${r.cap_return}</b>`,r.high!=null?`${r.high} <span class="mut">GW${r.high_gw}</span>`:'—',
      r.low!=null?`${r.low} <span class="mut">GW${r.low_gw}</span>`:'—',r.transfers,`${r.hits_n} <span class="mut">(−${r.hits_pts})</span>`,r.bench,
      r.value!=null?('£'+r.value+'m'):'—',vds,r.grank!=null?fk(r.grank):'—',
      r.best_jump!=null?`<span class="up">▲${fk(r.best_jump)}</span> <span class="mut">GW${r.best_jump_gw}</span>`:'—',
      (r.chips&&r.chips.length)?r.chips.map(c=>`<span class="chip">${cm[c]||c}</span>`).join(''):'<span class="mut">—</span>']}});
- return `<div class="ah"><h1>Season Stats</h1></div><p class="desc">Everything beyond the table. Hover/tap the ⓘ on any column for what it means. Tap a manager for their profile.</p>
-  <div style="overflow-x:auto">`+tbl([{t:'#'},{t:'Manager'},{t:'Total',cls:'r',tip:'Cumulative season points, net of transfer hits.'},
-   {t:'Avg',cls:'r',tip:'Average points per gameweek played.'},{t:'Above Avg',cls:'c',tip:"Weeks scored above the league's weekly average — consistency. (weeks above / played)."},
-   {t:'Cap Ret',cls:'r',tip:'Total captain points after the ×2 / ×3 multiplier.'},{t:'High',cls:'r',tip:'Best single-GW score and the GW.'},
-   {t:'Low',cls:'r',tip:'Worst single-GW score and the GW.'},{t:'Transfers',cls:'c',tip:'Total transfers made (free + paid).'},
-   {t:'Hits',cls:'c',tip:'Hits for extra transfers: count and points lost, e.g. 2 (−8).'},{t:'Bench',cls:'c',tip:"Points left on the bench that didn't count."},
-   {t:'Squad',cls:'r',tip:'Current team value in £m.'},{t:'Value Δ',cls:'r',tip:'Squad value change since GW1.'},
-   {t:'Rank',cls:'r',tip:'Current overall global rank.'},{t:'Best Jump',cls:'r',tip:'Biggest one-GW climb in global rank, and the GW.'},{t:'Chips',cls:'c'}],rows,'clik statctr')+'</div>';
+ const SA=k=>STATSORT===k;const AS=k=>ASC.has(k);
+ return `<div class="ah"><h1>Season Stats</h1></div><p class="desc">Everything beyond the table. Click any column header to sort — best first, worst last (default: Total). Hover/tap the ⓘ for what a column means. Tap a manager for their profile.</p>
+  <div style="overflow-x:auto">`+tbl([{t:'#'},{t:'Manager'},{t:'Total',cls:'r',sk:'total',sortActive:SA('total'),tip:'Cumulative season points, net of transfer hits.'},
+   {t:'Avg',cls:'r',sk:'avg',sortActive:SA('avg'),tip:'Average points per gameweek played.'},{t:'Above Avg',cls:'c',sk:'above_avg',sortActive:SA('above_avg'),tip:"Weeks scored above the league's weekly average — consistency. (weeks above / played)."},
+   {t:'Cap Ret',cls:'r',sk:'cap_return',sortActive:SA('cap_return'),tip:'Total captain points after the ×2 / ×3 multiplier.'},{t:'High',cls:'r',sk:'high',sortActive:SA('high'),tip:'Best single-GW score and the GW.'},
+   {t:'Low',cls:'r',sk:'low',sortActive:SA('low'),tip:'Worst single-GW score and the GW.'},{t:'Transfers',cls:'c',sk:'transfers',sortActive:SA('transfers'),tip:'Total transfers made (free + paid).'},
+   {t:'Hits',cls:'c',sk:'hits_pts',sortActive:SA('hits_pts'),sortAsc:true,tip:'Hits for extra transfers: count and points lost, e.g. 2 (−8). Sorts fewest-first.'},{t:'Bench',cls:'c',sk:'bench',sortActive:SA('bench'),sortAsc:true,tip:"Points left on the bench that didn't count. Sorts fewest-first."},
+   {t:'Squad',cls:'r',sk:'value',sortActive:SA('value'),tip:'Current team value in £m.'},{t:'Value Δ',cls:'r',sk:'value_delta',sortActive:SA('value_delta'),tip:'Squad value change since GW1.'},
+   {t:'Rank',cls:'r',sk:'grank',sortActive:SA('grank'),sortAsc:true,tip:'Current overall global rank. Sorts best (lowest number) first.'},{t:'Best Jump',cls:'r',sk:'best_jump',sortActive:SA('best_jump'),tip:'Biggest one-GW climb in global rank, and the GW.'},{t:'Chips',cls:'c'}],rows,'clik statctr')+'</div>';
 });
 
 /* Mini Tournaments */
@@ -267,14 +281,25 @@ add('mt','⚔️','Tournaments',()=>{
   if(!mt.has_draw)g.innerHTML='<p class="desc">Awaiting the random group draw.</p>';
   else{let gh='<div class="pgrid">';Object.entries(mt.groups).forEach(([gn,t])=>{
     const rows=t.map((r,i)=>({_cls:i<2?'top5':'',cells:[r[0],r[1].P,r[1].W,r[1].D,r[1].L,`<b>${r[1].pts}</b>`,r[1].fpl]}));
-    gh+=`<div><div class="charttitle">Group ${gn} · top 2 advance</div>`+tbl([{t:'Team'},{t:'P',cls:'c'},{t:'W',cls:'c'},{t:'D',cls:'c'},{t:'L',cls:'c'},{t:'Pts',cls:'c'},{t:'FPL',cls:'r'}],rows)+'</div>';});
+    gh+=`<div><div class="charttitle">Group ${gn} · top 2 advance</div>`+tbl([{t:'Team'},{t:'P',cls:'c'},{t:'W',cls:'c'},{t:'D',cls:'c'},{t:'L',cls:'c'},{t:'Pts',cls:'c'},{t:'TB1',cls:'r',tip:'TB1 — total FPL points scored across the group gameweeks so far. Teams level on Pts are separated by: 1) Pts, 2) TB1 (total points), 3) head-to-head result, 4) highest single-GW score.'}],rows)+'</div>';});
    g.innerHTML=gh+'</div>';}
-  k.innerHTML=bracket(mt.knockout);
+  k.innerHTML=koHeader(mt)+bracket(mt.knockout);
   const panes={tf:f,tg:g,tk:k};
   ['tf','tg','tk'].forEach(id=>$('#'+id).onclick=()=>{['tf','tg','tk'].forEach(x=>{$('#'+x).classList.toggle('on',x===id);panes[x].style.display=x===id?'':'none'})});
  });
  return h;
 });
+function koHeader(mt){
+ const swapped=mt.knockout&&mt.knockout.reseeded;
+ return `<div class="ah"><h1 style="font-size:16px">Knockouts</h1>`+
+  `<span class="info" tabindex="0" style="width:16px;height:16px;font-size:10px">i`+
+  `<span class="tip" style="width:250px"><b>How the 8-team bracket is set</b><br>`+
+  `The 8 qualifiers are the 6 group winners plus the 2 best runners-up. Cross-group ranking uses Points → total FPL → highest single-GW score (head-to-head can't apply between groups). `+
+  `Winners take seeds 1–6 by group-stage record; the 2 runners-up are seeds 7–8. `+
+  `Pairings: 1v8, 2v7, 3v6, 4v5. If a pairing would replay a group match, the two runners-up swap seeds to avoid it`+
+  (swapped?` <em>— applied this round.</em>`:`.`)+
+  `</span></span></div>`;
+}
 function bracket(ko){if(!ko||!ko.rounds)return '<p class="desc">The 8-team knockout (QF → SF → Final) appears once the group stage finishes.</p>';
  let h='<div class="brk">';
  ko.rounds.forEach(rd=>{h+=`<div class="brd"><div class="rn">${rd.name}</div><div class="ties">`;
@@ -417,6 +442,8 @@ document.addEventListener('click',e=>{
  const info=e.target.closest('.info');
  document.querySelectorAll('.info.open').forEach(x=>{if(x!==info)x.classList.remove('open')});
  if(info){e.stopPropagation();e.preventDefault();info.classList.toggle('open');return;}
+ const sh=e.target.closest('th.sortable');
+ if(sh&&sh.closest('#sec_stats')&&sh.dataset.sk){STATSORT=sh.dataset.sk;const sec=document.getElementById('sec_stats');const st=TABS.find(t=>t.id==='stats');if(sec&&st)sec.innerHTML=st.render();return;}
  const tr=e.target.closest('tr[data-id]');if(tr){openProfile(+tr.dataset.id);return;}
  if(e.target.id==='ov')closeM();
 });

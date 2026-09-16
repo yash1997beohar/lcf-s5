@@ -13,7 +13,7 @@ Runtime: GitHub Actions (open internet). Local sandboxes may be firewalled from
 the FPL API, so use --demo to preview the dashboard with simulated data.
 """
 
-import argparse, json, os, sys, time, datetime as dt, random
+import argparse, json, os, sys, time, datetime as dt, random, functools
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 
@@ -373,7 +373,8 @@ def compute_mts(mt_config, M, net, finished, cap_gw, bench_gw):
         groups = mt.get("groups") or {}
         gtables, standings = {}, {}
         for gname, eids in groups.items():
-            recs = {e: {"P": 0, "W": 0, "D": 0, "L": 0, "pts": 0, "fpl": 0} for e in eids}
+            recs = {e: {"P": 0, "W": 0, "D": 0, "L": 0, "pts": 0, "fpl": 0, "hi": 0} for e in eids}
+            h2h = {}  # (x, y) -> 'x' if x beat y in their direct match, 'y' if y won, 'draw'
             sched = _rr4(eids)
             for idx, gw in enumerate(mt["group_gws"]):
                 if gw not in finished or idx >= len(sched):
@@ -384,10 +385,25 @@ def compute_mts(mt_config, M, net, finished, cap_gw, bench_gw):
                         continue
                     recs[a]["P"] += 1; recs[b]["P"] += 1
                     recs[a]["fpl"] += sa; recs[b]["fpl"] += sb
-                    if sa > sb: recs[a]["W"] += 1; recs[a]["pts"] += 3; recs[b]["L"] += 1
-                    elif sb > sa: recs[b]["W"] += 1; recs[b]["pts"] += 3; recs[a]["L"] += 1
-                    else: recs[a]["D"] += 1; recs[b]["D"] += 1; recs[a]["pts"] += 1; recs[b]["pts"] += 1
-            order = sorted(eids, key=lambda e: (-recs[e]["pts"], -recs[e]["fpl"]))
+                    recs[a]["hi"] = max(recs[a]["hi"], sa); recs[b]["hi"] = max(recs[b]["hi"], sb)
+                    if sa > sb: recs[a]["W"] += 1; recs[a]["pts"] += 3; recs[b]["L"] += 1; h2h[(a, b)] = "a"
+                    elif sb > sa: recs[b]["W"] += 1; recs[b]["pts"] += 3; recs[a]["L"] += 1; h2h[(a, b)] = "b"
+                    else: recs[a]["D"] += 1; recs[b]["D"] += 1; recs[a]["pts"] += 1; recs[b]["pts"] += 1; h2h[(a, b)] = "draw"
+
+            def _grp_cmp(x, y):
+                # Rulebook tiebreak chain (within a group):
+                # 1) group points  2) total FPL across GWs  3) head-to-head  4) highest single GW
+                for k in ("pts", "fpl"):
+                    if recs[x][k] != recs[y][k]:
+                        return -1 if recs[x][k] > recs[y][k] else 1
+                r = h2h.get((x, y)) or (("b" if h2h.get((y, x)) == "a" else
+                                        "a" if h2h.get((y, x)) == "b" else h2h.get((y, x))))
+                if r == "a": return -1
+                if r == "b": return 1
+                if recs[x]["hi"] != recs[y]["hi"]:
+                    return -1 if recs[x]["hi"] > recs[y]["hi"] else 1
+                return 0
+            order = sorted(eids, key=functools.cmp_to_key(_grp_cmp))
             standings[gname] = [(e, recs[e]) for e in order]
             gtables[gname] = [[id2name[e], recs[e]] for e in order]
 
@@ -429,12 +445,25 @@ def _ko_winner(a, b, gw, finished, net, cap_gw, bench_gw, seed):
     return ("a" if seed.get(a, 99) < seed.get(b, 99) else "b"), sa, sb
 
 def _build_knockout(standings, ko_gws, finished, net, cap_gw, bench_gw, id2name):
-    winners = sorted([standings[g][0] for g in standings], key=lambda x: (-x[1]["pts"], -x[1]["fpl"]))
-    runners = sorted([standings[g][1] for g in standings if len(standings[g]) > 1],
-                     key=lambda x: (-x[1]["pts"], -x[1]["fpl"]))
+    # Cross-group seeding chain (head-to-head impossible between groups):
+    # group points -> total FPL -> highest single GW.
+    xkey = lambda x: (-x[1]["pts"], -x[1]["fpl"], -x[1].get("hi", 0))
+    winners = sorted([standings[g][0] for g in standings], key=xkey)
+    runners = sorted([standings[g][1] for g in standings if len(standings[g]) > 1], key=xkey)
     seeds = [w[0] for w in winners[:6]] + [r[0] for r in runners[:2]]
     if len(seeds) < 8:
         return None
+    # Repeat-fixture guard: the two runners-up (seeds 7 & 8) are the only teams that can
+    # rematch a group game (their own group winner is also in). They face seeds 1 & 2 in the
+    # QF pairings (s0,s7) and (s1,s6). If that would replay a group fixture, swap the two
+    # runners-up between the seed-7 and seed-8 slots — provably always breaks the clash.
+    e2g = {e: g for g in standings for e, _ in standings[g]}
+    def _clash(sq):
+        return e2g.get(sq[0]) == e2g.get(sq[7]) or e2g.get(sq[1]) == e2g.get(sq[6])
+    swapped = False
+    if _clash(seeds):
+        seeds[6], seeds[7] = seeds[7], seeds[6]
+        swapped = True
     seed = {e: i + 1 for i, e in enumerate(seeds)}
     s = seeds
     gw_qf, gw_sf, gw_f = (list(ko_gws) + [None, None, None])[:3]
@@ -453,6 +482,7 @@ def _build_knockout(standings, ko_gws, finished, net, cap_gw, bench_gw, id2name)
     f_res, fin = round_of([(sf_res[0], sf_res[1])], gw_f, "Final")
     return {"rounds": [qf, sf, fin],
             "seeds": [{"seed": i + 1, "manager": nm(e)} for i, e in enumerate(seeds)],
+            "reseeded": swapped,
             "champion": nm(f_res[0]) if f_res[0] else None}
 
 def _rr4(t):
@@ -684,8 +714,9 @@ def _demo_groups(order, members, net, rng):
         for e in eids:
             w = rng.randint(0, 3); d = rng.randint(0, 3 - w)
             recs.append([members[e]["manager"], {"P": 3, "W": w, "D": d, "L": 3 - w - d,
-                         "pts": 3*w + d, "fpl": sum(net[e][x] for x in (3,4,5))}])
-        groups[g] = sorted(recs, key=lambda r: (-r[1]["pts"], -r[1]["fpl"]))
+                         "pts": 3*w + d, "fpl": sum(net[e][x] for x in (3,4,5)),
+                         "hi": max(net[e][x] for x in (3,4,5))}])
+        groups[g] = sorted(recs, key=lambda r: (-r[1]["pts"], -r[1]["fpl"], -r[1]["hi"]))
     return groups
 
 # --------------------------------------------------------------------- main
