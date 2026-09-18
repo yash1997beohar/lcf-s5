@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-18 16:10 UTC",
-  "generated_iso": "2026-09-18T16:10:54.093745Z",
+  "generated_utc": "2026-09-18 18:13 UTC",
+  "generated_iso": "2026-09-18T18:13:38.333265Z",
   "started": true,
   "current_gw": 4,
   "finished": [
@@ -45,7 +45,7 @@
    "entry": 256447,
    "gw_points": 111,
    "total": 315,
-   "hits": 4
+   "hits": 0
   },
   {
    "rank": 4,
@@ -165,7 +165,7 @@
    "entry": 1301167,
    "gw_points": 87,
    "total": 287,
-   "hits": 4
+   "hits": 8
   },
   {
    "rank": 16,
@@ -230,20 +230,20 @@
   {
    "rank": 22,
    "arrow": "\u25b2",
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "entry": 3181909,
-   "gw_points": 77,
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "entry": 5008941,
+   "gw_points": 93,
    "total": 270,
    "hits": 0
   },
   {
    "rank": 22,
    "arrow": "\u25b2",
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "entry": 5008941,
-   "gw_points": 93,
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
+   "entry": 3181909,
+   "gw_points": 77,
    "total": 270,
    "hits": 0
   },
@@ -265,7 +265,7 @@
    "entry": 5582398,
    "gw_points": 66,
    "total": 267,
-   "hits": 4
+   "hits": 8
   },
   {
    "rank": 26,
@@ -340,40 +340,40 @@
     "manager": "Abhay Rawat",
     "entry": 3942416,
     "scores": [
-     74,
-     126,
-     63,
-     81
+     null,
+     null,
+     null,
+     null
     ]
    },
    {
     "manager": "Ajith Thomas Kuthukatt George",
     "entry": 5419891,
     "scores": [
-     55,
-     100,
-     54,
-     116
+     null,
+     null,
+     null,
+     null
     ]
    },
    {
     "manager": "Anish Joshi",
     "entry": 256447,
     "scores": [
-     62,
-     103,
-     43,
-     107
+     null,
+     null,
+     null,
+     null
     ]
    },
    {
     "manager": "Aquib Razack",
     "entry": 5926399,
     "scores": [
-     74,
-     103,
-     45,
-     92
+     null,
+     null,
+     null,
+     null
     ]
    },
    {
@@ -547,16 +547,6 @@
     ]
    },
    {
-    "manager": "Aparnesh Mishra",
-    "entry": 3181909,
-    "scores": [
-     59,
-     96,
-     38,
-     77
-    ]
-   },
-   {
     "manager": "Ashwin Jose",
     "entry": 5008941,
     "scores": [
@@ -564,6 +554,16 @@
      86,
      46,
      93
+    ]
+   },
+   {
+    "manager": "Aparnesh Mishra",
+    "entry": 3181909,
+    "scores": [
+     59,
+     96,
+     38,
+     77
     ]
    },
    {
@@ -659,8 +659,8 @@
   {
    "chip": "Bench Boost",
    "code": "bboost",
-   "score": 126,
-   "manager": "Abhay Rawat",
+   "score": 90,
+   "manager": "Abhishek Gupte",
    "gw": 2
   },
   {
@@ -868,34 +868,10 @@
  ],
  "green": [
   {
-   "manager": "Ajith Thomas Kuthukatt George",
-   "entry": 5419891,
-   "arrows": 3,
-   "excluded": true
-  },
-  {
    "manager": "Deepankar Sachdeva",
    "entry": 1301167,
    "arrows": 3,
    "excluded": false
-  },
-  {
-   "manager": "Abhay Rawat",
-   "entry": 3942416,
-   "arrows": 2,
-   "excluded": true
-  },
-  {
-   "manager": "Anish Joshi",
-   "entry": 256447,
-   "arrows": 2,
-   "excluded": true
-  },
-  {
-   "manager": "Aquib Razack",
-   "entry": 5926399,
-   "arrows": 2,
-   "excluded": true
   },
   {
    "manager": "Abhinav Premsekhar",
@@ -958,14 +934,14 @@
    "excluded": false
   },
   {
-   "manager": "Aparnesh Mishra",
-   "entry": 3181909,
+   "manager": "Ashwin Jose",
+   "entry": 5008941,
    "arrows": 2,
    "excluded": false
   },
   {
-   "manager": "Ashwin Jose",
-   "entry": 5008941,
+   "manager": "Aparnesh Mishra",
+   "entry": 3181909,
    "arrows": 2,
    "excluded": false
   },
@@ -1052,6 +1028,30 @@
    "entry": 6514976,
    "arrows": 1,
    "excluded": false
+  },
+  {
+   "manager": "Abhay Rawat",
+   "entry": 3942416,
+   "arrows": 0,
+   "excluded": true
+  },
+  {
+   "manager": "Ajith Thomas Kuthukatt George",
+   "entry": 5419891,
+   "arrows": 0,
+   "excluded": true
+  },
+  {
+   "manager": "Anish Joshi",
+   "entry": 256447,
+   "arrows": 0,
+   "excluded": true
+  },
+  {
+   "manager": "Aquib Razack",
+   "entry": 5926399,
+   "arrows": 0,
+   "excluded": true
   }
  ],
  "comeback": {
@@ -1279,49 +1279,49 @@
    "manager": "Abhay Rawat",
    "team_name": "115 FC",
    "league_rank": 1,
-   "seasons": 11,
-   "past_seasons": 10,
-   "best_rank": 38561,
-   "best_season": "2018/19",
-   "avg_rank": 858178,
-   "last_rank": 726260,
-   "last_season": "2025/26"
+   "seasons": 1,
+   "past_seasons": 0,
+   "best_rank": null,
+   "best_season": null,
+   "avg_rank": null,
+   "last_rank": null,
+   "last_season": null
   },
   {
    "manager": "Ajith Thomas Kuthukatt George",
    "team_name": "Onside Offside",
    "league_rank": 2,
-   "seasons": 3,
-   "past_seasons": 2,
-   "best_rank": 545267,
-   "best_season": "2025/26",
-   "avg_rank": 604934,
-   "last_rank": 545267,
-   "last_season": "2025/26"
+   "seasons": 1,
+   "past_seasons": 0,
+   "best_rank": null,
+   "best_season": null,
+   "avg_rank": null,
+   "last_rank": null,
+   "last_season": null
   },
   {
    "manager": "Anish Joshi",
    "team_name": "Fiery Raiders",
    "league_rank": 3,
-   "seasons": 15,
-   "past_seasons": 14,
-   "best_rank": 281617,
-   "best_season": "2019/20",
-   "avg_rank": 1051323,
-   "last_rank": 1076546,
-   "last_season": "2025/26"
+   "seasons": 1,
+   "past_seasons": 0,
+   "best_rank": null,
+   "best_season": null,
+   "avg_rank": null,
+   "last_rank": null,
+   "last_season": null
   },
   {
    "manager": "Aquib Razack",
    "team_name": "BattleBorn",
    "league_rank": 4,
-   "seasons": 14,
-   "past_seasons": 13,
-   "best_rank": 71857,
-   "best_season": "2020/21",
-   "avg_rank": 1929309,
-   "last_rank": 297407,
-   "last_season": "2025/26"
+   "seasons": 1,
+   "past_seasons": 0,
+   "best_rank": null,
+   "best_season": null,
+   "avg_rank": null,
+   "last_rank": null,
+   "last_season": null
   },
   {
    "manager": "Abhinav Premsekhar",
@@ -1528,18 +1528,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "league_rank": 22,
-   "seasons": 9,
-   "past_seasons": 8,
-   "best_rank": 334016,
-   "best_season": "2020/21",
-   "avg_rank": 2156629,
-   "last_rank": 2691725,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Ashwin Jose",
    "team_name": "Pole Calmer \ufffd",
    "league_rank": 22,
@@ -1549,6 +1537,18 @@
    "best_season": "2018/19",
    "avg_rank": 2404119,
    "last_rank": 5124417,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
+   "league_rank": 22,
+   "seasons": 9,
+   "past_seasons": 8,
+   "best_rank": 334016,
+   "best_season": "2020/21",
+   "avg_rank": 2156629,
+   "last_rank": 2691725,
    "last_season": "2025/26"
   },
   {
@@ -1654,53 +1654,49 @@
    "team_name": "115 FC",
    "entry": 3942416,
    "total": 344,
-   "played": 4,
-   "avg": 86.0,
-   "above_avg": 4,
+   "played": 0,
+   "avg": null,
+   "above_avg": 0,
    "cap_return": 78,
-   "high": 126,
-   "high_gw": 2,
-   "low": 63,
-   "low_gw": 3,
-   "transfers": 1,
+   "high": null,
+   "high_gw": null,
+   "low": null,
+   "low_gw": null,
+   "transfers": 0,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 48,
-   "value": 101.2,
-   "value_delta": 1.2,
-   "bank": 0.4,
-   "grank": 10250,
-   "best_jump": 270274,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost",
-    "freehit",
-    "wildcard"
-   ]
+   "bench": 0,
+   "value": null,
+   "value_delta": null,
+   "bank": null,
+   "grank": null,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
   },
   {
    "manager": "Ajith Thomas Kuthukatt George",
    "team_name": "Onside Offside",
    "entry": 5419891,
    "total": 325,
-   "played": 4,
-   "avg": 81.2,
-   "above_avg": 4,
+   "played": 0,
+   "avg": null,
+   "above_avg": 0,
    "cap_return": 72,
-   "high": 116,
-   "high_gw": 4,
-   "low": 54,
-   "low_gw": 3,
-   "transfers": 2,
+   "high": null,
+   "high_gw": null,
+   "low": null,
+   "low_gw": null,
+   "transfers": 0,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 39,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.2,
-   "grank": 109108,
-   "best_jump": 1461471,
-   "best_jump_gw": 2,
+   "bench": 0,
+   "value": null,
+   "value_delta": null,
+   "bank": null,
+   "grank": null,
+   "best_jump": null,
+   "best_jump_gw": null,
    "chips": []
   },
   {
@@ -1708,56 +1704,50 @@
    "team_name": "Fiery Raiders",
    "entry": 256447,
    "total": 315,
-   "played": 4,
-   "avg": 78.8,
-   "above_avg": 3,
+   "played": 0,
+   "avg": null,
+   "above_avg": 0,
    "cap_return": 72,
-   "high": 107,
-   "high_gw": 4,
-   "low": 43,
-   "low_gw": 3,
-   "transfers": 3,
-   "hits_pts": 4,
-   "hits_n": 1,
-   "bench": 47,
-   "value": 101.0,
-   "value_delta": 1.0,
-   "bank": 1.4,
-   "grank": 267533,
-   "best_jump": 1229264,
-   "best_jump_gw": 4,
-   "chips": [
-    "bboost",
-    "wildcard"
-   ]
+   "high": null,
+   "high_gw": null,
+   "low": null,
+   "low_gw": null,
+   "transfers": 0,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 0,
+   "value": null,
+   "value_delta": null,
+   "bank": null,
+   "grank": null,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
   },
   {
    "manager": "Aquib Razack",
    "team_name": "BattleBorn",
    "entry": 5926399,
    "total": 314,
-   "played": 4,
-   "avg": 78.5,
-   "above_avg": 3,
+   "played": 0,
+   "avg": null,
+   "above_avg": 0,
    "cap_return": 78,
-   "high": 103,
-   "high_gw": 2,
-   "low": 45,
-   "low_gw": 3,
-   "transfers": 1,
+   "high": null,
+   "high_gw": null,
+   "low": null,
+   "low_gw": null,
+   "transfers": 0,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 59,
-   "value": 101.1,
-   "value_delta": 1.1,
-   "bank": 0.0,
-   "grank": 278598,
-   "best_jump": 266328,
-   "best_jump_gw": 4,
-   "chips": [
-    "bboost",
-    "wildcard"
-   ]
+   "bench": 0,
+   "value": null,
+   "value_delta": null,
+   "bank": null,
+   "grank": null,
+   "best_jump": null,
+   "best_jump_gw": null,
+   "chips": []
   },
   {
    "manager": "Abhinav Premsekhar",
@@ -1772,13 +1762,13 @@
    "high_gw": 2,
    "low": 51,
    "low_gw": 3,
-   "transfers": 3,
+   "transfers": 4,
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 35,
-   "value": 100.4,
-   "value_delta": 0.4,
-   "bank": 0.4,
+   "value": 100.5,
+   "value_delta": 0.5,
+   "bank": 2.5,
    "grank": 312178,
    "best_jump": 166751,
    "best_jump_gw": 2,
@@ -1800,12 +1790,12 @@
    "high_gw": 2,
    "low": 37,
    "low_gw": 3,
-   "transfers": 0,
+   "transfers": 2,
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 21,
-   "value": 101.4,
-   "value_delta": 1.4,
+   "value": 101.8,
+   "value_delta": 1.8,
    "bank": 0.2,
    "grank": 528537,
    "best_jump": 466127,
@@ -1822,19 +1812,19 @@
    "total": 305,
    "played": 4,
    "avg": 76.2,
-   "above_avg": 3,
+   "above_avg": 4,
    "cap_return": 67,
    "high": 105,
    "high_gw": 2,
    "low": 60,
    "low_gw": 3,
-   "transfers": 3,
+   "transfers": 4,
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 57,
-   "value": 100.7,
-   "value_delta": 0.7,
-   "bank": 0.7,
+   "value": 101.0,
+   "value_delta": 1.0,
+   "bank": 0.5,
    "grank": 549095,
    "best_jump": 617418,
    "best_jump_gw": 2,
@@ -1860,8 +1850,8 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 48,
-   "value": 100.3,
-   "value_delta": 0.3,
+   "value": 100.4,
+   "value_delta": 0.4,
    "bank": 0.6,
    "grank": 745361,
    "best_jump": 637992,
@@ -1888,8 +1878,8 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 24,
-   "value": 101.0,
-   "value_delta": 1.0,
+   "value": 101.3,
+   "value_delta": 1.3,
    "bank": 0.2,
    "grank": 774645,
    "best_jump": 1034411,
@@ -1906,7 +1896,7 @@
    "total": 297,
    "played": 4,
    "avg": 74.2,
-   "above_avg": 2,
+   "above_avg": 3,
    "cap_return": 87,
    "high": 118,
    "high_gw": 2,
@@ -1916,8 +1906,8 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 45,
-   "value": 100.6,
-   "value_delta": 0.6,
+   "value": 101.0,
+   "value_delta": 1.0,
    "bank": 0.0,
    "grank": 866801,
    "best_jump": 3039834,
@@ -1934,19 +1924,19 @@
    "total": 293,
    "played": 4,
    "avg": 73.2,
-   "above_avg": 1,
+   "above_avg": 2,
    "cap_return": 78,
    "high": 120,
    "high_gw": 2,
    "low": 48,
    "low_gw": 1,
-   "transfers": 3,
+   "transfers": 4,
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 56,
-   "value": 100.2,
-   "value_delta": 0.2,
-   "bank": 0.6,
+   "value": 100.3,
+   "value_delta": 0.3,
+   "bank": 2.7,
    "grank": 1089861,
    "best_jump": 4399137,
    "best_jump_gw": 2,
@@ -1969,8 +1959,8 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 63,
-   "value": 101.0,
-   "value_delta": 1.0,
+   "value": 101.4,
+   "value_delta": 1.4,
    "bank": 0.2,
    "grank": 1306162,
    "best_jump": 878473,
@@ -1987,19 +1977,19 @@
    "total": 287,
    "played": 4,
    "avg": 71.8,
-   "above_avg": 1,
+   "above_avg": 3,
    "cap_return": 78,
    "high": 113,
    "high_gw": 2,
    "low": 45,
    "low_gw": 3,
-   "transfers": 1,
+   "transfers": 2,
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 40,
-   "value": 100.4,
-   "value_delta": 0.4,
-   "bank": 0.0,
+   "value": 100.8,
+   "value_delta": 0.8,
+   "bank": 1.0,
    "grank": 1426049,
    "best_jump": 3046343,
    "best_jump_gw": 2,
@@ -2024,8 +2014,8 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 35,
-   "value": 101.1,
-   "value_delta": 1.1,
+   "value": 101.2,
+   "value_delta": 1.2,
    "bank": 1.1,
    "grank": 1433794,
    "best_jump": 101935,
@@ -2047,13 +2037,13 @@
    "high_gw": 2,
    "low": 43,
    "low_gw": 1,
-   "transfers": 3,
-   "hits_pts": 4,
-   "hits_n": 1,
+   "transfers": 5,
+   "hits_pts": 8,
+   "hits_n": 2,
    "bench": 33,
-   "value": 100.4,
-   "value_delta": 0.4,
-   "bank": 0.2,
+   "value": 100.6,
+   "value_delta": 0.6,
+   "bank": 0.7,
    "grank": 1454432,
    "best_jump": 3048395,
    "best_jump_gw": 2,
@@ -2081,13 +2071,14 @@
    "bench": 25,
    "value": 100.4,
    "value_delta": 0.4,
-   "bank": 0.5,
+   "bank": 1.3,
    "grank": 1501110,
    "best_jump": 3009015,
    "best_jump_gw": 2,
    "chips": [
     "3xc",
-    "freehit"
+    "freehit",
+    "wildcard"
    ]
   },
   {
@@ -2107,8 +2098,8 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 58,
-   "value": 100.5,
-   "value_delta": 0.5,
+   "value": 100.9,
+   "value_delta": 0.9,
    "bank": 0.0,
    "grank": 1569102,
    "best_jump": 1066412,
@@ -2135,8 +2126,8 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 50,
-   "value": 100.5,
-   "value_delta": 0.5,
+   "value": 100.9,
+   "value_delta": 0.9,
    "bank": 0.6,
    "grank": 1622014,
    "best_jump": 5881370,
@@ -2163,8 +2154,8 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 36,
-   "value": 100.5,
-   "value_delta": 0.5,
+   "value": 101.1,
+   "value_delta": 1.1,
    "bank": 0.5,
    "grank": 1711492,
    "best_jump": 5250200,
@@ -2193,13 +2184,14 @@
    "bench": 45,
    "value": 100.6,
    "value_delta": 0.6,
-   "bank": 1.0,
+   "bank": 0.4,
    "grank": 1936996,
    "best_jump": 4185865,
    "best_jump_gw": 2,
    "chips": [
     "3xc",
-    "freehit"
+    "freehit",
+    "wildcard"
    ]
   },
   {
@@ -2219,8 +2211,8 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 33,
-   "value": 101.3,
-   "value_delta": 1.3,
+   "value": 101.7,
+   "value_delta": 1.7,
    "bank": 0.4,
    "grank": 2343465,
    "best_jump": 2735246,
@@ -2228,31 +2220,6 @@
    "chips": [
     "wildcard"
    ]
-  },
-  {
-   "manager": "Aparnesh Mishra",
-   "team_name": "Mishra's 13",
-   "entry": 3181909,
-   "total": 270,
-   "played": 4,
-   "avg": 67.5,
-   "above_avg": 1,
-   "cap_return": 72,
-   "high": 96,
-   "high_gw": 2,
-   "low": 38,
-   "low_gw": 3,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 51,
-   "value": 100.9,
-   "value_delta": 0.9,
-   "bank": 1.0,
-   "grank": 2778338,
-   "best_jump": 453361,
-   "best_jump_gw": 2,
-   "chips": []
   },
   {
    "manager": "Ashwin Jose",
@@ -2267,19 +2234,44 @@
    "high_gw": 4,
    "low": 45,
    "low_gw": 1,
-   "transfers": 2,
+   "transfers": 3,
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 61,
-   "value": 101.2,
-   "value_delta": 1.2,
-   "bank": 1.5,
+   "value": 101.9,
+   "value_delta": 1.9,
+   "bank": 0.6,
    "grank": 2778338,
    "best_jump": 2489160,
    "best_jump_gw": 4,
    "chips": [
     "wildcard"
    ]
+  },
+  {
+   "manager": "Aparnesh Mishra",
+   "team_name": "Mishra's 13",
+   "entry": 3181909,
+   "total": 270,
+   "played": 4,
+   "avg": 67.5,
+   "above_avg": 2,
+   "cap_return": 72,
+   "high": 96,
+   "high_gw": 2,
+   "low": 38,
+   "low_gw": 3,
+   "transfers": 3,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 51,
+   "value": 101.1,
+   "value_delta": 1.1,
+   "bank": 1.1,
+   "grank": 2778338,
+   "best_jump": 453361,
+   "best_jump_gw": 2,
+   "chips": []
   },
   {
    "manager": "Rajit Das",
@@ -2294,13 +2286,13 @@
    "high_gw": 2,
    "low": 46,
    "low_gw": 1,
-   "transfers": 2,
+   "transfers": 3,
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 58,
-   "value": 100.0,
-   "value_delta": 0.0,
-   "bank": 0.2,
+   "value": 100.2,
+   "value_delta": 0.2,
+   "bank": 1.8,
    "grank": 2868689,
    "best_jump": 1595922,
    "best_jump_gw": 2,
@@ -2317,18 +2309,18 @@
    "total": 267,
    "played": 4,
    "avg": 66.8,
-   "above_avg": 1,
+   "above_avg": 2,
    "cap_return": 58,
    "high": 102,
    "high_gw": 2,
    "low": 46,
    "low_gw": 3,
-   "transfers": 3,
-   "hits_pts": 4,
-   "hits_n": 1,
+   "transfers": 5,
+   "hits_pts": 8,
+   "hits_n": 2,
    "bench": 55,
-   "value": 100.7,
-   "value_delta": 0.7,
+   "value": 101.1,
+   "value_delta": 1.1,
    "bank": 0.1,
    "grank": 3077476,
    "best_jump": 1948104,
@@ -2350,13 +2342,13 @@
    "high_gw": 3,
    "low": 41,
    "low_gw": 1,
-   "transfers": 3,
+   "transfers": 4,
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 33,
-   "value": 100.6,
-   "value_delta": 0.6,
-   "bank": 1.0,
+   "value": 100.8,
+   "value_delta": 0.8,
+   "bank": 0.0,
    "grank": 3170793,
    "best_jump": 3395267,
    "best_jump_gw": 3,
@@ -2371,7 +2363,7 @@
    "total": 263,
    "played": 4,
    "avg": 65.8,
-   "above_avg": 1,
+   "above_avg": 2,
    "cap_return": 58,
    "high": 80,
    "high_gw": 2,
@@ -2381,8 +2373,8 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 60,
-   "value": 101.2,
-   "value_delta": 1.2,
+   "value": 101.7,
+   "value_delta": 1.7,
    "bank": 0.7,
    "grank": 3430081,
    "best_jump": 614528,
@@ -2408,8 +2400,8 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 62,
-   "value": 100.2,
-   "value_delta": 0.2,
+   "value": 100.7,
+   "value_delta": 0.7,
    "bank": 0.0,
    "grank": 4982912,
    "best_jump": 3963132,
@@ -2431,12 +2423,12 @@
    "high_gw": 4,
    "low": 37,
    "low_gw": 1,
-   "transfers": 4,
+   "transfers": 5,
    "hits_pts": 8,
    "hits_n": 2,
    "bench": 34,
-   "value": 100.9,
-   "value_delta": 0.9,
+   "value": 101.4,
+   "value_delta": 1.4,
    "bank": 1.0,
    "grank": 6376870,
    "best_jump": 1952243,
@@ -2452,19 +2444,19 @@
    "total": 227,
    "played": 4,
    "avg": 56.8,
-   "above_avg": 0,
+   "above_avg": 1,
    "cap_return": 62,
    "high": 73,
    "high_gw": 2,
    "low": 32,
    "low_gw": 3,
-   "transfers": 3,
+   "transfers": 4,
    "hits_pts": 4,
    "hits_n": 1,
    "bench": 58,
-   "value": 100.4,
-   "value_delta": 0.4,
-   "bank": 0.7,
+   "value": 100.7,
+   "value_delta": 0.7,
+   "bank": 1.2,
    "grank": 6761783,
    "best_jump": 553038,
    "best_jump_gw": 4,
@@ -2489,8 +2481,8 @@
    "hits_pts": 0,
    "hits_n": 0,
    "bench": 9,
-   "value": 99.4,
-   "value_delta": -0.6,
+   "value": 99.2,
+   "value_delta": -0.8,
    "bank": 2.2,
    "grank": 8951568,
    "best_jump": 216389,
@@ -2499,110 +2491,10 @@
   }
  ],
  "series": {
-  "3942416": [
-   {
-    "gw": 1,
-    "net": 74,
-    "orank": 279827,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 126,
-    "orank": 9553,
-    "cap": 46
-   },
-   {
-    "gw": 3,
-    "net": 63,
-    "orank": 2897,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 81,
-    "orank": 10250,
-    "cap": 10
-   }
-  ],
-  "5419891": [
-   {
-    "gw": 1,
-    "net": 55,
-    "orank": 2935782,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 100,
-    "orank": 1474311,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 54,
-    "orank": 1384256,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 116,
-    "orank": 109108,
-    "cap": 24
-   }
-  ],
-  "256447": [
-   {
-    "gw": 1,
-    "net": 62,
-    "orank": 1436683,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 103,
-    "orank": 765925,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 43,
-    "orank": 1496797,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 107,
-    "orank": 267533,
-    "cap": 24
-   }
-  ],
-  "5926399": [
-   {
-    "gw": 1,
-    "net": 74,
-    "orank": 279827,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 103,
-    "orank": 255722,
-    "cap": 46
-   },
-   {
-    "gw": 3,
-    "net": 45,
-    "orank": 544926,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 92,
-    "orank": 278598,
-    "cap": 10
-   }
-  ],
+  "3942416": [],
+  "5419891": [],
+  "256447": [],
+  "5926399": [],
   "79306": [
    {
     "gw": 1,
@@ -3045,32 +2937,6 @@
     "cap": 10
    }
   ],
-  "3181909": [
-   {
-    "gw": 1,
-    "net": 59,
-    "orank": 1987556,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 96,
-    "orank": 1534195,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 38,
-    "orank": 3198740,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 77,
-    "orank": 2778338,
-    "cap": 24
-   }
-  ],
   "5008941": [
    {
     "gw": 1,
@@ -3095,6 +2961,32 @@
     "net": 93,
     "orank": 2778338,
     "cap": 10
+   }
+  ],
+  "3181909": [
+   {
+    "gw": 1,
+    "net": 59,
+    "orank": 1987556,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 96,
+    "orank": 1534195,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 38,
+    "orank": 3198740,
+    "cap": 18
+   },
+   {
+    "gw": 4,
+    "net": 77,
+    "orank": 2778338,
+    "cap": 24
    }
   ],
   "4837220": [
@@ -3372,42 +3264,6 @@
     ],
     "B": [
      [
-      "Aquib Razack",
-      {
-       "P": 2,
-       "W": 1,
-       "D": 0,
-       "L": 1,
-       "pts": 3,
-       "fpl": 137,
-       "hi": 92
-      }
-     ],
-     [
-      "Yash Beohar",
-      {
-       "P": 2,
-       "W": 1,
-       "D": 0,
-       "L": 1,
-       "pts": 3,
-       "fpl": 131,
-       "hi": 91
-      }
-     ],
-     [
-      "Naman Agrawal",
-      {
-       "P": 2,
-       "W": 1,
-       "D": 0,
-       "L": 1,
-       "pts": 3,
-       "fpl": 123,
-       "hi": 62
-      }
-     ],
-     [
       "Aparnesh Mishra",
       {
        "P": 2,
@@ -3418,33 +3274,45 @@
        "fpl": 115,
        "hi": 77
       }
+     ],
+     [
+      "Yash Beohar",
+      {
+       "P": 1,
+       "W": 1,
+       "D": 0,
+       "L": 0,
+       "pts": 3,
+       "fpl": 40,
+       "hi": 40
+      }
+     ],
+     [
+      "Naman Agrawal",
+      {
+       "P": 1,
+       "W": 0,
+       "D": 0,
+       "L": 1,
+       "pts": 0,
+       "fpl": 62,
+       "hi": 62
+      }
+     ],
+     [
+      "Aquib Razack",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
      ]
     ],
     "C": [
-     [
-      "Abhay Rawat",
-      {
-       "P": 2,
-       "W": 2,
-       "D": 0,
-       "L": 0,
-       "pts": 6,
-       "fpl": 144,
-       "hi": 81
-      }
-     ],
-     [
-      "Parakh Tripathy",
-      {
-       "P": 2,
-       "W": 1,
-       "D": 0,
-       "L": 1,
-       "pts": 3,
-       "fpl": 125,
-       "hi": 76
-      }
-     ],
      [
       "Sid Shaurya",
       {
@@ -3458,15 +3326,39 @@
       }
      ],
      [
+      "Parakh Tripathy",
+      {
+       "P": 1,
+       "W": 1,
+       "D": 0,
+       "L": 0,
+       "pts": 3,
+       "fpl": 49,
+       "hi": 49
+      }
+     ],
+     [
       "Rohan Agrawal",
       {
-       "P": 2,
+       "P": 1,
        "W": 0,
        "D": 0,
-       "L": 2,
+       "L": 1,
        "pts": 0,
-       "fpl": 112,
+       "fpl": 66,
        "hi": 66
+      }
+     ],
+     [
+      "Abhay Rawat",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
       }
      ]
     ],
@@ -3474,37 +3366,25 @@
      [
       "Abhinav Premsekhar",
       {
-       "P": 2,
-       "W": 2,
-       "D": 0,
-       "L": 0,
-       "pts": 6,
-       "fpl": 135,
-       "hi": 84
-      }
-     ],
-     [
-      "Anish Joshi",
-      {
-       "P": 2,
+       "P": 1,
        "W": 1,
        "D": 0,
-       "L": 1,
+       "L": 0,
        "pts": 3,
-       "fpl": 150,
-       "hi": 107
+       "fpl": 84,
+       "hi": 84
       }
      ],
      [
       "Varun Khurana",
       {
-       "P": 2,
+       "P": 1,
        "W": 1,
        "D": 0,
-       "L": 1,
+       "L": 0,
        "pts": 3,
-       "fpl": 129,
-       "hi": 73
+       "fpl": 56,
+       "hi": 56
       }
      ],
      [
@@ -3518,43 +3398,43 @@
        "fpl": 124,
        "hi": 69
       }
+     ],
+     [
+      "Anish Joshi",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
      ]
     ],
     "E": [
      [
-      "Ajith Thomas Kuthukatt George",
+      "Abhiraj Singh",
       {
-       "P": 2,
-       "W": 2,
+       "P": 1,
+       "W": 1,
        "D": 0,
        "L": 0,
-       "pts": 6,
-       "fpl": 170,
-       "hi": 116
+       "pts": 3,
+       "fpl": 91,
+       "hi": 91
       }
      ],
      [
       "Karan Khanna",
       {
-       "P": 2,
+       "P": 1,
        "W": 1,
        "D": 0,
-       "L": 1,
+       "L": 0,
        "pts": 3,
-       "fpl": 138,
-       "hi": 71
-      }
-     ],
-     [
-      "Abhiraj Singh",
-      {
-       "P": 2,
-       "W": 1,
-       "D": 0,
-       "L": 1,
-       "pts": 3,
-       "fpl": 128,
-       "hi": 91
+       "fpl": 67,
+       "hi": 67
       }
      ],
      [
@@ -3567,6 +3447,18 @@
        "pts": 0,
        "fpl": 140,
        "hi": 90
+      }
+     ],
+     [
+      "Ajith Thomas Kuthukatt George",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
       }
      ]
     ],
@@ -3645,9 +3537,9 @@
      "group": "B",
      "a": "Naman Agrawal",
      "b": "Aquib Razack",
-     "sa": 61,
-     "sb": 45,
-     "winner": "a"
+     "sa": null,
+     "sb": null,
+     "winner": null
     },
     {
      "gw": 3,
@@ -3663,9 +3555,9 @@
      "group": "C",
      "a": "Rohan Agrawal",
      "b": "Abhay Rawat",
-     "sa": 46,
-     "sb": 63,
-     "winner": "b"
+     "sa": null,
+     "sb": null,
+     "winner": null
     },
     {
      "gw": 3,
@@ -3681,9 +3573,9 @@
      "group": "D",
      "a": "Anish Joshi",
      "b": "Abhinav Premsekhar",
-     "sa": 43,
-     "sb": 51,
-     "winner": "b"
+     "sa": null,
+     "sb": null,
+     "winner": null
     },
     {
      "gw": 3,
@@ -3699,9 +3591,9 @@
      "group": "E",
      "a": "Ajith Thomas Kuthukatt George",
      "b": "Abhiraj Singh",
-     "sa": 54,
-     "sb": 37,
-     "winner": "a"
+     "sa": null,
+     "sb": null,
+     "winner": null
     },
     {
      "gw": 3,
@@ -3762,9 +3654,9 @@
      "group": "B",
      "a": "Aquib Razack",
      "b": "Yash Beohar",
-     "sa": 92,
-     "sb": 91,
-     "winner": "a"
+     "sa": null,
+     "sb": null,
+     "winner": null
     },
     {
      "gw": 4,
@@ -3780,18 +3672,18 @@
      "group": "C",
      "a": "Abhay Rawat",
      "b": "Parakh Tripathy",
-     "sa": 81,
-     "sb": 76,
-     "winner": "a"
+     "sa": null,
+     "sb": null,
+     "winner": null
     },
     {
      "gw": 4,
      "group": "D",
      "a": "Anish Joshi",
      "b": "Varun Khurana",
-     "sa": 107,
-     "sb": 73,
-     "winner": "a"
+     "sa": null,
+     "sb": null,
+     "winner": null
     },
     {
      "gw": 4,
@@ -3807,9 +3699,9 @@
      "group": "E",
      "a": "Ajith Thomas Kuthukatt George",
      "b": "Karan Khanna",
-     "sa": 116,
-     "sb": 71,
-     "winner": "a"
+     "sa": null,
+     "sb": null,
+     "winner": null
     },
     {
      "gw": 4,
