@@ -291,7 +291,7 @@ add('mt','⚔️','Tournaments',()=>{
   if(!mt.has_draw)g.innerHTML='<p class="desc">Awaiting the random group draw.</p>';
   else{let gh='<div class="pgrid">';Object.entries(mt.groups).forEach(([gn,t])=>{
     const rows=t.map((r,i)=>({_cls:i<2?'top5':'',cells:[r[0],r[1].P,r[1].W,r[1].D,r[1].L,`<b>${r[1].pts}</b>`,r[1].fpl]}));
-    gh+=`<div><div class="charttitle">Group ${gn} · top 2 advance</div>`+tbl([{t:'Team'},{t:'P',cls:'c'},{t:'W',cls:'c'},{t:'D',cls:'c'},{t:'L',cls:'c'},{t:'Pts',cls:'c'},{t:'TB1',cls:'c',tip:'TB1 — total FPL points scored across the group gameweeks so far. Teams level on Pts are separated by: 1) Pts, 2) TB1 (total points), 3) head-to-head result, 4) highest single-GW score.'}],rows,'grptbl')+'</div>';});
+    gh+=`<div><div class="charttitle">Group ${gn}</div>`+tbl([{t:'Team'},{t:'P',cls:'c'},{t:'W',cls:'c'},{t:'D',cls:'c'},{t:'L',cls:'c'},{t:'Pts',cls:'c'},{t:'TB1',cls:'c',tip:'TB1 — total FPL points scored across the group gameweeks so far. Teams level on Pts are separated by: 1) Pts, 2) TB1 (total points), 3) head-to-head result, 4) highest single-GW score.'}],rows,'grptbl')+'</div>';});
    g.innerHTML=gh+'</div>';}
   k.innerHTML=koHeader(mt)+bracket(mt.knockout);
   const panes={tf:f,tg:g,tk:k};
