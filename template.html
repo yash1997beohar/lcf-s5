@@ -114,14 +114,25 @@ td{padding:9px 12px;border-top:1px solid var(--hair)} tbody tr:hover td{backgrou
 .seg button{border:0;background:transparent;color:var(--ts);font:inherit;font-size:12.5px;font-weight:700;padding:7px 16px;border-radius:8px;cursor:pointer;transition:.14s}
 .seg button:hover{color:var(--tp)}
 .seg button.on{background:linear-gradient(135deg,var(--goldsoft),var(--gold));color:#3a2600;box-shadow:0 2px 8px rgba(200,144,28,.3)}
+.seg.mtsel{margin-bottom:8px;flex-wrap:wrap}
+.seg.mtsel button.on{background:var(--s3);color:var(--gold);box-shadow:none}
 /* bracket */
-.brk{display:flex;gap:22px;overflow-x:auto;padding-bottom:8px;align-items:stretch;min-height:320px}
-.brd{flex:0 0 210px;display:flex;flex-direction:column}
-.brd .rn{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--mut);font-weight:700;margin-bottom:8px;text-align:center}
-.brd .ties{flex:1;display:flex;flex-direction:column;justify-content:space-around;gap:10px}
-.tie{background:linear-gradient(155deg,var(--s2),var(--s1));border:1px solid var(--line);border-radius:11px;box-shadow:var(--shadow);overflow:hidden}
-.tie .side{display:flex;justify-content:space-between;gap:8px;padding:9px 12px}
+.brk{display:flex;gap:30px;overflow-x:auto;padding:6px 2px 12px;align-items:stretch;min-height:360px}
+.brd{flex:0 0 190px;display:flex;flex-direction:column}
+.brd .rn{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--mut);font-weight:700;margin-bottom:10px;text-align:center}
+.brd .ties{flex:1;display:flex;flex-direction:column}
+.tie{flex:1;display:flex;align-items:center;position:relative}
+.tiecard{position:relative;width:100%;background:linear-gradient(155deg,var(--s2),var(--s1));border:1px solid var(--line);border-radius:11px;box-shadow:var(--shadow);overflow:hidden;transition:.14s}
+.tie .side{display:flex;justify-content:space-between;gap:8px;padding:8px 12px;font-size:13px}
 .tie .side+.side{border-top:1px solid var(--hair)}
+/* bracket connectors: horizontal out of each match, elbow spine into the next round */
+.brd:not(.last) .tie::after{content:'';position:absolute;left:100%;top:50%;width:30px;height:2px;background:var(--line)}
+.brd.recv .tie::before{content:'';position:absolute;right:100%;top:25%;height:50%;width:2px;background:var(--line)}
+.brd.recv .tiecard::before,.champcol .champbox::before{content:'';position:absolute;left:-6px;top:50%;transform:translateY(-50%);width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:6px solid var(--gold)}
+.champcol{flex-basis:200px}
+.champcol .ties{justify-content:center}
+.champbox{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;text-align:center;padding:18px 14px;font-weight:800;border-radius:13px;border:1px solid var(--gold);background:linear-gradient(155deg,color-mix(in srgb,var(--gold) 22%,var(--s1)),var(--s1));box-shadow:0 4px 16px rgba(200,144,28,.28)}
+.champbox .cup{font-size:24px;line-height:1}
 /* fixtures */
 .fxgw{margin-top:14px}
 .fxwrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
@@ -207,6 +218,7 @@ function tbl(cols,rows,cls){let h=`<div class="tw"><table class="${cls||''}"><th
 
 const TABS=[];const add=(id,ic,label,render)=>TABS.push({id,ic,label,render});
 let STATSORT='total';  // Stats tab: active sort key (high→low). Default = Overall Points.
+let MTSEL=null;        // Mini Tournaments tab: selected MT index. null → default to latest.
 
 /* Overall */
 add('overall','🏆','League Table',()=>{
@@ -280,8 +292,16 @@ add('stats','📊','Stats',()=>{
 /* Mini Tournaments */
 add('mt','⚔️','Tournaments',()=>{
  if(!D.mini||!D.mini.length)return '<div class="ah"><h1>Mini Tournaments</h1></div><p class="desc">MT1 begins at GW3. Groups and the knockout bracket appear once the draw is made after GW2.</p>';
- const mt=D.mini[0];
- let h=`<div class="ah"><h1>${esc(mt.name)}</h1><span class="tag">₹3,000</span></div>
+ const mts=D.mini;
+ // default selection = latest drawn MT (config appends new MTs, so the last drawn is the newest)
+ if(MTSEL==null||MTSEL<0||MTSEL>=mts.length){let def=mts.length-1;for(let i=mts.length-1;i>=0;i--){if(mts[i].has_draw){def=i;break;}}MTSEL=def;}
+ const mt=mts[MTSEL];
+ const lbl=(m,i)=>{const mm=(m.name||'').match(/MT\s*(\d+)/i);return mm?('MT'+mm[1]):('MT'+(i+1));};
+ const pills=mts.length>1?`<div class="seg mtsel">`+mts.map((m,i)=>`<button class="mtpill${i===MTSEL?' on':''}" data-mti="${i}">${lbl(m,i)}</button>`).join('')+`</div>`:'';
+ const done=mt.knockout&&mt.knockout.champion;
+ const status=done?`<span class="pill">completed</span>`:(mt.has_draw?`<span class="live"><span class="dot"></span>in progress</span>`:`<span class="pill">not started</span>`);
+ let h=`<div class="ah"><h1>${esc(mt.name)}</h1><span class="tag">₹3,000</span>${status}</div>
+  ${pills}
   <p class="desc">Top 24 · 6 groups of 4 · group stage GW ${mt.group_gws.join(', ')} → knockouts GW ${mt.ko_gws.join(', ')}.</p>
   <div class="seg"><button id="tf" class="on">Fixtures</button><button id="tg">Standings</button><button id="tk">Knockouts</button></div>
   <div id="mfx"></div><div id="mgrp" style="display:none"></div><div id="mko" style="display:none"></div>`;
@@ -311,13 +331,25 @@ function koHeader(mt){
   `</span></span></div>`;
 }
 function bracket(ko){if(!ko||!ko.rounds)return '<p class="desc">The 8-team knockout (QF → SF → Final) appears once the group stage finishes.</p>';
+ const hasChamp=!!ko.champion, nR=ko.rounds.length;
  let h='<div class="brk">';
- ko.rounds.forEach(rd=>{h+=`<div class="brd"><div class="rn">${rd.name}</div><div class="ties">`;
+ ko.rounds.forEach((rd,i)=>{
+  const isLast=!hasChamp&&i===nR-1;           // rightmost column when no champion crowned yet
+  const cls='brd'+(i>0?' recv':'')+(isLast?' last':'');   // recv = receives a pair → draws the elbow spine
+  h+=`<div class="${cls}"><div class="rn">${esc(rd.name)}</div><div class="ties">`;
   rd.ties.forEach(t=>{const aw=t.winner==='a',bw=t.winner==='b';
-   h+=`<div class="tie"><div class="side"><span class="${aw?'':'mut'}"><b>${esc(t.a||'—')}</b></span><b class="${aw?'pz':'mut'}">${t.sa??''}</b></div>`+
-      `<div class="side"><span class="${bw?'':'mut'}"><b>${esc(t.b||'—')}</b></span><b class="${bw?'pz':'mut'}">${t.sb??''}</b></div></div>`});
-  h+='</div></div>'});
- return h+'</div>'+(ko.champion?`<div class="charttitle" style="margin-top:14px">🏆 Champion: <span class="pz">${esc(ko.champion)}</span></div>`:'');}
+   h+=`<div class="tie"><div class="tiecard">`+
+      `<div class="side"><span class="${aw?'':'mut'}"><b>${esc(t.a||'—')}</b></span><b class="${aw?'pz':'mut'}">${t.sa??''}</b></div>`+
+      `<div class="side"><span class="${bw?'':'mut'}"><b>${esc(t.b||'—')}</b></span><b class="${bw?'pz':'mut'}">${t.sb??''}</b></div>`+
+      `</div></div>`});
+  h+='</div></div>';
+ });
+ if(hasChamp){
+  h+=`<div class="brd last champcol"><div class="rn">Champion</div><div class="ties">`+
+     `<div class="tie"><div class="champbox"><span class="cup">🏆</span><span class="pz">${esc(ko.champion)}</span></div></div>`+
+     `</div></div>`;
+ }
+ return h+'</div>';}
 function fixturesView(mt){
  if(!mt.fixtures||!mt.fixtures.length) return '<p class="desc">Fixtures appear once the group draw is set.</p>';
  const fin=D.meta.finished||[];
@@ -454,6 +486,8 @@ document.addEventListener('click',e=>{
  if(info){e.stopPropagation();e.preventDefault();info.classList.toggle('open');return;}
  const sh=e.target.closest('th.sortable');
  if(sh&&sh.closest('#sec_stats')&&sh.dataset.sk){STATSORT=sh.dataset.sk;const sec=document.getElementById('sec_stats');const st=TABS.find(t=>t.id==='stats');if(sec&&st)sec.innerHTML=st.render();return;}
+ const mp=e.target.closest('.mtpill');
+ if(mp&&mp.dataset.mti!=null){MTSEL=+mp.dataset.mti;const sec=document.getElementById('sec_mt');const mtt=TABS.find(t=>t.id==='mt');if(sec&&mtt)sec.innerHTML=mtt.render();return;}
  const tr=e.target.closest('tr[data-id]');if(tr){openProfile(+tr.dataset.id);return;}
  if(e.target.id==='ov')closeM();
 });
