@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-09-22 21:09 UTC",
-  "generated_iso": "2026-09-22T21:09:49.303169Z",
+  "generated_utc": "2026-09-23 00:02 UTC",
+  "generated_iso": "2026-09-23T00:02:54.941814Z",
   "started": true,
   "current_gw": 5,
   "finished": [
@@ -150,21 +150,21 @@
   },
   {
    "rank": 14,
-   "arrow": "\u2022",
-   "manager": "Abhishek Gupte",
-   "team_name": "Enzotic",
-   "entry": 4688717,
-   "gw_points": 50,
-   "total": 337,
-   "hits": 0
-  },
-  {
-   "rank": 14,
    "arrow": "\u25b2",
    "manager": "Karan Khanna",
    "team_name": "Amad Aura",
    "entry": 3330149,
    "gw_points": 51,
+   "total": 337,
+   "hits": 0
+  },
+  {
+   "rank": 14,
+   "arrow": "\u2022",
+   "manager": "Abhishek Gupte",
+   "team_name": "Enzotic",
+   "entry": 4688717,
+   "gw_points": 50,
    "total": 337,
    "hits": 0
   },
@@ -482,17 +482,6 @@
     ]
    },
    {
-    "manager": "Abhishek Gupte",
-    "entry": 4688717,
-    "scores": [
-     73,
-     90,
-     55,
-     69,
-     50
-    ]
-   },
-   {
     "manager": "Karan Khanna",
     "entry": 3330149,
     "scores": [
@@ -501,6 +490,17 @@
      67,
      71,
      51
+    ]
+   },
+   {
+    "manager": "Abhishek Gupte",
+    "entry": 4688717,
+    "scores": [
+     73,
+     90,
+     55,
+     69,
+     50
     ]
    },
    {
@@ -1465,18 +1465,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Abhishek Gupte",
-   "team_name": "Enzotic",
-   "league_rank": 14,
-   "seasons": 16,
-   "past_seasons": 15,
-   "best_rank": 37120,
-   "best_season": "2014/15",
-   "avg_rank": 1571193,
-   "last_rank": 3349378,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Karan Khanna",
    "team_name": "Amad Aura",
    "league_rank": 14,
@@ -1486,6 +1474,18 @@
    "best_season": "2019/20",
    "avg_rank": 5483351,
    "last_rank": 8188106,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Abhishek Gupte",
+   "team_name": "Enzotic",
+   "league_rank": 14,
+   "seasons": 16,
+   "past_seasons": 15,
+   "best_rank": 37120,
+   "best_season": "2014/15",
+   "avg_rank": 1571193,
+   "last_rank": 3349378,
    "last_season": "2025/26"
   },
   {
@@ -2044,33 +2044,6 @@
    ]
   },
   {
-   "manager": "Abhishek Gupte",
-   "team_name": "Enzotic",
-   "entry": 4688717,
-   "total": 337,
-   "played": 5,
-   "avg": 67.4,
-   "above_avg": 3,
-   "cap_return": 66,
-   "high": 90,
-   "high_gw": 2,
-   "low": 50,
-   "low_gw": 5,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 43,
-   "value": 101.2,
-   "value_delta": 1.2,
-   "bank": 1.1,
-   "grank": 1396886,
-   "best_jump": 101935,
-   "best_jump_gw": 3,
-   "chips": [
-    "bboost"
-   ]
-  },
-  {
    "manager": "Karan Khanna",
    "team_name": "Amad Aura",
    "entry": 3330149,
@@ -2097,6 +2070,33 @@
     "3xc",
     "freehit",
     "wildcard"
+   ]
+  },
+  {
+   "manager": "Abhishek Gupte",
+   "team_name": "Enzotic",
+   "entry": 4688717,
+   "total": 337,
+   "played": 5,
+   "avg": 67.4,
+   "above_avg": 3,
+   "cap_return": 66,
+   "high": 90,
+   "high_gw": 2,
+   "low": 50,
+   "low_gw": 5,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 43,
+   "value": 101.2,
+   "value_delta": 1.2,
+   "bank": 1.1,
+   "grank": 1396886,
+   "best_jump": 101935,
+   "best_jump_gw": 3,
+   "chips": [
+    "bboost"
    ]
   },
   {
@@ -2950,38 +2950,6 @@
     "cap": 12
    }
   ],
-  "4688717": [
-   {
-    "gw": 1,
-    "net": 73,
-    "orank": 344108,
-    "cap": 16
-   },
-   {
-    "gw": 2,
-    "net": 90,
-    "orank": 845574,
-    "cap": 10
-   },
-   {
-    "gw": 3,
-    "net": 55,
-    "orank": 743639,
-    "cap": 26
-   },
-   {
-    "gw": 4,
-    "net": 69,
-    "orank": 1433794,
-    "cap": 10
-   },
-   {
-    "gw": 5,
-    "net": 50,
-    "orank": 1396886,
-    "cap": 4
-   }
-  ],
   "3330149": [
    {
     "gw": 1,
@@ -3010,6 +2978,38 @@
    {
     "gw": 5,
     "net": 51,
+    "orank": 1396886,
+    "cap": 4
+   }
+  ],
+  "4688717": [
+   {
+    "gw": 1,
+    "net": 73,
+    "orank": 344108,
+    "cap": 16
+   },
+   {
+    "gw": 2,
+    "net": 90,
+    "orank": 845574,
+    "cap": 10
+   },
+   {
+    "gw": 3,
+    "net": 55,
+    "orank": 743639,
+    "cap": 26
+   },
+   {
+    "gw": 4,
+    "net": 69,
+    "orank": 1433794,
+    "cap": 10
+   },
+   {
+    "gw": 5,
+    "net": 50,
     "orank": 1396886,
     "cap": 4
    }
