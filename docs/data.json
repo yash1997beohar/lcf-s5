@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-10-12 01:02 UTC",
-  "generated_iso": "2026-10-12T01:02:45.557000Z",
+  "generated_utc": "2026-10-12 08:42 UTC",
+  "generated_iso": "2026-10-12T08:42:52.476353Z",
   "started": true,
   "current_gw": 6,
   "finished": [
@@ -91,20 +91,20 @@
   {
    "rank": 8,
    "arrow": "\u25b2",
-   "manager": "Yash Beohar",
-   "team_name": "Fluente in Football",
-   "entry": 374875,
-   "gw_points": 67,
+   "manager": "Varun Khurana",
+   "team_name": "Goal Diggers FC",
+   "entry": 3909562,
+   "gw_points": 78,
    "total": 410,
    "hits": 0
   },
   {
    "rank": 8,
    "arrow": "\u25b2",
-   "manager": "Varun Khurana",
-   "team_name": "Goal Diggers FC",
-   "entry": 3909562,
-   "gw_points": 78,
+   "manager": "Yash Beohar",
+   "team_name": "Fluente in Football",
+   "entry": 374875,
+   "gw_points": 67,
    "total": 410,
    "hits": 0
   },
@@ -416,17 +416,6 @@
     ]
    },
    {
-    "manager": "Yash Beohar",
-    "entry": 374875,
-    "scores": [
-     61,
-     107,
-     40,
-     91,
-     44
-    ]
-   },
-   {
     "manager": "Varun Khurana",
     "entry": 3909562,
     "scores": [
@@ -435,6 +424,17 @@
      56,
      73,
      52
+    ]
+   },
+   {
+    "manager": "Yash Beohar",
+    "entry": 374875,
+    "scores": [
+     61,
+     107,
+     40,
+     91,
+     44
     ]
    },
    {
@@ -1393,18 +1393,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Yash Beohar",
-   "team_name": "Fluente in Football",
-   "league_rank": 8,
-   "seasons": 10,
-   "past_seasons": 9,
-   "best_rank": 30971,
-   "best_season": "2018/19",
-   "avg_rank": 820221,
-   "last_rank": 58227,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Varun Khurana",
    "team_name": "Goal Diggers FC",
    "league_rank": 8,
@@ -1414,6 +1402,18 @@
    "best_season": "2009/10",
    "avg_rank": 2088802,
    "last_rank": 5360778,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Yash Beohar",
+   "team_name": "Fluente in Football",
+   "league_rank": 8,
+   "seasons": 10,
+   "past_seasons": 9,
+   "best_rank": 30971,
+   "best_season": "2018/19",
+   "avg_rank": 820221,
+   "last_rank": 58227,
    "last_season": "2025/26"
   },
   {
@@ -1877,34 +1877,6 @@
    ]
   },
   {
-   "manager": "Yash Beohar",
-   "team_name": "Fluente in Football",
-   "entry": 374875,
-   "total": 410,
-   "played": 5,
-   "avg": 68.6,
-   "above_avg": 3,
-   "cap_return": 90,
-   "high": 107,
-   "high_gw": 2,
-   "low": 40,
-   "low_gw": 3,
-   "transfers": 2,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 27,
-   "value": 101.4,
-   "value_delta": 1.4,
-   "bank": 0.2,
-   "grank": 952624,
-   "best_jump": 1034411,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost",
-    "wildcard"
-   ]
-  },
-  {
    "manager": "Varun Khurana",
    "team_name": "Goal Diggers FC",
    "entry": 3909562,
@@ -1932,6 +1904,34 @@
     "freehit",
     "wildcard",
     "bboost"
+   ]
+  },
+  {
+   "manager": "Yash Beohar",
+   "team_name": "Fluente in Football",
+   "entry": 374875,
+   "total": 410,
+   "played": 5,
+   "avg": 68.6,
+   "above_avg": 3,
+   "cap_return": 90,
+   "high": 107,
+   "high_gw": 2,
+   "low": 40,
+   "low_gw": 3,
+   "transfers": 2,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 27,
+   "value": 101.4,
+   "value_delta": 1.4,
+   "bank": 0.2,
+   "grank": 952624,
+   "best_jump": 1034411,
+   "best_jump_gw": 2,
+   "chips": [
+    "bboost",
+    "wildcard"
    ]
   },
   {
@@ -2768,38 +2768,6 @@
     "cap": 12
    }
   ],
-  "374875": [
-   {
-    "gw": 1,
-    "net": 61,
-    "orank": 1605173,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 107,
-    "orank": 570762,
-    "cap": 46
-   },
-   {
-    "gw": 3,
-    "net": 40,
-    "orank": 1472197,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 91,
-    "orank": 774645,
-    "cap": 10
-   },
-   {
-    "gw": 5,
-    "net": 44,
-    "orank": 1054718,
-    "cap": 12
-   }
-  ],
   "3909562": [
    {
     "gw": 1,
@@ -2829,6 +2797,38 @@
     "gw": 5,
     "net": 52,
     "orank": 1724545,
+    "cap": 12
+   }
+  ],
+  "374875": [
+   {
+    "gw": 1,
+    "net": 61,
+    "orank": 1605173,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 107,
+    "orank": 570762,
+    "cap": 46
+   },
+   {
+    "gw": 3,
+    "net": 40,
+    "orank": 1472197,
+    "cap": 18
+   },
+   {
+    "gw": 4,
+    "net": 91,
+    "orank": 774645,
+    "cap": 10
+   },
+   {
+    "gw": 5,
+    "net": 44,
+    "orank": 1054718,
     "cap": 12
    }
   ],
