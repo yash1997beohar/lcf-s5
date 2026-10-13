@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-10-13 01:50 UTC",
-  "generated_iso": "2026-10-13T01:50:53.301037Z",
+  "generated_utc": "2026-10-13 09:01 UTC",
+  "generated_iso": "2026-10-13T09:01:51.555451Z",
   "started": true,
   "current_gw": 6,
   "finished": [
@@ -30,16 +30,6 @@
   },
   {
    "rank": 2,
-   "arrow": "\u2022",
-   "manager": "Ajith Thomas Kuthukatt George",
-   "team_name": "Onside Offside",
-   "entry": 5419891,
-   "gw_points": 61,
-   "total": 444,
-   "hits": 0
-  },
-  {
-   "rank": 2,
    "arrow": "\u25b2",
    "manager": "Anish Joshi",
    "team_name": "Fiery Raiders",
@@ -47,6 +37,16 @@
    "gw_points": 82,
    "total": 444,
    "hits": 4
+  },
+  {
+   "rank": 2,
+   "arrow": "\u2022",
+   "manager": "Ajith Thomas Kuthukatt George",
+   "team_name": "Onside Offside",
+   "entry": 5419891,
+   "gw_points": 61,
+   "total": 444,
+   "hits": 0
   },
   {
    "rank": 4,
@@ -350,17 +350,6 @@
     ]
    },
    {
-    "manager": "Ajith Thomas Kuthukatt George",
-    "entry": 5419891,
-    "scores": [
-     55,
-     100,
-     54,
-     116,
-     58
-    ]
-   },
-   {
     "manager": "Anish Joshi",
     "entry": 256447,
     "scores": [
@@ -369,6 +358,17 @@
      43,
      107,
      47
+    ]
+   },
+   {
+    "manager": "Ajith Thomas Kuthukatt George",
+    "entry": 5419891,
+    "scores": [
+     55,
+     100,
+     54,
+     116,
+     58
     ]
    },
    {
@@ -803,14 +803,14 @@
    "excluded": false
   },
   {
-   "manager": "Ajith Thomas Kuthukatt George",
-   "entry": 5419891,
+   "manager": "Anish Joshi",
+   "entry": 256447,
    "points": 84,
    "excluded": true
   },
   {
-   "manager": "Anish Joshi",
-   "entry": 256447,
+   "manager": "Ajith Thomas Kuthukatt George",
+   "entry": 5419891,
    "points": 84,
    "excluded": true
   },
@@ -1321,18 +1321,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Ajith Thomas Kuthukatt George",
-   "team_name": "Onside Offside",
-   "league_rank": 2,
-   "seasons": 3,
-   "past_seasons": 2,
-   "best_rank": 545267,
-   "best_season": "2025/26",
-   "avg_rank": 604934,
-   "last_rank": 545267,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Anish Joshi",
    "team_name": "Fiery Raiders",
    "league_rank": 2,
@@ -1342,6 +1330,18 @@
    "best_season": "2019/20",
    "avg_rank": 1051323,
    "last_rank": 1076546,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Ajith Thomas Kuthukatt George",
+   "team_name": "Onside Offside",
+   "league_rank": 2,
+   "seasons": 3,
+   "past_seasons": 2,
+   "best_rank": 545267,
+   "best_season": "2025/26",
+   "avg_rank": 604934,
+   "last_rank": 545267,
    "last_season": "2025/26"
   },
   {
@@ -1712,31 +1712,6 @@
    ]
   },
   {
-   "manager": "Ajith Thomas Kuthukatt George",
-   "team_name": "Onside Offside",
-   "entry": 5419891,
-   "total": 444,
-   "played": 5,
-   "avg": 76.6,
-   "above_avg": 5,
-   "cap_return": 84,
-   "high": 116,
-   "high_gw": 4,
-   "low": 54,
-   "low_gw": 3,
-   "transfers": 5,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 60,
-   "value": 101.1,
-   "value_delta": 1.1,
-   "bank": 0.3,
-   "grank": 148000,
-   "best_jump": 1461471,
-   "best_jump_gw": 2,
-   "chips": []
-  },
-  {
    "manager": "Anish Joshi",
    "team_name": "Fiery Raiders",
    "entry": 256447,
@@ -1763,6 +1738,31 @@
     "bboost",
     "wildcard"
    ]
+  },
+  {
+   "manager": "Ajith Thomas Kuthukatt George",
+   "team_name": "Onside Offside",
+   "entry": 5419891,
+   "total": 444,
+   "played": 5,
+   "avg": 76.6,
+   "above_avg": 5,
+   "cap_return": 84,
+   "high": 116,
+   "high_gw": 4,
+   "low": 54,
+   "low_gw": 3,
+   "transfers": 5,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 60,
+   "value": 101.1,
+   "value_delta": 1.1,
+   "bank": 0.3,
+   "grank": 148000,
+   "best_jump": 1461471,
+   "best_jump_gw": 2,
+   "chips": []
   },
   {
    "manager": "Aayush Khanna",
@@ -2576,38 +2576,6 @@
     "cap": 12
    }
   ],
-  "5419891": [
-   {
-    "gw": 1,
-    "net": 55,
-    "orank": 2935782,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 100,
-    "orank": 1474311,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 54,
-    "orank": 1384256,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 116,
-    "orank": 109108,
-    "cap": 24
-   },
-   {
-    "gw": 5,
-    "net": 58,
-    "orank": 56391,
-    "cap": 12
-   }
-  ],
   "256447": [
    {
     "gw": 1,
@@ -2637,6 +2605,38 @@
     "gw": 5,
     "net": 47,
     "orank": 352905,
+    "cap": 12
+   }
+  ],
+  "5419891": [
+   {
+    "gw": 1,
+    "net": 55,
+    "orank": 2935782,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 100,
+    "orank": 1474311,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 54,
+    "orank": 1384256,
+    "cap": 18
+   },
+   {
+    "gw": 4,
+    "net": 116,
+    "orank": 109108,
+    "cap": 24
+   },
+   {
+    "gw": 5,
+    "net": 58,
+    "orank": 56391,
     "cap": 12
    }
   ],
