@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-10-17 23:47 UTC",
-  "generated_iso": "2026-10-17T23:47:14.578471Z",
+  "generated_utc": "2026-10-18 03:19 UTC",
+  "generated_iso": "2026-10-18T03:19:31.392967Z",
   "started": true,
   "current_gw": 7,
   "finished": [
@@ -261,16 +261,6 @@
   },
   {
    "rank": 25,
-   "arrow": "\u25b2",
-   "manager": "Rajit Das",
-   "team_name": "FC Teetotallers",
-   "entry": 4837220,
-   "gw_points": 32,
-   "total": 414,
-   "hits": 0
-  },
-  {
-   "rank": 25,
    "arrow": "\u25bc",
    "manager": "Karan Khanna",
    "team_name": "Amad Aura",
@@ -278,6 +268,16 @@
    "gw_points": 21,
    "total": 414,
    "hits": 4
+  },
+  {
+   "rank": 25,
+   "arrow": "\u25b2",
+   "manager": "Rajit Das",
+   "team_name": "FC Teetotallers",
+   "entry": 4837220,
+   "gw_points": 32,
+   "total": 414,
+   "hits": 0
   },
   {
    "rank": 27,
@@ -629,18 +629,6 @@
     ]
    },
    {
-    "manager": "Rajit Das",
-    "entry": 4837220,
-    "scores": [
-     46,
-     89,
-     50,
-     84,
-     45,
-     68
-    ]
-   },
-   {
     "manager": "Karan Khanna",
     "entry": 3330149,
     "scores": [
@@ -650,6 +638,18 @@
      71,
      51,
      60
+    ]
+   },
+   {
+    "manager": "Rajit Das",
+    "entry": 4837220,
+    "scores": [
+     46,
+     89,
+     50,
+     84,
+     45,
+     68
     ]
    },
    {
@@ -1036,14 +1036,14 @@
    "excluded": false
   },
   {
-   "manager": "Rajit Das",
-   "entry": 4837220,
+   "manager": "Karan Khanna",
+   "entry": 3330149,
    "arrows": 3,
    "excluded": false
   },
   {
-   "manager": "Karan Khanna",
-   "entry": 3330149,
+   "manager": "Rajit Das",
+   "entry": 4837220,
    "arrows": 3,
    "excluded": false
   },
@@ -1630,18 +1630,6 @@
    "last_season": "2024/25"
   },
   {
-   "manager": "Rajit Das",
-   "team_name": "FC Teetotallers",
-   "league_rank": 25,
-   "seasons": 7,
-   "past_seasons": 6,
-   "best_rank": 1615102,
-   "best_season": "2024/25",
-   "avg_rank": 4234674,
-   "last_rank": 6092784,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Karan Khanna",
    "team_name": "Amad Aura",
    "league_rank": 25,
@@ -1651,6 +1639,18 @@
    "best_season": "2019/20",
    "avg_rank": 5483351,
    "last_rank": 8188106,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Rajit Das",
+   "team_name": "FC Teetotallers",
+   "league_rank": 25,
+   "seasons": 7,
+   "past_seasons": 6,
+   "best_rank": 1615102,
+   "best_season": "2024/25",
+   "avg_rank": 4234674,
+   "last_rank": 6092784,
    "last_season": "2025/26"
   },
   {
@@ -2393,35 +2393,6 @@
    ]
   },
   {
-   "manager": "Rajit Das",
-   "team_name": "FC Teetotallers",
-   "entry": 4837220,
-   "total": 414,
-   "played": 6,
-   "avg": 63.7,
-   "above_avg": 1,
-   "cap_return": 81,
-   "high": 89,
-   "high_gw": 2,
-   "low": 45,
-   "low_gw": 5,
-   "transfers": 5,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 96,
-   "value": 101.1,
-   "value_delta": 1.1,
-   "bank": 0.7,
-   "grank": 2754483,
-   "best_jump": 1595922,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost",
-    "3xc",
-    "wildcard"
-   ]
-  },
-  {
    "manager": "Karan Khanna",
    "team_name": "Amad Aura",
    "entry": 3330149,
@@ -2447,6 +2418,35 @@
    "chips": [
     "3xc",
     "freehit",
+    "wildcard"
+   ]
+  },
+  {
+   "manager": "Rajit Das",
+   "team_name": "FC Teetotallers",
+   "entry": 4837220,
+   "total": 414,
+   "played": 6,
+   "avg": 63.7,
+   "above_avg": 1,
+   "cap_return": 81,
+   "high": 89,
+   "high_gw": 2,
+   "low": 45,
+   "low_gw": 5,
+   "transfers": 5,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 96,
+   "value": 101.1,
+   "value_delta": 1.1,
+   "bank": 0.7,
+   "grank": 2754483,
+   "best_jump": 1595922,
+   "best_jump_gw": 2,
+   "chips": [
+    "bboost",
+    "3xc",
     "wildcard"
    ]
   },
@@ -3498,44 +3498,6 @@
     "cap": 4
    }
   ],
-  "4837220": [
-   {
-    "gw": 1,
-    "net": 46,
-    "orank": 5572584,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 89,
-    "orank": 3976662,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 50,
-    "orank": 4237077,
-    "cap": 27
-   },
-   {
-    "gw": 4,
-    "net": 84,
-    "orank": 2868689,
-    "cap": 10
-   },
-   {
-    "gw": 5,
-    "net": 45,
-    "orank": 3181539,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 68,
-    "orank": 2741982,
-    "cap": 2
-   }
-  ],
   "3330149": [
    {
     "gw": 1,
@@ -3572,6 +3534,44 @@
     "net": 60,
     "orank": 1743174,
     "cap": 4
+   }
+  ],
+  "4837220": [
+   {
+    "gw": 1,
+    "net": 46,
+    "orank": 5572584,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 89,
+    "orank": 3976662,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 50,
+    "orank": 4237077,
+    "cap": 27
+   },
+   {
+    "gw": 4,
+    "net": 84,
+    "orank": 2868689,
+    "cap": 10
+   },
+   {
+    "gw": 5,
+    "net": 45,
+    "orank": 3181539,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 68,
+    "orank": 2741982,
+    "cap": 2
    }
   ],
   "6023506": [
