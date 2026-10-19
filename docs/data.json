@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-10-19 09:38 UTC",
-  "generated_iso": "2026-10-19T09:38:30.050063Z",
+  "generated_utc": "2026-10-19 16:49 UTC",
+  "generated_iso": "2026-10-19T16:49:05.177818Z",
   "started": true,
   "current_gw": 7,
   "finished": [
@@ -142,20 +142,20 @@
   {
    "rank": 13,
    "arrow": "\u25b2",
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "entry": 5008941,
-   "gw_points": 74,
+   "manager": "Aditya Vaidya",
+   "team_name": "His Name is Diogo",
+   "entry": 9695,
+   "gw_points": 81,
    "total": 472,
    "hits": 0
   },
   {
    "rank": 13,
    "arrow": "\u25b2",
-   "manager": "Aditya Vaidya",
-   "team_name": "His Name is Diogo",
-   "entry": 9695,
-   "gw_points": 81,
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "entry": 5008941,
+   "gw_points": 74,
    "total": 472,
    "hits": 0
   },
@@ -231,21 +231,21 @@
   },
   {
    "rank": 22,
-   "arrow": "\u25b2",
-   "manager": "prateek gupta",
-   "team_name": "sakalaka",
-   "entry": 6023506,
-   "gw_points": 73,
-   "total": 450,
-   "hits": 0
-  },
-  {
-   "rank": 22,
    "arrow": "\u25bc",
    "manager": "Shivanshu Madan",
    "team_name": "Cold Palmer",
    "entry": 2424090,
    "gw_points": 60,
+   "total": 450,
+   "hits": 0
+  },
+  {
+   "rank": 22,
+   "arrow": "\u25b2",
+   "manager": "prateek gupta",
+   "team_name": "sakalaka",
+   "entry": 6023506,
+   "gw_points": 73,
    "total": 450,
    "hits": 0
   },
@@ -485,18 +485,6 @@
     ]
    },
    {
-    "manager": "Ashwin Jose",
-    "entry": 5008941,
-    "scores": [
-     45,
-     86,
-     46,
-     93,
-     49,
-     79
-    ]
-   },
-   {
     "manager": "Aditya Vaidya",
     "entry": 9695,
     "scores": [
@@ -506,6 +494,18 @@
      69,
      55,
      70
+    ]
+   },
+   {
+    "manager": "Ashwin Jose",
+    "entry": 5008941,
+    "scores": [
+     45,
+     86,
+     46,
+     93,
+     49,
+     79
     ]
    },
    {
@@ -593,18 +593,6 @@
     ]
    },
    {
-    "manager": "prateek gupta",
-    "entry": 6023506,
-    "scores": [
-     29,
-     101,
-     48,
-     69,
-     46,
-     84
-    ]
-   },
-   {
     "manager": "Shivanshu Madan",
     "entry": 2424090,
     "scores": [
@@ -614,6 +602,18 @@
      58,
      49,
      56
+    ]
+   },
+   {
+    "manager": "prateek gupta",
+    "entry": 6023506,
+    "scores": [
+     29,
+     101,
+     48,
+     69,
+     46,
+     84
     ]
    },
    {
@@ -952,14 +952,14 @@
    "excluded": false
   },
   {
-   "manager": "Ashwin Jose",
-   "entry": 5008941,
+   "manager": "Aditya Vaidya",
+   "entry": 9695,
    "arrows": 4,
    "excluded": false
   },
   {
-   "manager": "Aditya Vaidya",
-   "entry": 9695,
+   "manager": "Ashwin Jose",
+   "entry": 5008941,
    "arrows": 4,
    "excluded": false
   },
@@ -1486,18 +1486,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "league_rank": 13,
-   "seasons": 11,
-   "past_seasons": 10,
-   "best_rank": 95791,
-   "best_season": "2018/19",
-   "avg_rank": 2404119,
-   "last_rank": 5124417,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Aditya Vaidya",
    "team_name": "His Name is Diogo",
    "league_rank": 13,
@@ -1507,6 +1495,18 @@
    "best_season": "2020/21",
    "avg_rank": 329510,
    "last_rank": 538046,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "league_rank": 13,
+   "seasons": 11,
+   "past_seasons": 10,
+   "best_rank": 95791,
+   "best_season": "2018/19",
+   "avg_rank": 2404119,
+   "last_rank": 5124417,
    "last_season": "2025/26"
   },
   {
@@ -1594,18 +1594,6 @@
    "last_season": "2024/25"
   },
   {
-   "manager": "prateek gupta",
-   "team_name": "sakalaka",
-   "league_rank": 22,
-   "seasons": 5,
-   "past_seasons": 4,
-   "best_rank": 117338,
-   "best_season": "2025/26",
-   "avg_rank": 4684930,
-   "last_rank": 117338,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Shivanshu Madan",
    "team_name": "Cold Palmer",
    "league_rank": 22,
@@ -1615,6 +1603,18 @@
    "best_season": "2022/23",
    "avg_rank": 820692,
    "last_rank": 1637750,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "prateek gupta",
+   "team_name": "sakalaka",
+   "league_rank": 22,
+   "seasons": 5,
+   "past_seasons": 4,
+   "best_rank": 117338,
+   "best_season": "2025/26",
+   "avg_rank": 4684930,
+   "last_rank": 117338,
    "last_season": "2025/26"
   },
   {
@@ -2058,34 +2058,6 @@
    ]
   },
   {
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "entry": 5008941,
-   "total": 472,
-   "played": 6,
-   "avg": 66.3,
-   "above_avg": 3,
-   "cap_return": 86,
-   "high": 93,
-   "high_gw": 4,
-   "low": 45,
-   "low_gw": 1,
-   "transfers": 4,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 125,
-   "value": 103.3,
-   "value_delta": 3.3,
-   "bank": 0.6,
-   "grank": 1212579,
-   "best_jump": 2489160,
-   "best_jump_gw": 4,
-   "chips": [
-    "wildcard",
-    "3xc"
-   ]
-  },
-  {
    "manager": "Aditya Vaidya",
    "team_name": "His Name is Diogo",
    "entry": 9695,
@@ -2112,6 +2084,34 @@
     "3xc",
     "wildcard",
     "bboost"
+   ]
+  },
+  {
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "entry": 5008941,
+   "total": 472,
+   "played": 6,
+   "avg": 66.3,
+   "above_avg": 3,
+   "cap_return": 86,
+   "high": 93,
+   "high_gw": 4,
+   "low": 45,
+   "low_gw": 1,
+   "transfers": 4,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 125,
+   "value": 103.3,
+   "value_delta": 3.3,
+   "bank": 0.6,
+   "grank": 1212579,
+   "best_jump": 2489160,
+   "best_jump_gw": 4,
+   "chips": [
+    "wildcard",
+    "3xc"
    ]
   },
   {
@@ -2310,33 +2310,6 @@
    ]
   },
   {
-   "manager": "prateek gupta",
-   "team_name": "sakalaka",
-   "entry": 6023506,
-   "total": 450,
-   "played": 6,
-   "avg": 62.8,
-   "above_avg": 2,
-   "cap_return": 102,
-   "high": 101,
-   "high_gw": 2,
-   "low": 29,
-   "low_gw": 1,
-   "transfers": 4,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 100,
-   "value": 101.9,
-   "value_delta": 1.9,
-   "bank": 2.3,
-   "grank": 2313851,
-   "best_jump": 3963132,
-   "best_jump_gw": 2,
-   "chips": [
-    "wildcard"
-   ]
-  },
-  {
    "manager": "Shivanshu Madan",
    "team_name": "Cold Palmer",
    "entry": 2424090,
@@ -2361,6 +2334,33 @@
    "best_jump_gw": 2,
    "chips": [
     "3xc",
+    "wildcard"
+   ]
+  },
+  {
+   "manager": "prateek gupta",
+   "team_name": "sakalaka",
+   "entry": 6023506,
+   "total": 450,
+   "played": 6,
+   "avg": 62.8,
+   "above_avg": 2,
+   "cap_return": 102,
+   "high": 101,
+   "high_gw": 2,
+   "low": 29,
+   "low_gw": 1,
+   "transfers": 4,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 100,
+   "value": 101.9,
+   "value_delta": 1.9,
+   "bank": 2.3,
+   "grank": 2313851,
+   "best_jump": 3963132,
+   "best_jump_gw": 2,
+   "chips": [
     "wildcard"
    ]
   },
@@ -3042,44 +3042,6 @@
     "cap": 16
    }
   ],
-  "5008941": [
-   {
-    "gw": 1,
-    "net": 45,
-    "orank": 5859109,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 86,
-    "orank": 4462746,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 46,
-    "orank": 5267498,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 93,
-    "orank": 2778338,
-    "cap": 10
-   },
-   {
-    "gw": 5,
-    "net": 49,
-    "orank": 2745198,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 79,
-    "orank": 1690121,
-    "cap": 16
-   }
-  ],
   "9695": [
    {
     "gw": 1,
@@ -3116,6 +3078,44 @@
     "net": 70,
     "orank": 2130542,
     "cap": 4
+   }
+  ],
+  "5008941": [
+   {
+    "gw": 1,
+    "net": 45,
+    "orank": 5859109,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 86,
+    "orank": 4462746,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 46,
+    "orank": 5267498,
+    "cap": 18
+   },
+   {
+    "gw": 4,
+    "net": 93,
+    "orank": 2778338,
+    "cap": 10
+   },
+   {
+    "gw": 5,
+    "net": 49,
+    "orank": 2745198,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 79,
+    "orank": 1690121,
+    "cap": 16
    }
   ],
   "1362641": [
@@ -3384,44 +3384,6 @@
     "cap": 4
    }
   ],
-  "6023506": [
-   {
-    "gw": 1,
-    "net": 29,
-    "orank": 8566706,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 101,
-    "orank": 4603574,
-    "cap": 46
-   },
-   {
-    "gw": 3,
-    "net": 48,
-    "orank": 5141430,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 69,
-    "orank": 4982912,
-    "cap": 10
-   },
-   {
-    "gw": 5,
-    "net": 46,
-    "orank": 5109269,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 84,
-    "orank": 3104076,
-    "cap": 12
-   }
-  ],
   "2424090": [
    {
     "gw": 1,
@@ -3458,6 +3420,44 @@
     "net": 56,
     "orank": 2195350,
     "cap": 4
+   }
+  ],
+  "6023506": [
+   {
+    "gw": 1,
+    "net": 29,
+    "orank": 8566706,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 101,
+    "orank": 4603574,
+    "cap": 46
+   },
+   {
+    "gw": 3,
+    "net": 48,
+    "orank": 5141430,
+    "cap": 18
+   },
+   {
+    "gw": 4,
+    "net": 69,
+    "orank": 4982912,
+    "cap": 10
+   },
+   {
+    "gw": 5,
+    "net": 46,
+    "orank": 5109269,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 84,
+    "orank": 3104076,
+    "cap": 12
    }
   ],
   "4837220": [
