@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-10-19 03:53 UTC",
-  "generated_iso": "2026-10-19T03:53:14.719311Z",
+  "generated_utc": "2026-10-19 09:38 UTC",
+  "generated_iso": "2026-10-19T09:38:30.050063Z",
   "started": true,
   "current_gw": 7,
   "finished": [
@@ -231,21 +231,21 @@
   },
   {
    "rank": 22,
-   "arrow": "\u25bc",
-   "manager": "Shivanshu Madan",
-   "team_name": "Cold Palmer",
-   "entry": 2424090,
-   "gw_points": 60,
-   "total": 450,
-   "hits": 0
-  },
-  {
-   "rank": 22,
    "arrow": "\u25b2",
    "manager": "prateek gupta",
    "team_name": "sakalaka",
    "entry": 6023506,
    "gw_points": 73,
+   "total": 450,
+   "hits": 0
+  },
+  {
+   "rank": 22,
+   "arrow": "\u25bc",
+   "manager": "Shivanshu Madan",
+   "team_name": "Cold Palmer",
+   "entry": 2424090,
+   "gw_points": 60,
    "total": 450,
    "hits": 0
   },
@@ -593,18 +593,6 @@
     ]
    },
    {
-    "manager": "Shivanshu Madan",
-    "entry": 2424090,
-    "scores": [
-     62,
-     111,
-     54,
-     58,
-     49,
-     56
-    ]
-   },
-   {
     "manager": "prateek gupta",
     "entry": 6023506,
     "scores": [
@@ -614,6 +602,18 @@
      69,
      46,
      84
+    ]
+   },
+   {
+    "manager": "Shivanshu Madan",
+    "entry": 2424090,
+    "scores": [
+     62,
+     111,
+     54,
+     58,
+     49,
+     56
     ]
    },
    {
@@ -1594,18 +1594,6 @@
    "last_season": "2024/25"
   },
   {
-   "manager": "Shivanshu Madan",
-   "team_name": "Cold Palmer",
-   "league_rank": 22,
-   "seasons": 7,
-   "past_seasons": 6,
-   "best_rank": 31543,
-   "best_season": "2022/23",
-   "avg_rank": 820692,
-   "last_rank": 1637750,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "prateek gupta",
    "team_name": "sakalaka",
    "league_rank": 22,
@@ -1615,6 +1603,18 @@
    "best_season": "2025/26",
    "avg_rank": 4684930,
    "last_rank": 117338,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Shivanshu Madan",
+   "team_name": "Cold Palmer",
+   "league_rank": 22,
+   "seasons": 7,
+   "past_seasons": 6,
+   "best_rank": 31543,
+   "best_season": "2022/23",
+   "avg_rank": 820692,
+   "last_rank": 1637750,
    "last_season": "2025/26"
   },
   {
@@ -2310,6 +2310,33 @@
    ]
   },
   {
+   "manager": "prateek gupta",
+   "team_name": "sakalaka",
+   "entry": 6023506,
+   "total": 450,
+   "played": 6,
+   "avg": 62.8,
+   "above_avg": 2,
+   "cap_return": 102,
+   "high": 101,
+   "high_gw": 2,
+   "low": 29,
+   "low_gw": 1,
+   "transfers": 4,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 100,
+   "value": 101.9,
+   "value_delta": 1.9,
+   "bank": 2.3,
+   "grank": 2313851,
+   "best_jump": 3963132,
+   "best_jump_gw": 2,
+   "chips": [
+    "wildcard"
+   ]
+  },
+  {
    "manager": "Shivanshu Madan",
    "team_name": "Cold Palmer",
    "entry": 2424090,
@@ -2334,33 +2361,6 @@
    "best_jump_gw": 2,
    "chips": [
     "3xc",
-    "wildcard"
-   ]
-  },
-  {
-   "manager": "prateek gupta",
-   "team_name": "sakalaka",
-   "entry": 6023506,
-   "total": 450,
-   "played": 6,
-   "avg": 62.8,
-   "above_avg": 2,
-   "cap_return": 102,
-   "high": 101,
-   "high_gw": 2,
-   "low": 29,
-   "low_gw": 1,
-   "transfers": 4,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 100,
-   "value": 101.9,
-   "value_delta": 1.9,
-   "bank": 2.3,
-   "grank": 2313851,
-   "best_jump": 3963132,
-   "best_jump_gw": 2,
-   "chips": [
     "wildcard"
    ]
   },
@@ -3384,44 +3384,6 @@
     "cap": 4
    }
   ],
-  "2424090": [
-   {
-    "gw": 1,
-    "net": 62,
-    "orank": 1436683,
-    "cap": 22
-   },
-   {
-    "gw": 2,
-    "net": 111,
-    "orank": 370271,
-    "cap": 46
-   },
-   {
-    "gw": 3,
-    "net": 54,
-    "orank": 375042,
-    "cap": 27
-   },
-   {
-    "gw": 4,
-    "net": 58,
-    "orank": 1569102,
-    "cap": 10
-   },
-   {
-    "gw": 5,
-    "net": 49,
-    "orank": 1589056,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 56,
-    "orank": 2195350,
-    "cap": 4
-   }
-  ],
   "6023506": [
    {
     "gw": 1,
@@ -3458,6 +3420,44 @@
     "net": 84,
     "orank": 3104076,
     "cap": 12
+   }
+  ],
+  "2424090": [
+   {
+    "gw": 1,
+    "net": 62,
+    "orank": 1436683,
+    "cap": 22
+   },
+   {
+    "gw": 2,
+    "net": 111,
+    "orank": 370271,
+    "cap": 46
+   },
+   {
+    "gw": 3,
+    "net": 54,
+    "orank": 375042,
+    "cap": 27
+   },
+   {
+    "gw": 4,
+    "net": 58,
+    "orank": 1569102,
+    "cap": 10
+   },
+   {
+    "gw": 5,
+    "net": 49,
+    "orank": 1589056,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 56,
+    "orank": 2195350,
+    "cap": 4
    }
   ],
   "4837220": [
