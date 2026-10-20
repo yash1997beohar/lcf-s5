@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-10-20 03:41 UTC",
-  "generated_iso": "2026-10-20T03:41:46.510828Z",
+  "generated_utc": "2026-10-20 09:11 UTC",
+  "generated_iso": "2026-10-20T09:11:38.366483Z",
   "started": true,
   "current_gw": 7,
   "finished": [
@@ -132,20 +132,20 @@
   {
    "rank": 12,
    "arrow": "\u25b2",
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "entry": 5008941,
-   "gw_points": 76,
+   "manager": "Aditya Vaidya",
+   "team_name": "His Name is Diogo",
+   "entry": 9695,
+   "gw_points": 83,
    "total": 474,
    "hits": 0
   },
   {
    "rank": 12,
    "arrow": "\u25b2",
-   "manager": "Aditya Vaidya",
-   "team_name": "His Name is Diogo",
-   "entry": 9695,
-   "gw_points": 83,
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "entry": 5008941,
+   "gw_points": 76,
    "total": 474,
    "hits": 0
   },
@@ -473,18 +473,6 @@
     ]
    },
    {
-    "manager": "Ashwin Jose",
-    "entry": 5008941,
-    "scores": [
-     45,
-     86,
-     46,
-     93,
-     49,
-     79
-    ]
-   },
-   {
     "manager": "Aditya Vaidya",
     "entry": 9695,
     "scores": [
@@ -494,6 +482,18 @@
      69,
      55,
      70
+    ]
+   },
+   {
+    "manager": "Ashwin Jose",
+    "entry": 5008941,
+    "scores": [
+     45,
+     86,
+     46,
+     93,
+     49,
+     79
     ]
    },
    {
@@ -952,14 +952,14 @@
    "excluded": false
   },
   {
-   "manager": "Ashwin Jose",
-   "entry": 5008941,
+   "manager": "Aditya Vaidya",
+   "entry": 9695,
    "arrows": 4,
    "excluded": false
   },
   {
-   "manager": "Aditya Vaidya",
-   "entry": 9695,
+   "manager": "Ashwin Jose",
+   "entry": 5008941,
    "arrows": 4,
    "excluded": false
   },
@@ -1474,18 +1474,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "league_rank": 12,
-   "seasons": 11,
-   "past_seasons": 10,
-   "best_rank": 95791,
-   "best_season": "2018/19",
-   "avg_rank": 2404119,
-   "last_rank": 5124417,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Aditya Vaidya",
    "team_name": "His Name is Diogo",
    "league_rank": 12,
@@ -1495,6 +1483,18 @@
    "best_season": "2020/21",
    "avg_rank": 329510,
    "last_rank": 538046,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "league_rank": 12,
+   "seasons": 11,
+   "past_seasons": 10,
+   "best_rank": 95791,
+   "best_season": "2018/19",
+   "avg_rank": 2404119,
+   "last_rank": 5124417,
    "last_season": "2025/26"
   },
   {
@@ -2030,34 +2030,6 @@
    ]
   },
   {
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "entry": 5008941,
-   "total": 474,
-   "played": 6,
-   "avg": 66.3,
-   "above_avg": 3,
-   "cap_return": 86,
-   "high": 93,
-   "high_gw": 4,
-   "low": 45,
-   "low_gw": 1,
-   "transfers": 4,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 125,
-   "value": 103.3,
-   "value_delta": 3.3,
-   "bank": 0.6,
-   "grank": 1168901,
-   "best_jump": 2489160,
-   "best_jump_gw": 4,
-   "chips": [
-    "wildcard",
-    "3xc"
-   ]
-  },
-  {
    "manager": "Aditya Vaidya",
    "team_name": "His Name is Diogo",
    "entry": 9695,
@@ -2084,6 +2056,34 @@
     "3xc",
     "wildcard",
     "bboost"
+   ]
+  },
+  {
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "entry": 5008941,
+   "total": 474,
+   "played": 6,
+   "avg": 66.3,
+   "above_avg": 3,
+   "cap_return": 86,
+   "high": 93,
+   "high_gw": 4,
+   "low": 45,
+   "low_gw": 1,
+   "transfers": 4,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 125,
+   "value": 103.3,
+   "value_delta": 3.3,
+   "bank": 0.6,
+   "grank": 1168901,
+   "best_jump": 2489160,
+   "best_jump_gw": 4,
+   "chips": [
+    "wildcard",
+    "3xc"
    ]
   },
   {
@@ -3004,44 +3004,6 @@
     "cap": 12
    }
   ],
-  "5008941": [
-   {
-    "gw": 1,
-    "net": 45,
-    "orank": 5859109,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 86,
-    "orank": 4462746,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 46,
-    "orank": 5267498,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 93,
-    "orank": 2778338,
-    "cap": 10
-   },
-   {
-    "gw": 5,
-    "net": 49,
-    "orank": 2745198,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 79,
-    "orank": 1690121,
-    "cap": 16
-   }
-  ],
   "9695": [
    {
     "gw": 1,
@@ -3078,6 +3040,44 @@
     "net": 70,
     "orank": 2130542,
     "cap": 4
+   }
+  ],
+  "5008941": [
+   {
+    "gw": 1,
+    "net": 45,
+    "orank": 5859109,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 86,
+    "orank": 4462746,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 46,
+    "orank": 5267498,
+    "cap": 18
+   },
+   {
+    "gw": 4,
+    "net": 93,
+    "orank": 2778338,
+    "cap": 10
+   },
+   {
+    "gw": 5,
+    "net": 49,
+    "orank": 2745198,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 79,
+    "orank": 1690121,
+    "cap": 16
    }
   ],
   "427154": [
