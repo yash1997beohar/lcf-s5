@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-10-19 22:03 UTC",
-  "generated_iso": "2026-10-19T22:03:11.208348Z",
+  "generated_utc": "2026-10-20 03:41 UTC",
+  "generated_iso": "2026-10-20T03:41:46.510828Z",
   "started": true,
   "current_gw": 7,
   "finished": [
@@ -241,21 +241,21 @@
   },
   {
    "rank": 23,
-   "arrow": "\u25b2",
-   "manager": "prateek gupta",
-   "team_name": "sakalaka",
-   "entry": 6023506,
-   "gw_points": 73,
-   "total": 450,
-   "hits": 0
-  },
-  {
-   "rank": 23,
    "arrow": "\u25bc",
    "manager": "Shivanshu Madan",
    "team_name": "Cold Palmer",
    "entry": 2424090,
    "gw_points": 60,
+   "total": 450,
+   "hits": 0
+  },
+  {
+   "rank": 23,
+   "arrow": "\u25b2",
+   "manager": "prateek gupta",
+   "team_name": "sakalaka",
+   "entry": 6023506,
+   "gw_points": 73,
    "total": 450,
    "hits": 0
   },
@@ -605,18 +605,6 @@
     ]
    },
    {
-    "manager": "prateek gupta",
-    "entry": 6023506,
-    "scores": [
-     29,
-     101,
-     48,
-     69,
-     46,
-     84
-    ]
-   },
-   {
     "manager": "Shivanshu Madan",
     "entry": 2424090,
     "scores": [
@@ -626,6 +614,18 @@
      58,
      49,
      56
+    ]
+   },
+   {
+    "manager": "prateek gupta",
+    "entry": 6023506,
+    "scores": [
+     29,
+     101,
+     48,
+     69,
+     46,
+     84
     ]
    },
    {
@@ -1606,18 +1606,6 @@
    "last_season": "2024/25"
   },
   {
-   "manager": "prateek gupta",
-   "team_name": "sakalaka",
-   "league_rank": 23,
-   "seasons": 5,
-   "past_seasons": 4,
-   "best_rank": 117338,
-   "best_season": "2025/26",
-   "avg_rank": 4684930,
-   "last_rank": 117338,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Shivanshu Madan",
    "team_name": "Cold Palmer",
    "league_rank": 23,
@@ -1627,6 +1615,18 @@
    "best_season": "2022/23",
    "avg_rank": 820692,
    "last_rank": 1637750,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "prateek gupta",
+   "team_name": "sakalaka",
+   "league_rank": 23,
+   "seasons": 5,
+   "past_seasons": 4,
+   "best_rank": 117338,
+   "best_season": "2025/26",
+   "avg_rank": 4684930,
+   "last_rank": 117338,
    "last_season": "2025/26"
   },
   {
@@ -1731,11 +1731,11 @@
    "transfers": 4,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 91,
+   "bench": 94,
    "value": 102.8,
    "value_delta": 2.8,
    "bank": 0.4,
-   "grank": 30836,
+   "grank": 27422,
    "best_jump": 270274,
    "best_jump_gw": 2,
    "chips": [
@@ -1764,7 +1764,7 @@
    "value": 101.6,
    "value_delta": 1.6,
    "bank": 0.4,
-   "grank": 70144,
+   "grank": 74842,
    "best_jump": 1461471,
    "best_jump_gw": 2,
    "chips": [
@@ -1787,11 +1787,11 @@
    "transfers": 5,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 51,
+   "bench": 54,
    "value": 101.9,
    "value_delta": 1.9,
    "bank": 1.1,
-   "grank": 239653,
+   "grank": 252302,
    "best_jump": 5250200,
    "best_jump_gw": 2,
    "chips": [
@@ -1816,11 +1816,11 @@
    "transfers": 2,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 97,
+   "bench": 99,
    "value": 102.6,
    "value_delta": 2.6,
    "bank": 1.3,
-   "grank": 388328,
+   "grank": 407184,
    "best_jump": 266328,
    "best_jump_gw": 4,
    "chips": [
@@ -1848,7 +1848,7 @@
    "value": 103.2,
    "value_delta": 3.2,
    "bank": 0.7,
-   "grank": 440214,
+   "grank": 416221,
    "best_jump": 1229264,
    "best_jump_gw": 4,
    "chips": [
@@ -1876,7 +1876,7 @@
    "value": 101.9,
    "value_delta": 1.9,
    "bank": 0.1,
-   "grank": 434915,
+   "grank": 455485,
    "best_jump": 3046343,
    "best_jump_gw": 2,
    "chips": [
@@ -1900,11 +1900,11 @@
    "transfers": 4,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 88,
+   "bench": 93,
    "value": 101.7,
    "value_delta": 1.7,
    "bank": 0.2,
-   "grank": 505598,
+   "grank": 528573,
    "best_jump": 5881370,
    "best_jump_gw": 2,
    "chips": [
@@ -1932,7 +1932,7 @@
    "value": 103.2,
    "value_delta": 3.2,
    "bank": 0.4,
-   "grank": 552022,
+   "grank": 576503,
    "best_jump": 2735246,
    "best_jump_gw": 2,
    "chips": [
@@ -1961,7 +1961,7 @@
    "value": 101.8,
    "value_delta": 1.8,
    "bank": 0.7,
-   "grank": 676446,
+   "grank": 704663,
    "best_jump": 1034411,
    "best_jump_gw": 2,
    "chips": [
@@ -1986,11 +1986,11 @@
    "transfers": 4,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 85,
+   "bench": 88,
    "value": 101.3,
    "value_delta": 1.3,
    "bank": 1.0,
-   "grank": 699472,
+   "grank": 728611,
    "best_jump": 617418,
    "best_jump_gw": 2,
    "chips": [
@@ -2019,7 +2019,7 @@
    "value": 102.0,
    "value_delta": 2.0,
    "bank": 0.1,
-   "grank": 1089124,
+   "grank": 1127574,
    "best_jump": 4185865,
    "best_jump_gw": 2,
    "chips": [
@@ -2049,7 +2049,7 @@
    "value": 103.3,
    "value_delta": 3.3,
    "bank": 0.6,
-   "grank": 1212579,
+   "grank": 1168901,
    "best_jump": 2489160,
    "best_jump_gw": 4,
    "chips": [
@@ -2077,7 +2077,7 @@
    "value": 102.3,
    "value_delta": 2.3,
    "bank": 0.5,
-   "grank": 1212579,
+   "grank": 1168901,
    "best_jump": 3395267,
    "best_jump_gw": 3,
    "chips": [
@@ -2106,7 +2106,7 @@
    "value": 102.8,
    "value_delta": 2.8,
    "bank": 0.1,
-   "grank": 1170860,
+   "grank": 1210893,
    "best_jump": 466127,
    "best_jump_gw": 4,
    "chips": [
@@ -2130,11 +2130,11 @@
    "transfers": 2,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 83,
+   "bench": 86,
    "value": 102.0,
    "value_delta": 2.0,
    "bank": 0.0,
-   "grank": 1248839,
+   "grank": 1290490,
    "best_jump": 3039834,
    "best_jump_gw": 2,
    "chips": [
@@ -2158,11 +2158,11 @@
    "transfers": 3,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 93,
+   "bench": 96,
    "value": 102.5,
    "value_delta": 2.5,
    "bank": 1.2,
-   "grank": 1475004,
+   "grank": 1520974,
    "best_jump": 453361,
    "best_jump_gw": 2,
    "chips": [
@@ -2190,7 +2190,7 @@
    "value": 101.9,
    "value_delta": 1.9,
    "bank": 3.1,
-   "grank": 1632347,
+   "grank": 1681030,
    "best_jump": 166751,
    "best_jump_gw": 2,
    "chips": [
@@ -2219,7 +2219,7 @@
    "value": 102.3,
    "value_delta": 2.3,
    "bank": 3.1,
-   "grank": 1768375,
+   "grank": 1716890,
    "best_jump": 878473,
    "best_jump_gw": 2,
    "chips": [
@@ -2243,11 +2243,11 @@
    "transfers": 7,
    "hits_pts": 8,
    "hits_n": 2,
-   "bench": 61,
+   "bench": 63,
    "value": 101.3,
    "value_delta": 1.3,
    "bank": 1.4,
-   "grank": 2070752,
+   "grank": 2126075,
    "best_jump": 3048395,
    "best_jump_gw": 2,
    "chips": [
@@ -2271,11 +2271,11 @@
    "transfers": 5,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 88,
+   "bench": 90,
    "value": 102.6,
    "value_delta": 2.6,
    "bank": 2.0,
-   "grank": 2100461,
+   "grank": 2156306,
    "best_jump": 1196618,
    "best_jump_gw": 6,
    "chips": [
@@ -2302,7 +2302,7 @@
    "value": 101.0,
    "value_delta": 1.0,
    "bank": 1.7,
-   "grank": 2545595,
+   "grank": 2258401,
    "best_jump": 4399137,
    "best_jump_gw": 2,
    "chips": [
@@ -2326,39 +2326,12 @@
    "transfers": 9,
    "hits_pts": 16,
    "hits_n": 4,
-   "bench": 87,
+   "bench": 90,
    "value": 101.9,
    "value_delta": 1.9,
    "bank": 2.4,
-   "grank": 2242863,
+   "grank": 2300321,
    "best_jump": 1948104,
-   "best_jump_gw": 2,
-   "chips": [
-    "wildcard"
-   ]
-  },
-  {
-   "manager": "prateek gupta",
-   "team_name": "sakalaka",
-   "entry": 6023506,
-   "total": 450,
-   "played": 6,
-   "avg": 62.8,
-   "above_avg": 2,
-   "cap_return": 102,
-   "high": 101,
-   "high_gw": 2,
-   "low": 29,
-   "low_gw": 1,
-   "transfers": 4,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 100,
-   "value": 101.9,
-   "value_delta": 1.9,
-   "bank": 2.3,
-   "grank": 2313851,
-   "best_jump": 3963132,
    "best_jump_gw": 2,
    "chips": [
     "wildcard"
@@ -2384,11 +2357,38 @@
    "value": 101.6,
    "value_delta": 1.6,
    "bank": 0.1,
-   "grank": 2313851,
+   "grank": 2372496,
    "best_jump": 1066412,
    "best_jump_gw": 2,
    "chips": [
     "3xc",
+    "wildcard"
+   ]
+  },
+  {
+   "manager": "prateek gupta",
+   "team_name": "sakalaka",
+   "entry": 6023506,
+   "total": 450,
+   "played": 6,
+   "avg": 62.8,
+   "above_avg": 2,
+   "cap_return": 102,
+   "high": 101,
+   "high_gw": 2,
+   "low": 29,
+   "low_gw": 1,
+   "transfers": 4,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 103,
+   "value": 101.9,
+   "value_delta": 1.9,
+   "bank": 2.3,
+   "grank": 2372496,
+   "best_jump": 3963132,
+   "best_jump_gw": 2,
+   "chips": [
     "wildcard"
    ]
   },
@@ -2408,11 +2408,11 @@
    "transfers": 5,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 96,
+   "bench": 101,
    "value": 101.1,
    "value_delta": 1.1,
    "bank": 0.7,
-   "grank": 2496995,
+   "grank": 2557475,
    "best_jump": 1595922,
    "best_jump_gw": 2,
    "chips": [
@@ -2441,7 +2441,7 @@
    "value": 101.3,
    "value_delta": 1.3,
    "bank": 0.3,
-   "grank": 2794176,
+   "grank": 2857609,
    "best_jump": 3009015,
    "best_jump_gw": 2,
    "chips": [
@@ -2466,11 +2466,11 @@
    "transfers": 6,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 67,
+   "bench": 72,
    "value": 101.9,
    "value_delta": 1.9,
    "bank": 7.4,
-   "grank": 3052865,
+   "grank": 3118694,
    "best_jump": 128137,
    "best_jump_gw": 6,
    "chips": [
@@ -2497,7 +2497,7 @@
    "value": 100.1,
    "value_delta": 0.1,
    "bank": 0.3,
-   "grank": 3736338,
+   "grank": 3807111,
    "best_jump": 637992,
    "best_jump_gw": 2,
    "chips": [
@@ -2521,11 +2521,11 @@
    "transfers": 8,
    "hits_pts": 12,
    "hits_n": 3,
-   "bench": 46,
+   "bench": 47,
    "value": 102.1,
    "value_delta": 2.1,
    "bank": 0.5,
-   "grank": 5815742,
+   "grank": 5889756,
    "best_jump": 1952243,
    "best_jump_gw": 4,
    "chips": [
@@ -2552,7 +2552,7 @@
    "value": 101.4,
    "value_delta": 1.4,
    "bank": 5.4,
-   "grank": 6847364,
+   "grank": 6915669,
    "best_jump": 912089,
    "best_jump_gw": 6,
    "chips": [
@@ -2579,7 +2579,7 @@
    "value": 98.0,
    "value_delta": -2.0,
    "bank": 2.2,
-   "grank": 9308004,
+   "grank": 9292242,
    "best_jump": 216389,
    "best_jump_gw": 3,
    "chips": []
@@ -3422,44 +3422,6 @@
     "cap": 4
    }
   ],
-  "6023506": [
-   {
-    "gw": 1,
-    "net": 29,
-    "orank": 8566706,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 101,
-    "orank": 4603574,
-    "cap": 46
-   },
-   {
-    "gw": 3,
-    "net": 48,
-    "orank": 5141430,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 69,
-    "orank": 4982912,
-    "cap": 10
-   },
-   {
-    "gw": 5,
-    "net": 46,
-    "orank": 5109269,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 84,
-    "orank": 3104076,
-    "cap": 12
-   }
-  ],
   "2424090": [
    {
     "gw": 1,
@@ -3496,6 +3458,44 @@
     "net": 56,
     "orank": 2195350,
     "cap": 4
+   }
+  ],
+  "6023506": [
+   {
+    "gw": 1,
+    "net": 29,
+    "orank": 8566706,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 101,
+    "orank": 4603574,
+    "cap": 46
+   },
+   {
+    "gw": 3,
+    "net": 48,
+    "orank": 5141430,
+    "cap": 18
+   },
+   {
+    "gw": 4,
+    "net": 69,
+    "orank": 4982912,
+    "cap": 10
+   },
+   {
+    "gw": 5,
+    "net": 46,
+    "orank": 5109269,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 84,
+    "orank": 3104076,
+    "cap": 12
    }
   ],
   "4837220": [
@@ -4461,7 +4461,7 @@
         "a": "Aayush Khanna",
         "b": "Abhay Rawat",
         "sa": 73,
-        "sb": 60,
+        "sb": 62,
         "winner": null
        }
       ]
