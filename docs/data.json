@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-10-23 09:08 UTC",
-  "generated_iso": "2026-10-23T09:08:15.372149Z",
+  "generated_utc": "2026-10-23 14:41 UTC",
+  "generated_iso": "2026-10-23T14:41:32.000133Z",
   "started": true,
   "current_gw": 7,
   "finished": [
@@ -42,16 +42,6 @@
   },
   {
    "rank": 3,
-   "arrow": "\u25bc",
-   "manager": "Anish Joshi",
-   "team_name": "Fiery Raiders",
-   "entry": 256447,
-   "gw_points": 63,
-   "total": 507,
-   "hits": 4
-  },
-  {
-   "rank": 3,
    "arrow": "\u25b2",
    "manager": "Aayush Khanna",
    "team_name": "Loading...",
@@ -59,6 +49,16 @@
    "gw_points": 73,
    "total": 507,
    "hits": 0
+  },
+  {
+   "rank": 3,
+   "arrow": "\u25bc",
+   "manager": "Anish Joshi",
+   "team_name": "Fiery Raiders",
+   "entry": 256447,
+   "gw_points": 63,
+   "total": 507,
+   "hits": 4
   },
   {
    "rank": 5,
@@ -369,19 +369,6 @@
     ]
    },
    {
-    "manager": "Anish Joshi",
-    "entry": 256447,
-    "scores": [
-     62,
-     103,
-     43,
-     107,
-     47,
-     82,
-     63
-    ]
-   },
-   {
     "manager": "Aayush Khanna",
     "entry": 2003955,
     "scores": [
@@ -392,6 +379,19 @@
      61,
      90,
      73
+    ]
+   },
+   {
+    "manager": "Anish Joshi",
+    "entry": 256447,
+    "scores": [
+     62,
+     103,
+     43,
+     107,
+     47,
+     82,
+     63
     ]
    },
    {
@@ -1399,18 +1399,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Anish Joshi",
-   "team_name": "Fiery Raiders",
-   "league_rank": 3,
-   "seasons": 15,
-   "past_seasons": 14,
-   "best_rank": 281617,
-   "best_season": "2019/20",
-   "avg_rank": 1051323,
-   "last_rank": 1076546,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Aayush Khanna",
    "team_name": "Loading...",
    "league_rank": 3,
@@ -1420,6 +1408,18 @@
    "best_season": "2024/25",
    "avg_rank": 2415786,
    "last_rank": 1206623,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Anish Joshi",
+   "team_name": "Fiery Raiders",
+   "league_rank": 3,
+   "seasons": 15,
+   "past_seasons": 14,
+   "best_rank": 281617,
+   "best_season": "2019/20",
+   "avg_rank": 1051323,
+   "last_rank": 1076546,
    "last_season": "2025/26"
   },
   {
@@ -1805,34 +1805,6 @@
    ]
   },
   {
-   "manager": "Anish Joshi",
-   "team_name": "Fiery Raiders",
-   "entry": 256447,
-   "total": 507,
-   "played": 7,
-   "avg": 72.4,
-   "above_avg": 4,
-   "cap_return": 114,
-   "high": 107,
-   "high_gw": 4,
-   "low": 43,
-   "low_gw": 3,
-   "transfers": 5,
-   "hits_pts": 4,
-   "hits_n": 1,
-   "bench": 105,
-   "value": 103.2,
-   "value_delta": 3.2,
-   "bank": 0.7,
-   "grank": 275226,
-   "best_jump": 1229264,
-   "best_jump_gw": 4,
-   "chips": [
-    "bboost",
-    "wildcard"
-   ]
-  },
-  {
    "manager": "Aayush Khanna",
    "team_name": "Loading...",
    "entry": 2003955,
@@ -1859,6 +1831,34 @@
     "3xc",
     "wildcard",
     "bboost"
+   ]
+  },
+  {
+   "manager": "Anish Joshi",
+   "team_name": "Fiery Raiders",
+   "entry": 256447,
+   "total": 507,
+   "played": 7,
+   "avg": 72.4,
+   "above_avg": 4,
+   "cap_return": 114,
+   "high": 107,
+   "high_gw": 4,
+   "low": 43,
+   "low_gw": 3,
+   "transfers": 5,
+   "hits_pts": 4,
+   "hits_n": 1,
+   "bench": 105,
+   "value": 103.2,
+   "value_delta": 3.2,
+   "bank": 0.7,
+   "grank": 275226,
+   "best_jump": 1229264,
+   "best_jump_gw": 4,
+   "chips": [
+    "bboost",
+    "wildcard"
    ]
   },
   {
@@ -2707,50 +2707,6 @@
     "cap": 39
    }
   ],
-  "256447": [
-   {
-    "gw": 1,
-    "net": 62,
-    "orank": 1436683,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 103,
-    "orank": 765925,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 43,
-    "orank": 1496797,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 107,
-    "orank": 267533,
-    "cap": 24
-   },
-   {
-    "gw": 5,
-    "net": 47,
-    "orank": 352905,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 82,
-    "orank": 161939,
-    "cap": 4
-   },
-   {
-    "gw": 7,
-    "net": 63,
-    "orank": 275226,
-    "cap": 26
-   }
-  ],
   "2003955": [
    {
     "gw": 1,
@@ -2793,6 +2749,50 @@
     "net": 73,
     "orank": 275226,
     "cap": 12
+   }
+  ],
+  "256447": [
+   {
+    "gw": 1,
+    "net": 62,
+    "orank": 1436683,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 103,
+    "orank": 765925,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 43,
+    "orank": 1496797,
+    "cap": 18
+   },
+   {
+    "gw": 4,
+    "net": 107,
+    "orank": 267533,
+    "cap": 24
+   },
+   {
+    "gw": 5,
+    "net": 47,
+    "orank": 352905,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 82,
+    "orank": 161939,
+    "cap": 4
+   },
+   {
+    "gw": 7,
+    "net": 63,
+    "orank": 275226,
+    "cap": 26
    }
   ],
   "5926399": [
