@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-10-25 20:26 UTC",
-  "generated_iso": "2026-10-25T20:26:53.337877Z",
+  "generated_utc": "2026-10-25 23:51 UTC",
+  "generated_iso": "2026-10-25T23:51:15.453370Z",
   "started": true,
   "current_gw": 8,
   "finished": [
@@ -132,21 +132,21 @@
   },
   {
    "rank": 12,
-   "arrow": "\u2022",
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "entry": 5008941,
-   "gw_points": 52,
-   "total": 528,
-   "hits": 0
-  },
-  {
-   "rank": 12,
    "arrow": "\u25bc",
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
    "entry": 374875,
    "gw_points": 41,
+   "total": 528,
+   "hits": 0
+  },
+  {
+   "rank": 12,
+   "arrow": "\u2022",
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "entry": 5008941,
+   "gw_points": 52,
    "total": 528,
    "hits": 0
   },
@@ -486,19 +486,6 @@
     ]
    },
    {
-    "manager": "Ashwin Jose",
-    "entry": 5008941,
-    "scores": [
-     45,
-     86,
-     46,
-     93,
-     49,
-     79,
-     78
-    ]
-   },
-   {
     "manager": "Yash Beohar",
     "entry": 374875,
     "scores": [
@@ -509,6 +496,19 @@
      44,
      69,
      75
+    ]
+   },
+   {
+    "manager": "Ashwin Jose",
+    "entry": 5008941,
+    "scores": [
+     45,
+     86,
+     46,
+     93,
+     49,
+     79,
+     78
     ]
    },
    {
@@ -1507,18 +1507,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "league_rank": 12,
-   "seasons": 11,
-   "past_seasons": 10,
-   "best_rank": 95791,
-   "best_season": "2018/19",
-   "avg_rank": 2404119,
-   "last_rank": 5124417,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
    "league_rank": 12,
@@ -1528,6 +1516,18 @@
    "best_season": "2018/19",
    "avg_rank": 820221,
    "last_rank": 58227,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "league_rank": 12,
+   "seasons": 11,
+   "past_seasons": 10,
+   "best_rank": 95791,
+   "best_season": "2018/19",
+   "avg_rank": 2404119,
+   "last_rank": 5124417,
    "last_season": "2025/26"
   },
   {
@@ -2064,34 +2064,6 @@
    ]
   },
   {
-   "manager": "Ashwin Jose",
-   "team_name": "Pole Calmer \ufffd",
-   "entry": 5008941,
-   "total": 528,
-   "played": 7,
-   "avg": 68.0,
-   "above_avg": 4,
-   "cap_return": 125,
-   "high": 93,
-   "high_gw": 4,
-   "low": 45,
-   "low_gw": 1,
-   "transfers": 5,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 134,
-   "value": 104.0,
-   "value_delta": 4.0,
-   "bank": 1.2,
-   "grank": 1114746,
-   "best_jump": 2489160,
-   "best_jump_gw": 4,
-   "chips": [
-    "wildcard",
-    "3xc"
-   ]
-  },
-  {
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
    "entry": 374875,
@@ -2116,6 +2088,34 @@
    "best_jump_gw": 2,
    "chips": [
     "bboost",
+    "wildcard",
+    "3xc"
+   ]
+  },
+  {
+   "manager": "Ashwin Jose",
+   "team_name": "Pole Calmer \ufffd",
+   "entry": 5008941,
+   "total": 528,
+   "played": 7,
+   "avg": 68.0,
+   "above_avg": 4,
+   "cap_return": 125,
+   "high": 93,
+   "high_gw": 4,
+   "low": 45,
+   "low_gw": 1,
+   "transfers": 5,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 134,
+   "value": 104.0,
+   "value_delta": 4.0,
+   "bank": 1.2,
+   "grank": 1114746,
+   "best_jump": 2489160,
+   "best_jump_gw": 4,
+   "chips": [
     "wildcard",
     "3xc"
    ]
@@ -3105,50 +3105,6 @@
     "cap": 26
    }
   ],
-  "5008941": [
-   {
-    "gw": 1,
-    "net": 45,
-    "orank": 5859109,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 86,
-    "orank": 4462746,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 46,
-    "orank": 5267498,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 93,
-    "orank": 2778338,
-    "cap": 10
-   },
-   {
-    "gw": 5,
-    "net": 49,
-    "orank": 2745198,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 79,
-    "orank": 1690121,
-    "cap": 16
-   },
-   {
-    "gw": 7,
-    "net": 78,
-    "orank": 1157912,
-    "cap": 39
-   }
-  ],
   "374875": [
    {
     "gw": 1,
@@ -3190,6 +3146,50 @@
     "gw": 7,
     "net": 75,
     "orank": 755821,
+    "cap": 39
+   }
+  ],
+  "5008941": [
+   {
+    "gw": 1,
+    "net": 45,
+    "orank": 5859109,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 86,
+    "orank": 4462746,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 46,
+    "orank": 5267498,
+    "cap": 18
+   },
+   {
+    "gw": 4,
+    "net": 93,
+    "orank": 2778338,
+    "cap": 10
+   },
+   {
+    "gw": 5,
+    "net": 49,
+    "orank": 2745198,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 79,
+    "orank": 1690121,
+    "cap": 16
+   },
+   {
+    "gw": 7,
+    "net": 78,
+    "orank": 1157912,
     "cap": 39
    }
   ],
