@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-10-30 12:15 UTC",
-  "generated_iso": "2026-10-30T12:15:04.637104Z",
+  "generated_utc": "2026-10-30 13:15 UTC",
+  "generated_iso": "2026-10-30T13:15:25.925698Z",
   "started": true,
   "current_gw": 8,
   "finished": [
@@ -4956,6 +4956,650 @@
     "reseeded": false,
     "champion": "Sid Shaurya"
    }
+  },
+  {
+   "name": "MT2 (GW9-GW14)",
+   "group_gws": [
+    9,
+    10,
+    11
+   ],
+   "ko_gws": [
+    12,
+    13,
+    14
+   ],
+   "groups": {
+    "A": [
+     [
+      "Aquib Razack",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Raveesh Kalra",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Rajit Das",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Arshaq Razack",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ]
+    ],
+    "B": [
+     [
+      "Sid Shaurya",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Satweek Nayak",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Rohan Agrawal",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Varun Khurana",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ]
+    ],
+    "C": [
+     [
+      "Abhiraj Singh",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Ajith Thomas Kuthukatt George",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Deepankar Sachdeva",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Ashwin Jose",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ]
+    ],
+    "D": [
+     [
+      "Aditya Vaidya",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Abhay Rawat",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Abhinav Premsekhar",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Pranshul Jain",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ]
+    ],
+    "E": [
+     [
+      "Aparnesh Mishra",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Anish Joshi",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Karan Chopra",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Parakh Tripathy",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ]
+    ],
+    "F": [
+     [
+      "Yash Beohar",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Danish Javed",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "Aayush Khanna",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ],
+     [
+      "prateek gupta",
+      {
+       "P": 0,
+       "W": 0,
+       "D": 0,
+       "L": 0,
+       "pts": 0,
+       "fpl": 0,
+       "hi": 0
+      }
+     ]
+    ]
+   },
+   "fixtures": [
+    {
+     "gw": 9,
+     "group": "A",
+     "a": "Aquib Razack",
+     "b": "Raveesh Kalra",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 9,
+     "group": "A",
+     "a": "Rajit Das",
+     "b": "Arshaq Razack",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 9,
+     "group": "B",
+     "a": "Sid Shaurya",
+     "b": "Satweek Nayak",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 9,
+     "group": "B",
+     "a": "Rohan Agrawal",
+     "b": "Varun Khurana",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 9,
+     "group": "C",
+     "a": "Abhiraj Singh",
+     "b": "Ajith Thomas Kuthukatt George",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 9,
+     "group": "C",
+     "a": "Deepankar Sachdeva",
+     "b": "Ashwin Jose",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 9,
+     "group": "D",
+     "a": "Aditya Vaidya",
+     "b": "Abhay Rawat",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 9,
+     "group": "D",
+     "a": "Abhinav Premsekhar",
+     "b": "Pranshul Jain",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 9,
+     "group": "E",
+     "a": "Aparnesh Mishra",
+     "b": "Anish Joshi",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 9,
+     "group": "E",
+     "a": "Karan Chopra",
+     "b": "Parakh Tripathy",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 9,
+     "group": "F",
+     "a": "Yash Beohar",
+     "b": "Danish Javed",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 9,
+     "group": "F",
+     "a": "Aayush Khanna",
+     "b": "prateek gupta",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 10,
+     "group": "A",
+     "a": "Aquib Razack",
+     "b": "Rajit Das",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 10,
+     "group": "A",
+     "a": "Raveesh Kalra",
+     "b": "Arshaq Razack",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 10,
+     "group": "B",
+     "a": "Sid Shaurya",
+     "b": "Rohan Agrawal",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 10,
+     "group": "B",
+     "a": "Satweek Nayak",
+     "b": "Varun Khurana",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 10,
+     "group": "C",
+     "a": "Abhiraj Singh",
+     "b": "Deepankar Sachdeva",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 10,
+     "group": "C",
+     "a": "Ajith Thomas Kuthukatt George",
+     "b": "Ashwin Jose",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 10,
+     "group": "D",
+     "a": "Aditya Vaidya",
+     "b": "Abhinav Premsekhar",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 10,
+     "group": "D",
+     "a": "Abhay Rawat",
+     "b": "Pranshul Jain",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 10,
+     "group": "E",
+     "a": "Aparnesh Mishra",
+     "b": "Karan Chopra",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 10,
+     "group": "E",
+     "a": "Anish Joshi",
+     "b": "Parakh Tripathy",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 10,
+     "group": "F",
+     "a": "Yash Beohar",
+     "b": "Aayush Khanna",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 10,
+     "group": "F",
+     "a": "Danish Javed",
+     "b": "prateek gupta",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 11,
+     "group": "A",
+     "a": "Aquib Razack",
+     "b": "Arshaq Razack",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 11,
+     "group": "A",
+     "a": "Raveesh Kalra",
+     "b": "Rajit Das",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 11,
+     "group": "B",
+     "a": "Sid Shaurya",
+     "b": "Varun Khurana",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 11,
+     "group": "B",
+     "a": "Satweek Nayak",
+     "b": "Rohan Agrawal",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 11,
+     "group": "C",
+     "a": "Abhiraj Singh",
+     "b": "Ashwin Jose",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 11,
+     "group": "C",
+     "a": "Ajith Thomas Kuthukatt George",
+     "b": "Deepankar Sachdeva",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 11,
+     "group": "D",
+     "a": "Aditya Vaidya",
+     "b": "Pranshul Jain",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 11,
+     "group": "D",
+     "a": "Abhay Rawat",
+     "b": "Abhinav Premsekhar",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 11,
+     "group": "E",
+     "a": "Aparnesh Mishra",
+     "b": "Parakh Tripathy",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 11,
+     "group": "E",
+     "a": "Anish Joshi",
+     "b": "Karan Chopra",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 11,
+     "group": "F",
+     "a": "Yash Beohar",
+     "b": "prateek gupta",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    },
+    {
+     "gw": 11,
+     "group": "F",
+     "a": "Danish Javed",
+     "b": "Aayush Khanna",
+     "sa": null,
+     "sb": null,
+     "winner": null
+    }
+   ],
+   "has_draw": true,
+   "played": [],
+   "knockout": null
   }
  ]
 }
