@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-11-03 02:10 UTC",
-  "generated_iso": "2026-11-03T02:10:58.317761Z",
+  "generated_utc": "2026-11-03 11:39 UTC",
+  "generated_iso": "2026-11-03T11:39:45.573809Z",
   "started": true,
   "current_gw": 9,
   "finished": [
@@ -63,6 +63,16 @@
   },
   {
    "rank": 5,
+   "arrow": "\u25b2",
+   "manager": "Arshaq Razack",
+   "team_name": "ShakeNBake",
+   "entry": 1086057,
+   "gw_points": 67,
+   "total": 608,
+   "hits": 0
+  },
+  {
+   "rank": 6,
    "arrow": "\u25bc",
    "manager": "Anish Joshi",
    "team_name": "Fiery Raiders",
@@ -70,16 +80,6 @@
    "gw_points": 56,
    "total": 608,
    "hits": 4
-  },
-  {
-   "rank": 6,
-   "arrow": "\u2022",
-   "manager": "Arshaq Razack",
-   "team_name": "ShakeNBake",
-   "entry": 1086057,
-   "gw_points": 65,
-   "total": 606,
-   "hits": 0
   },
   {
    "rank": 7,
@@ -197,8 +197,8 @@
    "manager": "Raveesh Kalra",
    "team_name": "MaSalah",
    "entry": 2354537,
-   "gw_points": 48,
-   "total": 572,
+   "gw_points": 50,
+   "total": 574,
    "hits": 0
   },
   {
@@ -283,23 +283,23 @@
   },
   {
    "rank": 27,
-   "arrow": "\u25b2",
+   "arrow": "\u25bc",
+   "manager": "Karan Khanna",
+   "team_name": "Amad Aura",
+   "entry": 3330149,
+   "gw_points": 49,
+   "total": 524,
+   "hits": 4
+  },
+  {
+   "rank": 28,
+   "arrow": "\u2022",
    "manager": "Naman Agrawal",
    "team_name": "Captn Magnifico",
    "entry": 20569,
    "gw_points": 71,
    "total": 523,
    "hits": 0
-  },
-  {
-   "rank": 28,
-   "arrow": "\u25bc",
-   "manager": "Karan Khanna",
-   "team_name": "Amad Aura",
-   "entry": 3330149,
-   "gw_points": 30,
-   "total": 505,
-   "hits": 4
   },
   {
    "rank": 29,
@@ -327,8 +327,8 @@
    "manager": "Pranav Thomas",
    "team_name": "Invincibles",
    "entry": 6514976,
-   "gw_points": 29,
-   "total": 379,
+   "gw_points": 31,
+   "total": 381,
    "hits": 0
   }
  ],
@@ -401,20 +401,6 @@
     ]
    },
    {
-    "manager": "Anish Joshi",
-    "entry": 256447,
-    "scores": [
-     62,
-     103,
-     43,
-     107,
-     47,
-     82,
-     63,
-     45
-    ]
-   },
-   {
     "manager": "Arshaq Razack",
     "entry": 1086057,
     "scores": [
@@ -426,6 +412,20 @@
      62,
      73,
      55
+    ]
+   },
+   {
+    "manager": "Anish Joshi",
+    "entry": 256447,
+    "scores": [
+     62,
+     103,
+     43,
+     107,
+     47,
+     82,
+     63,
+     45
     ]
    },
    {
@@ -709,20 +709,6 @@
     ]
    },
    {
-    "manager": "Naman Agrawal",
-    "entry": 20569,
-    "scores": [
-     66,
-     111,
-     61,
-     62,
-     27,
-     58,
-     42,
-     25
-    ]
-   },
-   {
     "manager": "Karan Khanna",
     "entry": 3330149,
     "scores": [
@@ -734,6 +720,20 @@
      60,
      46,
      32
+    ]
+   },
+   {
+    "manager": "Naman Agrawal",
+    "entry": 20569,
+    "scores": [
+     66,
+     111,
+     61,
+     62,
+     27,
+     58,
+     42,
+     25
     ]
    },
    {
@@ -863,7 +863,7 @@
    "manager": "Arshaq Razack",
    "entry": 1086057,
    "points": 137,
-   "excluded": false
+   "excluded": true
   },
   {
    "manager": "Raveesh Kalra",
@@ -911,7 +911,7 @@
    "manager": "Anish Joshi",
    "entry": 256447,
    "points": 130,
-   "excluded": true
+   "excluded": false
   },
   {
    "manager": "Aparnesh Mishra",
@@ -1069,7 +1069,7 @@
    "manager": "Arshaq Razack",
    "entry": 1086057,
    "arrows": 4,
-   "excluded": false
+   "excluded": true
   },
   {
    "manager": "Danish Javed",
@@ -1111,7 +1111,7 @@
    "manager": "Anish Joshi",
    "entry": 256447,
    "arrows": 3,
-   "excluded": true
+   "excluded": false
   },
   {
    "manager": "Aquib Razack",
@@ -1456,27 +1456,27 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Anish Joshi",
-   "team_name": "Fiery Raiders",
-   "league_rank": 5,
-   "seasons": 15,
-   "past_seasons": 14,
-   "best_rank": 281617,
-   "best_season": "2019/20",
-   "avg_rank": 1051323,
-   "last_rank": 1076546,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Arshaq Razack",
    "team_name": "ShakeNBake",
-   "league_rank": 6,
+   "league_rank": 5,
    "seasons": 16,
    "past_seasons": 15,
    "best_rank": 6474,
    "best_season": "2025/26",
    "avg_rank": 1177681,
    "last_rank": 6474,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Anish Joshi",
+   "team_name": "Fiery Raiders",
+   "league_rank": 6,
+   "seasons": 15,
+   "past_seasons": 14,
+   "best_rank": 281617,
+   "best_season": "2019/20",
+   "avg_rank": 1051323,
+   "last_rank": 1076546,
    "last_season": "2025/26"
   },
   {
@@ -1720,27 +1720,27 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Naman Agrawal",
-   "team_name": "Captn Magnifico",
-   "league_rank": 27,
-   "seasons": 11,
-   "past_seasons": 10,
-   "best_rank": 15136,
-   "best_season": "2021/22",
-   "avg_rank": 983840,
-   "last_rank": 45077,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Karan Khanna",
    "team_name": "Amad Aura",
-   "league_rank": 28,
+   "league_rank": 27,
    "seasons": 8,
    "past_seasons": 7,
    "best_rank": 453230,
    "best_season": "2019/20",
    "avg_rank": 5483351,
    "last_rank": 8188106,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Naman Agrawal",
+   "team_name": "Captn Magnifico",
+   "league_rank": 28,
+   "seasons": 11,
+   "past_seasons": 10,
+   "best_rank": 15136,
+   "best_season": "2021/22",
+   "avg_rank": 983840,
+   "last_rank": 45077,
    "last_season": "2025/26"
   },
   {
@@ -1801,7 +1801,7 @@
    "value": 102.2,
    "value_delta": 2.2,
    "bank": 2.5,
-   "grank": 21549,
+   "grank": 22460,
    "best_jump": 1461471,
    "best_jump_gw": 2,
    "chips": [
@@ -1829,7 +1829,7 @@
    "value": 103.3,
    "value_delta": 3.3,
    "bank": 8.1,
-   "grank": 82338,
+   "grank": 85916,
    "best_jump": 270274,
    "best_jump_gw": 2,
    "chips": [
@@ -1858,7 +1858,7 @@
    "value": 102.3,
    "value_delta": 2.3,
    "bank": 2.0,
-   "grank": 129995,
+   "grank": 135510,
    "best_jump": 3046343,
    "best_jump_gw": 2,
    "chips": [
@@ -1886,7 +1886,7 @@
    "value": 102.8,
    "value_delta": 2.8,
    "bank": 1.7,
-   "grank": 268340,
+   "grank": 279389,
    "best_jump": 5250200,
    "best_jump_gw": 2,
    "chips": [
@@ -1894,6 +1894,35 @@
     "wildcard",
     "bboost",
     "freehit"
+   ]
+  },
+  {
+   "manager": "Arshaq Razack",
+   "team_name": "ShakeNBake",
+   "entry": 1086057,
+   "total": 608,
+   "played": 8,
+   "avg": 67.6,
+   "above_avg": 5,
+   "cap_return": 137,
+   "high": 105,
+   "high_gw": 2,
+   "low": 46,
+   "low_gw": 5,
+   "transfers": 7,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 104,
+   "value": 102.2,
+   "value_delta": 2.2,
+   "bank": 3.6,
+   "grank": 376194,
+   "best_jump": 617418,
+   "best_jump_gw": 2,
+   "chips": [
+    "bboost",
+    "3xc",
+    "wildcard"
    ]
   },
   {
@@ -1916,40 +1945,11 @@
    "value": 103.8,
    "value_delta": 3.8,
    "bank": 1.1,
-   "grank": 366601,
+   "grank": 381646,
    "best_jump": 1229264,
    "best_jump_gw": 4,
    "chips": [
     "bboost",
-    "wildcard"
-   ]
-  },
-  {
-   "manager": "Arshaq Razack",
-   "team_name": "ShakeNBake",
-   "entry": 1086057,
-   "total": 606,
-   "played": 8,
-   "avg": 67.6,
-   "above_avg": 5,
-   "cap_return": 137,
-   "high": 105,
-   "high_gw": 2,
-   "low": 46,
-   "low_gw": 5,
-   "transfers": 7,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 106,
-   "value": 102.2,
-   "value_delta": 2.2,
-   "bank": 3.6,
-   "grank": 395392,
-   "best_jump": 617418,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost",
-    "3xc",
     "wildcard"
    ]
   },
@@ -1973,7 +1973,7 @@
    "value": 103.9,
    "value_delta": 3.9,
    "bank": 6.0,
-   "grank": 489794,
+   "grank": 509736,
    "best_jump": 2735246,
    "best_jump_gw": 2,
    "chips": [
@@ -2002,7 +2002,7 @@
    "value": 104.4,
    "value_delta": 4.4,
    "bank": 2.2,
-   "grank": 548775,
+   "grank": 571111,
    "best_jump": 2489160,
    "best_jump_gw": 4,
    "chips": [
@@ -2030,7 +2030,7 @@
    "value": 102.8,
    "value_delta": 2.8,
    "bank": 3.8,
-   "grank": 638638,
+   "grank": 664912,
    "best_jump": 266328,
    "best_jump_gw": 4,
    "chips": [
@@ -2058,7 +2058,7 @@
    "value": 103.5,
    "value_delta": 3.5,
    "bank": 0.0,
-   "grank": 688197,
+   "grank": 716489,
    "best_jump": 4185865,
    "best_jump_gw": 2,
    "chips": [
@@ -2088,7 +2088,7 @@
    "value": 102.4,
    "value_delta": 2.4,
    "bank": 0.6,
-   "grank": 713951,
+   "grank": 743533,
    "best_jump": 3039834,
    "best_jump_gw": 2,
    "chips": [
@@ -2116,7 +2116,7 @@
    "value": 102.6,
    "value_delta": 2.6,
    "bank": 3.5,
-   "grank": 774855,
+   "grank": 806599,
    "best_jump": 1034411,
    "best_jump_gw": 2,
    "chips": [
@@ -2145,7 +2145,7 @@
    "value": 101.1,
    "value_delta": 1.1,
    "bank": 2.5,
-   "grank": 816313,
+   "grank": 849758,
    "best_jump": 3048395,
    "best_jump_gw": 2,
    "chips": [
@@ -2174,7 +2174,7 @@
    "value": 102.9,
    "value_delta": 2.9,
    "bank": 0.8,
-   "grank": 846820,
+   "grank": 881386,
    "best_jump": 1948104,
    "best_jump_gw": 2,
    "chips": [
@@ -2202,7 +2202,7 @@
    "value": 103.1,
    "value_delta": 3.1,
    "bank": 4.9,
-   "grank": 888605,
+   "grank": 924987,
    "best_jump": 3395267,
    "best_jump_gw": 3,
    "chips": [
@@ -2231,7 +2231,7 @@
    "value": 102.7,
    "value_delta": 2.7,
    "bank": 1.2,
-   "grank": 888605,
+   "grank": 924987,
    "best_jump": 5881370,
    "best_jump_gw": 2,
    "chips": [
@@ -2259,7 +2259,7 @@
    "value": 103.3,
    "value_delta": 3.3,
    "bank": 4.9,
-   "grank": 1171773,
+   "grank": 1220421,
    "best_jump": 841649,
    "best_jump_gw": 7,
    "chips": [
@@ -2271,7 +2271,7 @@
    "manager": "Raveesh Kalra",
    "team_name": "MaSalah",
    "entry": 2354537,
-   "total": 572,
+   "total": 574,
    "played": 8,
    "avg": 65.5,
    "above_avg": 4,
@@ -2283,11 +2283,11 @@
    "transfers": 5,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 107,
+   "bench": 105,
    "value": 103.1,
    "value_delta": 3.1,
    "bank": 3.7,
-   "grank": 1312882,
+   "grank": 1291707,
    "best_jump": 878473,
    "best_jump_gw": 2,
    "chips": [
@@ -2315,7 +2315,7 @@
    "value": 103.3,
    "value_delta": 3.3,
    "bank": 1.1,
-   "grank": 1505998,
+   "grank": 1568974,
    "best_jump": 466127,
    "best_jump_gw": 4,
    "chips": [
@@ -2343,7 +2343,7 @@
    "value": 101.2,
    "value_delta": 1.2,
    "bank": 2.0,
-   "grank": 1853958,
+   "grank": 1931538,
    "best_jump": 4399137,
    "best_jump_gw": 2,
    "chips": [
@@ -2371,7 +2371,7 @@
    "value": 103.3,
    "value_delta": 3.3,
    "bank": 2.9,
-   "grank": 1954291,
+   "grank": 2035818,
    "best_jump": 1196618,
    "best_jump_gw": 6,
    "chips": [
@@ -2398,7 +2398,7 @@
    "value": 102.2,
    "value_delta": 2.2,
    "bank": 0.1,
-   "grank": 2128383,
+   "grank": 2217964,
    "best_jump": 3963132,
    "best_jump_gw": 2,
    "chips": [
@@ -2425,7 +2425,7 @@
    "value": 101.5,
    "value_delta": 1.5,
    "bank": 1.1,
-   "grank": 2176066,
+   "grank": 2267719,
    "best_jump": 1595922,
    "best_jump_gw": 2,
    "chips": [
@@ -2454,7 +2454,7 @@
    "value": 102.5,
    "value_delta": 2.5,
    "bank": 4.0,
-   "grank": 2272467,
+   "grank": 2368375,
    "best_jump": 166751,
    "best_jump_gw": 2,
    "chips": [
@@ -2483,7 +2483,7 @@
    "value": 102.1,
    "value_delta": 2.1,
    "bank": 1.3,
-   "grank": 2728968,
+   "grank": 2841959,
    "best_jump": 1066412,
    "best_jump_gw": 2,
    "chips": [
@@ -2511,12 +2511,41 @@
    "value": 102.5,
    "value_delta": 2.5,
    "bank": 0.7,
-   "grank": 2941047,
+   "grank": 3061895,
    "best_jump": 128137,
    "best_jump_gw": 6,
    "chips": [
     "bboost",
     "3xc",
+    "wildcard"
+   ]
+  },
+  {
+   "manager": "Karan Khanna",
+   "team_name": "Amad Aura",
+   "entry": 3330149,
+   "total": 524,
+   "played": 8,
+   "avg": 59.4,
+   "above_avg": 3,
+   "cap_return": 109,
+   "high": 101,
+   "high_gw": 2,
+   "low": 32,
+   "low_gw": 8,
+   "transfers": 7,
+   "hits_pts": 4,
+   "hits_n": 1,
+   "bench": 64,
+   "value": 101.7,
+   "value_delta": 1.7,
+   "bank": 0.8,
+   "grank": 3807157,
+   "best_jump": 3009015,
+   "best_jump_gw": 2,
+   "chips": [
+    "3xc",
+    "freehit",
     "wildcard"
    ]
   },
@@ -2540,41 +2569,12 @@
    "value": 99.8,
    "value_delta": -0.2,
    "bank": 0.1,
-   "grank": 3719362,
+   "grank": 3865778,
    "best_jump": 637992,
    "best_jump_gw": 2,
    "chips": [
     "bboost",
     "3xc",
-    "wildcard"
-   ]
-  },
-  {
-   "manager": "Karan Khanna",
-   "team_name": "Amad Aura",
-   "entry": 3330149,
-   "total": 505,
-   "played": 8,
-   "avg": 59.4,
-   "above_avg": 3,
-   "cap_return": 109,
-   "high": 101,
-   "high_gw": 2,
-   "low": 32,
-   "low_gw": 8,
-   "transfers": 7,
-   "hits_pts": 4,
-   "hits_n": 1,
-   "bench": 83,
-   "value": 101.7,
-   "value_delta": 1.7,
-   "bank": 0.8,
-   "grank": 4758282,
-   "best_jump": 3009015,
-   "best_jump_gw": 2,
-   "chips": [
-    "3xc",
-    "freehit",
     "wildcard"
    ]
   },
@@ -2598,7 +2598,7 @@
    "value": 102.1,
    "value_delta": 2.1,
    "bank": 2.5,
-   "grank": 6047567,
+   "grank": 6231038,
    "best_jump": 912089,
    "best_jump_gw": 6,
    "chips": [
@@ -2625,7 +2625,7 @@
    "value": 102.3,
    "value_delta": 2.3,
    "bank": 2.8,
-   "grank": 6731017,
+   "grank": 6910252,
    "best_jump": 1952243,
    "best_jump_gw": 4,
    "chips": [
@@ -2636,7 +2636,7 @@
    "manager": "Pranav Thomas",
    "team_name": "Invincibles",
    "entry": 6514976,
-   "total": 379,
+   "total": 381,
    "played": 8,
    "avg": 43.8,
    "above_avg": 1,
@@ -2652,7 +2652,7 @@
    "value": 97.5,
    "value_delta": -2.5,
    "bank": 2.2,
-   "grank": 9546389,
+   "grank": 9588550,
    "best_jump": 216389,
    "best_jump_gw": 3,
    "chips": []
@@ -2859,56 +2859,6 @@
     "cap": 2
    }
   ],
-  "256447": [
-   {
-    "gw": 1,
-    "net": 62,
-    "orank": 1436683,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 103,
-    "orank": 765925,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 43,
-    "orank": 1496797,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 107,
-    "orank": 267533,
-    "cap": 24
-   },
-   {
-    "gw": 5,
-    "net": 47,
-    "orank": 352905,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 82,
-    "orank": 161939,
-    "cap": 4
-   },
-   {
-    "gw": 7,
-    "net": 63,
-    "orank": 275226,
-    "cap": 26
-   },
-   {
-    "gw": 8,
-    "net": 45,
-    "orank": 324175,
-    "cap": 16
-   }
-  ],
   "1086057": [
    {
     "gw": 1,
@@ -2956,6 +2906,56 @@
     "gw": 8,
     "net": 55,
     "orank": 551161,
+    "cap": 16
+   }
+  ],
+  "256447": [
+   {
+    "gw": 1,
+    "net": 62,
+    "orank": 1436683,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 103,
+    "orank": 765925,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 43,
+    "orank": 1496797,
+    "cap": 18
+   },
+   {
+    "gw": 4,
+    "net": 107,
+    "orank": 267533,
+    "cap": 24
+   },
+   {
+    "gw": 5,
+    "net": 47,
+    "orank": 352905,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 82,
+    "orank": 161939,
+    "cap": 4
+   },
+   {
+    "gw": 7,
+    "net": 63,
+    "orank": 275226,
+    "cap": 26
+   },
+   {
+    "gw": 8,
+    "net": 45,
+    "orank": 324175,
     "cap": 16
    }
   ],
@@ -3959,56 +3959,6 @@
     "cap": -3
    }
   ],
-  "20569": [
-   {
-    "gw": 1,
-    "net": 66,
-    "orank": 893714,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 111,
-    "orank": 255722,
-    "cap": 46
-   },
-   {
-    "gw": 3,
-    "net": 61,
-    "orank": 110721,
-    "cap": 26
-   },
-   {
-    "gw": 4,
-    "net": 62,
-    "orank": 745361,
-    "cap": 15
-   },
-   {
-    "gw": 5,
-    "net": 27,
-    "orank": 2099042,
-    "cap": 4
-   },
-   {
-    "gw": 6,
-    "net": 58,
-    "orank": 2549625,
-    "cap": 2
-   },
-   {
-    "gw": 7,
-    "net": 42,
-    "orank": 3960198,
-    "cap": 4
-   },
-   {
-    "gw": 8,
-    "net": 25,
-    "orank": 5332765,
-    "cap": -1
-   }
-  ],
   "3330149": [
    {
     "gw": 1,
@@ -4057,6 +4007,56 @@
     "net": 32,
     "orank": 3820364,
     "cap": 0
+   }
+  ],
+  "20569": [
+   {
+    "gw": 1,
+    "net": 66,
+    "orank": 893714,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 111,
+    "orank": 255722,
+    "cap": 46
+   },
+   {
+    "gw": 3,
+    "net": 61,
+    "orank": 110721,
+    "cap": 26
+   },
+   {
+    "gw": 4,
+    "net": 62,
+    "orank": 745361,
+    "cap": 15
+   },
+   {
+    "gw": 5,
+    "net": 27,
+    "orank": 2099042,
+    "cap": 4
+   },
+   {
+    "gw": 6,
+    "net": 58,
+    "orank": 2549625,
+    "cap": 2
+   },
+   {
+    "gw": 7,
+    "net": 42,
+    "orank": 3960198,
+    "cap": 4
+   },
+   {
+    "gw": 8,
+    "net": 25,
+    "orank": 5332765,
+    "cap": -1
    }
   ],
   "5565611": [
