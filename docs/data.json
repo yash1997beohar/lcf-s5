@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-11-06 09:15 UTC",
-  "generated_iso": "2026-11-06T09:15:00.009521Z",
+  "generated_utc": "2026-11-06 17:12 UTC",
+  "generated_iso": "2026-11-06T17:12:28.561607Z",
   "started": true,
   "current_gw": 9,
   "finished": [
@@ -164,21 +164,21 @@
   },
   {
    "rank": 15,
-   "arrow": "\u2022",
-   "manager": "Danish Javed",
-   "team_name": "ItDzntMata",
-   "entry": 3323226,
-   "gw_points": 58,
-   "total": 585,
-   "hits": 0
-  },
-  {
-   "rank": 15,
    "arrow": "\u25bc",
    "manager": "Aditya Vaidya",
    "team_name": "His Name is Diogo",
    "entry": 9695,
    "gw_points": 56,
+   "total": 585,
+   "hits": 0
+  },
+  {
+   "rank": 15,
+   "arrow": "\u2022",
+   "manager": "Danish Javed",
+   "team_name": "ItDzntMata",
+   "entry": 3323226,
+   "gw_points": 58,
    "total": 585,
    "hits": 0
   },
@@ -557,21 +557,6 @@
     ]
    },
    {
-    "manager": "Danish Javed",
-    "entry": 3323226,
-    "scores": [
-     40,
-     118,
-     55,
-     71,
-     60,
-     80,
-     69,
-     34,
-     58
-    ]
-   },
-   {
     "manager": "Aditya Vaidya",
     "entry": 9695,
     "scores": [
@@ -584,6 +569,21 @@
      83,
      55,
      56
+    ]
+   },
+   {
+    "manager": "Danish Javed",
+    "entry": 3323226,
+    "scores": [
+     40,
+     118,
+     55,
+     71,
+     60,
+     80,
+     69,
+     34,
+     58
     ]
    },
    {
@@ -1609,18 +1609,6 @@
    "last_season": "2024/25"
   },
   {
-   "manager": "Danish Javed",
-   "team_name": "ItDzntMata",
-   "league_rank": 15,
-   "seasons": 6,
-   "past_seasons": 5,
-   "best_rank": 273503,
-   "best_season": "2024/25",
-   "avg_rank": 1994005,
-   "last_rank": 1917309,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Aditya Vaidya",
    "team_name": "His Name is Diogo",
    "league_rank": 15,
@@ -1630,6 +1618,18 @@
    "best_season": "2020/21",
    "avg_rank": 329510,
    "last_rank": 538046,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Danish Javed",
+   "team_name": "ItDzntMata",
+   "league_rank": 15,
+   "seasons": 6,
+   "past_seasons": 5,
+   "best_rank": 273503,
+   "best_season": "2024/25",
+   "avg_rank": 1994005,
+   "last_rank": 1917309,
    "last_season": "2025/26"
   },
   {
@@ -2216,34 +2216,6 @@
    ]
   },
   {
-   "manager": "Danish Javed",
-   "team_name": "ItDzntMata",
-   "entry": 3323226,
-   "total": 585,
-   "played": 9,
-   "avg": 65.0,
-   "above_avg": 6,
-   "cap_return": 149,
-   "high": 118,
-   "high_gw": 2,
-   "low": 34,
-   "low_gw": 8,
-   "transfers": 7,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 114,
-   "value": 102.7,
-   "value_delta": 2.7,
-   "bank": 1.2,
-   "grank": 924987,
-   "best_jump": 5881370,
-   "best_jump_gw": 2,
-   "chips": [
-    "3xc",
-    "wildcard"
-   ]
-  },
-  {
    "manager": "Aditya Vaidya",
    "team_name": "His Name is Diogo",
    "entry": 9695,
@@ -2270,6 +2242,34 @@
     "3xc",
     "wildcard",
     "bboost"
+   ]
+  },
+  {
+   "manager": "Danish Javed",
+   "team_name": "ItDzntMata",
+   "entry": 3323226,
+   "total": 585,
+   "played": 9,
+   "avg": 65.0,
+   "above_avg": 6,
+   "cap_return": 149,
+   "high": 118,
+   "high_gw": 2,
+   "low": 34,
+   "low_gw": 8,
+   "transfers": 7,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 114,
+   "value": 102.7,
+   "value_delta": 2.7,
+   "bank": 1.2,
+   "grank": 924987,
+   "best_jump": 5881370,
+   "best_jump_gw": 2,
+   "chips": [
+    "3xc",
+    "wildcard"
    ]
   },
   {
@@ -3476,62 +3476,6 @@
     "cap": 16
    }
   ],
-  "3323226": [
-   {
-    "gw": 1,
-    "net": 40,
-    "orank": 7094513,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 118,
-    "orank": 1213143,
-    "cap": 46
-   },
-   {
-    "gw": 3,
-    "net": 55,
-    "orank": 1065607,
-    "cap": 27
-   },
-   {
-    "gw": 4,
-    "net": 71,
-    "orank": 1622014,
-    "cap": 18
-   },
-   {
-    "gw": 5,
-    "net": 60,
-    "orank": 996186,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 80,
-    "orank": 547376,
-    "cap": 12
-   },
-   {
-    "gw": 7,
-    "net": 69,
-    "orank": 569690,
-    "cap": 26
-   },
-   {
-    "gw": 8,
-    "net": 34,
-    "orank": 1000945,
-    "cap": 0
-   },
-   {
-    "gw": 9,
-    "net": 58,
-    "orank": 924987,
-    "cap": 4
-   }
-  ],
   "9695": [
    {
     "gw": 1,
@@ -3584,6 +3528,62 @@
    {
     "gw": 9,
     "net": 56,
+    "orank": 924987,
+    "cap": 4
+   }
+  ],
+  "3323226": [
+   {
+    "gw": 1,
+    "net": 40,
+    "orank": 7094513,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 118,
+    "orank": 1213143,
+    "cap": 46
+   },
+   {
+    "gw": 3,
+    "net": 55,
+    "orank": 1065607,
+    "cap": 27
+   },
+   {
+    "gw": 4,
+    "net": 71,
+    "orank": 1622014,
+    "cap": 18
+   },
+   {
+    "gw": 5,
+    "net": 60,
+    "orank": 996186,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 80,
+    "orank": 547376,
+    "cap": 12
+   },
+   {
+    "gw": 7,
+    "net": 69,
+    "orank": 569690,
+    "cap": 26
+   },
+   {
+    "gw": 8,
+    "net": 34,
+    "orank": 1000945,
+    "cap": 0
+   },
+   {
+    "gw": 9,
+    "net": 58,
     "orank": 924987,
     "cap": 4
    }
