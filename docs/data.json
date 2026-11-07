@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-11-06 22:45 UTC",
-  "generated_iso": "2026-11-06T22:45:48.657646Z",
+  "generated_utc": "2026-11-07 04:53 UTC",
+  "generated_iso": "2026-11-07T04:53:49.042347Z",
   "started": true,
   "current_gw": 10,
   "finished": [
@@ -155,9 +155,9 @@
   {
    "rank": 14,
    "arrow": "\u25b2",
-   "manager": "Aditya Vaidya",
-   "team_name": "His Name is Diogo",
-   "entry": 9695,
+   "manager": "Danish Javed",
+   "team_name": "ItDzntMata",
+   "entry": 3323226,
    "gw_points": 0,
    "total": 585,
    "hits": 0
@@ -165,9 +165,9 @@
   {
    "rank": 14,
    "arrow": "\u25b2",
-   "manager": "Danish Javed",
-   "team_name": "ItDzntMata",
-   "entry": 3323226,
+   "manager": "Aditya Vaidya",
+   "team_name": "His Name is Diogo",
+   "entry": 9695,
    "gw_points": 0,
    "total": 585,
    "hits": 0
@@ -542,21 +542,6 @@
     ]
    },
    {
-    "manager": "Aditya Vaidya",
-    "entry": 9695,
-    "scores": [
-     41,
-     78,
-     78,
-     69,
-     55,
-     70,
-     83,
-     55,
-     56
-    ]
-   },
-   {
     "manager": "Danish Javed",
     "entry": 3323226,
     "scores": [
@@ -569,6 +554,21 @@
      69,
      34,
      58
+    ]
+   },
+   {
+    "manager": "Aditya Vaidya",
+    "entry": 9695,
+    "scores": [
+     41,
+     78,
+     78,
+     69,
+     55,
+     70,
+     83,
+     55,
+     56
     ]
    },
    {
@@ -1597,18 +1597,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Aditya Vaidya",
-   "team_name": "His Name is Diogo",
-   "league_rank": 14,
-   "seasons": 12,
-   "past_seasons": 11,
-   "best_rank": 15288,
-   "best_season": "2020/21",
-   "avg_rank": 329510,
-   "last_rank": 538046,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Danish Javed",
    "team_name": "ItDzntMata",
    "league_rank": 14,
@@ -1618,6 +1606,18 @@
    "best_season": "2024/25",
    "avg_rank": 1994005,
    "last_rank": 1917309,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Aditya Vaidya",
+   "team_name": "His Name is Diogo",
+   "league_rank": 14,
+   "seasons": 12,
+   "past_seasons": 11,
+   "best_rank": 15288,
+   "best_season": "2020/21",
+   "avg_rank": 329510,
+   "last_rank": 538046,
    "last_season": "2025/26"
   },
   {
@@ -1834,7 +1834,7 @@
    "value": 102.3,
    "value_delta": 2.3,
    "bank": 1.5,
-   "grank": 22460,
+   "grank": 35654,
    "best_jump": 1461471,
    "best_jump_gw": 2,
    "chips": [
@@ -1862,7 +1862,7 @@
    "value": 102.8,
    "value_delta": 2.8,
    "bank": 2.0,
-   "grank": 135510,
+   "grank": 66329,
    "best_jump": 3046343,
    "best_jump_gw": 2,
    "chips": [
@@ -1890,7 +1890,7 @@
    "value": 103.8,
    "value_delta": 3.8,
    "bank": 7.2,
-   "grank": 85916,
+   "grank": 102300,
    "best_jump": 270274,
    "best_jump_gw": 2,
    "chips": [
@@ -1919,7 +1919,7 @@
    "value": 102.9,
    "value_delta": 2.9,
    "bank": 2.3,
-   "grank": 279389,
+   "grank": 305447,
    "best_jump": 5250200,
    "best_jump_gw": 2,
    "chips": [
@@ -1949,7 +1949,7 @@
    "value": 104.9,
    "value_delta": 4.9,
    "bank": 4.0,
-   "grank": 571111,
+   "grank": 335284,
    "best_jump": 2489160,
    "best_jump_gw": 4,
    "chips": [
@@ -1978,7 +1978,7 @@
    "value": 104.3,
    "value_delta": 4.3,
    "bank": 6.0,
-   "grank": 509736,
+   "grank": 400819,
    "best_jump": 2735246,
    "best_jump_gw": 2,
    "chips": [
@@ -2008,7 +2008,7 @@
    "value": 102.7,
    "value_delta": 2.7,
    "bank": 0.4,
-   "grank": 376194,
+   "grank": 441025,
    "best_jump": 617418,
    "best_jump_gw": 2,
    "chips": [
@@ -2037,7 +2037,7 @@
    "value": 104.1,
    "value_delta": 4.1,
    "bank": 1.2,
-   "grank": 381646,
+   "grank": 446282,
    "best_jump": 1229264,
    "best_jump_gw": 4,
    "chips": [
@@ -2065,7 +2065,7 @@
    "value": 101.4,
    "value_delta": 1.4,
    "bank": 0.9,
-   "grank": 849758,
+   "grank": 619240,
    "best_jump": 3048395,
    "best_jump_gw": 2,
    "chips": [
@@ -2094,7 +2094,7 @@
    "value": 103.1,
    "value_delta": 3.1,
    "bank": 3.8,
-   "grank": 664912,
+   "grank": 747136,
    "best_jump": 266328,
    "best_jump_gw": 4,
    "chips": [
@@ -2122,7 +2122,7 @@
    "value": 103.6,
    "value_delta": 3.6,
    "bank": 0.0,
-   "grank": 716489,
+   "grank": 805794,
    "best_jump": 4185865,
    "best_jump_gw": 2,
    "chips": [
@@ -2148,11 +2148,11 @@
    "transfers": 6,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 116,
+   "bench": 118,
    "value": 102.6,
    "value_delta": 2.6,
    "bank": 0.0,
-   "grank": 743533,
+   "grank": 831481,
    "best_jump": 3039834,
    "best_jump_gw": 2,
    "chips": [
@@ -2180,42 +2180,13 @@
    "value": 102.7,
    "value_delta": 2.7,
    "bank": 2.1,
-   "grank": 806599,
+   "grank": 898726,
    "best_jump": 1034411,
    "best_jump_gw": 2,
    "chips": [
     "bboost",
     "wildcard",
     "3xc"
-   ]
-  },
-  {
-   "manager": "Aditya Vaidya",
-   "team_name": "His Name is Diogo",
-   "entry": 9695,
-   "total": 585,
-   "played": 9,
-   "avg": 65.0,
-   "above_avg": 5,
-   "cap_return": 143,
-   "high": 83,
-   "high_gw": 7,
-   "low": 41,
-   "low_gw": 1,
-   "transfers": 8,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 87,
-   "value": 103.6,
-   "value_delta": 3.6,
-   "bank": 6.2,
-   "grank": 924987,
-   "best_jump": 3395267,
-   "best_jump_gw": 3,
-   "chips": [
-    "3xc",
-    "wildcard",
-    "bboost"
    ]
   },
   {
@@ -2238,12 +2209,41 @@
    "value": 103.1,
    "value_delta": 3.1,
    "bank": 3.1,
-   "grank": 924987,
+   "grank": 1022741,
    "best_jump": 5881370,
    "best_jump_gw": 2,
    "chips": [
     "3xc",
     "wildcard"
+   ]
+  },
+  {
+   "manager": "Aditya Vaidya",
+   "team_name": "His Name is Diogo",
+   "entry": 9695,
+   "total": 585,
+   "played": 9,
+   "avg": 65.0,
+   "above_avg": 5,
+   "cap_return": 143,
+   "high": 83,
+   "high_gw": 7,
+   "low": 41,
+   "low_gw": 1,
+   "transfers": 8,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 87,
+   "value": 103.6,
+   "value_delta": 3.6,
+   "bank": 6.2,
+   "grank": 1022741,
+   "best_jump": 3395267,
+   "best_jump_gw": 3,
+   "chips": [
+    "3xc",
+    "wildcard",
+    "bboost"
    ]
   },
   {
@@ -2262,11 +2262,11 @@
    "transfers": 12,
    "hits_pts": 20,
    "hits_n": 5,
-   "bench": 126,
+   "bench": 127,
    "value": 103.1,
    "value_delta": 3.1,
    "bank": 2.1,
-   "grank": 881386,
+   "grank": 1106327,
    "best_jump": 1948104,
    "best_jump_gw": 2,
    "chips": [
@@ -2290,11 +2290,11 @@
    "transfers": 7,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 135,
+   "bench": 136,
    "value": 102.7,
    "value_delta": 2.7,
    "bank": 0.1,
-   "grank": 2217964,
+   "grank": 1255146,
    "best_jump": 3963132,
    "best_jump_gw": 2,
    "chips": [
@@ -2322,7 +2322,7 @@
    "value": 103.7,
    "value_delta": 3.7,
    "bank": 4.8,
-   "grank": 1220421,
+   "grank": 1328855,
    "best_jump": 841649,
    "best_jump_gw": 7,
    "chips": [
@@ -2350,7 +2350,7 @@
    "value": 103.2,
    "value_delta": 3.2,
    "bank": 3.7,
-   "grank": 1291707,
+   "grank": 1400423,
    "best_jump": 878473,
    "best_jump_gw": 2,
    "chips": [
@@ -2378,7 +2378,7 @@
    "value": 103.4,
    "value_delta": 3.4,
    "bank": 0.6,
-   "grank": 1568974,
+   "grank": 1690153,
    "best_jump": 466127,
    "best_jump_gw": 4,
    "chips": [
@@ -2406,7 +2406,7 @@
    "value": 101.6,
    "value_delta": 1.6,
    "bank": 2.2,
-   "grank": 1931538,
+   "grank": 2057300,
    "best_jump": 4399137,
    "best_jump_gw": 2,
    "chips": [
@@ -2434,7 +2434,7 @@
    "value": 103.7,
    "value_delta": 3.7,
    "bank": 2.5,
-   "grank": 2035818,
+   "grank": 2162837,
    "best_jump": 1196618,
    "best_jump_gw": 6,
    "chips": [
@@ -2461,7 +2461,7 @@
    "value": 101.9,
    "value_delta": 1.9,
    "bank": 4.6,
-   "grank": 2267719,
+   "grank": 2397380,
    "best_jump": 1595922,
    "best_jump_gw": 2,
    "chips": [
@@ -2490,7 +2490,7 @@
    "value": 102.6,
    "value_delta": 2.6,
    "bank": 3.6,
-   "grank": 2368375,
+   "grank": 2499269,
    "best_jump": 166751,
    "best_jump_gw": 2,
    "chips": [
@@ -2519,7 +2519,7 @@
    "value": 102.3,
    "value_delta": 2.3,
    "bank": 0.4,
-   "grank": 2841959,
+   "grank": 2975940,
    "best_jump": 1066412,
    "best_jump_gw": 2,
    "chips": [
@@ -2547,7 +2547,7 @@
    "value": 103.1,
    "value_delta": 3.1,
    "bank": 0.7,
-   "grank": 3061895,
+   "grank": 3188428,
    "best_jump": 1498175,
    "best_jump_gw": 9,
    "chips": [
@@ -2576,7 +2576,7 @@
    "value": 101.9,
    "value_delta": 1.9,
    "bank": 0.8,
-   "grank": 3807157,
+   "grank": 3931617,
    "best_jump": 3009015,
    "best_jump_gw": 2,
    "chips": [
@@ -2605,7 +2605,7 @@
    "value": 100.5,
    "value_delta": 0.5,
    "bank": 0.1,
-   "grank": 3865778,
+   "grank": 3989879,
    "best_jump": 1466987,
    "best_jump_gw": 9,
    "chips": [
@@ -2634,7 +2634,7 @@
    "value": 102.2,
    "value_delta": 2.2,
    "bank": 2.5,
-   "grank": 6231038,
+   "grank": 6323649,
    "best_jump": 912089,
    "best_jump_gw": 6,
    "chips": [
@@ -2657,11 +2657,11 @@
    "transfers": 11,
    "hits_pts": 12,
    "hits_n": 3,
-   "bench": 55,
+   "bench": 56,
    "value": 102.5,
    "value_delta": 2.5,
    "bank": 2.4,
-   "grank": 6910252,
+   "grank": 6991128,
    "best_jump": 1952243,
    "best_jump_gw": 4,
    "chips": [
@@ -2688,7 +2688,7 @@
    "value": 97.4,
    "value_delta": -2.6,
    "bank": 2.2,
-   "grank": 9588550,
+   "grank": 9606689,
    "best_jump": 216389,
    "best_jump_gw": 3,
    "chips": []
@@ -3423,62 +3423,6 @@
     "cap": 4
    }
   ],
-  "9695": [
-   {
-    "gw": 1,
-    "net": 41,
-    "orank": 6875541,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 78,
-    "orank": 6095615,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 78,
-    "orank": 2700348,
-    "cap": 27
-   },
-   {
-    "gw": 4,
-    "net": 69,
-    "orank": 3170793,
-    "cap": 24
-   },
-   {
-    "gw": 5,
-    "net": 55,
-    "orank": 2598730,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 70,
-    "orank": 2130542,
-    "cap": 4
-   },
-   {
-    "gw": 7,
-    "net": 83,
-    "orank": 1242896,
-    "cap": 26
-   },
-   {
-    "gw": 8,
-    "net": 55,
-    "orank": 920617,
-    "cap": 16
-   },
-   {
-    "gw": 9,
-    "net": 56,
-    "orank": 924987,
-    "cap": 4
-   }
-  ],
   "3323226": [
    {
     "gw": 1,
@@ -3531,6 +3475,62 @@
    {
     "gw": 9,
     "net": 58,
+    "orank": 924987,
+    "cap": 4
+   }
+  ],
+  "9695": [
+   {
+    "gw": 1,
+    "net": 41,
+    "orank": 6875541,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 78,
+    "orank": 6095615,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 78,
+    "orank": 2700348,
+    "cap": 27
+   },
+   {
+    "gw": 4,
+    "net": 69,
+    "orank": 3170793,
+    "cap": 24
+   },
+   {
+    "gw": 5,
+    "net": 55,
+    "orank": 2598730,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 70,
+    "orank": 2130542,
+    "cap": 4
+   },
+   {
+    "gw": 7,
+    "net": 83,
+    "orank": 1242896,
+    "cap": 26
+   },
+   {
+    "gw": 8,
+    "net": 55,
+    "orank": 920617,
+    "cap": 16
+   },
+   {
+    "gw": 9,
+    "net": 56,
     "orank": 924987,
     "cap": 4
    }
