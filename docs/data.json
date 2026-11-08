@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-11-08 04:46 UTC",
-  "generated_iso": "2026-11-08T04:46:13.968991Z",
+  "generated_utc": "2026-11-08 12:51 UTC",
+  "generated_iso": "2026-11-08T12:51:12.135817Z",
   "started": true,
   "current_gw": 10,
   "finished": [
@@ -175,9 +175,9 @@
   {
    "rank": 16,
    "arrow": "\u25bc",
-   "manager": "Aditya Vaidya",
-   "team_name": "His Name is Diogo",
-   "entry": 9695,
+   "manager": "Danish Javed",
+   "team_name": "ItDzntMata",
+   "entry": 3323226,
    "gw_points": 20,
    "total": 605,
    "hits": 0
@@ -185,9 +185,9 @@
   {
    "rank": 16,
    "arrow": "\u25bc",
-   "manager": "Danish Javed",
-   "team_name": "ItDzntMata",
-   "entry": 3323226,
+   "manager": "Aditya Vaidya",
+   "team_name": "His Name is Diogo",
+   "entry": 9695,
    "gw_points": 20,
    "total": 605,
    "hits": 0
@@ -244,21 +244,21 @@
   },
   {
    "rank": 23,
-   "arrow": "\u25b2",
-   "manager": "Abhinav Premsekhar",
-   "team_name": "Totally Szobo",
-   "entry": 79306,
-   "gw_points": 22,
-   "total": 572,
-   "hits": 0
-  },
-  {
-   "rank": 23,
    "arrow": "\u2022",
    "manager": "Rajit Das",
    "team_name": "FC Teetotallers",
    "entry": 4837220,
    "gw_points": 20,
+   "total": 572,
+   "hits": 0
+  },
+  {
+   "rank": 23,
+   "arrow": "\u25b2",
+   "manager": "Abhinav Premsekhar",
+   "team_name": "Totally Szobo",
+   "entry": 79306,
+   "gw_points": 22,
    "total": 572,
    "hits": 0
   },
@@ -572,21 +572,6 @@
     ]
    },
    {
-    "manager": "Aditya Vaidya",
-    "entry": 9695,
-    "scores": [
-     41,
-     78,
-     78,
-     69,
-     55,
-     70,
-     83,
-     55,
-     56
-    ]
-   },
-   {
     "manager": "Danish Javed",
     "entry": 3323226,
     "scores": [
@@ -599,6 +584,21 @@
      69,
      34,
      58
+    ]
+   },
+   {
+    "manager": "Aditya Vaidya",
+    "entry": 9695,
+    "scores": [
+     41,
+     78,
+     78,
+     69,
+     55,
+     70,
+     83,
+     55,
+     56
     ]
    },
    {
@@ -677,21 +677,6 @@
     ]
    },
    {
-    "manager": "Abhinav Premsekhar",
-    "entry": 79306,
-    "scores": [
-     72,
-     106,
-     51,
-     84,
-     32,
-     51,
-     67,
-     46,
-     41
-    ]
-   },
-   {
     "manager": "Rajit Das",
     "entry": 4837220,
     "scores": [
@@ -704,6 +689,21 @@
      65,
      46,
      59
+    ]
+   },
+   {
+    "manager": "Abhinav Premsekhar",
+    "entry": 79306,
+    "scores": [
+     72,
+     106,
+     51,
+     84,
+     32,
+     51,
+     67,
+     46,
+     41
     ]
    },
    {
@@ -1621,18 +1621,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Aditya Vaidya",
-   "team_name": "His Name is Diogo",
-   "league_rank": 16,
-   "seasons": 12,
-   "past_seasons": 11,
-   "best_rank": 15288,
-   "best_season": "2020/21",
-   "avg_rank": 329510,
-   "last_rank": 538046,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Danish Javed",
    "team_name": "ItDzntMata",
    "league_rank": 16,
@@ -1642,6 +1630,18 @@
    "best_season": "2024/25",
    "avg_rank": 1994005,
    "last_rank": 1917309,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Aditya Vaidya",
+   "team_name": "His Name is Diogo",
+   "league_rank": 16,
+   "seasons": 12,
+   "past_seasons": 11,
+   "best_rank": 15288,
+   "best_season": "2020/21",
+   "avg_rank": 329510,
+   "last_rank": 538046,
    "last_season": "2025/26"
   },
   {
@@ -1705,18 +1705,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Abhinav Premsekhar",
-   "team_name": "Totally Szobo",
-   "league_rank": 23,
-   "seasons": 12,
-   "past_seasons": 11,
-   "best_rank": 27153,
-   "best_season": "2022/23",
-   "avg_rank": 606381,
-   "last_rank": 240451,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Rajit Das",
    "team_name": "FC Teetotallers",
    "league_rank": 23,
@@ -1726,6 +1714,18 @@
    "best_season": "2024/25",
    "avg_rank": 4234674,
    "last_rank": 6092784,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Abhinav Premsekhar",
+   "team_name": "Totally Szobo",
+   "league_rank": 23,
+   "seasons": 12,
+   "past_seasons": 11,
+   "best_rank": 27153,
+   "best_season": "2022/23",
+   "avg_rank": 606381,
+   "last_rank": 240451,
    "last_season": "2025/26"
   },
   {
@@ -2246,6 +2246,34 @@
    ]
   },
   {
+   "manager": "Danish Javed",
+   "team_name": "ItDzntMata",
+   "entry": 3323226,
+   "total": 605,
+   "played": 9,
+   "avg": 65.0,
+   "above_avg": 6,
+   "cap_return": 149,
+   "high": 118,
+   "high_gw": 2,
+   "low": 34,
+   "low_gw": 8,
+   "transfers": 8,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 119,
+   "value": 103.1,
+   "value_delta": 3.1,
+   "bank": 3.1,
+   "grank": 1194818,
+   "best_jump": 5881370,
+   "best_jump_gw": 2,
+   "chips": [
+    "3xc",
+    "wildcard"
+   ]
+  },
+  {
    "manager": "Aditya Vaidya",
    "team_name": "His Name is Diogo",
    "entry": 9695,
@@ -2272,34 +2300,6 @@
     "3xc",
     "wildcard",
     "bboost"
-   ]
-  },
-  {
-   "manager": "Danish Javed",
-   "team_name": "ItDzntMata",
-   "entry": 3323226,
-   "total": 605,
-   "played": 9,
-   "avg": 65.0,
-   "above_avg": 6,
-   "cap_return": 149,
-   "high": 118,
-   "high_gw": 2,
-   "low": 34,
-   "low_gw": 8,
-   "transfers": 8,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 119,
-   "value": 103.1,
-   "value_delta": 3.1,
-   "bank": 3.1,
-   "grank": 1194818,
-   "best_jump": 5881370,
-   "best_jump_gw": 2,
-   "chips": [
-    "3xc",
-    "wildcard"
    ]
   },
   {
@@ -2442,35 +2442,6 @@
    ]
   },
   {
-   "manager": "Abhinav Premsekhar",
-   "team_name": "Totally Szobo",
-   "entry": 79306,
-   "total": 572,
-   "played": 9,
-   "avg": 61.1,
-   "above_avg": 5,
-   "cap_return": 113,
-   "high": 106,
-   "high_gw": 2,
-   "low": 32,
-   "low_gw": 5,
-   "transfers": 8,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 104,
-   "value": 102.6,
-   "value_delta": 2.6,
-   "bank": 3.6,
-   "grank": 2625516,
-   "best_jump": 166751,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost",
-    "3xc",
-    "wildcard"
-   ]
-  },
-  {
    "manager": "Rajit Das",
    "team_name": "FC Teetotallers",
    "entry": 4837220,
@@ -2492,6 +2463,35 @@
    "bank": 4.6,
    "grank": 2625516,
    "best_jump": 1595922,
+   "best_jump_gw": 2,
+   "chips": [
+    "bboost",
+    "3xc",
+    "wildcard"
+   ]
+  },
+  {
+   "manager": "Abhinav Premsekhar",
+   "team_name": "Totally Szobo",
+   "entry": 79306,
+   "total": 572,
+   "played": 9,
+   "avg": 61.1,
+   "above_avg": 5,
+   "cap_return": 113,
+   "high": 106,
+   "high_gw": 2,
+   "low": 32,
+   "low_gw": 5,
+   "transfers": 8,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 104,
+   "value": 102.6,
+   "value_delta": 2.6,
+   "bank": 3.6,
+   "grank": 2625516,
+   "best_jump": 166751,
    "best_jump_gw": 2,
    "chips": [
     "bboost",
@@ -3535,62 +3535,6 @@
     "cap": 4
    }
   ],
-  "9695": [
-   {
-    "gw": 1,
-    "net": 41,
-    "orank": 6875541,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 78,
-    "orank": 6095615,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 78,
-    "orank": 2700348,
-    "cap": 27
-   },
-   {
-    "gw": 4,
-    "net": 69,
-    "orank": 3170793,
-    "cap": 24
-   },
-   {
-    "gw": 5,
-    "net": 55,
-    "orank": 2598730,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 70,
-    "orank": 2130542,
-    "cap": 4
-   },
-   {
-    "gw": 7,
-    "net": 83,
-    "orank": 1242896,
-    "cap": 26
-   },
-   {
-    "gw": 8,
-    "net": 55,
-    "orank": 920617,
-    "cap": 16
-   },
-   {
-    "gw": 9,
-    "net": 56,
-    "orank": 924987,
-    "cap": 4
-   }
-  ],
   "3323226": [
    {
     "gw": 1,
@@ -3643,6 +3587,62 @@
    {
     "gw": 9,
     "net": 58,
+    "orank": 924987,
+    "cap": 4
+   }
+  ],
+  "9695": [
+   {
+    "gw": 1,
+    "net": 41,
+    "orank": 6875541,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 78,
+    "orank": 6095615,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 78,
+    "orank": 2700348,
+    "cap": 27
+   },
+   {
+    "gw": 4,
+    "net": 69,
+    "orank": 3170793,
+    "cap": 24
+   },
+   {
+    "gw": 5,
+    "net": 55,
+    "orank": 2598730,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 70,
+    "orank": 2130542,
+    "cap": 4
+   },
+   {
+    "gw": 7,
+    "net": 83,
+    "orank": 1242896,
+    "cap": 26
+   },
+   {
+    "gw": 8,
+    "net": 55,
+    "orank": 920617,
+    "cap": 16
+   },
+   {
+    "gw": 9,
+    "net": 56,
     "orank": 924987,
     "cap": 4
    }
@@ -3927,62 +3927,6 @@
     "cap": 4
    }
   ],
-  "79306": [
-   {
-    "gw": 1,
-    "net": 72,
-    "orank": 398656,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 106,
-    "orank": 231905,
-    "cap": 22
-   },
-   {
-    "gw": 3,
-    "net": 51,
-    "orank": 314091,
-    "cap": 27
-   },
-   {
-    "gw": 4,
-    "net": 84,
-    "orank": 312178,
-    "cap": 24
-   },
-   {
-    "gw": 5,
-    "net": 32,
-    "orank": 976059,
-    "cap": 4
-   },
-   {
-    "gw": 6,
-    "net": 51,
-    "orank": 1819175,
-    "cap": 4
-   },
-   {
-    "gw": 7,
-    "net": 67,
-    "orank": 1775416,
-    "cap": 26
-   },
-   {
-    "gw": 8,
-    "net": 46,
-    "orank": 1799645,
-    "cap": -2
-   },
-   {
-    "gw": 9,
-    "net": 41,
-    "orank": 2368375,
-    "cap": 4
-   }
-  ],
   "4837220": [
    {
     "gw": 1,
@@ -4036,6 +3980,62 @@
     "gw": 9,
     "net": 59,
     "orank": 2267719,
+    "cap": 4
+   }
+  ],
+  "79306": [
+   {
+    "gw": 1,
+    "net": 72,
+    "orank": 398656,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 106,
+    "orank": 231905,
+    "cap": 22
+   },
+   {
+    "gw": 3,
+    "net": 51,
+    "orank": 314091,
+    "cap": 27
+   },
+   {
+    "gw": 4,
+    "net": 84,
+    "orank": 312178,
+    "cap": 24
+   },
+   {
+    "gw": 5,
+    "net": 32,
+    "orank": 976059,
+    "cap": 4
+   },
+   {
+    "gw": 6,
+    "net": 51,
+    "orank": 1819175,
+    "cap": 4
+   },
+   {
+    "gw": 7,
+    "net": 67,
+    "orank": 1775416,
+    "cap": 26
+   },
+   {
+    "gw": 8,
+    "net": 46,
+    "orank": 1799645,
+    "cap": -2
+   },
+   {
+    "gw": 9,
+    "net": 41,
+    "orank": 2368375,
     "cap": 4
    }
   ],
