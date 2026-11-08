@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-11-08 18:40 UTC",
-  "generated_iso": "2026-11-08T18:40:32.191008Z",
+  "generated_utc": "2026-11-08 23:26 UTC",
+  "generated_iso": "2026-11-08T23:26:54.438273Z",
   "started": true,
   "current_gw": 10,
   "finished": [
@@ -154,6 +154,16 @@
   },
   {
    "rank": 14,
+   "arrow": "\u25b2",
+   "manager": "Abhiraj Singh",
+   "team_name": "KingOfKings Fc",
+   "entry": 427154,
+   "gw_points": 78,
+   "total": 645,
+   "hits": 0
+  },
+  {
+   "rank": 15,
    "arrow": "\u25bc",
    "manager": "Deepankar Sachdeva",
    "team_name": "Cment_mixers",
@@ -161,16 +171,6 @@
    "gw_points": 60,
    "total": 644,
    "hits": 16
-  },
-  {
-   "rank": 15,
-   "arrow": "\u25b2",
-   "manager": "Abhiraj Singh",
-   "team_name": "KingOfKings Fc",
-   "entry": 427154,
-   "gw_points": 76,
-   "total": 643,
-   "hits": 0
   },
   {
    "rank": 16,
@@ -308,8 +308,8 @@
    "manager": "Dean Jenkins",
    "team_name": "Slumber FC",
    "entry": 5565611,
-   "gw_points": 64,
-   "total": 546,
+   "gw_points": 66,
+   "total": 548,
    "hits": 4
   },
   {
@@ -542,21 +542,6 @@
     ]
    },
    {
-    "manager": "Deepankar Sachdeva",
-    "entry": 1301167,
-    "scores": [
-     43,
-     97,
-     60,
-     87,
-     38,
-     69,
-     61,
-     78,
-     55
-    ]
-   },
-   {
     "manager": "Abhiraj Singh",
     "entry": 427154,
     "scores": [
@@ -569,6 +554,21 @@
      66,
      44,
      50
+    ]
+   },
+   {
+    "manager": "Deepankar Sachdeva",
+    "entry": 1301167,
+    "scores": [
+     43,
+     97,
+     60,
+     87,
+     38,
+     69,
+     61,
+     78,
+     55
     ]
    },
    {
@@ -1597,27 +1597,27 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Deepankar Sachdeva",
-   "team_name": "Cment_mixers",
-   "league_rank": 14,
-   "seasons": 3,
-   "past_seasons": 2,
-   "best_rank": 1128645,
-   "best_season": "2025/26",
-   "avg_rank": 3434302,
-   "last_rank": 1128645,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
-   "league_rank": 15,
+   "league_rank": 14,
    "seasons": 11,
    "past_seasons": 10,
    "best_rank": 28582,
    "best_season": "2021/22",
    "avg_rank": 881388,
    "last_rank": 239490,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Deepankar Sachdeva",
+   "team_name": "Cment_mixers",
+   "league_rank": 15,
+   "seasons": 3,
+   "past_seasons": 2,
+   "best_rank": 1128645,
+   "best_season": "2025/26",
+   "avg_rank": 3434302,
+   "last_rank": 1128645,
    "last_season": "2025/26"
   },
   {
@@ -2188,6 +2188,34 @@
    ]
   },
   {
+   "manager": "Abhiraj Singh",
+   "team_name": "KingOfKings Fc",
+   "entry": 427154,
+   "total": 645,
+   "played": 9,
+   "avg": 63.0,
+   "above_avg": 4,
+   "cap_return": 136,
+   "high": 104,
+   "high_gw": 2,
+   "low": 37,
+   "low_gw": 3,
+   "transfers": 7,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 82,
+   "value": 103.4,
+   "value_delta": 3.4,
+   "bank": 0.6,
+   "grank": 1368232,
+   "best_jump": 466127,
+   "best_jump_gw": 4,
+   "chips": [
+    "bboost",
+    "wildcard"
+   ]
+  },
+  {
    "manager": "Deepankar Sachdeva",
    "team_name": "Cment_mixers",
    "entry": 1301167,
@@ -2214,34 +2242,6 @@
     "3xc",
     "wildcard",
     "freehit"
-   ]
-  },
-  {
-   "manager": "Abhiraj Singh",
-   "team_name": "KingOfKings Fc",
-   "entry": 427154,
-   "total": 643,
-   "played": 9,
-   "avg": 63.0,
-   "above_avg": 4,
-   "cap_return": 136,
-   "high": 104,
-   "high_gw": 2,
-   "low": 37,
-   "low_gw": 3,
-   "transfers": 7,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 82,
-   "value": 103.4,
-   "value_delta": 3.4,
-   "bank": 0.6,
-   "grank": 1368232,
-   "best_jump": 466127,
-   "best_jump_gw": 4,
-   "chips": [
-    "bboost",
-    "wildcard"
    ]
   },
   {
@@ -2618,7 +2618,7 @@
    "manager": "Dean Jenkins",
    "team_name": "Slumber FC",
    "entry": 5565611,
-   "total": 546,
+   "total": 548,
    "played": 9,
    "avg": 53.6,
    "above_avg": 1,
@@ -3423,62 +3423,6 @@
     "cap": 4
    }
   ],
-  "1301167": [
-   {
-    "gw": 1,
-    "net": 43,
-    "orank": 6382778,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 97,
-    "orank": 3334383,
-    "cap": 26
-   },
-   {
-    "gw": 3,
-    "net": 60,
-    "orank": 2393668,
-    "cap": 27
-   },
-   {
-    "gw": 4,
-    "net": 87,
-    "orank": 1454432,
-    "cap": 10
-   },
-   {
-    "gw": 5,
-    "net": 38,
-    "orank": 2297297,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 69,
-    "orank": 1971616,
-    "cap": 12
-   },
-   {
-    "gw": 7,
-    "net": 61,
-    "orank": 2235848,
-    "cap": 26
-   },
-   {
-    "gw": 8,
-    "net": 78,
-    "orank": 800771,
-    "cap": 16
-   },
-   {
-    "gw": 9,
-    "net": 55,
-    "orank": 849758,
-    "cap": 4
-   }
-  ],
   "427154": [
    {
     "gw": 1,
@@ -3532,6 +3476,62 @@
     "gw": 9,
     "net": 50,
     "orank": 1568974,
+    "cap": 4
+   }
+  ],
+  "1301167": [
+   {
+    "gw": 1,
+    "net": 43,
+    "orank": 6382778,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 97,
+    "orank": 3334383,
+    "cap": 26
+   },
+   {
+    "gw": 3,
+    "net": 60,
+    "orank": 2393668,
+    "cap": 27
+   },
+   {
+    "gw": 4,
+    "net": 87,
+    "orank": 1454432,
+    "cap": 10
+   },
+   {
+    "gw": 5,
+    "net": 38,
+    "orank": 2297297,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 69,
+    "orank": 1971616,
+    "cap": 12
+   },
+   {
+    "gw": 7,
+    "net": 61,
+    "orank": 2235848,
+    "cap": 26
+   },
+   {
+    "gw": 8,
+    "net": 78,
+    "orank": 800771,
+    "cap": 16
+   },
+   {
+    "gw": 9,
+    "net": 55,
+    "orank": 849758,
     "cap": 4
    }
   ],
