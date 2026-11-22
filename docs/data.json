@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-11-21 22:49 UTC",
-  "generated_iso": "2026-11-21T22:49:54.144528Z",
+  "generated_utc": "2026-11-22 05:25 UTC",
+  "generated_iso": "2026-11-22T05:25:42.803244Z",
   "started": true,
   "current_gw": 11,
   "finished": [
@@ -329,8 +329,8 @@
    "manager": "Pranav Thomas",
    "team_name": "Invincibles",
    "entry": 6514976,
-   "gw_points": 19,
-   "total": 453,
+   "gw_points": 21,
+   "total": 455,
    "hits": 0
   }
  ],
@@ -2710,7 +2710,7 @@
    "manager": "Pranav Thomas",
    "team_name": "Invincibles",
    "entry": 6514976,
-   "total": 453,
+   "total": 455,
    "played": 10,
    "avg": 43.4,
    "above_avg": 1,
