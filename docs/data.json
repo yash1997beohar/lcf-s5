@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-11-22 21:34 UTC",
-  "generated_iso": "2026-11-22T21:34:04.039272Z",
+  "generated_utc": "2026-11-23 02:18 UTC",
+  "generated_iso": "2026-11-23T02:18:14.444280Z",
   "started": true,
   "current_gw": 11,
   "finished": [
@@ -235,21 +235,21 @@
   },
   {
    "rank": 22,
-   "arrow": "\u25bc",
-   "manager": "Raveesh Kalra",
-   "team_name": "MaSalah",
-   "entry": 2354537,
-   "gw_points": 32,
-   "total": 648,
-   "hits": 0
-  },
-  {
-   "rank": 22,
    "arrow": "\u25b2",
    "manager": "Abhinav Premsekhar",
    "team_name": "Totally Szobo",
    "entry": 79306,
    "gw_points": 37,
+   "total": 648,
+   "hits": 0
+  },
+  {
+   "rank": 22,
+   "arrow": "\u25bc",
+   "manager": "Raveesh Kalra",
+   "team_name": "MaSalah",
+   "entry": 2354537,
+   "gw_points": 32,
    "total": 648,
    "hits": 0
   },
@@ -685,22 +685,6 @@
     ]
    },
    {
-    "manager": "Raveesh Kalra",
-    "entry": 2354537,
-    "scores": [
-     63,
-     109,
-     47,
-     70,
-     51,
-     68,
-     54,
-     62,
-     50,
-     42
-    ]
-   },
-   {
     "manager": "Abhinav Premsekhar",
     "entry": 79306,
     "scores": [
@@ -714,6 +698,22 @@
      46,
      41,
      61
+    ]
+   },
+   {
+    "manager": "Raveesh Kalra",
+    "entry": 2354537,
+    "scores": [
+     63,
+     109,
+     47,
+     70,
+     51,
+     68,
+     54,
+     62,
+     50,
+     42
     ]
    },
    {
@@ -1192,14 +1192,14 @@
    "excluded": false
   },
   {
-   "manager": "Raveesh Kalra",
-   "entry": 2354537,
+   "manager": "Abhinav Premsekhar",
+   "entry": 79306,
    "arrows": 4,
    "excluded": false
   },
   {
-   "manager": "Abhinav Premsekhar",
-   "entry": 79306,
+   "manager": "Raveesh Kalra",
+   "entry": 2354537,
    "arrows": 4,
    "excluded": false
   },
@@ -1726,18 +1726,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Raveesh Kalra",
-   "team_name": "MaSalah",
-   "league_rank": 22,
-   "seasons": 7,
-   "past_seasons": 6,
-   "best_rank": 8917,
-   "best_season": "2021/22",
-   "avg_rank": 2118382,
-   "last_rank": 9146930,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Abhinav Premsekhar",
    "team_name": "Totally Szobo",
    "league_rank": 22,
@@ -1747,6 +1735,18 @@
    "best_season": "2022/23",
    "avg_rank": 606381,
    "last_rank": 240451,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Raveesh Kalra",
+   "team_name": "MaSalah",
+   "league_rank": 22,
+   "seasons": 7,
+   "past_seasons": 6,
+   "best_rank": 8917,
+   "best_season": "2021/22",
+   "avg_rank": 2118382,
+   "last_rank": 9146930,
    "last_season": "2025/26"
   },
   {
@@ -1863,11 +1863,11 @@
    "transfers": 8,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 103,
+   "bench": 105,
    "value": 102.0,
    "value_delta": 2.0,
    "bank": 0.1,
-   "grank": 41490,
+   "grank": 53074,
    "best_jump": 1461471,
    "best_jump_gw": 2,
    "chips": [
@@ -1896,7 +1896,7 @@
    "value": 103.5,
    "value_delta": 3.5,
    "bank": 2.0,
-   "grank": 119683,
+   "grank": 155201,
    "best_jump": 3046343,
    "best_jump_gw": 2,
    "chips": [
@@ -1924,7 +1924,7 @@
    "value": 105.5,
    "value_delta": 5.5,
    "bank": 2.2,
-   "grank": 214531,
+   "grank": 247018,
    "best_jump": 2489160,
    "best_jump_gw": 4,
    "chips": [
@@ -1953,7 +1953,7 @@
    "value": 103.3,
    "value_delta": 3.3,
    "bank": 0.4,
-   "grank": 305441,
+   "grank": 292941,
    "best_jump": 617418,
    "best_jump_gw": 2,
    "chips": [
@@ -1978,11 +1978,11 @@
    "transfers": 9,
    "hits_pts": 4,
    "hits_n": 1,
-   "bench": 157,
+   "bench": 160,
    "value": 104.2,
    "value_delta": 4.2,
    "bank": 6.0,
-   "grank": 295911,
+   "grank": 367675,
    "best_jump": 270274,
    "best_jump_gw": 2,
    "chips": [
@@ -2007,11 +2007,11 @@
    "transfers": 10,
    "hits_pts": 4,
    "hits_n": 1,
-   "bench": 168,
+   "bench": 170,
    "value": 104.6,
    "value_delta": 4.6,
    "bank": 0.1,
-   "grank": 326153,
+   "grank": 371580,
    "best_jump": 1229264,
    "best_jump_gw": 4,
    "chips": [
@@ -2036,11 +2036,11 @@
    "transfers": 8,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 97,
+   "bench": 108,
    "value": 103.4,
    "value_delta": 3.4,
    "bank": 3.0,
-   "grank": 305441,
+   "grank": 379238,
    "best_jump": 5250200,
    "best_jump_gw": 2,
    "chips": [
@@ -2066,11 +2066,11 @@
    "transfers": 8,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 105,
+   "bench": 107,
    "value": 104.7,
    "value_delta": 4.7,
    "bank": 6.0,
-   "grank": 459237,
+   "grank": 518650,
    "best_jump": 2735246,
    "best_jump_gw": 2,
    "chips": [
@@ -2096,11 +2096,11 @@
    "transfers": 13,
    "hits_pts": 20,
    "hits_n": 5,
-   "bench": 136,
+   "bench": 145,
    "value": 103.8,
    "value_delta": 3.8,
    "bank": 0.9,
-   "grank": 718655,
+   "grank": 682343,
    "best_jump": 1948104,
    "best_jump_gw": 2,
    "chips": [
@@ -2124,11 +2124,11 @@
    "transfers": 12,
    "hits_pts": 16,
    "hits_n": 4,
-   "bench": 109,
+   "bench": 111,
    "value": 101.9,
    "value_delta": 1.9,
    "bank": 1.6,
-   "grank": 814441,
+   "grank": 777509,
    "best_jump": 3048395,
    "best_jump_gw": 2,
    "chips": [
@@ -2157,7 +2157,7 @@
    "value": 104.1,
    "value_delta": 4.1,
    "bank": 6.2,
-   "grank": 724846,
+   "grank": 809990,
    "best_jump": 3395267,
    "best_jump_gw": 3,
    "chips": [
@@ -2182,11 +2182,11 @@
    "transfers": 8,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 131,
+   "bench": 133,
    "value": 102.8,
    "value_delta": 2.8,
    "bank": 0.4,
-   "grank": 656896,
+   "grank": 861891,
    "best_jump": 3039834,
    "best_jump_gw": 2,
    "chips": [
@@ -2214,7 +2214,7 @@
    "value": 103.5,
    "value_delta": 3.5,
    "bank": 4.4,
-   "grank": 921348,
+   "grank": 966995,
    "best_jump": 266328,
    "best_jump_gw": 4,
    "chips": [
@@ -2238,11 +2238,11 @@
    "transfers": 9,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 55,
+   "bench": 57,
    "value": 103.0,
    "value_delta": 3.0,
    "bank": 0.2,
-   "grank": 1015477,
+   "grank": 1126224,
    "best_jump": 1034411,
    "best_jump_gw": 2,
    "chips": [
@@ -2271,7 +2271,7 @@
    "value": 102.0,
    "value_delta": 2.0,
    "bank": 0.1,
-   "grank": 1534073,
+   "grank": 1196110,
    "best_jump": 4399137,
    "best_jump_gw": 2,
    "chips": [
@@ -2296,11 +2296,11 @@
    "transfers": 9,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 129,
+   "bench": 136,
    "value": 103.5,
    "value_delta": 3.5,
    "bank": 3.1,
-   "grank": 1073325,
+   "grank": 1220705,
    "best_jump": 5881370,
    "best_jump_gw": 2,
    "chips": [
@@ -2324,11 +2324,11 @@
    "transfers": 7,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 85,
+   "bench": 91,
    "value": 104.1,
    "value_delta": 4.1,
    "bank": 0.6,
-   "grank": 1215064,
+   "grank": 1341854,
    "best_jump": 566988,
    "best_jump_gw": 10,
    "chips": [
@@ -2353,11 +2353,11 @@
    "transfers": 8,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 139,
+   "bench": 141,
    "value": 104.1,
    "value_delta": 4.1,
    "bank": 0.9,
-   "grank": 1218561,
+   "grank": 1379692,
    "best_jump": 4185865,
    "best_jump_gw": 2,
    "chips": [
@@ -2383,11 +2383,11 @@
    "transfers": 8,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 135,
+   "bench": 145,
    "value": 104.0,
    "value_delta": 4.0,
    "bank": 3.7,
-   "grank": 1281820,
+   "grank": 1414048,
    "best_jump": 841649,
    "best_jump_gw": 7,
    "chips": [
@@ -2415,7 +2415,7 @@
    "value": 104.4,
    "value_delta": 4.4,
    "bank": 2.5,
-   "grank": 1634162,
+   "grank": 1491929,
    "best_jump": 1196618,
    "best_jump_gw": 6,
    "chips": [
@@ -2439,44 +2439,16 @@
    "transfers": 7,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 144,
+   "bench": 147,
    "value": 103.4,
    "value_delta": 3.4,
    "bank": 0.1,
-   "grank": 1586577,
+   "grank": 1553379,
    "best_jump": 3963132,
    "best_jump_gw": 2,
    "chips": [
     "wildcard",
     "freehit"
-   ]
-  },
-  {
-   "manager": "Raveesh Kalra",
-   "team_name": "MaSalah",
-   "entry": 2354537,
-   "total": 648,
-   "played": 10,
-   "avg": 61.6,
-   "above_avg": 4,
-   "cap_return": 144,
-   "high": 109,
-   "high_gw": 2,
-   "low": 42,
-   "low_gw": 10,
-   "transfers": 9,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 134,
-   "value": 103.0,
-   "value_delta": 3.0,
-   "bank": 0.1,
-   "grank": 2186596,
-   "best_jump": 878473,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost",
-    "wildcard"
    ]
   },
   {
@@ -2499,12 +2471,40 @@
    "value": 102.8,
    "value_delta": 2.8,
    "bank": 1.7,
-   "grank": 2623534,
+   "grank": 2206363,
    "best_jump": 166751,
    "best_jump_gw": 2,
    "chips": [
     "bboost",
     "3xc",
+    "wildcard"
+   ]
+  },
+  {
+   "manager": "Raveesh Kalra",
+   "team_name": "MaSalah",
+   "entry": 2354537,
+   "total": 648,
+   "played": 10,
+   "avg": 61.6,
+   "above_avg": 4,
+   "cap_return": 144,
+   "high": 109,
+   "high_gw": 2,
+   "low": 42,
+   "low_gw": 10,
+   "transfers": 9,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 137,
+   "value": 103.0,
+   "value_delta": 3.0,
+   "bank": 0.1,
+   "grank": 2206363,
+   "best_jump": 878473,
+   "best_jump_gw": 2,
+   "chips": [
+    "bboost",
     "wildcard"
    ]
   },
@@ -2524,11 +2524,11 @@
    "transfers": 9,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 155,
+   "bench": 158,
    "value": 102.5,
    "value_delta": 2.5,
    "bank": 4.5,
-   "grank": 2357030,
+   "grank": 2471048,
    "best_jump": 1595922,
    "best_jump_gw": 2,
    "chips": [
@@ -2553,11 +2553,11 @@
    "transfers": 8,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 110,
+   "bench": 111,
    "value": 103.7,
    "value_delta": 3.7,
    "bank": 2.1,
-   "grank": 2263551,
+   "grank": 2646763,
    "best_jump": 1498175,
    "best_jump_gw": 9,
    "chips": [
@@ -2582,11 +2582,11 @@
    "transfers": 7,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 104,
+   "bench": 112,
    "value": 101.2,
    "value_delta": 1.2,
    "bank": 0.1,
-   "grank": 2657660,
+   "grank": 2689659,
    "best_jump": 1466987,
    "best_jump_gw": 9,
    "chips": [
@@ -2611,11 +2611,11 @@
    "transfers": 7,
    "hits_pts": 4,
    "hits_n": 1,
-   "bench": 74,
+   "bench": 77,
    "value": 102.4,
    "value_delta": 2.4,
    "bank": 0.8,
-   "grank": 2842103,
+   "grank": 2832219,
    "best_jump": 3009015,
    "best_jump_gw": 2,
    "chips": [
@@ -2644,7 +2644,7 @@
    "value": 102.3,
    "value_delta": 2.3,
    "bank": 1.9,
-   "grank": 3138261,
+   "grank": 2940120,
    "best_jump": 1066412,
    "best_jump_gw": 2,
    "chips": [
@@ -2672,7 +2672,7 @@
    "value": 102.3,
    "value_delta": 2.3,
    "bank": 2.5,
-   "grank": 5922716,
+   "grank": 4973551,
    "best_jump": 912089,
    "best_jump_gw": 6,
    "chips": [
@@ -2695,11 +2695,11 @@
    "transfers": 12,
    "hits_pts": 12,
    "hits_n": 3,
-   "bench": 59,
+   "bench": 62,
    "value": 102.9,
    "value_delta": 2.9,
    "bank": 3.1,
-   "grank": 6083459,
+   "grank": 6094546,
    "best_jump": 1952243,
    "best_jump_gw": 4,
    "chips": [
@@ -2726,7 +2726,7 @@
    "value": 97.3,
    "value_delta": -2.7,
    "bank": 2.2,
-   "grank": 9428452,
+   "grank": 9045382,
    "best_jump": 216389,
    "best_jump_gw": 3,
    "chips": []
@@ -4035,68 +4035,6 @@
     "cap": 4
    }
   ],
-  "2354537": [
-   {
-    "gw": 1,
-    "net": 63,
-    "orank": 1282717,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 109,
-    "orank": 404244,
-    "cap": 46
-   },
-   {
-    "gw": 3,
-    "net": 47,
-    "orank": 717233,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 70,
-    "orank": 1306162,
-    "cap": 10
-   },
-   {
-    "gw": 5,
-    "net": 51,
-    "orank": 1218344,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 68,
-    "orank": 1161332,
-    "cap": 18
-   },
-   {
-    "gw": 7,
-    "net": 54,
-    "orank": 1812913,
-    "cap": 12
-   },
-   {
-    "gw": 8,
-    "net": 62,
-    "orank": 1103732,
-    "cap": 16
-   },
-   {
-    "gw": 9,
-    "net": 50,
-    "orank": 1291707,
-    "cap": 4
-   },
-   {
-    "gw": 10,
-    "net": 42,
-    "orank": 2066590,
-    "cap": 4
-   }
-  ],
   "79306": [
    {
     "gw": 1,
@@ -4156,6 +4094,68 @@
     "gw": 10,
     "net": 61,
     "orank": 2301906,
+    "cap": 4
+   }
+  ],
+  "2354537": [
+   {
+    "gw": 1,
+    "net": 63,
+    "orank": 1282717,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 109,
+    "orank": 404244,
+    "cap": 46
+   },
+   {
+    "gw": 3,
+    "net": 47,
+    "orank": 717233,
+    "cap": 18
+   },
+   {
+    "gw": 4,
+    "net": 70,
+    "orank": 1306162,
+    "cap": 10
+   },
+   {
+    "gw": 5,
+    "net": 51,
+    "orank": 1218344,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 68,
+    "orank": 1161332,
+    "cap": 18
+   },
+   {
+    "gw": 7,
+    "net": 54,
+    "orank": 1812913,
+    "cap": 12
+   },
+   {
+    "gw": 8,
+    "net": 62,
+    "orank": 1103732,
+    "cap": 16
+   },
+   {
+    "gw": 9,
+    "net": 50,
+    "orank": 1291707,
+    "cap": 4
+   },
+   {
+    "gw": 10,
+    "net": 42,
+    "orank": 2066590,
     "cap": 4
    }
   ],
