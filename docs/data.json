@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-11-23 02:18 UTC",
-  "generated_iso": "2026-11-23T02:18:14.444280Z",
+  "generated_utc": "2026-11-23 14:04 UTC",
+  "generated_iso": "2026-11-23T14:04:57.184847Z",
   "started": true,
   "current_gw": 11,
   "finished": [
@@ -89,8 +89,8 @@
    "manager": "Aayush Khanna",
    "team_name": "Loading...",
    "entry": 2003955,
-   "gw_points": 42,
-   "total": 709,
+   "gw_points": 41,
+   "total": 708,
    "hits": 0
   },
   {
@@ -235,21 +235,21 @@
   },
   {
    "rank": 22,
-   "arrow": "\u25b2",
-   "manager": "Abhinav Premsekhar",
-   "team_name": "Totally Szobo",
-   "entry": 79306,
-   "gw_points": 37,
-   "total": 648,
-   "hits": 0
-  },
-  {
-   "rank": 22,
    "arrow": "\u25bc",
    "manager": "Raveesh Kalra",
    "team_name": "MaSalah",
    "entry": 2354537,
    "gw_points": 32,
+   "total": 648,
+   "hits": 0
+  },
+  {
+   "rank": 22,
+   "arrow": "\u25b2",
+   "manager": "Abhinav Premsekhar",
+   "team_name": "Totally Szobo",
+   "entry": 79306,
+   "gw_points": 37,
    "total": 648,
    "hits": 0
   },
@@ -685,22 +685,6 @@
     ]
    },
    {
-    "manager": "Abhinav Premsekhar",
-    "entry": 79306,
-    "scores": [
-     72,
-     106,
-     51,
-     84,
-     32,
-     51,
-     67,
-     46,
-     41,
-     61
-    ]
-   },
-   {
     "manager": "Raveesh Kalra",
     "entry": 2354537,
     "scores": [
@@ -714,6 +698,22 @@
      62,
      50,
      42
+    ]
+   },
+   {
+    "manager": "Abhinav Premsekhar",
+    "entry": 79306,
+    "scores": [
+     72,
+     106,
+     51,
+     84,
+     32,
+     51,
+     67,
+     46,
+     41,
+     61
     ]
    },
    {
@@ -1192,14 +1192,14 @@
    "excluded": false
   },
   {
-   "manager": "Abhinav Premsekhar",
-   "entry": 79306,
+   "manager": "Raveesh Kalra",
+   "entry": 2354537,
    "arrows": 4,
    "excluded": false
   },
   {
-   "manager": "Raveesh Kalra",
-   "entry": 2354537,
+   "manager": "Abhinav Premsekhar",
+   "entry": 79306,
    "arrows": 4,
    "excluded": false
   },
@@ -1726,18 +1726,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Abhinav Premsekhar",
-   "team_name": "Totally Szobo",
-   "league_rank": 22,
-   "seasons": 12,
-   "past_seasons": 11,
-   "best_rank": 27153,
-   "best_season": "2022/23",
-   "avg_rank": 606381,
-   "last_rank": 240451,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Raveesh Kalra",
    "team_name": "MaSalah",
    "league_rank": 22,
@@ -1747,6 +1735,18 @@
    "best_season": "2021/22",
    "avg_rank": 2118382,
    "last_rank": 9146930,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Abhinav Premsekhar",
+   "team_name": "Totally Szobo",
+   "league_rank": 22,
+   "seasons": 12,
+   "past_seasons": 11,
+   "best_rank": 27153,
+   "best_season": "2022/23",
+   "avg_rank": 606381,
+   "last_rank": 240451,
    "last_season": "2025/26"
   },
   {
@@ -2024,7 +2024,7 @@
    "manager": "Aayush Khanna",
    "team_name": "Loading...",
    "entry": 2003955,
-   "total": 709,
+   "total": 708,
    "played": 10,
    "avg": 66.7,
    "above_avg": 6,
@@ -2452,6 +2452,34 @@
    ]
   },
   {
+   "manager": "Raveesh Kalra",
+   "team_name": "MaSalah",
+   "entry": 2354537,
+   "total": 648,
+   "played": 10,
+   "avg": 61.6,
+   "above_avg": 4,
+   "cap_return": 144,
+   "high": 109,
+   "high_gw": 2,
+   "low": 42,
+   "low_gw": 10,
+   "transfers": 9,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 137,
+   "value": 103.0,
+   "value_delta": 3.0,
+   "bank": 0.1,
+   "grank": 2206363,
+   "best_jump": 878473,
+   "best_jump_gw": 2,
+   "chips": [
+    "bboost",
+    "wildcard"
+   ]
+  },
+  {
    "manager": "Abhinav Premsekhar",
    "team_name": "Totally Szobo",
    "entry": 79306,
@@ -2477,34 +2505,6 @@
    "chips": [
     "bboost",
     "3xc",
-    "wildcard"
-   ]
-  },
-  {
-   "manager": "Raveesh Kalra",
-   "team_name": "MaSalah",
-   "entry": 2354537,
-   "total": 648,
-   "played": 10,
-   "avg": 61.6,
-   "above_avg": 4,
-   "cap_return": 144,
-   "high": 109,
-   "high_gw": 2,
-   "low": 42,
-   "low_gw": 10,
-   "transfers": 9,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 137,
-   "value": 103.0,
-   "value_delta": 3.0,
-   "bank": 0.1,
-   "grank": 2206363,
-   "best_jump": 878473,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost",
     "wildcard"
    ]
   },
@@ -4035,68 +4035,6 @@
     "cap": 4
    }
   ],
-  "79306": [
-   {
-    "gw": 1,
-    "net": 72,
-    "orank": 398656,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 106,
-    "orank": 231905,
-    "cap": 22
-   },
-   {
-    "gw": 3,
-    "net": 51,
-    "orank": 314091,
-    "cap": 27
-   },
-   {
-    "gw": 4,
-    "net": 84,
-    "orank": 312178,
-    "cap": 24
-   },
-   {
-    "gw": 5,
-    "net": 32,
-    "orank": 976059,
-    "cap": 4
-   },
-   {
-    "gw": 6,
-    "net": 51,
-    "orank": 1819175,
-    "cap": 4
-   },
-   {
-    "gw": 7,
-    "net": 67,
-    "orank": 1775416,
-    "cap": 26
-   },
-   {
-    "gw": 8,
-    "net": 46,
-    "orank": 1799645,
-    "cap": -2
-   },
-   {
-    "gw": 9,
-    "net": 41,
-    "orank": 2368375,
-    "cap": 4
-   },
-   {
-    "gw": 10,
-    "net": 61,
-    "orank": 2301906,
-    "cap": 4
-   }
-  ],
   "2354537": [
    {
     "gw": 1,
@@ -4156,6 +4094,68 @@
     "gw": 10,
     "net": 42,
     "orank": 2066590,
+    "cap": 4
+   }
+  ],
+  "79306": [
+   {
+    "gw": 1,
+    "net": 72,
+    "orank": 398656,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 106,
+    "orank": 231905,
+    "cap": 22
+   },
+   {
+    "gw": 3,
+    "net": 51,
+    "orank": 314091,
+    "cap": 27
+   },
+   {
+    "gw": 4,
+    "net": 84,
+    "orank": 312178,
+    "cap": 24
+   },
+   {
+    "gw": 5,
+    "net": 32,
+    "orank": 976059,
+    "cap": 4
+   },
+   {
+    "gw": 6,
+    "net": 51,
+    "orank": 1819175,
+    "cap": 4
+   },
+   {
+    "gw": 7,
+    "net": 67,
+    "orank": 1775416,
+    "cap": 26
+   },
+   {
+    "gw": 8,
+    "net": 46,
+    "orank": 1799645,
+    "cap": -2
+   },
+   {
+    "gw": 9,
+    "net": 41,
+    "orank": 2368375,
+    "cap": 4
+   },
+   {
+    "gw": 10,
+    "net": 61,
+    "orank": 2301906,
     "cap": 4
    }
   ],
