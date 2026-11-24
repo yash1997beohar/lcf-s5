@@ -2,8 +2,8 @@
  "meta": {
   "league_name": "Laxmi Chit Fund - Season 5",
   "league_id": 1035071,
-  "generated_utc": "2026-11-23 14:04 UTC",
-  "generated_iso": "2026-11-23T14:04:57.184847Z",
+  "generated_utc": "2026-11-24 02:45 UTC",
+  "generated_iso": "2026-11-24T02:45:29.947671Z",
   "started": true,
   "current_gw": 11,
   "finished": [
@@ -39,8 +39,8 @@
    "manager": "Sid Shaurya",
    "team_name": "Old Reijnders Nagar",
    "entry": 5340498,
-   "gw_points": 32,
-   "total": 728,
+   "gw_points": 34,
+   "total": 730,
    "hits": 4
   },
   {
@@ -69,8 +69,8 @@
    "manager": "Abhay Rawat",
    "team_name": "115 FC",
    "entry": 3942416,
-   "gw_points": 31,
-   "total": 710,
+   "gw_points": 32,
+   "total": 711,
    "hits": 4
   },
   {
@@ -89,8 +89,8 @@
    "manager": "Aayush Khanna",
    "team_name": "Loading...",
    "entry": 2003955,
-   "gw_points": 41,
-   "total": 708,
+   "gw_points": 37,
+   "total": 704,
    "hits": 0
   },
   {
@@ -119,8 +119,8 @@
    "manager": "Deepankar Sachdeva",
    "team_name": "Cment_mixers",
    "entry": 1301167,
-   "gw_points": 46,
-   "total": 690,
+   "gw_points": 48,
+   "total": 692,
    "hits": 16
   },
   {
@@ -159,8 +159,8 @@
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
    "entry": 374875,
-   "gw_points": 31,
-   "total": 677,
+   "gw_points": 32,
+   "total": 678,
    "hits": 0
   },
   {
@@ -189,8 +189,8 @@
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
    "entry": 427154,
-   "gw_points": 25,
-   "total": 670,
+   "gw_points": 26,
+   "total": 671,
    "hits": 0
   },
   {
@@ -235,21 +235,21 @@
   },
   {
    "rank": 22,
+   "arrow": "\u25b2",
+   "manager": "Abhinav Premsekhar",
+   "team_name": "Totally Szobo",
+   "entry": 79306,
+   "gw_points": 38,
+   "total": 649,
+   "hits": 0
+  },
+  {
+   "rank": 23,
    "arrow": "\u25bc",
    "manager": "Raveesh Kalra",
    "team_name": "MaSalah",
    "entry": 2354537,
    "gw_points": 32,
-   "total": 648,
-   "hits": 0
-  },
-  {
-   "rank": 22,
-   "arrow": "\u25b2",
-   "manager": "Abhinav Premsekhar",
-   "team_name": "Totally Szobo",
-   "entry": 79306,
-   "gw_points": 37,
    "total": 648,
    "hits": 0
   },
@@ -685,22 +685,6 @@
     ]
    },
    {
-    "manager": "Raveesh Kalra",
-    "entry": 2354537,
-    "scores": [
-     63,
-     109,
-     47,
-     70,
-     51,
-     68,
-     54,
-     62,
-     50,
-     42
-    ]
-   },
-   {
     "manager": "Abhinav Premsekhar",
     "entry": 79306,
     "scores": [
@@ -714,6 +698,22 @@
      46,
      41,
      61
+    ]
+   },
+   {
+    "manager": "Raveesh Kalra",
+    "entry": 2354537,
+    "scores": [
+     63,
+     109,
+     47,
+     70,
+     51,
+     68,
+     54,
+     62,
+     50,
+     42
     ]
    },
    {
@@ -1192,14 +1192,14 @@
    "excluded": false
   },
   {
-   "manager": "Raveesh Kalra",
-   "entry": 2354537,
+   "manager": "Abhinav Premsekhar",
+   "entry": 79306,
    "arrows": 4,
    "excluded": false
   },
   {
-   "manager": "Abhinav Premsekhar",
-   "entry": 79306,
+   "manager": "Raveesh Kalra",
+   "entry": 2354537,
    "arrows": 4,
    "excluded": false
   },
@@ -1726,18 +1726,6 @@
    "last_season": "2025/26"
   },
   {
-   "manager": "Raveesh Kalra",
-   "team_name": "MaSalah",
-   "league_rank": 22,
-   "seasons": 7,
-   "past_seasons": 6,
-   "best_rank": 8917,
-   "best_season": "2021/22",
-   "avg_rank": 2118382,
-   "last_rank": 9146930,
-   "last_season": "2025/26"
-  },
-  {
    "manager": "Abhinav Premsekhar",
    "team_name": "Totally Szobo",
    "league_rank": 22,
@@ -1747,6 +1735,18 @@
    "best_season": "2022/23",
    "avg_rank": 606381,
    "last_rank": 240451,
+   "last_season": "2025/26"
+  },
+  {
+   "manager": "Raveesh Kalra",
+   "team_name": "MaSalah",
+   "league_rank": 23,
+   "seasons": 7,
+   "past_seasons": 6,
+   "best_rank": 8917,
+   "best_season": "2021/22",
+   "avg_rank": 2118382,
+   "last_rank": 9146930,
    "last_season": "2025/26"
   },
   {
@@ -1867,7 +1867,7 @@
    "value": 102.0,
    "value_delta": 2.0,
    "bank": 0.1,
-   "grank": 53074,
+   "grank": 54970,
    "best_jump": 1461471,
    "best_jump_gw": 2,
    "chips": [
@@ -1880,7 +1880,7 @@
    "manager": "Sid Shaurya",
    "team_name": "Old Reijnders Nagar",
    "entry": 5340498,
-   "total": 728,
+   "total": 730,
    "played": 10,
    "avg": 69.6,
    "above_avg": 6,
@@ -1896,7 +1896,7 @@
    "value": 103.5,
    "value_delta": 3.5,
    "bank": 2.0,
-   "grank": 155201,
+   "grank": 143283,
    "best_jump": 3046343,
    "best_jump_gw": 2,
    "chips": [
@@ -1920,11 +1920,11 @@
    "transfers": 9,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 172,
+   "bench": 174,
    "value": 105.5,
    "value_delta": 5.5,
    "bank": 2.2,
-   "grank": 247018,
+   "grank": 252580,
    "best_jump": 2489160,
    "best_jump_gw": 4,
    "chips": [
@@ -1949,11 +1949,11 @@
    "transfers": 8,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 120,
+   "bench": 121,
    "value": 103.3,
    "value_delta": 3.3,
    "bank": 0.4,
-   "grank": 292941,
+   "grank": 299463,
    "best_jump": 617418,
    "best_jump_gw": 2,
    "chips": [
@@ -1966,7 +1966,7 @@
    "manager": "Abhay Rawat",
    "team_name": "115 FC",
    "entry": 3942416,
-   "total": 710,
+   "total": 711,
    "played": 10,
    "avg": 67.9,
    "above_avg": 7,
@@ -1978,11 +1978,11 @@
    "transfers": 9,
    "hits_pts": 4,
    "hits_n": 1,
-   "bench": 160,
+   "bench": 156,
    "value": 104.2,
    "value_delta": 4.2,
    "bank": 6.0,
-   "grank": 367675,
+   "grank": 360237,
    "best_jump": 270274,
    "best_jump_gw": 2,
    "chips": [
@@ -2011,7 +2011,7 @@
    "value": 104.6,
    "value_delta": 4.6,
    "bank": 0.1,
-   "grank": 371580,
+   "grank": 379395,
    "best_jump": 1229264,
    "best_jump_gw": 4,
    "chips": [
@@ -2024,7 +2024,7 @@
    "manager": "Aayush Khanna",
    "team_name": "Loading...",
    "entry": 2003955,
-   "total": 708,
+   "total": 704,
    "played": 10,
    "avg": 66.7,
    "above_avg": 6,
@@ -2040,7 +2040,7 @@
    "value": 103.4,
    "value_delta": 3.4,
    "bank": 3.0,
-   "grank": 379238,
+   "grank": 472003,
    "best_jump": 5250200,
    "best_jump_gw": 2,
    "chips": [
@@ -2070,7 +2070,7 @@
    "value": 104.7,
    "value_delta": 4.7,
    "bank": 6.0,
-   "grank": 518650,
+   "grank": 528515,
    "best_jump": 2735246,
    "best_jump_gw": 2,
    "chips": [
@@ -2096,11 +2096,11 @@
    "transfers": 13,
    "hits_pts": 20,
    "hits_n": 5,
-   "bench": 145,
+   "bench": 146,
    "value": 103.8,
    "value_delta": 3.8,
    "bank": 0.9,
-   "grank": 682343,
+   "grank": 694302,
    "best_jump": 1948104,
    "best_jump_gw": 2,
    "chips": [
@@ -2112,7 +2112,7 @@
    "manager": "Deepankar Sachdeva",
    "team_name": "Cment_mixers",
    "entry": 1301167,
-   "total": 690,
+   "total": 692,
    "played": 10,
    "avg": 64.4,
    "above_avg": 3,
@@ -2128,7 +2128,7 @@
    "value": 101.9,
    "value_delta": 1.9,
    "bank": 1.6,
-   "grank": 777509,
+   "grank": 740988,
    "best_jump": 3048395,
    "best_jump_gw": 2,
    "chips": [
@@ -2153,11 +2153,11 @@
    "transfers": 8,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 96,
+   "bench": 97,
    "value": 104.1,
    "value_delta": 4.1,
    "bank": 6.2,
-   "grank": 809990,
+   "grank": 823287,
    "best_jump": 3395267,
    "best_jump_gw": 3,
    "chips": [
@@ -2182,11 +2182,11 @@
    "transfers": 8,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 133,
+   "bench": 134,
    "value": 102.8,
    "value_delta": 2.8,
    "bank": 0.4,
-   "grank": 861891,
+   "grank": 875610,
    "best_jump": 3039834,
    "best_jump_gw": 2,
    "chips": [
@@ -2210,11 +2210,11 @@
    "transfers": 6,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 166,
+   "bench": 173,
    "value": 103.5,
    "value_delta": 3.5,
    "bank": 4.4,
-   "grank": 966995,
+   "grank": 982047,
    "best_jump": 266328,
    "best_jump_gw": 4,
    "chips": [
@@ -2226,7 +2226,7 @@
    "manager": "Yash Beohar",
    "team_name": "Fluente in Football",
    "entry": 374875,
-   "total": 677,
+   "total": 678,
    "played": 10,
    "avg": 64.6,
    "above_avg": 5,
@@ -2242,7 +2242,7 @@
    "value": 103.0,
    "value_delta": 3.0,
    "bank": 0.2,
-   "grank": 1126224,
+   "grank": 1111902,
    "best_jump": 1034411,
    "best_jump_gw": 2,
    "chips": [
@@ -2271,7 +2271,7 @@
    "value": 102.0,
    "value_delta": 2.0,
    "bank": 0.1,
-   "grank": 1196110,
+   "grank": 1213209,
    "best_jump": 4399137,
    "best_jump_gw": 2,
    "chips": [
@@ -2300,7 +2300,7 @@
    "value": 103.5,
    "value_delta": 3.5,
    "bank": 3.1,
-   "grank": 1220705,
+   "grank": 1237991,
    "best_jump": 5881370,
    "best_jump_gw": 2,
    "chips": [
@@ -2312,7 +2312,7 @@
    "manager": "Abhiraj Singh",
    "team_name": "KingOfKings Fc",
    "entry": 427154,
-   "total": 670,
+   "total": 671,
    "played": 10,
    "avg": 64.5,
    "above_avg": 5,
@@ -2328,7 +2328,7 @@
    "value": 104.1,
    "value_delta": 4.1,
    "bank": 0.6,
-   "grank": 1341854,
+   "grank": 1326778,
    "best_jump": 566988,
    "best_jump_gw": 10,
    "chips": [
@@ -2357,7 +2357,7 @@
    "value": 104.1,
    "value_delta": 4.1,
    "bank": 0.9,
-   "grank": 1379692,
+   "grank": 1398718,
    "best_jump": 4185865,
    "best_jump_gw": 2,
    "chips": [
@@ -2387,7 +2387,7 @@
    "value": 104.0,
    "value_delta": 4.0,
    "bank": 3.7,
-   "grank": 1414048,
+   "grank": 1433427,
    "best_jump": 841649,
    "best_jump_gw": 7,
    "chips": [
@@ -2415,7 +2415,7 @@
    "value": 104.4,
    "value_delta": 4.4,
    "bank": 2.5,
-   "grank": 1491929,
+   "grank": 1512050,
    "best_jump": 1196618,
    "best_jump_gw": 6,
    "chips": [
@@ -2443,12 +2443,41 @@
    "value": 103.4,
    "value_delta": 3.4,
    "bank": 0.1,
-   "grank": 1553379,
+   "grank": 1573970,
    "best_jump": 3963132,
    "best_jump_gw": 2,
    "chips": [
     "wildcard",
     "freehit"
+   ]
+  },
+  {
+   "manager": "Abhinav Premsekhar",
+   "team_name": "Totally Szobo",
+   "entry": 79306,
+   "total": 649,
+   "played": 10,
+   "avg": 61.1,
+   "above_avg": 6,
+   "cap_return": 117,
+   "high": 106,
+   "high_gw": 2,
+   "low": 32,
+   "low_gw": 5,
+   "transfers": 9,
+   "hits_pts": 0,
+   "hits_n": 0,
+   "bench": 112,
+   "value": 102.8,
+   "value_delta": 2.8,
+   "bank": 1.7,
+   "grank": 2188950,
+   "best_jump": 166751,
+   "best_jump_gw": 2,
+   "chips": [
+    "bboost",
+    "3xc",
+    "wildcard"
    ]
   },
   {
@@ -2471,40 +2500,11 @@
    "value": 103.0,
    "value_delta": 3.0,
    "bank": 0.1,
-   "grank": 2206363,
+   "grank": 2232238,
    "best_jump": 878473,
    "best_jump_gw": 2,
    "chips": [
     "bboost",
-    "wildcard"
-   ]
-  },
-  {
-   "manager": "Abhinav Premsekhar",
-   "team_name": "Totally Szobo",
-   "entry": 79306,
-   "total": 648,
-   "played": 10,
-   "avg": 61.1,
-   "above_avg": 6,
-   "cap_return": 117,
-   "high": 106,
-   "high_gw": 2,
-   "low": 32,
-   "low_gw": 5,
-   "transfers": 9,
-   "hits_pts": 0,
-   "hits_n": 0,
-   "bench": 112,
-   "value": 102.8,
-   "value_delta": 2.8,
-   "bank": 1.7,
-   "grank": 2206363,
-   "best_jump": 166751,
-   "best_jump_gw": 2,
-   "chips": [
-    "bboost",
-    "3xc",
     "wildcard"
    ]
   },
@@ -2528,7 +2528,7 @@
    "value": 102.5,
    "value_delta": 2.5,
    "bank": 4.5,
-   "grank": 2471048,
+   "grank": 2499089,
    "best_jump": 1595922,
    "best_jump_gw": 2,
    "chips": [
@@ -2557,7 +2557,7 @@
    "value": 103.7,
    "value_delta": 3.7,
    "bank": 2.1,
-   "grank": 2646763,
+   "grank": 2676098,
    "best_jump": 1498175,
    "best_jump_gw": 9,
    "chips": [
@@ -2586,7 +2586,7 @@
    "value": 101.2,
    "value_delta": 1.2,
    "bank": 0.1,
-   "grank": 2689659,
+   "grank": 2719223,
    "best_jump": 1466987,
    "best_jump_gw": 9,
    "chips": [
@@ -2615,7 +2615,7 @@
    "value": 102.4,
    "value_delta": 2.4,
    "bank": 0.8,
-   "grank": 2832219,
+   "grank": 2862339,
    "best_jump": 3009015,
    "best_jump_gw": 2,
    "chips": [
@@ -2644,7 +2644,7 @@
    "value": 102.3,
    "value_delta": 2.3,
    "bank": 1.9,
-   "grank": 2940120,
+   "grank": 2971384,
    "best_jump": 1066412,
    "best_jump_gw": 2,
    "chips": [
@@ -2672,7 +2672,7 @@
    "value": 102.3,
    "value_delta": 2.3,
    "bank": 2.5,
-   "grank": 4973551,
+   "grank": 5010974,
    "best_jump": 912089,
    "best_jump_gw": 6,
    "chips": [
@@ -2699,7 +2699,7 @@
    "value": 102.9,
    "value_delta": 2.9,
    "bank": 3.1,
-   "grank": 6094546,
+   "grank": 6129225,
    "best_jump": 1952243,
    "best_jump_gw": 4,
    "chips": [
@@ -2722,11 +2722,11 @@
    "transfers": 3,
    "hits_pts": 0,
    "hits_n": 0,
-   "bench": 22,
+   "bench": 21,
    "value": 97.3,
    "value_delta": -2.7,
    "bank": 2.2,
-   "grank": 9045382,
+   "grank": 9062591,
    "best_jump": 216389,
    "best_jump_gw": 3,
    "chips": []
@@ -4035,68 +4035,6 @@
     "cap": 4
    }
   ],
-  "2354537": [
-   {
-    "gw": 1,
-    "net": 63,
-    "orank": 1282717,
-    "cap": 4
-   },
-   {
-    "gw": 2,
-    "net": 109,
-    "orank": 404244,
-    "cap": 46
-   },
-   {
-    "gw": 3,
-    "net": 47,
-    "orank": 717233,
-    "cap": 18
-   },
-   {
-    "gw": 4,
-    "net": 70,
-    "orank": 1306162,
-    "cap": 10
-   },
-   {
-    "gw": 5,
-    "net": 51,
-    "orank": 1218344,
-    "cap": 12
-   },
-   {
-    "gw": 6,
-    "net": 68,
-    "orank": 1161332,
-    "cap": 18
-   },
-   {
-    "gw": 7,
-    "net": 54,
-    "orank": 1812913,
-    "cap": 12
-   },
-   {
-    "gw": 8,
-    "net": 62,
-    "orank": 1103732,
-    "cap": 16
-   },
-   {
-    "gw": 9,
-    "net": 50,
-    "orank": 1291707,
-    "cap": 4
-   },
-   {
-    "gw": 10,
-    "net": 42,
-    "orank": 2066590,
-    "cap": 4
-   }
-  ],
   "79306": [
    {
     "gw": 1,
@@ -4156,6 +4094,68 @@
     "gw": 10,
     "net": 61,
     "orank": 2301906,
+    "cap": 4
+   }
+  ],
+  "2354537": [
+   {
+    "gw": 1,
+    "net": 63,
+    "orank": 1282717,
+    "cap": 4
+   },
+   {
+    "gw": 2,
+    "net": 109,
+    "orank": 404244,
+    "cap": 46
+   },
+   {
+    "gw": 3,
+    "net": 47,
+    "orank": 717233,
+    "cap": 18
+   },
+   {
+    "gw": 4,
+    "net": 70,
+    "orank": 1306162,
+    "cap": 10
+   },
+   {
+    "gw": 5,
+    "net": 51,
+    "orank": 1218344,
+    "cap": 12
+   },
+   {
+    "gw": 6,
+    "net": 68,
+    "orank": 1161332,
+    "cap": 18
+   },
+   {
+    "gw": 7,
+    "net": 54,
+    "orank": 1812913,
+    "cap": 12
+   },
+   {
+    "gw": 8,
+    "net": 62,
+    "orank": 1103732,
+    "cap": 16
+   },
+   {
+    "gw": 9,
+    "net": 50,
+    "orank": 1291707,
+    "cap": 4
+   },
+   {
+    "gw": 10,
+    "net": 42,
+    "orank": 2066590,
     "cap": 4
    }
   ],
